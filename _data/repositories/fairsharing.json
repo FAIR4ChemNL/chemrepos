@@ -27,7 +27,6 @@
   },
   "coverage": {
     "records": 470,
-    "data_type (data-type, discipline)": 163,
     "subjects (discipline)": 470,
     "licences (license)": 342,
     "countries (region, country)": 470,
@@ -70,14 +69,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "poland"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "3313",
@@ -160,14 +152,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "spain"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "8767",
@@ -199,16 +184,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [
-          "materials"
-        ],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "2537",
@@ -295,16 +271,7 @@
         "Chemistry",
         "Materials Science",
         "Physical Chemistry"
-      ],
-      "answers": {
-        "data_type": [
-          "materials"
-        ],
-        "country": [
-          "netherlands"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "8515",
@@ -356,16 +323,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [
-          "materials"
-        ],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "8736",
@@ -410,16 +368,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [
-          "materials"
-        ],
-        "country": [
-          "australia"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "3815",
@@ -462,14 +411,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "hungary"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "7436",
@@ -502,14 +444,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "ethiopia"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "7919",
@@ -542,16 +477,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Materials Science"
-      ],
-      "answers": {
-        "data_type": [
-          "materials"
-        ],
-        "country": [
-          "worldwide"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "8521",
@@ -593,14 +519,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "canada"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "2702",
@@ -639,19 +558,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Chemistry"
-      ],
-      "answers": {
-        "data_type": [
-          "crystal-structures",
-          "compounds",
-          "images"
-        ],
-        "country": [
-          "canada",
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "7968",
@@ -683,14 +590,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "italy"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "7859",
@@ -732,14 +632,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "australia"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "7959",
@@ -771,16 +664,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [
-          "materials"
-        ],
-        "country": [
-          "austria"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "3327",
@@ -855,16 +739,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [
-          "images"
-        ],
-        "country": [
-          "united kingdom"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "3672",
@@ -899,14 +774,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "5188",
@@ -946,14 +814,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "france"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "8744",
@@ -998,16 +859,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [
-          "materials"
-        ],
-        "country": [
-          "spain"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "4360",
@@ -1084,14 +936,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Chemistry"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "4585",
@@ -1148,14 +993,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "hungary"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "3827",
@@ -1199,14 +1037,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "bulgaria"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "7520",
@@ -1253,17 +1084,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Chemistry"
-      ],
-      "answers": {
-        "data_type": [
-          "compounds"
-        ],
-        "country": [
-          "canada",
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "6760",
@@ -1297,14 +1118,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "czech republic"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "7441",
@@ -1344,14 +1158,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united kingdom"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "3117",
@@ -1394,16 +1201,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Chemistry"
-      ],
-      "answers": {
-        "data_type": [
-          "materials"
-        ],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "8108",
@@ -1435,16 +1233,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [
-          "materials"
-        ],
-        "country": [
-          "poland"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "6925",
@@ -1492,15 +1281,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Chemistry"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "brazil",
-          "germany"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "6637",
@@ -1544,14 +1325,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Chemistry"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "australia"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "2724",
@@ -1596,14 +1370,7 @@
         "Materials Science",
         "Organic Chemistry",
         "Physical Chemistry"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "germany"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "8155",
@@ -1635,14 +1402,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "poland"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "3284",
@@ -1708,16 +1468,7 @@
       "matched_subjects": [
         "Materials Science",
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [
-          "materials"
-        ],
-        "country": [
-          "italy"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "7730",
@@ -1749,14 +1500,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "turkey"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "1772",
@@ -1808,16 +1552,7 @@
       "matched_subjects": [
         "Chemistry",
         "Computational Chemistry"
-      ],
-      "answers": {
-        "data_type": [
-          "computational"
-        ],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "2512",
@@ -1890,14 +1625,7 @@
       "matched_subjects": [
         "Biochemistry",
         "Chemistry"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "3680",
@@ -1955,18 +1683,7 @@
         "Cheminformatics",
         "Chemistry",
         "Computational Chemistry"
-      ],
-      "answers": {
-        "data_type": [
-          "computational",
-          "compounds"
-        ],
-        "country": [
-          "germany",
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "7953",
@@ -1999,14 +1716,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united kingdom"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "3275",
@@ -2038,14 +1748,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "australia"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "4957",
@@ -2131,14 +1834,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "germany"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "2542",
@@ -2214,14 +1910,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "canada"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "7958",
@@ -2253,16 +1942,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [
-          "materials"
-        ],
-        "country": [
-          "switzerland"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "8657",
@@ -2295,14 +1975,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "4506",
@@ -2349,14 +2022,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "poland"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "3186",
@@ -2397,14 +2063,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "australia"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "6953",
@@ -2443,14 +2102,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "canada"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "8151",
@@ -2482,14 +2134,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "2672",
@@ -2577,16 +2222,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [
-          "spectra"
-        ],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "8076",
@@ -2625,14 +2261,7 @@
       "matched_subjects": [
         "Analytical Chemistry",
         "Chemistry"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "canada"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "6911",
@@ -2672,14 +2301,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "canada"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "8224",
@@ -2720,14 +2342,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united kingdom"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "7969",
@@ -2781,14 +2396,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Chemistry"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "serbia"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "7718",
@@ -2821,16 +2429,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [
-          "materials"
-        ],
-        "country": [
-          "united kingdom"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "2769",
@@ -2889,16 +2488,7 @@
         "Chemistry",
         "Organic Chemistry",
         "Physical Chemistry"
-      ],
-      "answers": {
-        "data_type": [
-          "compounds"
-        ],
-        "country": [
-          "germany"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "3100",
@@ -2952,14 +2542,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Chemistry"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "japan"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "8728",
@@ -3009,16 +2592,7 @@
         "Biochemistry",
         "Chemistry",
         "Materials Science"
-      ],
-      "answers": {
-        "data_type": [
-          "materials"
-        ],
-        "country": [
-          "serbia"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "2748",
@@ -3090,14 +2664,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Metabolomics"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "china"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "7397",
@@ -3136,14 +2703,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "canada"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "7137",
@@ -3183,14 +2743,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "canada"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "7346",
@@ -3229,14 +2782,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "canada"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "7130",
@@ -3276,14 +2822,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "canada"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "5211",
@@ -3331,14 +2870,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "france"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "2548",
@@ -3392,15 +2924,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "israel",
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "2152",
@@ -3455,19 +2979,7 @@
         "Materials Science",
         "Organic Chemistry",
         "Physical Chemistry"
-      ],
-      "answers": {
-        "data_type": [
-          "crystal-structures",
-          "materials",
-          "images"
-        ],
-        "country": [
-          "sweden",
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "7703",
@@ -3515,17 +3027,7 @@
         "Cheminformatics",
         "Chemistry",
         "Organic Chemistry"
-      ],
-      "answers": {
-        "data_type": [
-          "compounds",
-          "assays"
-        ],
-        "country": [
-          "germany"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "5987",
@@ -3574,14 +3076,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "ireland"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "5377",
@@ -3708,14 +3203,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "germany"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "8493",
@@ -3764,19 +3252,7 @@
       "matched_subjects": [
         "Chemistry",
         "Materials Science"
-      ],
-      "answers": {
-        "data_type": [
-          "crystal-structures",
-          "computational",
-          "compounds",
-          "materials"
-        ],
-        "country": [
-          "germany"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "1562",
@@ -3831,22 +3307,7 @@
         "Chemistry",
         "Materials Science",
         "Organic Chemistry"
-      ],
-      "answers": {
-        "data_type": [
-          "crystal-structures",
-          "assays",
-          "materials"
-        ],
-        "country": [
-          "france",
-          "lithuania",
-          "spain",
-          "united kingdom",
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "8779",
@@ -3879,14 +3340,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "7734",
@@ -3925,14 +3379,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "hong kong"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "2688",
@@ -3977,14 +3424,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "4985",
@@ -4033,17 +3473,7 @@
         "Chemistry",
         "Materials Science",
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [
-          "compounds",
-          "materials"
-        ],
-        "country": [
-          "portugal"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "6456",
@@ -4094,14 +3524,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "germany"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "6761",
@@ -4133,14 +3556,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "italy"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "5214",
@@ -4246,16 +3662,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Metabolomics"
-      ],
-      "answers": {
-        "data_type": [
-          "images"
-        ],
-        "country": [
-          "netherlands"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "8745",
@@ -4302,16 +3709,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [
-          "materials"
-        ],
-        "country": [
-          "austria"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "8149",
@@ -4356,14 +3754,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "germany"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "6903",
@@ -4402,14 +3793,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "canada"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "8250",
@@ -4445,14 +3829,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "8502",
@@ -4490,16 +3867,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [
-          "images"
-        ],
-        "country": [
-          "china"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "8498",
@@ -4550,14 +3918,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united kingdom"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "2282",
@@ -4630,16 +3991,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Chemistry"
-      ],
-      "answers": {
-        "data_type": [
-          "materials"
-        ],
-        "country": [
-          "european union"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "7713",
@@ -4678,14 +4030,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "australia"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "7712",
@@ -4726,14 +4071,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united kingdom"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "2620",
@@ -4810,14 +4148,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "2556",
@@ -4872,16 +4203,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [
-          "materials"
-        ],
-        "country": [
-          "worldwide"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "6891",
@@ -4923,14 +4245,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "estonia"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "6597",
@@ -4969,16 +4284,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [
-          "materials"
-        ],
-        "country": [
-          "south korea"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "3845",
@@ -5026,14 +4332,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "portugal"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "7664",
@@ -5079,14 +4378,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "hong kong"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "7942",
@@ -5125,14 +4417,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united kingdom"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "4620",
@@ -5228,16 +4513,7 @@
       "matched_subjects": [
         "Chemistry",
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [
-          "materials"
-        ],
-        "country": [
-          "italy"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "2560",
@@ -5311,14 +4587,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "netherlands"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "2955",
@@ -5376,14 +4645,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "norway"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "8759",
@@ -5418,14 +4680,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "france"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "8064",
@@ -5476,14 +4731,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "5910",
@@ -5522,14 +4770,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "denmark"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "3576",
@@ -5603,14 +4844,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "taiwan"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "7894",
@@ -5686,14 +4920,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "germany"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "6651",
@@ -5740,19 +4967,7 @@
       "matched_subjects": [
         "Chemistry",
         "Materials Science"
-      ],
-      "answers": {
-        "data_type": [
-          "spectra",
-          "crystal-structures",
-          "materials",
-          "images"
-        ],
-        "country": [
-          "united kingdom"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "3335",
@@ -5795,14 +5010,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "croatia"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "6446",
@@ -5843,14 +5051,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "romania"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "7012",
@@ -5893,14 +5094,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "italy"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "7319",
@@ -5942,18 +5136,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Materials Science"
-      ],
-      "answers": {
-        "data_type": [
-          "spectra",
-          "materials",
-          "images"
-        ],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "7729",
@@ -5993,14 +5176,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "5506",
@@ -6069,14 +5245,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "portugal"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "8527",
@@ -6108,16 +5277,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [
-          "materials"
-        ],
-        "country": [
-          "austria"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "8730",
@@ -6157,14 +5317,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "spain"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "8780",
@@ -6206,14 +5359,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "spain"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "7422",
@@ -6245,16 +5391,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [
-          "spectra"
-        ],
-        "country": [
-          "germany"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "7715",
@@ -6296,17 +5433,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [
-          "materials",
-          "images"
-        ],
-        "country": [
-          "united kingdom"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "8738",
@@ -6345,17 +5472,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [
-          "materials",
-          "images"
-        ],
-        "country": [
-          "united kingdom"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "2756",
@@ -6394,16 +5511,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [
-          "images"
-        ],
-        "country": [
-          "worldwide"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "5753",
@@ -6438,14 +5546,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "7733",
@@ -6485,14 +5586,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "brazil"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "4526",
@@ -6559,14 +5653,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Chemistry"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "singapore"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "1998",
@@ -6620,17 +5707,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [
-          "assays"
-        ],
-        "country": [
-          "united states",
-          "worldwide"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "2851",
@@ -6713,14 +5790,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "5469",
@@ -6776,14 +5846,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united kingdom"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "2760",
@@ -6846,14 +5909,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "spain"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "8757",
@@ -6901,16 +5957,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [
-          "materials"
-        ],
-        "country": [
-          "united kingdom"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "2424",
@@ -6955,14 +6002,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Chemistry"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "3066",
@@ -7000,14 +6040,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Chemistry"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "norway"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "2872",
@@ -7052,16 +6085,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [
-          "materials"
-        ],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "2108",
@@ -7114,19 +6138,7 @@
       "matched_subjects": [
         "Chemistry",
         "Materials Science"
-      ],
-      "answers": {
-        "data_type": [
-          "crystal-structures",
-          "assays",
-          "materials",
-          "images"
-        ],
-        "country": [
-          "united kingdom"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "6655",
@@ -7169,14 +6181,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united kingdom"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "4279",
@@ -7225,14 +6230,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united kingdom"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "8641",
@@ -7273,16 +6271,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [
-          "images"
-        ],
-        "country": [
-          "germany"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "6692",
@@ -7332,17 +6321,7 @@
       "matched_subjects": [
         "Chemistry",
         "Physical Chemistry"
-      ],
-      "answers": {
-        "data_type": [
-          "spectra"
-        ],
-        "country": [
-          "european union",
-          "france"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "5755",
@@ -7401,14 +6380,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "greece"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "3263",
@@ -7444,16 +6416,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Chemistry"
-      ],
-      "answers": {
-        "data_type": [
-          "compounds"
-        ],
-        "country": [
-          "france"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "2799",
@@ -7506,14 +6469,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Chemistry"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "european union"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "3147",
@@ -7551,14 +6507,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Chemistry"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "8184",
@@ -7601,14 +6550,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united kingdom"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "5033",
@@ -7701,18 +6643,7 @@
         "Chemistry",
         "Materials Science",
         "Metabolomics"
-      ],
-      "answers": {
-        "data_type": [
-          "spectra",
-          "materials",
-          "images"
-        ],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "2738",
@@ -7760,14 +6691,7 @@
       "matched_subjects": [
         "Biochemistry",
         "Chemistry"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "switzerland"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "6221",
@@ -7806,14 +6730,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Chemistry"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "7230",
@@ -7859,14 +6776,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Chemistry"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "spain"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "7220",
@@ -7933,14 +6843,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "south africa"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "6733",
@@ -7985,16 +6888,7 @@
         "Chemistry",
         "Materials Science",
         "Physical Chemistry"
-      ],
-      "answers": {
-        "data_type": [
-          "materials"
-        ],
-        "country": [
-          "european union"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "3332",
@@ -8030,14 +6924,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "european union"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "3717",
@@ -8085,18 +6972,7 @@
       "matched_subjects": [
         "Chemical Biology",
         "Chemistry"
-      ],
-      "answers": {
-        "data_type": [
-          "computational",
-          "compounds",
-          "assays"
-        ],
-        "country": [
-          "czech republic"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "2940",
@@ -8135,14 +7011,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "european union"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "6385",
@@ -8181,14 +7050,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "finland"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "2262",
@@ -8244,18 +7106,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Metabolomics"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "belgium",
-          "germany",
-          "netherlands",
-          "norway",
-          "united kingdom"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "8740",
@@ -8296,14 +7147,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "germany"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "2770",
@@ -8350,14 +7194,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "canada"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "1843",
@@ -8444,19 +7281,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "australia",
-          "european union",
-          "new zealand",
-          "south africa",
-          "united kingdom",
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "4635",
@@ -8535,22 +7360,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [
-          "materials"
-        ],
-        "country": [
-          "australia",
-          "canada",
-          "european union",
-          "new zealand",
-          "south africa",
-          "united kingdom",
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "6970",
@@ -8583,14 +7393,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "belgium"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "7235",
@@ -8640,19 +7443,7 @@
       "matched_subjects": [
         "Chemistry",
         "Materials Science"
-      ],
-      "answers": {
-        "data_type": [
-          "computational",
-          "compounds",
-          "materials",
-          "images"
-        ],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "6002",
@@ -8697,14 +7488,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "worldwide"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "4530",
@@ -8737,14 +7521,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "germany"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "8165",
@@ -8778,15 +7555,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "brazil",
-          "portugal"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "7216",
@@ -8824,16 +7593,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Materials Science"
-      ],
-      "answers": {
-        "data_type": [
-          "materials"
-        ],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "2661",
@@ -8873,14 +7633,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Chemistry"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "3164",
@@ -8929,16 +7682,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Chemistry"
-      ],
-      "answers": {
-        "data_type": [
-          "materials"
-        ],
-        "country": [
-          "germany"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "8681",
@@ -8973,14 +7717,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Chemistry"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "canada"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "3580",
@@ -9033,14 +7770,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Chemistry"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "3017",
@@ -9085,14 +7815,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Chemistry"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "china"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "2667",
@@ -9141,14 +7864,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "3277",
@@ -9184,14 +7900,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "3896",
@@ -9238,16 +7947,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Metabolomics"
-      ],
-      "answers": {
-        "data_type": [
-          "spectra"
-        ],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "3185",
@@ -9297,16 +7997,7 @@
       "matched_subjects": [
         "Biochemistry",
         "Chemistry"
-      ],
-      "answers": {
-        "data_type": [
-          "spectra"
-        ],
-        "country": [
-          "japan"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "1734",
@@ -9352,16 +8043,7 @@
       "matched_subjects": [
         "Biochemistry",
         "Chemistry"
-      ],
-      "answers": {
-        "data_type": [
-          "spectra"
-        ],
-        "country": [
-          "japan"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "5037",
@@ -9404,14 +8086,7 @@
       "matched_subjects": [
         "Biochemistry",
         "Chemistry"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "japan"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "2759",
@@ -9461,14 +8136,7 @@
       "matched_subjects": [
         "Biochemistry",
         "Chemistry"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "japan"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "7434",
@@ -9500,14 +8168,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "australia"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "6220",
@@ -9566,14 +8227,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Chemistry"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "6587",
@@ -9620,14 +8274,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Chemistry"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "7738",
@@ -9666,14 +8313,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "germany"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "2452",
@@ -9747,14 +8387,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "2778",
@@ -9799,14 +8432,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "germany"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "6223",
@@ -9864,16 +8490,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [
-          "materials"
-        ],
-        "country": [
-          "greece"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "6729",
@@ -9914,14 +8531,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "greece"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "2497",
@@ -9970,15 +8580,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Chemistry"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "switzerland",
-          "united kingdom"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "8753",
@@ -10019,14 +8621,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "germany"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "8221",
@@ -10067,16 +8662,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [
-          "materials"
-        ],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "4252",
@@ -10117,14 +8703,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "6545",
@@ -10183,16 +8762,7 @@
         "Materials Science",
         "Physical Chemistry",
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [
-          "materials"
-        ],
-        "country": [
-          "italy"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "7888",
@@ -10238,14 +8808,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "2707",
@@ -10290,14 +8853,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Chemistry"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united kingdom"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "5595",
@@ -10355,16 +8911,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Metabolomics"
-      ],
-      "answers": {
-        "data_type": [
-          "images"
-        ],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "6777",
@@ -10397,15 +8944,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "india",
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "5633",
@@ -10447,14 +8986,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Chemistry"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "european union"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "8208",
@@ -10518,16 +9050,7 @@
       "matched_subjects": [
         "Chemistry",
         "Materials Science"
-      ],
-      "answers": {
-        "data_type": [
-          "materials"
-        ],
-        "country": [
-          "switzerland"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "6329",
@@ -10577,17 +9100,7 @@
       "matched_subjects": [
         "Chemistry",
         "Physical Chemistry"
-      ],
-      "answers": {
-        "data_type": [
-          "spectra",
-          "materials"
-        ],
-        "country": [
-          "romania"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "2547",
@@ -10622,16 +9135,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Materials Science"
-      ],
-      "answers": {
-        "data_type": [
-          "materials"
-        ],
-        "country": [
-          "france"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "3267",
@@ -10674,14 +9178,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "2422",
@@ -10725,14 +9222,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Chemistry"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "5771",
@@ -10765,14 +9255,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "3302",
@@ -10829,17 +9312,7 @@
         "Chemistry",
         "Computational Chemistry",
         "Physical Chemistry"
-      ],
-      "answers": {
-        "data_type": [
-          "computational",
-          "materials"
-        ],
-        "country": [
-          "spain"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "4262",
@@ -10873,14 +9346,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "2861",
@@ -10935,14 +9401,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "7108",
@@ -10976,16 +9435,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Materials Science"
-      ],
-      "answers": {
-        "data_type": [
-          "materials"
-        ],
-        "country": [
-          "united kingdom"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "3319",
@@ -11047,20 +9497,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Chemistry"
-      ],
-      "answers": {
-        "data_type": [
-          "spectra",
-          "assays",
-          "materials"
-        ],
-        "country": [
-          "czech republic",
-          "european union",
-          "france"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "8735",
@@ -11093,14 +9530,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "austria"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "7368",
@@ -11133,14 +9563,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "turkey"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "8148",
@@ -11203,16 +9626,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [
-          "materials"
-        ],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "2562",
@@ -11259,14 +9673,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "worldwide"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "6870",
@@ -11305,14 +9712,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "india"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "7265",
@@ -11377,14 +9777,7 @@
       "matched_subjects": [
         "Biochemistry",
         "Chemistry"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "sweden"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "7725",
@@ -11416,14 +9809,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "azerbaijan"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "4561",
@@ -11481,17 +9867,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Metabolomics"
-      ],
-      "answers": {
-        "data_type": [
-          "assays",
-          "images"
-        ],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "5864",
@@ -11527,16 +9903,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [
-          "materials"
-        ],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "2622",
@@ -11571,16 +9938,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Chemistry"
-      ],
-      "answers": {
-        "data_type": [
-          "compounds"
-        ],
-        "country": [
-          "france"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "7344",
@@ -11613,14 +9971,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "canada"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "6391",
@@ -11701,14 +10052,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Chemistry"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "poland"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "2157",
@@ -11773,14 +10117,7 @@
       "matched_subjects": [
         "Biochemistry",
         "Chemistry"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "3346",
@@ -11816,14 +10153,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "india"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "4116",
@@ -11870,14 +10200,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "germany"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "5905",
@@ -11989,14 +10312,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "belgium"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "2189",
@@ -12046,14 +10362,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Metabolomics"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "japan"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "8768",
@@ -12086,14 +10395,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united kingdom"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "4673",
@@ -12146,14 +10448,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united kingdom"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "6698",
@@ -12196,15 +10491,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "netherlands",
-          "worldwide"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "3279",
@@ -12245,14 +10532,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united kingdom"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "4709",
@@ -12310,14 +10590,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united kingdom"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "7869",
@@ -12362,14 +10635,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "germany"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "7082",
@@ -12409,14 +10675,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "denmark"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "7424",
@@ -12449,14 +10708,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united kingdom"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "7290",
@@ -12496,14 +10748,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united kingdom"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "7967",
@@ -12554,16 +10799,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [
-          "materials"
-        ],
-        "country": [
-          "united kingdom"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "5931",
@@ -12595,14 +10831,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "canada"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "8765",
@@ -12648,14 +10877,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "canada"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "7433",
@@ -12712,14 +10934,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "australia"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "7654",
@@ -12767,17 +10982,7 @@
       "matched_subjects": [
         "Biochemistry",
         "Chemistry"
-      ],
-      "answers": {
-        "data_type": [
-          "crystal-structures",
-          "images"
-        ],
-        "country": [
-          "poland"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "8143",
@@ -12809,16 +11014,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [
-          "materials"
-        ],
-        "country": [
-          "germany"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "5563",
@@ -12867,14 +11063,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Metabolomics"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "6785",
@@ -12913,14 +11102,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "canada"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "2671",
@@ -12973,17 +11155,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Metabolomics"
-      ],
-      "answers": {
-        "data_type": [
-          "spectra",
-          "assays"
-        ],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "8964",
@@ -13030,17 +11202,7 @@
         "Biochemistry",
         "Chemistry",
         "Metabolomics"
-      ],
-      "answers": {
-        "data_type": [
-          "spectra",
-          "compounds"
-        ],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "2606",
@@ -13093,16 +11255,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Materials Science"
-      ],
-      "answers": {
-        "data_type": [
-          "materials"
-        ],
-        "country": [
-          "switzerland"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "7348",
@@ -13134,16 +11287,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [
-          "images"
-        ],
-        "country": [
-          "germany"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "2453",
@@ -13199,15 +11343,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "netherlands",
-          "united kingdom"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "5124",
@@ -13254,18 +11390,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Metabolomics"
-      ],
-      "answers": {
-        "data_type": [
-          "spectra",
-          "assays",
-          "images"
-        ],
-        "country": [
-          "japan"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "2963",
@@ -13317,17 +11442,7 @@
         "Analytical Chemistry",
         "Chemistry",
         "Metabolomics"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "denmark",
-          "sweden",
-          "united kingdom",
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "1711",
@@ -13420,44 +11535,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Metabolomics"
-      ],
-      "answers": {
-        "data_type": [
-          "spectra",
-          "compounds",
-          "assays",
-          "images"
-        ],
-        "country": [
-          "austria",
-          "belgium",
-          "croatia",
-          "czech republic",
-          "denmark",
-          "finland",
-          "france",
-          "germany",
-          "greece",
-          "hungary",
-          "iceland",
-          "ireland",
-          "israel",
-          "italy",
-          "lithuania",
-          "luxembourg",
-          "malta",
-          "montenegro",
-          "netherlands",
-          "norway",
-          "portugal",
-          "slovakia",
-          "spain",
-          "sweden",
-          "switzerland",
-          "united kingdom"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "2206",
@@ -13508,14 +11586,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Metabolomics"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "2615",
@@ -13559,14 +11630,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Metabolomics"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "japan"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "3993",
@@ -13641,18 +11705,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Metabolomics"
-      ],
-      "answers": {
-        "data_type": [
-          "spectra",
-          "assays",
-          "images"
-        ],
-        "country": [
-          "worldwide"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "6954",
@@ -13686,14 +11739,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "lithuania"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "7432",
@@ -13738,14 +11784,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united kingdom"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "3027",
@@ -13786,14 +11825,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "7051",
@@ -13838,18 +11870,7 @@
       "matched_subjects": [
         "Chemical Biology",
         "Chemistry"
-      ],
-      "answers": {
-        "data_type": [
-          "compounds",
-          "assays",
-          "images"
-        ],
-        "country": [
-          "china"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "3643",
@@ -13907,14 +11928,7 @@
       "matched_subjects": [
         "Chemistry",
         "Metabolomics"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united kingdom"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "7404",
@@ -13952,18 +11966,7 @@
       "matched_subjects": [
         "Analytical Chemistry",
         "Chemistry"
-      ],
-      "answers": {
-        "data_type": [
-          "spectra",
-          "compounds",
-          "assays"
-        ],
-        "country": [
-          "slovakia"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "2979",
@@ -14029,16 +12032,7 @@
         "Chemistry",
         "Materials Science",
         "Physical Chemistry"
-      ],
-      "answers": {
-        "data_type": [
-          "materials"
-        ],
-        "country": [
-          "germany"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "4772",
@@ -14081,16 +12075,7 @@
         "Chemistry",
         "Materials Science",
         "Physical Chemistry"
-      ],
-      "answers": {
-        "data_type": [
-          "materials"
-        ],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "2619",
@@ -14135,16 +12120,7 @@
         "Chemistry",
         "Materials Science",
         "Physical Chemistry"
-      ],
-      "answers": {
-        "data_type": [
-          "spectra"
-        ],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "2529",
@@ -14191,16 +12167,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Metabolomics"
-      ],
-      "answers": {
-        "data_type": [
-          "materials"
-        ],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "5437",
@@ -14271,17 +12238,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Materials Science"
-      ],
-      "answers": {
-        "data_type": [
-          "materials",
-          "images"
-        ],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "8111",
@@ -14315,14 +12272,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Chemistry"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "7975",
@@ -14361,14 +12311,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "czech republic"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "2658",
@@ -14416,17 +12359,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Metabolomics"
-      ],
-      "answers": {
-        "data_type": [
-          "spectra",
-          "images"
-        ],
-        "country": [
-          "china"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "5873",
@@ -14461,16 +12394,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [
-          "materials"
-        ],
-        "country": [
-          "ukraine"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "2698",
@@ -14520,16 +12444,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Chemistry"
-      ],
-      "answers": {
-        "data_type": [
-          "materials"
-        ],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "2803",
@@ -14588,14 +12503,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Chemistry"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united kingdom"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "5553",
@@ -14646,18 +12554,7 @@
         "Chemistry",
         "Metabolomics",
         "Organic Chemistry"
-      ],
-      "answers": {
-        "data_type": [
-          "spectra",
-          "compounds"
-        ],
-        "country": [
-          "canada",
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "4932",
@@ -14707,16 +12604,7 @@
       "matched_subjects": [
         "Chemistry",
         "Materials Science"
-      ],
-      "answers": {
-        "data_type": [
-          "materials"
-        ],
-        "country": [
-          "australia"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "2445",
@@ -14761,14 +12649,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Chemistry"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united kingdom"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "5705",
@@ -14814,14 +12695,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Chemistry"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "7443",
@@ -14861,14 +12735,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "singapore"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "4319",
@@ -14954,17 +12821,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Metabolomics"
-      ],
-      "answers": {
-        "data_type": [
-          "assays",
-          "images"
-        ],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "6730",
@@ -15008,14 +12865,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "norway"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "6708",
@@ -15051,16 +12901,7 @@
       "matched_subjects": [
         "Chemistry",
         "Materials Science"
-      ],
-      "answers": {
-        "data_type": [
-          "materials"
-        ],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "2783",
@@ -15106,18 +12947,7 @@
       "matched_subjects": [
         "Analytical Chemistry",
         "Chemistry"
-      ],
-      "answers": {
-        "data_type": [
-          "spectra",
-          "compounds"
-        ],
-        "country": [
-          "germany",
-          "united kingdom"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "5139",
@@ -15216,16 +13046,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Chemistry"
-      ],
-      "answers": {
-        "data_type": [
-          "spectra"
-        ],
-        "country": [
-          "germany"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "2501",
@@ -15286,21 +13107,7 @@
         "Computational Chemistry",
         "Materials Science",
         "Physical Chemistry"
-      ],
-      "answers": {
-        "data_type": [
-          "spectra",
-          "crystal-structures",
-          "computational",
-          "materials",
-          "images"
-        ],
-        "country": [
-          "european union",
-          "germany"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "6401",
@@ -15348,18 +13155,7 @@
       "matched_subjects": [
         "Analytical Chemistry",
         "Chemistry"
-      ],
-      "answers": {
-        "data_type": [
-          "spectra",
-          "assays",
-          "materials"
-        ],
-        "country": [
-          "european union"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "3023",
@@ -15421,29 +13217,7 @@
         "Analytical Chemistry",
         "Chemistry",
         "Metabolomics"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "australia",
-          "austria",
-          "bulgaria",
-          "canada",
-          "china",
-          "france",
-          "germany",
-          "greece",
-          "luxembourg",
-          "netherlands",
-          "norway",
-          "slovakia",
-          "spain",
-          "sweden",
-          "switzerland",
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "7740",
@@ -15482,14 +13256,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united kingdom"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "8506",
@@ -15521,14 +13288,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "canada"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "3021",
@@ -15594,14 +13354,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Chemistry"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "8755",
@@ -15641,14 +13394,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "taiwan"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "4964",
@@ -15693,14 +13439,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Chemistry"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "italy"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "2519",
@@ -15752,16 +13491,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Metabolomics"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "china",
-          "european union",
-          "united kingdom"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "5858",
@@ -15809,15 +13539,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Metabolomics"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "australia",
-          "united kingdom"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "5022",
@@ -15859,16 +13581,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Materials Science"
-      ],
-      "answers": {
-        "data_type": [
-          "materials"
-        ],
-        "country": [
-          "spain"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "4333",
@@ -15922,18 +13635,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Metabolomics"
-      ],
-      "answers": {
-        "data_type": [
-          "spectra",
-          "crystal-structures",
-          "images"
-        ],
-        "country": [
-          "china"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "6784",
@@ -15965,14 +13667,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "canada"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "7345",
@@ -16011,14 +13706,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "canada"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "3616",
@@ -16068,16 +13756,7 @@
       "matched_subjects": [
         "Chemistry",
         "Materials Science"
-      ],
-      "answers": {
-        "data_type": [
-          "materials"
-        ],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "7936",
@@ -16116,14 +13795,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "india"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "7338",
@@ -16155,14 +13827,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "india"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "7699",
@@ -16201,14 +13866,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "india"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "7065",
@@ -16249,14 +13907,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "canada"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "7343",
@@ -16295,14 +13946,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "canada"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "7374",
@@ -16341,14 +13985,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "canada"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "6492",
@@ -16389,17 +14026,7 @@
         "Chemistry",
         "Organic Chemistry",
         "Physical Chemistry"
-      ],
-      "answers": {
-        "data_type": [
-          "compounds"
-        ],
-        "country": [
-          "united kingdom",
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "3178",
@@ -16448,14 +14075,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united kingdom"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "2270",
@@ -16525,14 +14145,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "6045",
@@ -16568,14 +14181,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "netherlands"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "7388",
@@ -16616,14 +14222,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "india"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "7628",
@@ -16655,14 +14254,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "switzerland"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "7425",
@@ -16696,14 +14288,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "germany"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "6887",
@@ -16736,17 +14321,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Materials Science"
-      ],
-      "answers": {
-        "data_type": [
-          "computational",
-          "materials"
-        ],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "2817",
@@ -16791,16 +14366,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "germany",
-          "netherlands",
-          "portugal"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "7176",
@@ -16904,16 +14470,7 @@
         "Chemistry",
         "Materials Science",
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [
-          "materials"
-        ],
-        "country": [
-          "germany"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "8710",
@@ -16953,16 +14510,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [
-          "computational"
-        ],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "3852",
@@ -17028,16 +14576,7 @@
       "matched_subjects": [
         "Chemistry",
         "Materials Science"
-      ],
-      "answers": {
-        "data_type": [
-          "materials"
-        ],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "3283",
@@ -17102,14 +14641,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "spain"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "2326",
@@ -17167,16 +14699,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [
-          "materials"
-        ],
-        "country": [
-          "united kingdom"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "3692",
@@ -17282,20 +14805,7 @@
         "Materials Science",
         "Metabolomics",
         "Physical Chemistry"
-      ],
-      "answers": {
-        "data_type": [
-          "spectra",
-          "crystal-structures",
-          "assays",
-          "materials",
-          "images"
-        ],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "2161",
@@ -17357,14 +14867,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Chemistry"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "germany"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "3016",
@@ -17426,17 +14929,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Metabolomics"
-      ],
-      "answers": {
-        "data_type": [
-          "spectra",
-          "assays"
-        ],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "8084",
@@ -17487,17 +14980,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [
-          "materials",
-          "images"
-        ],
-        "country": [
-          "colombia"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "2831",
@@ -17581,16 +15064,7 @@
         "Cheminformatics",
         "Chemistry",
         "Metabolomics"
-      ],
-      "answers": {
-        "data_type": [
-          "compounds"
-        ],
-        "country": [
-          "canada"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "4968",
@@ -17630,16 +15104,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [
-          "materials"
-        ],
-        "country": [
-          "greece"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "7292",
@@ -17680,17 +15145,7 @@
         "Chemistry",
         "Materials Science",
         "Physical Chemistry"
-      ],
-      "answers": {
-        "data_type": [
-          "spectra",
-          "materials"
-        ],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "3247",
@@ -17740,14 +15195,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "spain"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "1632",
@@ -17794,16 +15242,7 @@
       "matched_subjects": [
         "Biochemistry",
         "Chemistry"
-      ],
-      "answers": {
-        "data_type": [
-          "materials"
-        ],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "7792",
@@ -17848,14 +15287,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "portugal"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "7961",
@@ -17895,14 +15327,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "hong kong"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "7125",
@@ -17942,14 +15367,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "canada"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "6308",
@@ -17985,14 +15403,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "5438",
@@ -18024,14 +15435,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "canada"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "6918",
@@ -18065,14 +15469,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "3758",
@@ -18117,14 +15514,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "8743",
@@ -18171,16 +15561,7 @@
         "Chemistry",
         "Materials Science",
         "Physical Chemistry"
-      ],
-      "answers": {
-        "data_type": [
-          "materials"
-        ],
-        "country": [
-          "germany"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "1989",
@@ -18223,17 +15604,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Chemistry"
-      ],
-      "answers": {
-        "data_type": [
-          "compounds",
-          "assays"
-        ],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "2557",
@@ -18280,14 +15651,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "germany"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "4378",
@@ -18409,14 +15773,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "7423",
@@ -18449,14 +15806,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united kingdom"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "4904",
@@ -18530,18 +15880,7 @@
         "Chemistry",
         "Materials Science",
         "Physical Chemistry"
-      ],
-      "answers": {
-        "data_type": [
-          "compounds",
-          "materials",
-          "images"
-        ],
-        "country": [
-          "estonia"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "4499",
@@ -18630,14 +15969,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "germany"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "5191",
@@ -18723,14 +16055,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Chemistry"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "germany"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "2044",
@@ -18800,18 +16125,7 @@
       "matched_subjects": [
         "Biochemistry",
         "Chemistry"
-      ],
-      "answers": {
-        "data_type": [
-          "spectra",
-          "crystal-structures",
-          "images"
-        ],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "4564",
@@ -18860,14 +16174,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "france"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "8041",
@@ -18901,16 +16208,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Chemistry"
-      ],
-      "answers": {
-        "data_type": [
-          "crystal-structures"
-        ],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "2655",
@@ -18956,16 +16254,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Materials Science"
-      ],
-      "answers": {
-        "data_type": [
-          "materials"
-        ],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "7069",
@@ -19006,14 +16295,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "canada"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "7238",
@@ -19047,16 +16329,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [
-          "images"
-        ],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "2877",
@@ -19105,15 +16378,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "germany",
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "8077",
@@ -19153,14 +16418,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "germany"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "4482",
@@ -19202,14 +16460,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "argentina"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "6150",
@@ -19282,14 +16533,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "paraguay"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "5029",
@@ -19328,14 +16572,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "poland"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "6265",
@@ -19377,16 +16614,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [
-          "materials"
-        ],
-        "country": [
-          "poland"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "8720",
@@ -19431,14 +16659,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "poland"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "8758",
@@ -19484,16 +16705,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [
-          "materials"
-        ],
-        "country": [
-          "poland"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "7962",
@@ -19525,16 +16737,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [
-          "materials"
-        ],
-        "country": [
-          "spain"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "8168",
@@ -19585,16 +16788,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [
-          "materials"
-        ],
-        "country": [
-          "brazil"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "4979",
@@ -19672,14 +16866,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "poland"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "7736",
@@ -19711,14 +16898,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united kingdom"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "2451",
@@ -19753,14 +16933,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "australia"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "3157",
@@ -19804,14 +16977,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united kingdom"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "7440",
@@ -19851,14 +17017,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "austria"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "7979",
@@ -19907,14 +17066,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "portugal"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "4374",
@@ -19949,14 +17101,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united kingdom"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "4090",
@@ -20020,14 +17165,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "italy"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "3112",
@@ -20063,14 +17201,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "australia"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "6322",
@@ -20137,14 +17268,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "sweden"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "7381",
@@ -20179,17 +17303,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Chemistry"
-      ],
-      "answers": {
-        "data_type": [
-          "spectra",
-          "compounds"
-        ],
-        "country": [
-          "hungary"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "6632",
@@ -20228,14 +17342,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "south africa"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "5148",
@@ -20276,14 +17383,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "7428",
@@ -20317,14 +17417,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "latvia"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "6588",
@@ -20358,14 +17451,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "indonesia"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "7289",
@@ -20399,16 +17485,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [
-          "materials"
-        ],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "7970",
@@ -20457,16 +17534,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Materials Science"
-      ],
-      "answers": {
-        "data_type": [
-          "materials"
-        ],
-        "country": [
-          "germany"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "4119",
@@ -20514,15 +17582,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "poland",
-          "spain"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "8511",
@@ -20581,14 +17641,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "germany"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "7728",
@@ -20627,14 +17680,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "latvia"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "8627",
@@ -20679,17 +17725,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Materials Science"
-      ],
-      "answers": {
-        "data_type": [
-          "spectra",
-          "materials"
-        ],
-        "country": [
-          "germany"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "7954",
@@ -20721,16 +17757,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [
-          "materials"
-        ],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "8114",
@@ -20762,14 +17789,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "germany"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "1891",
@@ -20822,16 +17842,7 @@
       "matched_subjects": [
         "Biochemistry",
         "Chemistry"
-      ],
-      "answers": {
-        "data_type": [
-          "compounds"
-        ],
-        "country": [
-          "germany"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "5865",
@@ -20865,14 +17876,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "3266",
@@ -20925,14 +17929,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "3033",
@@ -20981,16 +17978,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [
-          "materials"
-        ],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "8783",
@@ -21036,16 +18024,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [
-          "materials"
-        ],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "3575",
@@ -21099,14 +18078,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "brazil"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "2768",
@@ -21190,14 +18162,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "china"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "6670",
@@ -21240,14 +18205,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "3220",
@@ -21302,19 +18260,7 @@
       "matched_subjects": [
         "Analytical Chemistry",
         "Chemistry"
-      ],
-      "answers": {
-        "data_type": [
-          "spectra",
-          "crystal-structures",
-          "compounds",
-          "assays"
-        ],
-        "country": [
-          "germany"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "6136",
@@ -21349,14 +18295,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Chemistry"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "european union"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "3053",
@@ -21396,16 +18335,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [
-          "materials"
-        ],
-        "country": [
-          "netherlands"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "6035",
@@ -21451,14 +18381,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "worldwide"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "7356",
@@ -21497,14 +18420,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "argentina"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "8087",
@@ -21541,14 +18457,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Chemistry"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "argentina"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "8764",
@@ -21581,14 +18490,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united kingdom"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "6707",
@@ -21621,14 +18523,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "3317",
@@ -21663,14 +18558,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "france"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "3278",
@@ -21702,14 +18590,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "7719",
@@ -21741,16 +18622,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [
-          "spectra"
-        ],
-        "country": [
-          "canada"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "8144",
@@ -21782,16 +18654,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [
-          "materials"
-        ],
-        "country": [
-          "united kingdom"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "2283",
@@ -21838,17 +18701,7 @@
       "matched_subjects": [
         "Biochemistry",
         "Chemistry"
-      ],
-      "answers": {
-        "data_type": [
-          "compounds",
-          "assays"
-        ],
-        "country": [
-          "germany"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "7634",
@@ -21881,14 +18734,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "canada"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "8774",
@@ -21930,14 +18776,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "sweden"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "8741",
@@ -21990,14 +18829,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "sweden"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "3092",
@@ -22063,14 +18895,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "south africa"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "6310",
@@ -22153,14 +18978,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united kingdom"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "6614",
@@ -22199,17 +19017,7 @@
         "Analytical Chemistry",
         "Chemistry",
         "Organic Chemistry"
-      ],
-      "answers": {
-        "data_type": [
-          "spectra",
-          "assays"
-        ],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "5648",
@@ -22259,14 +19067,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Chemistry"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "austria"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "2558",
@@ -22311,14 +19112,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "1649",
@@ -22380,14 +19174,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Metabolomics"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "2820",
@@ -22447,16 +19234,7 @@
         "Chemistry",
         "Materials Science",
         "Physical Chemistry"
-      ],
-      "answers": {
-        "data_type": [
-          "materials"
-        ],
-        "country": [
-          "germany"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "2381",
@@ -22548,17 +19326,7 @@
         "Biochemistry",
         "Cheminformatics",
         "Chemistry"
-      ],
-      "answers": {
-        "data_type": [
-          "compounds",
-          "assays"
-        ],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "2821",
@@ -22613,14 +19381,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Chemistry"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "5425",
@@ -22678,14 +19439,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "3265",
@@ -22733,17 +19487,7 @@
         "Chemistry",
         "Materials Science",
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [
-          "computational",
-          "materials"
-        ],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "7648",
@@ -22789,19 +19533,7 @@
       "matched_subjects": [
         "Chemistry",
         "Materials Science"
-      ],
-      "answers": {
-        "data_type": [
-          "crystal-structures",
-          "computational",
-          "compounds",
-          "materials"
-        ],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "4870",
@@ -22852,16 +19584,7 @@
       "matched_subjects": [
         "Chemistry",
         "Materials Science"
-      ],
-      "answers": {
-        "data_type": [
-          "materials"
-        ],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "2181",
@@ -22979,14 +19702,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "worldwide"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "4423",
@@ -23043,14 +19759,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "malawi"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "7861",
@@ -23094,18 +19803,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Materials Science"
-      ],
-      "answers": {
-        "data_type": [
-          "materials"
-        ],
-        "country": [
-          "germany",
-          "israel",
-          "spain"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "4336",
@@ -23266,14 +19964,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "netherlands"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "2545",
@@ -23307,14 +19998,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Chemistry"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "8715",
@@ -23365,14 +20049,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "austria"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "4337",
@@ -23415,14 +20092,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "austria"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "3259",
@@ -23477,14 +20147,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Chemistry"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "8141",
@@ -23517,16 +20180,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [
-          "materials"
-        ],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "7717",
@@ -23566,14 +20220,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united kingdom"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "8782",
@@ -23649,14 +20296,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "canada"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "8752",
@@ -23698,15 +20338,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united kingdom",
-          "worldwide"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "7239",
@@ -23748,14 +20380,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "5919",
@@ -23808,14 +20433,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "7727",
@@ -23854,14 +20472,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united kingdom"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "4180",
@@ -23894,14 +20505,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "8147",
@@ -23933,14 +20537,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "spain"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "7431",
@@ -23972,14 +20569,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united kingdom"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "5788",
@@ -24013,16 +20603,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [
-          "materials"
-        ],
-        "country": [
-          "united kingdom"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "8721",
@@ -24068,14 +20649,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "canada"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "2864",
@@ -24140,14 +20714,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "3252",
@@ -24190,16 +20757,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [
-          "materials"
-        ],
-        "country": [
-          "worldwide"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "8145",
@@ -24232,14 +20790,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "8113",
@@ -24278,14 +20829,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "canada"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "3262",
@@ -24337,14 +20881,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "7966",
@@ -24383,16 +20920,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [
-          "materials"
-        ],
-        "country": [
-          "new zealand"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "8773",
@@ -24487,14 +21015,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united kingdom"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "7965",
@@ -24526,14 +21047,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united kingdom"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "7737",
@@ -24572,14 +21086,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "canada"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "3173",
@@ -24629,14 +21136,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "china"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "3205",
@@ -24699,14 +21199,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "australia"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "5866",
@@ -24739,14 +21232,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "7430",
@@ -24792,14 +21278,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "south africa"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "8766",
@@ -24832,14 +21311,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united kingdom"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "7739",
@@ -24879,14 +21351,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united kingdom"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "5805",
@@ -24921,14 +21386,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united kingdom"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "8742",
@@ -24969,16 +21427,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [
-          "materials"
-        ],
-        "country": [
-          "united kingdom"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "3183",
@@ -25019,14 +21468,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "australia"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "7350",
@@ -25059,14 +21501,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "canada"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "4245",
@@ -25102,14 +21537,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "5061",
@@ -25160,14 +21588,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "poland"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "8761",
@@ -25199,16 +21620,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [
-          "materials"
-        ],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "8748",
@@ -25253,16 +21665,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [
-          "materials"
-        ],
-        "country": [
-          "australia"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "8146",
@@ -25301,16 +21704,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [
-          "materials"
-        ],
-        "country": [
-          "spain"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "5020",
@@ -25342,16 +21736,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [
-          "materials"
-        ],
-        "country": [
-          "australia"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "8746",
@@ -25383,14 +21768,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "indonesia"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "8150",
@@ -25422,16 +21800,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [
-          "materials"
-        ],
-        "country": [
-          "spain"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "3080",
@@ -25472,14 +21841,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "australia"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "7726",
@@ -25524,16 +21886,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [
-          "images"
-        ],
-        "country": [
-          "united kingdom"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "7963",
@@ -25585,14 +21938,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "canada"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "6620",
@@ -25701,18 +22047,7 @@
         "Materials Science",
         "Organic Chemistry",
         "Physical Chemistry"
-      ],
-      "answers": {
-        "data_type": [
-          "spectra",
-          "computational",
-          "materials"
-        ],
-        "country": [
-          "serbia"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "2583",
@@ -25745,14 +22080,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "2819",
@@ -25800,17 +22128,7 @@
         "Biochemistry",
         "Chemistry",
         "Materials Science"
-      ],
-      "answers": {
-        "data_type": [
-          "materials",
-          "images"
-        ],
-        "country": [
-          "belgium"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "8781",
@@ -25851,16 +22169,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [
-          "images"
-        ],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "6945",
@@ -25899,14 +22208,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "canada"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "2329",
@@ -25959,14 +22261,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "worldwide"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "6635",
@@ -25999,14 +22294,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "9300",
@@ -26060,14 +22348,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united kingdom"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "3073",
@@ -26110,15 +22391,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "belgium",
-          "united kingdom"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "3127",
@@ -26168,16 +22441,7 @@
       "scope": "chemistry",
       "matched_subjects": [
         "Chemistry"
-      ],
-      "answers": {
-        "data_type": [
-          "computational"
-        ],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "6904",
@@ -26223,14 +22487,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "germany"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "7678",
@@ -26276,19 +22533,7 @@
         "Chemistry",
         "Computational Chemistry",
         "Materials Science"
-      ],
-      "answers": {
-        "data_type": [
-          "spectra",
-          "crystal-structures",
-          "computational",
-          "materials"
-        ],
-        "country": [
-          "france"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "7964",
@@ -26321,16 +22566,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [
-          "materials"
-        ],
-        "country": [
-          "poland"
-        ],
-        "region_eu": true
-      }
+      ]
     },
     {
       "id": "7722",
@@ -26375,14 +22611,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "united states"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "8772",
@@ -26424,16 +22653,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [
-          "images"
-        ],
-        "country": [
-          "south africa"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "7355",
@@ -26472,14 +22692,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "switzerland"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "2358",
@@ -26537,14 +22750,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "worldwide"
-        ],
-        "region_eu": false
-      }
+      ]
     },
     {
       "id": "7955",
@@ -26589,14 +22795,7 @@
       "scope": "general",
       "matched_subjects": [
         "Subject Agnostic"
-      ],
-      "answers": {
-        "data_type": [],
-        "country": [
-          "south africa"
-        ],
-        "region_eu": false
-      }
+      ]
     }
   ]
 }

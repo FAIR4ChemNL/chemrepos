@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block title %}All repositories – Find a data repository{% endblock %}
+{% block content %}
+    <header>
+      <p class="label">Repositories</p>
+      <h1>All repositories</h1>
+      <p class="description">{{ repos|length }} repositories, from {{ repos|map(attribute='source')|unique|join(', ') }}.</p>
+    </header>
+    <div class="card">
+      <ul class="repos">
+        {% for repo in repos %}
+        <li><a href="{{ url_for('app.repository', slug=repo.slug) }}">{{ repo.name }}</a>
+          <span class="muted">{{ repo.countries|join(', ') }}{% if repo.scope == 'general' %} · any subject{% endif %}</span></li>
+        {% endfor %}
+      </ul>
+    </div>
+{% endblock %}

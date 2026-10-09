@@ -39,8 +39,15 @@ make check
 to find broken links, unreachable questions, loops, and missing lists. The page `/tree/` of the
 website lists all questions and where they lead to.
 
-The answers of a visitor are kept in the browser (`sessionStorage`) and shown at the end; matching
-the answers to repositories is not built yet.
+The answers of a visitor are kept in the browser (`sessionStorage`). Every step has a **Back** link
+(it forgets the answers from there on) and a **Skip to the results** link. The results page lists
+the repositories that fit the answers so far: a repository is left out when it contradicts an
+answer, and the others are ordered by the number of answers they support.
+
+Every repository has its own page, `/repository/<source>-<id>/`, that repeats the questions of the
+tree and shows what is known about the repository for each (✓ supported, ✗ excluded, ? not known),
+with the visitor's own answers marked. How the repository data answers the questions is in
+[app/repositories.py](app/repositories.py); the collected data itself is not changed for it.
 
 ## Collecting repositories
 
@@ -54,8 +61,7 @@ make collect-cached   # process the answers saved in cache/ by the last run, no 
 database registry for chemistry-related subjects (and for subject-agnostic repositories),
 keeps the records that accept deposits, and stores per repository the subjects, domains,
 countries, licences, access and deposition conditions, organisations and the policies that
-recommend it. The `answers` field of each repository holds values in the vocabulary of the
-decision tree (`data_type`, `country`, `region_eu`); `coverage` counts how many repositories
+recommend it. `coverage` counts how many repositories
 give a value for each question.
 
 ## Running it

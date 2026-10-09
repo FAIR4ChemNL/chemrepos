@@ -1,6 +1,15 @@
 {% extends 'base.html' %}
 {% block title %}{{ question.title }} – Find a data repository{% endblock %}
+{% block body_attrs %} data-question="{{ question.id }}"{% endblock %}
 {% block content %}
+    {% if question.type != 'end' %}
+    <nav class="steps">
+      <a class="back" id="back" href="{{ url_for('app.index') }}" hidden>← Back</a>
+      {% if end %}<a class="skip" href="{{ url_for('app.question', question_id=end.id) }}" data-skip>Skip to the results →</a>{% endif %}
+    </nav>
+    {% else %}
+    <nav class="steps"><a class="back" id="back" href="{{ url_for('app.index') }}" hidden>← Back</a></nav>
+    {% endif %}
     <header>
       <p class="label">{% if question.type == 'end' %}Result{% else %}Question{% endif %}</p>
       <h1>{{ question.title }}</h1>
@@ -34,9 +43,17 @@
     </div>
     {% else %}
     <div class="card">
-      <p>Your answers:</p>
+      <h2>Your answers</h2>
       <ul id="answers"></ul>
-      <p class="muted">The list of matching repositories is not yet available.</p>
+      <p class="muted" id="no-answers" hidden>No questions answered: all repositories are listed.</p>
     </div>
+    <div class="card">
+      <h2>Repositories <span class="muted" id="count"></span></h2>
+      <p class="muted">Ordered by the number of answers a repository supports. Repositories that
+        contradict an answer are left out; for the other answers nothing is known. Open a repository
+        to see what is known per question.</p>
+      <ul class="repos" id="repositories"></ul>
+    </div>
+    <script type="application/json" id="repository-data">{{ repositories|tojson }}</script>
     {% endif %}
 {% endblock %}

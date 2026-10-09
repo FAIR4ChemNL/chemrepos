@@ -6,11 +6,12 @@
   <title>{% block title %}Find a data repository{% endblock %}</title>
   <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
-<body>
+<body{% block body_attrs %}{% endblock %}>
   <main>
     {% block content %}{% endblock %}
     <footer class="note">
       <a href="{{ url_for('app.index') }}">Start</a> ·
+      <a href="{{ url_for('app.repository_list') }}">All repositories</a> ·
       <a href="{{ url_for('app.overview') }}">All questions</a>
     </footer>
   </main>

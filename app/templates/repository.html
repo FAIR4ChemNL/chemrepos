@@ -1,0 +1,53 @@
+{% extends 'base.html' %}
+{% block title %}{{ repo.name }} – Find a data repository{% endblock %}
+{% block content %}
+    <nav class="steps">
+      <a class="back" href="{{ url_for('app.question', question_id=end.id) }}">← Your repositories</a>
+    </nav>
+    <header>
+      <p class="label">Repository · {{ repo.source }}{% if repo.scope == 'general' %} · for any subject{% endif %}</p>
+      <h1>{{ repo.name }}{% if repo.abbreviation and repo.abbreviation != repo.name %} <span class="muted">({{ repo.abbreviation }})</span>{% endif %}</h1>
+      {% if repo.description %}<p class="description">{{ repo.description }}</p>{% endif %}
+    </header>
+
+    <div class="card">
+      <ul class="plain">
+        {% if repo.homepage %}<li><a href="{{ repo.homepage }}" rel="noopener">Website</a></li>{% endif %}
+        <li><a href="{{ repo.fairsharing_url }}" rel="noopener">Record in {{ repo.source }}</a></li>
+        {% if repo.subjects %}<li>Subjects: {{ repo.subjects|join(', ') }}</li>{% endif %}
+      </ul>
+    </div>
+
+    <h2 class="section">What is known per question</h2>
+    <p class="muted">The questions of the decision tree, with what {{ repo.source }} says about this repository.
+      <span class="yes">✓</span> supported, <span class="no">✗</span> excluded, <span class="unknown">?</span> not known.
+      <span id="visitor" hidden>Your own answers are marked.</span></p>
+    {% for question in questions %}
+    {% set fact = facts.get(question.answer_key, {'yes': [], 'no': [], 'info': []}) %}
+    <section class="card fit" data-key="{{ question.answer_key }}"
+             data-yes="{{ fact.yes|tojson|forceescape }}" data-no="{{ fact.no|tojson|forceescape }}">
+      <h3><a href="{{ url_for('app.question', question_id=question.id) }}">{{ question.title }}</a></h3>
+      {% if question.type == 'choice' %}
+      <ul class="plain choices">
+        {% for option in question.options %}
+        <li data-value="{{ option.value }}">
+          {% if option.value in fact.yes %}<span class="yes" title="supported">✓</span>
+          {% elif option.value in fact.no %}<span class="no" title="excluded">✗</span>
+          {% else %}<span class="unknown" title="not known">?</span>{% endif %}
+          {{ option.label }}</li>
+        {% endfor %}
+      </ul>
+      {% elif fact.yes or fact.no %}
+      <p>{% if fact.yes %}<span class="yes">✓</span> {{ fact.yes|length }} of {{ lists[question.list]['items']|length }} in the list{% else %}<span class="unknown">?</span> not known for the list{% endif %}
+        {% if fact.no %}<span class="no">✗</span> excludes {{ fact.no|length }}{% endif %}</p>
+      {% endif %}
+      {% for label, vals in fact.info %}
+      <p class="value"><span class="muted">{{ label }}:</span> {{ vals|join('; ') }}</p>
+      {% endfor %}
+      {% if not fact.yes and not fact.no and not fact.info %}
+      <p class="muted">{{ repo.source }} has no information on this.</p>
+      {% endif %}
+      <p class="answer" hidden></p>
+    </section>
+    {% endfor %}
+{% endblock %}

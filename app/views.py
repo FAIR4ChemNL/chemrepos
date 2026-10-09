@@ -1,10 +1,16 @@
-from flask import Blueprint, abort, current_app, render_template
+from flask import Blueprint, abort, current_app, render_template, url_for
+
+from . import repositories
 
 main = Blueprint('app', __name__)
 
 
 def tree():
     return current_app.config['TREE']
+
+
+def repos():
+    return current_app.config['REPOSITORIES']
 
 
 @main.route('/')
@@ -17,10 +23,33 @@ def question(question_id):
     current = tree().questions.get(question_id)
     if current is None:
         abort(404)
-    items = []
+    items, summary = [], []
     if current['type'] == 'search':
         items = tree().lists[current['list']]['items']
-    return render_template('question.html', question=current, items=items)
+    if current['type'] == 'end':
+        # What the page needs to match the repositories with the answers, in the browser.
+        summary = [{'url': url_for('app.repository', slug=r['slug']), 'name': r['name'], 'abbreviation': r['abbreviation'],
+                    'scope': r['scope'], 'countries': r['countries'],
+                    'yes': {k: f['yes'] for k, f in repositories.facts(r, tree()).items()},
+                    'no': {k: f['no'] for k, f in repositories.facts(r, tree()).items()}}
+                   for r in repos()]
+    return render_template('question.html', question=current, items=items,
+                           repositories=summary, end=tree().end)
+
+
+@main.route('/repository/<slug>/')
+def repository(slug):
+    found = next((r for r in repos() if r['slug'] == slug), None)
+    if found is None:
+        abort(404)
+    return render_template('repository.html', repo=found, end=tree().end,
+                           questions=tree().order(), facts=repositories.facts(found, tree()),
+                           lists=tree().lists)
+
+
+@main.route('/repositories/')
+def repository_list():
+    return render_template('repositories.html', repos=repos())
 
 
 @main.route('/tree/')

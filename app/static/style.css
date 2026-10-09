@@ -356,3 +356,24 @@ input[type=search] {
 .results { max-height: 22rem; margin-top: 0.75rem; overflow-y: auto; }
 .results li { padding: 0.35rem 0; border-bottom: 1px solid var(--border); }
 .results li[hidden] { display: none; }
+
+/* Navigation between steps, repository lists and pages */
+.steps { display: flex; justify-content: space-between; gap: 1rem; margin-bottom: 1rem; font-size: 0.95rem; }
+.steps a[hidden] { display: none; }
+.steps .skip { margin-left: auto; }
+.repos { list-style: none; margin: 0; padding: 0; }
+.repos li { padding: 0.5rem 0; border-bottom: 1px solid var(--border); }
+.repos li:last-child { border-bottom: 0; }
+.repos .muted { display: block; font-size: 0.85rem; }
+ul.plain { list-style: none; margin: 0; padding: 0; }
+.section { margin: 2rem 0 0.25rem; }
+.fit h3 { margin: 0 0 0.5rem; font-size: 1rem; }
+.fit h3 a { color: var(--text); text-decoration: none; }
+.fit h3 a:hover { text-decoration: underline; }
+.fit .value { margin: 0.35rem 0 0; font-size: 0.9rem; }
+.fit .answer { margin: 0.5rem 0 0; font-size: 0.9rem; font-weight: 600; }
+.fit li.chosen { font-weight: 600; }
+.yes { color: #15803d; font-weight: 700; }
+.no { color: #b91c1c; font-weight: 700; }
+.unknown { color: var(--muted); font-weight: 700; }
+@media (prefers-color-scheme: dark) { .yes { color: #4ade80; } .no { color: #f87171; } }

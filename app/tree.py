@@ -38,6 +38,29 @@ class Tree:
         starts = [q for q in self.questions.values() if q.get('start')]
         return starts[0] if len(starts) == 1 else None
 
+    @property
+    def end(self):
+        """The question where the visitor ends up: the list of repositories."""
+        ends = [q for q in self.questions.values() if q.get('type') == 'end']
+        return ends[0] if ends else None
+
+    def by_key(self, answer_key):
+        for question in self.questions.values():
+            if question.get('answer_key') == answer_key:
+                return question
+
+    def order(self):
+        """The questions with an answer, in the order they are met from the start."""
+        found, todo = [], [self.start['id']] if self.start else []
+        while todo:
+            current = self.questions.get(todo.pop(0))
+            if current is None or current in found:
+                continue
+            if current.get('type') != 'end':
+                found.append(current)
+            todo.extend(self.targets(current))
+        return found
+
     def targets(self, question):
         """The ids of the questions that can follow a question."""
         found = [option['next'] for option in question.get('options', [])

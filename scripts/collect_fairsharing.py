@@ -39,25 +39,6 @@ GENERAL_SUBJECTS = ['Subject Agnostic']
 # FAIRsharing record types that accept deposits (the others are knowledgebases only).
 REPOSITORY_TYPES = {'repository', 'knowledgebase_and_repository'}
 
-# What a data-type answer (questions/data-type.json) means in FAIRsharing terms:
-# words that occur in the subjects, domains, name or description of a record.
-DATA_TYPE_WORDS = {
-    'spectra': ['spectr', 'nmr', 'mass spec', 'infrared'],
-    'crystal-structures': ['crystal', 'diffraction'],
-    'computational': ['computational chem', 'quantum', 'molecular dynamics', 'simulation'],
-    'compounds': ['compound', 'chemical structure', 'reaction', 'small molecule',
-                  'cheminformatics', 'chemoinformatics'],
-    'assays': ['assay', 'bioactivity', 'chemical biology', 'screening'],
-    'materials': ['material', 'polymer'],
-    'images': ['image', 'imaging', 'microscop'],
-}
-EU = {
-    'austria', 'belgium', 'bulgaria', 'croatia', 'cyprus', 'czechia', 'czech republic',
-    'denmark', 'estonia', 'finland', 'france', 'germany', 'greece', 'hungary', 'ireland',
-    'italy', 'latvia', 'lithuania', 'luxembourg', 'malta', 'netherlands', 'poland',
-    'portugal', 'romania', 'slovakia', 'slovenia', 'spain', 'sweden',
-}
-
 
 def request(path, payload=None, token=None, method=None):
     headers = {'Accept': 'application/json', 'Content-Type': 'application/json'}
@@ -188,8 +169,6 @@ def process(entry):
         if link.get('linking_record_registry') == 'Policy' and link.get('relation') == 'recommends']
     name = pick(attributes, 'name', metadata_first=True)
     description = pick(attributes, 'description', metadata_first=True)
-    text = ' '.join([name or '', description or '',
-                     *subjects, *domains]).lower()
     item = {
         'id': str(record['id']),
         'name': name,
@@ -214,14 +193,6 @@ def process(entry):
         else 'general',
         'matched_subjects': sorted({q['subject'] for q in entry['queries']}),
     }
-    # Values for the answers of the decision tree, keyed by `answer_key`. Only added
-    # information; nothing of the record above is merged or dropped.
-    item['answers'] = {
-        'data_type': [t for t, words in DATA_TYPE_WORDS.items()
-                      if any(w in text for w in words)],
-        'country': [c.lower() for c in countries],
-        'region_eu': bool(countries) and all(c.lower() in EU for c in countries),
-    }
     return item
 
 
@@ -237,7 +208,6 @@ def coverage(items):
         return sum(1 for i in items if f(i))
     return {
         'records': len(items),
-        'data_type (data-type, discipline)': count(lambda i: i['answers']['data_type']),
         'subjects (discipline)': count(lambda i: i['subjects']),
         'licences (license)': count(lambda i: i['licences']),
         'countries (region, country)': count(lambda i: i['countries']),
