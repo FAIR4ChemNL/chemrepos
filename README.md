@@ -42,6 +42,22 @@ website lists all questions and where they lead to.
 The answers of a visitor are kept in the browser (`sessionStorage`) and shown at the end; matching
 the answers to repositories is not built yet.
 
+## Collecting repositories
+
+```shell
+export FAIRSHARING_USER=... FAIRSHARING_PASSWORD=...   # a FAIRsharing account
+make collect          # query FAIRsharing, write _data/repositories/fairsharing.json
+make collect-cached   # process the answers saved in cache/ by the last run, no login
+```
+
+[scripts/collect_fairsharing.py](scripts/collect_fairsharing.py) searches the FAIRsharing
+database registry for chemistry-related subjects (and for subject-agnostic repositories),
+keeps the records that accept deposits, and stores per repository the subjects, domains,
+countries, licences, access and deposition conditions, organisations and the policies that
+recommend it. The `answers` field of each repository holds values in the vocabulary of the
+decision tree (`data_type`, `license`, `country`); `coverage` counts how many repositories
+give a value for each question.
+
 ## Running it
 
 Requires Python 3.
