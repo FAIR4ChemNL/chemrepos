@@ -1,0 +1,65 @@
+{
+  "title": "Countries",
+  "items": [
+    {
+      "id": "austria",
+      "label": "Austria"
+    },
+    {
+      "id": "belgium",
+      "label": "Belgium"
+    },
+    {
+      "id": "denmark",
+      "label": "Denmark"
+    },
+    {
+      "id": "finland",
+      "label": "Finland"
+    },
+    {
+      "id": "france",
+      "label": "France"
+    },
+    {
+      "id": "germany",
+      "label": "Germany"
+    },
+    {
+      "id": "ireland",
+      "label": "Ireland"
+    },
+    {
+      "id": "italy",
+      "label": "Italy"
+    },
+    {
+      "id": "netherlands",
+      "label": "Netherlands"
+    },
+    {
+      "id": "norway",
+      "label": "Norway"
+    },
+    {
+      "id": "spain",
+      "label": "Spain"
+    },
+    {
+      "id": "sweden",
+      "label": "Sweden"
+    },
+    {
+      "id": "switzerland",
+      "label": "Switzerland"
+    },
+    {
+      "id": "united-kingdom",
+      "label": "United Kingdom"
+    },
+    {
+      "id": "united-states",
+      "label": "United States"
+    }
+  ]
+}

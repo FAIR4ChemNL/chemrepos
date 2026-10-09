@@ -1,0 +1,358 @@
+:root {
+  --bg: #f5f6f8;
+  --card: #ffffff;
+  --text: #1f2933;
+  --muted: #6b7785;
+  --border: #dde1e6;
+  --accent: #2563eb;
+  --code-bg: #f0f2f5;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #14181d;
+    --card: #1d232a;
+    --text: #e6e9ed;
+    --muted: #97a3b0;
+    --border: #2f3842;
+    --accent: #6ea0ff;
+    --code-bg: #262d35;
+  }
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 2rem 1rem;
+  background: var(--bg);
+  color: var(--text);
+  font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+main {
+  max-width: 52rem;
+  margin: 0 auto;
+}
+
+main.wide { max-width: 68rem; }
+
+header { margin-bottom: 1.5rem; }
+
+.topnav {
+  margin-bottom: 1rem;
+  font-size: 0.85rem;
+}
+
+.label {
+  margin: 0;
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+h1 {
+  margin: 0.1rem 0 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}
+
+h2 {
+  margin: 0 0 0.75rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.card h2 + table,
+.card h2 + p { margin-top: 0; }
+.card table + h2,
+.card .smiles + h2,
+.card p + h2 { margin-top: 2rem; }
+
+.description { margin: 0.25rem 0 0; }
+
+.intro { margin: 0 0 1.5rem; }
+
+.card {
+  padding: 1.5rem;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+
+a { color: var(--accent); }
+
+.muted, .note { color: var(--muted); }
+
+.note { margin: 1.5rem 0 0; font-size: 0.9rem; }
+
+/* The front page: three polymers next to each other. */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@media (max-width: 52rem) {
+  .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (max-width: 34rem) {
+  .grid { grid-template-columns: minmax(0, 1fr); }
+}
+
+.tile {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding: 1rem;
+}
+
+.tile h2 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 500;
+  overflow-wrap: anywhere;
+}
+
+.tile h2 a:not(.badge) { color: var(--text); text-decoration: none; }
+.tile h2 a:not(.badge):hover { color: var(--accent); text-decoration: underline; }
+
+.tile h2 .count {
+  margin-left: 0.4rem;
+  vertical-align: 0.1em;
+}
+
+.tile .qid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.3rem;
+  margin: auto 0 0;
+  font-size: 0.8rem;
+}
+
+/* The photos (P18) of a polymer, at most four: on the front page they just
+   fit next to each other; in narrower tiles they wrap. */
+.photos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.3rem;
+}
+
+/* A photo is a 75 by 75 pixel cutout from the middle, so it is cropped
+   rather than squeezed. */
+.photo {
+  flex: none;
+  width: 75px;
+  height: 75px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.photo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Small buttons: the Wikipedia buttons after the QID, one per language,
+   and the number of members after the name of a class of polymers. */
+.badge {
+  padding: 0 0.3rem;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  color: var(--muted);
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+.wiki:first-of-type { margin-left: 0.3rem; }
+
+.badge:hover,
+.badge:focus-visible {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+/* CDK Depict draws black on white, so the depiction keeps a white
+   background in the dark theme too. */
+.depiction {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 4 / 3;
+  padding: 0.5rem;
+  background: #ffffff;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.depiction img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.depiction .muted { color: #6b7785; font-size: 0.9rem; }
+
+.depiction.large {
+  aspect-ratio: auto;
+  min-height: 12rem;
+  max-height: 24rem;
+  margin-bottom: 0.75rem;
+}
+
+.depiction.large img { max-height: 22rem; }
+
+.smiles {
+  display: block;
+  padding: 0.4rem 0.6rem;
+  background: var(--code-bg);
+  border-radius: 4px;
+  font: 0.8rem/1.4 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  overflow-wrap: anywhere;
+}
+
+.card .smiles + .depiction { margin-top: 1rem; }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 0.6rem 0.75rem;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid var(--border);
+  overflow-wrap: anywhere;
+}
+
+thead th {
+  font-size: 0.75rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+tbody th {
+  width: 9rem;
+  font-weight: 500;
+}
+
+tbody tr:last-child th,
+tbody tr:last-child td { border-bottom: 0; }
+
+th.num, td.num {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.properties td { font-size: 0.9rem; }
+
+/* Property names break between words only. */
+.properties td:first-child {
+  min-width: 9rem;
+  overflow-wrap: normal;
+}
+
+.properties td.num {
+  width: 10rem;
+  white-space: normal;
+}
+
+.unit { color: var(--muted); }
+
+.doi { display: block; font-size: 0.85rem; }
+
+@media (max-width: 40rem) {
+  .card { padding: 1rem; }
+  th, td { padding: 0.5rem 0.4rem; }
+
+  /* On small screens every property is a block with labelled lines. */
+  .properties thead { display: none; }
+  .properties tr {
+    display: block;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid var(--border);
+  }
+  .properties tbody tr:last-child { border-bottom: 0; }
+  .properties td,
+  .properties td.num {
+    display: grid;
+    grid-template-columns: 6.5rem minmax(0, 1fr);
+    gap: 0.5rem;
+    width: auto;
+    padding: 0.2rem 0;
+    text-align: left;
+    border: 0;
+  }
+  .properties td::before {
+    content: attr(data-label);
+    color: var(--muted);
+    font-size: 0.8rem;
+  }
+}
+
+/* The polymers in a class, below the card of a polymer page. */
+.members { margin-top: 2rem; }
+.members .intro { margin-bottom: 1rem; }
+
+/* The decision tree. */
+.button {
+  display: inline-block;
+  padding: 0.5rem 1.2rem;
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.options, .results {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.options { display: grid; gap: 0.75rem; }
+
+.option {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  padding: 1rem 1.25rem;
+  color: var(--text);
+  text-decoration: none;
+}
+
+.option:hover, .option:focus-visible { border-color: var(--accent); }
+
+input[type=search] {
+  width: 100%;
+  padding: 0.6rem 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--bg);
+  color: var(--text);
+  font: inherit;
+}
+
+.results { max-height: 22rem; margin-top: 0.75rem; overflow-y: auto; }
+.results li { padding: 0.35rem 0; border-bottom: 1px solid var(--border); }
+.results li[hidden] { display: none; }

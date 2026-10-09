@@ -1,0 +1,9 @@
+{
+  "id": "funder",
+  "type": "search",
+  "answer_key": "funder",
+  "list": "funders",
+  "title": "Which funder?",
+  "placeholder": "Search funders",
+  "next": "institutional-repository"
+}

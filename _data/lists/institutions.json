@@ -1,0 +1,29 @@
+{
+  "title": "Institutions",
+  "items": [
+    {
+      "id": "maastricht-university",
+      "label": "Maastricht University"
+    },
+    {
+      "id": "utrecht-university",
+      "label": "Utrecht University"
+    },
+    {
+      "id": "delft-university-of-technology",
+      "label": "Delft University of Technology"
+    },
+    {
+      "id": "eth-zurich",
+      "label": "ETH Zurich"
+    },
+    {
+      "id": "university-of-cambridge",
+      "label": "University of Cambridge"
+    },
+    {
+      "id": "mit",
+      "label": "MIT"
+    }
+  ]
+}

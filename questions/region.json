@@ -1,0 +1,24 @@
+{
+  "id": "region",
+  "type": "choice",
+  "answer_key": "region",
+  "title": "Must the data be stored in a specific region?",
+  "options": [
+    {
+      "value": "eu",
+      "label": "In the European Union",
+      "next": "cost"
+    },
+    {
+      "value": "country",
+      "label": "In a specific country",
+      "description": "Select the country",
+      "next": "country"
+    },
+    {
+      "value": "no",
+      "label": "No preference",
+      "next": "cost"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block content %}
+    <header>
+      <p class="label">Research data</p>
+      <h1>Find a repository to archive your data</h1>
+    </header>
+    <div class="card">
+      <p>Answer a few questions about your data, and we help you find a repository that suits it.</p>
+      <p><a class="button" href="{{ url_for('app.question', question_id=start.id) }}" data-restart>Start</a></p>
+    </div>
+{% endblock %}

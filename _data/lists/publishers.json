@@ -1,0 +1,54 @@
+{
+  "title": "Publishers",
+  "items": [
+    {
+      "id": "american-chemical-society",
+      "label": "American Chemical Society",
+      "aliases": [
+        "ACS"
+      ]
+    },
+    {
+      "id": "royal-society-of-chemistry",
+      "label": "Royal Society of Chemistry",
+      "aliases": [
+        "RSC"
+      ]
+    },
+    {
+      "id": "elsevier",
+      "label": "Elsevier"
+    },
+    {
+      "id": "springer-nature",
+      "label": "Springer Nature"
+    },
+    {
+      "id": "wiley",
+      "label": "Wiley"
+    },
+    {
+      "id": "mdpi",
+      "label": "MDPI"
+    },
+    {
+      "id": "frontiers",
+      "label": "Frontiers"
+    },
+    {
+      "id": "plos",
+      "label": "PLOS"
+    },
+    {
+      "id": "taylor-and-francis",
+      "label": "Taylor & Francis"
+    },
+    {
+      "id": "iucr",
+      "label": "IUCr",
+      "aliases": [
+        "International Union of Crystallography"
+      ]
+    }
+  ]
+}

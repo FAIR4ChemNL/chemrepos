@@ -1,0 +1,25 @@
+{
+  "id": "funder-requirement",
+  "type": "choice",
+  "answer_key": "funder_requirement",
+  "title": "Does your funder have requirements for where data is archived?",
+  "options": [
+    {
+      "value": "yes",
+      "label": "Yes",
+      "description": "Select the funder",
+      "next": "funder"
+    },
+    {
+      "value": "no",
+      "label": "No",
+      "next": "institutional-repository"
+    },
+    {
+      "value": "unknown",
+      "label": "I do not know",
+      "description": "Check your grant agreement; continue for now",
+      "next": "institutional-repository"
+    }
+  ]
+}

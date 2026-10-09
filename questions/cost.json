@@ -1,0 +1,19 @@
+{
+  "id": "cost",
+  "type": "choice",
+  "answer_key": "cost",
+  "title": "Must archiving be free of charge?",
+  "options": [
+    {
+      "value": "free",
+      "label": "Yes, free only",
+      "next": "results"
+    },
+    {
+      "value": "fee-ok",
+      "label": "A fee is fine",
+      "description": "For example if my funder or institution pays",
+      "next": "results"
+    }
+  ]
+}

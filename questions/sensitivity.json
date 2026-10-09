@@ -1,0 +1,26 @@
+{
+  "id": "sensitivity",
+  "type": "choice",
+  "answer_key": "access",
+  "title": "Can your data be shared openly?",
+  "options": [
+    {
+      "value": "open",
+      "label": "Yes, openly available",
+      "description": "Anyone can download it",
+      "next": "size"
+    },
+    {
+      "value": "embargo",
+      "label": "Yes, after an embargo",
+      "description": "Open after a period",
+      "next": "size"
+    },
+    {
+      "value": "restricted",
+      "label": "Only with restrictions",
+      "description": "Personal, commercial or otherwise sensitive data",
+      "next": "restricted-access"
+    }
+  ]
+}

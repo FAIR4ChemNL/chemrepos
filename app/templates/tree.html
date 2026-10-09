@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% block title %}All questions – Find a data repository{% endblock %}
+{% block content %}
+    <header>
+      <p class="label">Decision tree</p>
+      <h1>All questions</h1>
+    </header>
+    <div class="card">
+      <table>
+        <thead><tr><th>Question</th><th>Type</th><th>Leads to</th></tr></thead>
+        <tbody>
+          {% for q in questions %}
+          <tr>
+            <td><a href="{{ url_for('app.question', question_id=q.id) }}">{{ q.title }}</a>
+              {% if q.start %}<span class="badge">start</span>{% endif %}
+              <br><span class="muted">{{ q.id }}</span></td>
+            <td>{{ q.type }}</td>
+            <td>{% for option in q.options or [] %}{% if option.next %}{{ option.label }} → {{ option.next }}<br>{% endif %}{% endfor %}
+              {% if q.next %}{% if q.type == 'search' %}selection{% else %}all{% endif %} → {{ q.next }}{% endif %}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+{% endblock %}

@@ -1,0 +1,9 @@
+{
+  "id": "country",
+  "type": "search",
+  "answer_key": "country",
+  "list": "countries",
+  "title": "Which country?",
+  "placeholder": "Search countries",
+  "next": "cost"
+}

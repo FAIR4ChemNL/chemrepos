@@ -1,0 +1,23 @@
+{
+  "id": "persistent-identifier",
+  "type": "choice",
+  "answer_key": "pid",
+  "title": "Do you need a persistent identifier, such as a DOI, for citing the data?",
+  "options": [
+    {
+      "value": "doi",
+      "label": "Yes, a DOI",
+      "next": "region"
+    },
+    {
+      "value": "any",
+      "label": "Any persistent identifier will do",
+      "next": "region"
+    },
+    {
+      "value": "no",
+      "label": "No",
+      "next": "region"
+    }
+  ]
+}

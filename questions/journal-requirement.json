@@ -1,0 +1,25 @@
+{
+  "id": "journal-requirement",
+  "type": "choice",
+  "answer_key": "journal_requirement",
+  "title": "Does the journal or publisher you publish with require or recommend a repository?",
+  "options": [
+    {
+      "value": "yes",
+      "label": "Yes",
+      "description": "Select the publisher",
+      "next": "publisher"
+    },
+    {
+      "value": "no",
+      "label": "No",
+      "next": "funder-requirement"
+    },
+    {
+      "value": "unknown",
+      "label": "I do not know",
+      "description": "Check the data policy of the journal; continue for now",
+      "next": "funder-requirement"
+    }
+  ]
+}

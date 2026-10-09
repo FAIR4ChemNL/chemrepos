@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block title %}Not found – Find a data repository{% endblock %}
+{% block content %}
+    <header>
+      <p class="label">Error 404</p>
+      <h1>No such page</h1>
+    </header>
+    <div class="card">
+      <p>There is no page for this address. <a href="{{ url_for('app.index') }}">Start again</a>.</p>
+    </div>
+{% endblock %}

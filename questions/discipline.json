@@ -1,0 +1,10 @@
+{
+  "id": "discipline",
+  "type": "search",
+  "answer_key": "discipline",
+  "list": "disciplines",
+  "title": "Which discipline does your data belong to?",
+  "help": "Search the list; pick the closest match.",
+  "placeholder": "Search disciplines",
+  "next": "journal-requirement"
+}

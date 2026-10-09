@@ -1,0 +1,45 @@
+{
+  "title": "Disciplines",
+  "items": [
+    {
+      "id": "analytical-chemistry",
+      "label": "Analytical chemistry"
+    },
+    {
+      "id": "biochemistry",
+      "label": "Biochemistry"
+    },
+    {
+      "id": "chemical-engineering",
+      "label": "Chemical engineering"
+    },
+    {
+      "id": "environmental-chemistry",
+      "label": "Environmental chemistry"
+    },
+    {
+      "id": "inorganic-chemistry",
+      "label": "Inorganic chemistry"
+    },
+    {
+      "id": "organic-chemistry",
+      "label": "Organic chemistry"
+    },
+    {
+      "id": "physical-chemistry",
+      "label": "Physical chemistry"
+    },
+    {
+      "id": "polymer-chemistry",
+      "label": "Polymer chemistry"
+    },
+    {
+      "id": "theoretical-chemistry",
+      "label": "Theoretical chemistry"
+    },
+    {
+      "id": "toxicology",
+      "label": "Toxicology"
+    }
+  ]
+}

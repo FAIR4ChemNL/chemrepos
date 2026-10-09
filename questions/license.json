@@ -1,0 +1,28 @@
+{
+  "id": "license",
+  "type": "choice",
+  "answer_key": "license",
+  "title": "Under which license do you want to share the data?",
+  "options": [
+    {
+      "value": "cc0",
+      "label": "CC0 / public domain",
+      "next": "persistent-identifier"
+    },
+    {
+      "value": "cc-by",
+      "label": "CC BY",
+      "next": "persistent-identifier"
+    },
+    {
+      "value": "other-open",
+      "label": "Another open license",
+      "next": "persistent-identifier"
+    },
+    {
+      "value": "undecided",
+      "label": "Not decided yet",
+      "next": "persistent-identifier"
+    }
+  ]
+}

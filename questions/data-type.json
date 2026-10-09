@@ -1,0 +1,57 @@
+{
+  "id": "data-type",
+  "start": true,
+  "type": "choice",
+  "answer_key": "data_type",
+  "title": "What kind of data do you want to archive?",
+  "help": "Choose the type that fits most of your data.",
+  "options": [
+    {
+      "value": "spectra",
+      "label": "Spectra",
+      "description": "NMR, IR, mass spectra and other spectroscopic data",
+      "next": "journal-requirement"
+    },
+    {
+      "value": "crystal-structures",
+      "label": "Crystal structures",
+      "description": "Small-molecule or protein crystallography",
+      "next": "journal-requirement"
+    },
+    {
+      "value": "computational",
+      "label": "Computational chemistry",
+      "description": "Input, output and trajectories of calculations and simulations",
+      "next": "journal-requirement"
+    },
+    {
+      "value": "compounds",
+      "label": "Compounds and reactions",
+      "description": "Structures, synthesis and reaction data",
+      "next": "journal-requirement"
+    },
+    {
+      "value": "assays",
+      "label": "Bioassays and chemical biology",
+      "description": "Activity and screening results",
+      "next": "journal-requirement"
+    },
+    {
+      "value": "materials",
+      "label": "Materials and polymers",
+      "description": "Characterization and properties of materials",
+      "next": "journal-requirement"
+    },
+    {
+      "value": "images",
+      "label": "Images and microscopy",
+      "next": "journal-requirement"
+    },
+    {
+      "value": "other",
+      "label": "Something else",
+      "description": "Tell us which discipline it belongs to",
+      "next": "discipline"
+    }
+  ]
+}

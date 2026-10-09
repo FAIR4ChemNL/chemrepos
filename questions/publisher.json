@@ -1,0 +1,9 @@
+{
+  "id": "publisher",
+  "type": "search",
+  "answer_key": "publisher",
+  "list": "publishers",
+  "title": "Which publisher?",
+  "placeholder": "Search publishers",
+  "next": "funder-requirement"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "restricted-access",
+  "type": "choice",
+  "answer_key": "restricted_reason",
+  "title": "Why can the data not be open?",
+  "options": [
+    {
+      "value": "personal",
+      "label": "It contains personal data",
+      "next": "size"
+    },
+    {
+      "value": "commercial",
+      "label": "Commercial or intellectual property reasons",
+      "next": "size"
+    },
+    {
+      "value": "security",
+      "label": "Safety or security concerns",
+      "next": "size"
+    },
+    {
+      "value": "agreement",
+      "label": "A data sharing agreement limits it",
+      "next": "size"
+    }
+  ]
+}

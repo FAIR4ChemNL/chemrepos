@@ -1,0 +1,60 @@
+{
+  "title": "Funders",
+  "items": [
+    {
+      "id": "european-commission-(horizon-europe)",
+      "label": "European Commission (Horizon Europe)"
+    },
+    {
+      "id": "european-research-council",
+      "label": "European Research Council"
+    },
+    {
+      "id": "nwo",
+      "label": "NWO",
+      "aliases": [
+        "Dutch Research Council"
+      ]
+    },
+    {
+      "id": "dfg",
+      "label": "DFG",
+      "aliases": [
+        "Deutsche Forschungsgemeinschaft"
+      ]
+    },
+    {
+      "id": "ukri",
+      "label": "UKRI"
+    },
+    {
+      "id": "nsf",
+      "label": "NSF",
+      "aliases": [
+        "National Science Foundation"
+      ]
+    },
+    {
+      "id": "nih",
+      "label": "NIH",
+      "aliases": [
+        "National Institutes of Health"
+      ]
+    },
+    {
+      "id": "wellcome-trust",
+      "label": "Wellcome Trust"
+    },
+    {
+      "id": "snsf",
+      "label": "SNSF",
+      "aliases": [
+        "Swiss National Science Foundation"
+      ]
+    },
+    {
+      "id": "anr",
+      "label": "ANR"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "institution",
+  "type": "search",
+  "answer_key": "institution",
+  "list": "institutions",
+  "title": "Which institution?",
+  "placeholder": "Search institutions",
+  "next": "sensitivity"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "institutional-repository",
+  "type": "choice",
+  "answer_key": "institutional_repository",
+  "title": "Does your institution offer a data repository?",
+  "options": [
+    {
+      "value": "yes",
+      "label": "Yes",
+      "description": "Select your institution",
+      "next": "institution"
+    },
+    {
+      "value": "no",
+      "label": "No",
+      "next": "sensitivity"
+    },
+    {
+      "value": "unknown",
+      "label": "I do not know",
+      "next": "sensitivity"
+    }
+  ]
+}

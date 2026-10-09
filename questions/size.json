@@ -1,0 +1,29 @@
+{
+  "id": "size",
+  "type": "choice",
+  "answer_key": "size",
+  "title": "How large is your dataset?",
+  "options": [
+    {
+      "value": "small",
+      "label": "Less than 1 GB",
+      "next": "license"
+    },
+    {
+      "value": "medium",
+      "label": "1 GB to 50 GB",
+      "next": "license"
+    },
+    {
+      "value": "large",
+      "label": "50 GB to 1 TB",
+      "next": "license"
+    },
+    {
+      "value": "huge",
+      "label": "More than 1 TB",
+      "description": "Few general repositories accept this",
+      "next": "license"
+    }
+  ]
+}

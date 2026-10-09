@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}Find a data repository{% endblock %}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <main>
+    {% block content %}{% endblock %}
+    <footer class="note">
+      <a href="{{ url_for('app.index') }}">Start</a> ·
+      <a href="{{ url_for('app.overview') }}">All questions</a>
+    </footer>
+  </main>
+  <script src="{{ url_for('static', filename='answers.js') }}"></script>
+</body>
+</html>

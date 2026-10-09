@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+{% block title %}{{ question.title }} – Find a data repository{% endblock %}
+{% block content %}
+    <header>
+      <p class="label">{% if question.type == 'end' %}Result{% else %}Question{% endif %}</p>
+      <h1>{{ question.title }}</h1>
+      {% if question.help %}<p class="description">{{ question.help }}</p>{% endif %}
+    </header>
+
+    {% if question.type == 'choice' %}
+    <ul class="options">
+      {% for option in question.options %}
+      <li><a class="card option" href="{{ url_for('app.question', question_id=option.next or question.next) }}"
+             data-key="{{ question.answer_key }}" data-value="{{ option.value }}" data-label="{{ option.label }}">
+        <strong>{{ option.label }}</strong>
+        {% if option.description %}<span class="muted">{{ option.description }}</span>{% endif %}
+      </a></li>
+      {% endfor %}
+    </ul>
+    {% elif question.type == 'search' %}
+    <div class="card">
+      <input type="search" id="filter" placeholder="{{ question.placeholder or 'Type to search' }}" autocomplete="off" autofocus>
+      <ul class="results" id="results">
+        {% for item in items %}
+        <li><a href="{{ url_for('app.question', question_id=item.next or question.next) }}"
+               data-key="{{ question.answer_key }}" data-value="{{ item.id }}" data-label="{{ item.label }}"
+               data-search="{{ ([item.label] + item.get('aliases', []))|join(' ')|lower }}">{{ item.label }}</a></li>
+        {% endfor %}
+      </ul>
+      {% for option in question.options or [] %}
+      <p><a href="{{ url_for('app.question', question_id=option.next or question.next) }}"
+            data-key="{{ question.answer_key }}" data-value="{{ option.value }}" data-label="{{ option.label }}">{{ option.label }}</a></p>
+      {% endfor %}
+    </div>
+    {% else %}
+    <div class="card">
+      <p>Your answers:</p>
+      <ul id="answers"></ul>
+      <p class="muted">The list of matching repositories is not yet available.</p>
+    </div>
+    {% endif %}
+{% endblock %}
