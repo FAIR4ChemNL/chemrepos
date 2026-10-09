@@ -160,25 +160,9 @@ def pick(attributes, *keys, metadata_first=False):
     return None
 
 
-def licence_class(name):
-    n = name.lower()
-    if 'cc0' in n or 'public domain' in n or 'zero' in n:
-        return 'cc0'
-    if ('cc by' in n or 'creative commons attribution' in n) and not any(
-            w in n for w in ('-nc', ' nc', 'noncommercial', 'non-commercial', '-nd', ' nd')):
-        return 'cc-by' if '-sa' not in n and ' sa' not in n else 'other-open'
-    if 'public domain' in n or 'pddl' in n:
-        return 'cc0'
-    if any(w in n for w in ('creative commons', 'open data commons', 'odbl', 'apache',
-                            'gpl', 'bsd', 'mit license', 'open government', 'open licen')):
-        return 'other-open'
-    return 'other'
-
-
 def condition(value):
-    """{'type': 'open', 'notes': ...} as the type: open, partially open, controlled, ..."""
-    kind = (value or {}).get('type')
-    return None if kind in (None, 'not found', 'not applicable') else kind
+    """The access or deposition condition as given: {'type': ..., 'notes': ...}."""
+    return value or None
 
 
 def process(entry):
@@ -188,7 +172,10 @@ def process(entry):
     subjects = names(pick(attributes, 'subjects'))
     domains = names(pick(attributes, 'domains'))
     countries = names(pick(attributes, 'countries'))
-    licences = names(pick(attributes, 'licence_links'))
+    licences = [
+        {'id': l.get('licence_id'), 'name': l.get('licence_name'),
+         'url': l.get('licence_url'), 'relation': l.get('relation')}
+        for l in pick(attributes, 'licence_links') or [] if isinstance(l, dict)]
     organisations = [
         {'name': o.get('organisation_name'), 'types': o.get('organisation_types'),
          'relation': o.get('relation')}
@@ -227,11 +214,11 @@ def process(entry):
         else 'general',
         'matched_subjects': sorted({q['subject'] for q in entry['queries']}),
     }
-    # Values for the answers of the decision tree, keyed by `answer_key`.
+    # Values for the answers of the decision tree, keyed by `answer_key`. Only added
+    # information; nothing of the record above is merged or dropped.
     item['answers'] = {
         'data_type': [t for t, words in DATA_TYPE_WORDS.items()
                       if any(w in text for w in words)],
-        'license': sorted({licence_class(l) for l in licences}),
         'country': [c.lower() for c in countries],
         'region_eu': bool(countries) and all(c.lower() in EU for c in countries),
     }
@@ -252,7 +239,7 @@ def coverage(items):
         'records': len(items),
         'data_type (data-type, discipline)': count(lambda i: i['answers']['data_type']),
         'subjects (discipline)': count(lambda i: i['subjects']),
-        'license (license)': count(lambda i: i['licences']),
+        'licences (license)': count(lambda i: i['licences']),
         'countries (region, country)': count(lambda i: i['countries']),
         'data_access (sensitivity, restricted-access)': count(lambda i: i['data_access']),
         'data_deposition': count(lambda i: i['data_deposition']),

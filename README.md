@@ -55,7 +55,7 @@ database registry for chemistry-related subjects (and for subject-agnostic repos
 keeps the records that accept deposits, and stores per repository the subjects, domains,
 countries, licences, access and deposition conditions, organisations and the policies that
 recommend it. The `answers` field of each repository holds values in the vocabulary of the
-decision tree (`data_type`, `license`, `country`); `coverage` counts how many repositories
+decision tree (`data_type`, `country`, `region_eu`); `coverage` counts how many repositories
 give a value for each question.
 
 ## Running it
