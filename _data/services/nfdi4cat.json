@@ -1,0 +1,314 @@
+{
+  "source": "NFDI4Cat",
+  "url": "https://nfdi4cat.org/nfdi4cat/en/Services.html",
+  "retrieved": "2026-10-10",
+  "items": [
+    {
+      "id": "Repo4Cat",
+      "name": "Repo4Cat",
+      "url": "https://nfdi4cat.org/nfdi4cat/en/Services/Repo4Cat.html",
+      "description": "Repository for data, publications, and documentation developed by and for the community.",
+      "authors": "Volodymyr Kushnarenko",
+      "personas": [
+        "LabCat",
+        "DevCat",
+        "DataCat",
+        "LearnCat",
+        "StewardCat",
+        "LeadCat",
+        "ProcessCat"
+      ],
+      "in_development": false,
+      "links": [
+        {
+          "text": "Click here for Repo4Cat",
+          "url": "https://repository.nfdi4cat.org"
+        },
+        {
+          "text": "NFDI4Cat Demo Repository",
+          "url": "https://demo-repository.nfdi4cat.org"
+        },
+        {
+          "text": "Youtube",
+          "url": "https://www.youtube.com/@nfdi4cat"
+        },
+        {
+          "text": "github",
+          "url": "https://github.com/nfdi4cat/repo4cat"
+        },
+        {
+          "text": "Kanban board",
+          "url": "https://github.com/orgs/nfdi4cat/projects/2"
+        }
+      ],
+      "text": "Click here for Repo4Cat SHORT DESCRIPTION This Central Platform brings everything together in one place – a hub where research can be shared, discovered, and advanced collaboratively. It enables researchers to make their work visible, find relevant information and tools, and connect with others. All in one place: Research data, publications, and studies – transparent, comparable, and no duplicate work. Better collaboration: Cloud-based, direct exchange – results stay findable, accessible, and citable long-term. Full data control: Secure, long-term access and free data management – hosted on German servers with top security. PROBLEM STATEMENT Catalysis research requires a robust, FAIR-compliant infrastructure that enables the storage, sharing, and publication of data using persistent identifiers (PIDs) at scale. To ensure data is findable and reusable, a flexible metadata schema tailored to catalysis, including support for evolving ontologies, is essential. The platform must handle input from diverse sources such as users, ELNs, and laboratory devices. It should provide secure private and public areas to support collaboration between academia and industry, ensure interoperability with existing and future tools, and allow researchers from different institutions to work together seamlessly and cite shared datasets reliably. Click here for Repo4Cat OTHER LINKS NFDI4Cat Demo Repository Youtube Users / Target Audience Whole catalysis community independent from organization. Support Tutorials: regular workshops, integration into „ RDM School of Catalysis“, Youtube videos Documentation: github See Kanban board with a progress on all issues"
+    },
+    {
+      "id": "Voc4Cat",
+      "name": "Voc4Cat",
+      "url": "https://nfdi4cat.org/nfdi4cat/en/Services/Voc4Cat.html",
+      "description": "The first community curated, catalysis-specific vocabulary uniting NFDI4Cat’s tools and services.",
+      "authors": "David Linke",
+      "personas": [
+        "DevCat",
+        "DataCat",
+        "StewardCat"
+      ],
+      "in_development": false,
+      "links": [
+        {
+          "text": "Click here for Voc4Cat",
+          "url": "https://nfdi4cat.github.io/voc4cat/"
+        },
+        {
+          "text": "https://github.com/nfdi4cat/voc4cat",
+          "url": "https://github.com/nfdi4cat/voc4cat"
+        },
+        {
+          "text": "Detailed guidelines",
+          "url": "https://doi.org/10.5281/zenodo.15006962"
+        },
+        {
+          "text": "step-by-step guide",
+          "url": "https://doi.org/10.5281/zenodo.13757350"
+        }
+      ],
+      "text": "Click here for Voc4Cat SHORT DESCRIPTION Voc4cat is a SKOS vocabulary standardizing catalysis concepts, uniting NFDI4Cat’s tools and services. Uniquely identified concepts (URIs) with community-curated definitions. User-friendly contribution via Excel and GitHub. Compliant with the O3 principles: Open data, tools, and infrastructure. PROBLEM STATEMENT The development of shared, machine-readable vocabularies is of utmost importance to FAIRly annotate (meta)data for machine consumption and to facilitate data reuse. In the field of catalysis, no such vocabulary existed which motivated the creation of Voc4Cat and of a user-friendly curation workflow with GitHub and Excel. Click here for Voc4Cat OTHER LINKS https://github.com/nfdi4cat/voc4cat Users / Target Audience Catalysis-community members regardless of hierarchy level and location. Direct users of Voc4Cat and indirect users of Voc4Cat-integrating services. Support Detailed guidelines and a step-by-step guide (both in Zenodo). A home page for everything Voc4Cat-related(vocabulary, guidelines etc.)."
+    },
+    {
+      "id": "Meta4Cat",
+      "name": "Meta4Cat",
+      "url": "https://nfdi4cat.org/nfdi4cat/en/Services/Meta4Cat.html",
+      "description": "Meta4Cat provides a general access point to all digital tools and services.",
+      "authors": "Sonja Schimmler",
+      "personas": [
+        "LabCat",
+        "DevCat",
+        "DataCat",
+        "LearnCat",
+        "StewardCat",
+        "LeadCat",
+        "ProcessCat"
+      ],
+      "in_development": false,
+      "links": [
+        {
+          "text": "Click here for Meta4Cat",
+          "url": "https://meta4cat.fokus.fraunhofer.de"
+        },
+        {
+          "text": "www.gitlab.com/piveau",
+          "url": "https://gitlab.com/piveau"
+        },
+        {
+          "text": "www.piveau.eu",
+          "url": "https://www.piveau.eu"
+        },
+        {
+          "text": "www.doc.piveau.eu",
+          "url": "https://doc.piveau.eu"
+        }
+      ],
+      "text": "Click here for Meta4Cat SHORT DESCRIPTION The service provides a general access point to digital resources, such as articles, data, and software that are relevant to the community. For this purpose, the service integrates different sources, including general repositories (e.g. Zenodo), domain-specific repositories (e.g. NFDI4Cat central repository) and institutional repositories (e.g. BasCat repository). Search and explore digital resources from different sources Access internal knowledge graph via SPARQL endpoint Evaluate quality and FAIRness of digital resources PROBLEM STATEMENT Digital resources, such as articles, data, and software are usually stored in different sources. This makes it hard for researchers to search and explore digital resources that are available. To overcome this challenge, the service integrates different sources. Metadata is harvested and harmonized, and an internal knowledge graph based on the DCAT-AP standard is created. Researchers can access the information via a user interface or via a SPARQL endpoint. Click here for Meta4Cat OTHER LINKS www.gitlab.com/piveau Users / Target Audience Intended users are all researchers in the domain of catalysis-related sciences. Support www.piveau.eu www.doc.piveau.eu"
+    },
+    {
+      "id": "pid4cat",
+      "name": "pid4cat",
+      "url": "https://nfdi4cat.org/nfdi4cat/en/Services/pid4cat.html",
+      "description": "A flexible system that connects data, samples, and software making research easier to find, share, and understand.",
+      "authors": "David Linke",
+      "personas": [
+        "DevCat",
+        "DataCat",
+        "StewardCat"
+      ],
+      "in_development": false,
+      "links": [
+        {
+          "text": "Click here for the GITHUB REPOSITORY",
+          "url": "https://github.com/nfdi4cat/pid4cat-model"
+        },
+        {
+          "text": "Click here for more documentation",
+          "url": "https://nfdi4cat.github.io/pid4cat-model/"
+        }
+      ],
+      "text": "Click here for the GITHUB REPOSITORY Click here for more documentation SHORT DESCRIPTION pid4Cat is a handle-based PID system with a custom API and an underlying LinkML model for PID-related metadata. It provides persistent identifiers for samples, devices, and more, supporting early-stage research and integration from local RDM systems like ELNs to the central data repository Repo4Cat. It enables stable citation, long-term accessibility, and traceability of data, samples, and other digital research objects – across the entire data lifecycle. PROBLEM STATEMENT In catalysis research, managing, sharing and re-using data across various stages and systems is challenging due to the lack of standardized identifiers. This leads to data fragmentation and inefficiencies. pid4Cat addresses this by providing persistent, metadata-rich identifiers that ensure consistent tracking, integration, and accessibility of resources across both central and local RDM systems. Click here for the GITHUB REPOSITORY Click here for more documentation pid4Cat API-access: Not openly available. Please contact us if you are interested."
+    },
+    {
+      "id": "CoreMeta4Cat",
+      "name": "CoreMeta4Cat",
+      "url": "https://nfdi4cat.org/nfdi4cat/en/Services/CoreMeta4Cat.html",
+      "description": "CoreMeta4Cat is a community-driven metadata initiative under NFDI4Cat defining minimum reporting requirements for catalysis research data.",
+      "authors": "Arjun Neyyathala, Franziska Flecken (fmr.), Hendrik Borgelt, Mohammad Khatamirad",
+      "personas": [
+        "DevCat",
+        "DataCat",
+        "StewardCat"
+      ],
+      "in_development": true,
+      "links": [
+        {
+          "text": "Click here for CoreMeta4Cat",
+          "url": "https://nfdi4cat.github.io/CoreMeta4Cat/"
+        },
+        {
+          "text": "https://nfdi4cat.github.io/CoreMeta4Cat/",
+          "url": "https://nfdi4cat.github.io/CoreMeta4Cat/"
+        }
+      ],
+      "text": "Click here for CoreMeta4Cat SHORT DESCRIPTION This activity develops domain-specific metadata standards for catalysis research. Metadata, understood as structured contextual information describing experimental and computational data, is defined to specify minimum reporting requirements for catalysis studies. Based on the controlled vocabulary Voc4Cat, the framework identifies and standardizes the most relevant catalysis-specific metadata fields, enabling machine-readable, interoperable, and FAIR-compliant data documentation. PROBLEM STATEMENT Catalysis data are commonly accompanied by incomplete or weakly structured metadata, limiting reproducibility, interoperability, and reuse. The absence of clearly defined minimum information guidelines leads to heterogeneous reporting practices and ambiguous terminology, which hinder metadata-based data discovery, validation, and automated processing. A technically consistent metadata model, grounded in controlled vocabularies and aligned with FAIR principles, is required to ensure unambiguous semantic representation and effective reuse of catalysis data across digital infrastructures. Click here for CoreMeta4Cat FURTHER LINKS https://nfdi4cat.github.io/CoreMeta4Cat/ USERS / TARGET AUDIENCE Catalysis researchers needing FAIR-compliant metadata for experimental or computational datasets. Repository operators requiring a community-accepted vocabulary for indexing catalysis data. ELN and pipeline developers needing an ontology-grounded schema for catalysis workflows. Support Documentation and example datasets are provided to guide adoption. Community feedback can be submitted directly via the CoreMeta4Cat website. Development is open on GitHub, where issues and contributions are welcome."
+    },
+    {
+      "id": "DCAT_AP_-p-78",
+      "name": "DCAT-AP+",
+      "url": "https://nfdi4cat.org/nfdi4cat/en/Services/DCAT_AP_-p-78.html",
+      "description": "DCAT-AP+ is an extended ontology aligned metadata framework for the description of catalytic experiments.",
+      "authors": "Hendrik Borgelt in Cooperation with Philip Strömert (NFDI4Chem)",
+      "personas": [
+        "DevCat",
+        "DataCat",
+        "StewardCat"
+      ],
+      "in_development": true,
+      "links": [
+        {
+          "text": "Click here for DCAT-AP-PLUS",
+          "url": "http://www.w3id.org/nfdi-de/dcat-ap-plus"
+        },
+        {
+          "text": "Click here for CHEM-DCAT-AP",
+          "url": "http://www.w3id.org/nfdi-de/dcat-ap-plus/chemistry"
+        }
+      ],
+      "text": "Click here for DCAT-AP-PLUS Click here for CHEM-DCAT-AP SHORT DESCRIPTION The NFDI4Chem and NFDI4Cat have joined forces to develop a general metadata model that not only provides information about the file storage itself, but also its content. DCAT-AP⁺ is an extended metadata framework based on the W3C DCAT standard, developed to address the complex contextual relationships in catalysis data. DCAT-AP⁺CatCore is the catalysis-specific profile built upon DCAT-AP⁺, tailored to meet the needs of domain researchers, tools, and data platforms such as Chemotion, CaReD, and Repo4Cat. Supports JSON Schema validation, RDF conversion, and integration with tools like Chemotion, CKAN, and Triple Stores - enabling semi-automated metadata generation and sharing. PROBLEM STATEMENT Current metadata standards like DCAT and schema.org lack the expressiveness to describe complex scientific contexts, data relationships, and provenance. Catalysis researchers need a domain-specific, extensible framework to support FAIR data management and interoperability across platforms. Click here for DCAT-AP-PLUS Click here for CHEM-DCAT-AP The source code will soon be available for download and installation via the NFDI4Cat GitHub repository. Users / Target Audience Ontologists, RDM-specialists, NFDI-members,… Backend developers for ELNs, Repositories, Search engines,... Methods can be applied to other NFDIs/domains"
+    },
+    {
+      "id": "KGLit4Cat",
+      "name": "KGLit4Cat",
+      "url": "https://nfdi4cat.org/nfdi4cat/en/Services/KGLit4Cat.html",
+      "description": "Automated ontology-based creation of knowledge graphs with Natural Language Processing from scientific literature.",
+      "authors": "Alexander Behr",
+      "personas": [
+        "DataCat",
+        "StewardCat"
+      ],
+      "in_development": true,
+      "links": [
+        {
+          "text": "Click here for more Infomation",
+          "url": "https://github.com/AleSteB/CatalysisIE_Knowledge_Graph_Generator"
+        },
+        {
+          "text": "Generating knowledge graphs through text mining of catalysis research related literature. Catalysis Science & Technology.",
+          "url": "https://doi.org/10.1039/D4CY00369A"
+        }
+      ],
+      "text": "Click here for more Infomation SHORT DESCRIPTION This tool enables automated extraction and organization of catalysis research data into a structured, FAIR-compliant knowledge graph. It combines ontology learning and named entity recognition (NER) to extract key information from scientific publications. The system builds on and improves the CatalysisIE model using a new dataset, enhancing precision and recall. The resulting knowledge graph supports user- and machine-readable formats, enabling easy access to relevant catalysis knowledge. Usability is demonstrated through validation on two catalysis datasets and example SPARQL queries for researchers. PROBLEM STATEMENT Catalysis research produces large volumes of unstructured data that are difficult to access, integrate, and reuse. The growing number of publications makes it challenging to efficiently extract relevant knowledge. The community needs automated, FAIR-aligned tools to transform literature into structured, searchable knowledge graphs that support data-driven research. Click here for more Infomation Users / Target Audience Academic and industrial catalysis researchers, data scientists working with chemical and materials data, and Research data managers. Support \" Generating knowledge graphs through text mining of catalysis research related literature. Catalysis Science & Technology. \""
+    },
+    {
+      "id": "OntologyOverview4Cat",
+      "name": "OntologyOverview4Cat",
+      "url": "https://nfdi4cat.org/nfdi4cat/en/Services/OntologyOverview4Cat.html",
+      "description": "A visual guide and structured compilation of the current landscape of ontologies for catalysis.",
+      "authors": "Alexander Sommer-Behr",
+      "personas": [
+        "StewardCat"
+      ],
+      "in_development": true,
+      "links": [
+        {
+          "text": "Click here for more information",
+          "url": "https://github.com/nfdi4cat/Ontology-Overview-of-NFDI4Cat"
+        },
+        {
+          "text": "Ontologies4Cat: investigating the landscape of ontologies for catalysis research data management",
+          "url": "https://doi.org/10.1186/s13321-024-00807-2"
+        }
+      ],
+      "text": "Click here for more information SHORT DESCRIPTION OntologyOverview4Cat is a curated, interactive overview of ontologies relevant to catalysis-related research. It supports both human and machine-readable metadata documentation and provides researchers and developers with a structured entry point into the ontology landscape of NFDI4Cat. Structured overview of catalysis-relevant ontologies, including links, scope, and status. Human- and machine-readable descriptions support reuse, comparison, and integration. Highlights gaps, overlaps, and connections within the catalysis ontology ecosystem. PROBLEM STATEMENT There is currently no structured, domain-specific collection of ontologies available for catalysis research. Metadata in portals like BioPortal or OLS is often incomplete or unsuitable for ontology engineering. Human- and machine-readable metadata documentation is lacking, making reuse and integration difficult. Click here for more information Users / Target Audience Ontologists, RDM-specialists, NFDI-members,… Methods can be applied to other NFDIs/domains Support \" Ontologies4Cat: investigating the landscape of ontologies for catalysis research data management \" GitHub-Issues"
+    },
+    {
+      "id": "BasCat",
+      "name": "BasCat",
+      "url": "https://nfdi4cat.org/nfdi4cat/en/Services/BasCat.html",
+      "description": "A pilot repository for FAIR exchange of data, metadata and interactive data analysis tools.",
+      "authors": "Michael Geske, Mohammad Khatamirad, Sonja Schimmler, Qian Liu, Yue Zhang",
+      "personas": [
+        "DevCat",
+        "StewardCat"
+      ],
+      "in_development": false,
+      "links": [
+        {
+          "text": "Click here for the Repo4BasCat",
+          "url": "http://repo4bascat.fokus.fraunhofer.de"
+        },
+        {
+          "text": "Click here for Tools4BasCat",
+          "url": "http://tools4bascat.fokus.fraunhofer.de"
+        }
+      ],
+      "text": "Click here for the Repo4BasCat Click here for Tools4BasCat SHORT DESCRIPTION This pilot repository provides a secure platform for storing, sharing, and reusing digital research assets. It is tailored to the needs of catalysis researchers and standardized metadata documentation of catalysis. Beyond storage, the repository integrates an interactive toolbox for data visualization and deveopment of predictive models. The Bascat pilot enables researchers to: Securely store data and other digital assets Improve availability and accessibility of research outputs Process and analyze data using interactive, user-friendly tools PROBLEM STATEMENT During the research process, different digital resources, such as articles, data, and software are usually created. To securely store them and to make them available later on, a software solution, namely a repository, is needed. During the research process, data is also often processed and analyzed. To support this, different tools, provided in a toolbox, are of high value. Click here for the Repo4BasCat Click here for Tools4BasCat"
+    },
+    {
+      "id": "SemMan4Cat",
+      "name": "SemMan4Cat",
+      "url": "https://nfdi4cat.org/nfdi4cat/en/Services/SemMan4Cat.html",
+      "description": "SemMan4Cat is the platform for working with semantic metadata in catalysis research.",
+      "authors": "Yuliia Dikova",
+      "personas": [
+        "DevCat",
+        "DataCat",
+        "StewardCat",
+        "LeadCat"
+      ],
+      "in_development": false,
+      "links": [
+        {
+          "text": "Click here for SemMan4Cat",
+          "url": "https://semman4cat.nfdi4cat.org/welcome.html"
+        },
+        {
+          "text": "https://github.com/JuliDikova/SemMan4Cat/issues",
+          "url": "https://github.com/JuliDikova/SemMan4Cat/issues"
+        }
+      ],
+      "text": "Click here for SemMan4Cat SHORT DESCRIPTION SemMan4Cat is a semantic platform for collaborative management, exploration, and publication of scientific knowledge graphs. It provides a unified environment where researchers, data curators, repository users, and external applications interact with the same semantic knowledge graph through context-specific interfaces. The platform supports collaborative editing, semantic visualization, SPARQL querying, provenance-aware graph versioning, fine-grained access control, and repository-integrated semantic exploration while preserving a shared semantic representation. PROBLEM STATEMENT Scientific knowledge graphs are increasingly used throughout the research lifecycle, yet different user groups require fundamentally different ways of interacting with the same semantic data. Existing solutions typically separate collaborative editing, public exploration, and repository integration into independent systems, leading to duplicated functionality and fragmented user experiences. SemMan4Cat addresses this challenge by providing a unified interaction platform that adapts available capabilities to the interaction context while maintaining a single shared knowledge graph. Click here for SemMan4Cat OTHER LINKS GitHub/Issues https://github.com/JuliDikova/SemMan4Cat/issues Users / Target Audience Researchers collaboratively creating, managing, and exploring semantic knowledge graphs. Data curators maintaining semantic metadata, provenance, and publication workflows. Repository users discovering and querying published semantic resources. Support User documentation and example datasets are provided on the project website. Community feedback and feature requests are welcome."
+    },
+    {
+      "id": "RDM+School+of+Catalysis",
+      "name": "RDM School of Catalysis",
+      "url": "https://nfdi4cat.org/nfdi4cat/en/Services/RDM+School+of+Catalysis.html",
+      "description": "The RDM School of Catalysis is a training format to disseminate skills and knowledge for RDM in the catalysis community.",
+      "authors": "Michael Liebau",
+      "personas": [
+        "LearnCat",
+        "StewardCat",
+        "LeadCat"
+      ],
+      "in_development": false,
+      "links": [],
+      "text": "SHORT DESCRIPTION The RDM School of Catalysis is an interactive workshop, that covers all aspects of RDM relevant for catalysis-related research, from creation of data in the lab up to publication and reuse. The modular structure allows for tailored iterations to specific topics, timeframes (up to 2 days) and the target audiences. Realistic case studies and examples rooted in catalytic research processes. Participants gain hands-on experience with RDM tools and services developed within NFDI4Cat, including repositories, metadata standards, and ELN integration. Participants learn how to structure, document, share, and reuse data efficiently—ready to apply in ongoing and future projects. PROBLEM STATEMENT RDM is not yet sufficiently integrated into education in catalysis-related sciences. Existing training is often generic, with few tailored offerings beyond limited regional efforts. As a result, RDM is often seen as a burdensome obligation rather than a valuable research asset, and its benefits remain underappreciated."
+    },
+    {
+      "id": "TRIQ",
+      "name": "TRIQ",
+      "url": "https://nfdi4cat.org/nfdi4cat/en/Services/TRIQ.html",
+      "description": "The smart backbone for connecting and reusing research data structured, searchable, and FAIR.",
+      "authors": "Taras Petrenko",
+      "personas": [
+        "DevCat",
+        "StewardCat"
+      ],
+      "in_development": true,
+      "links": [
+        {
+          "text": "Click here for TRIQ",
+          "url": "https://metadata.nfdi4cat.org/"
+        }
+      ],
+      "text": "Click here for TRIQ SHORT DESCRIPTION TRIQ is a web application that simplifies the creation and management of interlinked research metadata using a triplestore backend. It enables catalysis researchers to produce high-quality, ontology-based metadata without specialized technical knowledge. TRIQ's integration with repositories, triplestore, and PID services provides a holistic solution for catalysis data management TRIQ eliminates the manual effort required to create RDF metadata PROBLEM STATEMENT Catalysis research lacks infrastructure for documenting workflows, describing chemicals, and linking to external data in a semantically rich and interoperable way. Existing systems don’t support RDF data processing or ontology-based models needed for efficient reuse and integration. The source code will soon be available for download and installation via the NFDI4Cat GitHub repository. Click here for TRIQ Users / Target Audience Catalysis Reaserchers Data Managers Interdisciplinary Teams The target audience may include hundreds of researchers and students, as well as industry representatives working in the field of catalysis. Support Training materials, including video tutorials and step-by-step guides Detailed documentation with feature descriptions, installation instructions, and usage examples"
+    }
+  ]
+}
