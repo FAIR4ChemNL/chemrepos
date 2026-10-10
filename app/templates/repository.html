@@ -38,7 +38,7 @@
         {% endfor %}
       </ul>
       {% endif %}
-      {% for source in ['TeSS', 'Taxila'] %}{% if docs[source] %}
+      {% for source in ['TeSS', 'Taxila', 'FAIR4ChemNL'] %}{% if docs[source] %}
       {% for kind, label in [('materials', 'Training materials'), ('events', 'Events')] %}{% if docs[source][kind] %}
       <p><span class="kind docs">{{ source }}</span> {{ label }} ({{ docs[source][kind]|length }})</p>
       <ul class="plain">

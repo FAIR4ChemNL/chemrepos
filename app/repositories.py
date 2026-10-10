@@ -15,7 +15,7 @@ from .tree import ROOT
 REPOSITORIES = ROOT / '_data' / 'repositories'
 SERVICES = ROOT / '_data' / 'services'
 DOCUMENTATION = ROOT / '_data' / 'documentation'
-DOCUMENTATION_SOURCES = ('bio.tools', 'TeSS', 'Taxila')
+DOCUMENTATION_SOURCES = ('bio.tools', 'TeSS', 'Taxila', 'FAIR4ChemNL')
 
 # Words in the subjects, name or description that suggest a type of data.
 DATA_TYPE_WORDS = {

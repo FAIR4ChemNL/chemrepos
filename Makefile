@@ -1,6 +1,6 @@
 PYTHON ?= venv/bin/python
 
-.PHONY: all check build serve test clean venv collect collect-cached collect-nfdi4cat collect-nfdi4chem collect-elixir collect-biotools collect-tess collect-taxila collect-documentation
+.PHONY: all check build serve test clean venv collect collect-cached collect-nfdi4cat collect-nfdi4chem collect-elixir collect-biotools collect-tess collect-taxila collect-fair4chemnl collect-documentation
 
 all: build
 
@@ -46,7 +46,11 @@ collect-tess:
 collect-taxila:
 	$(PYTHON) scripts/collect_taxila.py
 
-collect-documentation: collect-biotools collect-tess collect-taxila
+# The materials of FAIR4ChemNL (from their repository on GitHub).
+collect-fair4chemnl:
+	$(PYTHON) scripts/collect_fair4chemnl.py
+
+collect-documentation: collect-biotools collect-tess collect-taxila collect-fair4chemnl
 
 # Write the static website to build/, for GitHub Pages.
 build: check

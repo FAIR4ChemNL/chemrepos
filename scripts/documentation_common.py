@@ -27,7 +27,7 @@ TESS_LIKE = {'TeSS': 'https://tess.elixir-europe.org', 'Taxila': 'https://taxila
 KINDS = ('materials', 'events')
 PAGE_SIZE = 100
 MIN_TERM = 4  # shorter names and abbreviations match too much by accident
-ORDINARY = 25  # a word that is written in lower case this often in the entries is not a name
+ORDINARY = 25  # a word written in lower case this often (and more often than as a name) is not a name
 
 
 def arguments(description):
@@ -99,16 +99,17 @@ def tess_entries(source, kind, from_cache, pause):
 
 
 def lower_case_words():
-    """How often each word is written in lower case in the titles and descriptions of the
-    cached entries of TeSS and Taxila together."""
+    """How often each word is written, exactly like that, in the titles and descriptions
+    of the cached entries of TeSS and Taxila together (not counting the web addresses)."""
     counts = Counter()
     for source in TESS_LIKE:
         for kind in KINDS:
             for path in sorted((CACHE / source / kind).glob('*.json')):
                 for entry in json.loads(path.read_text(encoding='utf-8'))['data']:
                     a = entry['attributes']
-                    counts.update(re.findall(
-                        r'\b[a-z]{3,}\b', f"{a.get('title') or ''} {a.get('description') or ''}"))
+                    text = f"{a.get('title') or ''} {a.get('description') or ''}"
+                    text = re.sub(r'\S*(https?://|www\.)\S*', ' ', text)  # a name in a link is not a word
+                    counts.update(re.findall(r'\b[A-Za-z]{3,}\b', text))
     return counts
 
 
@@ -116,12 +117,13 @@ def terms(repo, words):
     """The names a repository is known by, that are long enough to search for.
 
     They are searched exactly as written (CORE is not core), and a single word that is
-    also an ordinary word (Discovery, Core, Discover) is not searched for.
+    also an ordinary word (Discovery, Core, Discover) is not searched for: a word is
+    ordinary when it is written in lower case often, and more often than as the name.
     """
     found = {}
     for name in (repo['name'], repo['abbreviation']):
         name = (name or '').strip()
-        if len(name) < MIN_TERM or (' ' not in name and words[name.lower()] >= ORDINARY):
+        if len(name) < MIN_TERM or (' ' not in name and ORDINARY <= words[name.lower()] >= words[name]):
             continue
         found[name] = re.compile(r'(?<!\w)' + re.escape(name) + r'(?!\w)')
     return found

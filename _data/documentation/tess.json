@@ -18,6 +18,564 @@
     }
    ]
   },
+  "fairsharing-2358": {
+   "materials": [
+    {
+     "id": "12550",
+     "title": "E-PAN Workshop 2026 | Enhancing Pan-Genome Analysis in Plants | Zenodo",
+     "url": "https://tess.elixir-europe.org/materials/e-pan-workshop-2026-enhancing-pan-genome-analysis-in-plants-zenodo",
+     "start": null,
+     "matched_on": "text"
+    },
+    {
+     "id": "5165",
+     "title": "Uploading Data to Zenodo from Galaxy",
+     "url": "https://tess.elixir-europe.org/materials/uploading-data-to-zenodo-from-galaxy",
+     "start": null,
+     "matched_on": "text"
+    },
+    {
+     "id": "5068",
+     "title": "Manual curation of bird microchromosomes with HiC and gene mapping | Zenodo",
+     "url": "https://tess.elixir-europe.org/materials/manual-curation-of-bird-microchromosomes-with-hic-and-gene-mapping",
+     "start": null,
+     "matched_on": "text"
+    },
+    {
+     "id": "5059",
+     "title": "Citizen Science Toolkit for biodiversity scientists | Zenodo",
+     "url": "https://tess.elixir-europe.org/materials/citizen-science-toolkit-for-biodiversity-scientists",
+     "start": null,
+     "matched_on": "text"
+    },
+    {
+     "id": "4999",
+     "title": "Data Repositories for Bioinformatics",
+     "url": "https://tess.elixir-europe.org/materials/data-repositories-for-bioinformatics",
+     "start": null,
+     "matched_on": "text"
+    },
+    {
+     "id": "4830",
+     "title": "Biodiversity Literature Repository Factsheet",
+     "url": "https://tess.elixir-europe.org/materials/biodiversity-literature-repository-factsheet",
+     "start": null,
+     "matched_on": "text"
+    },
+    {
+     "id": "4829",
+     "title": "Biodiversity Literature Repository - Presentation",
+     "url": "https://tess.elixir-europe.org/materials/biodiversity-literature-repository-presentation",
+     "start": null,
+     "matched_on": "text"
+    },
+    {
+     "id": "4381",
+     "title": "Make Your Research FAIRer with Quarto, GitHub and Zenodo",
+     "url": "https://tess.elixir-europe.org/materials/make-your-research-fairer-with-quarto-github-and-zenodo",
+     "start": null,
+     "matched_on": "text"
+    }
+   ],
+   "events": [
+    {
+     "id": "53369",
+     "title": "Make Your Research FAIRer with Quarto, GitHub and Zenodo",
+     "url": "https://tess.elixir-europe.org/events/make-your-research-fairer-with-quarto-github-and-zenodo-f5b83423-ffa4-42d1-964b-ba9d32c9fb07",
+     "start": "2026-07-08T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "52668",
+     "title": "Workflow Languages & Workflow Deposition for FAIRMD",
+     "url": "https://tess.elixir-europe.org/events/workflow-languages-workflow-deposition-for-fairmd",
+     "start": "2025-10-23T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "51890",
+     "title": "Make Your Research FAIRer with Quarto, GitHub and Zenodo",
+     "url": "https://tess.elixir-europe.org/events/make-your-research-fairer-with-quarto-github-and-zenodo-85a00313-8ba4-4526-b061-618f8b1d82d0",
+     "start": "2025-07-08T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "51211",
+     "title": "Make Your Research FAIRer with Quarto, GitHub and Zenodo",
+     "url": "https://tess.elixir-europe.org/events/make-your-research-fairer-with-quarto-github-and-zenodo-363b0329-ac90-41e8-906b-55ff8a10d1fb",
+     "start": "2024-07-12T09:00:00.000Z",
+     "matched_on": "text"
+    }
+   ]
+  },
+  "fairsharing-2667": {
+   "materials": [
+    {
+     "id": "5488",
+     "title": "Agentic Coding with GitHub Copilot",
+     "url": "https://tess.elixir-europe.org/materials/agentic-coding-with-github-copilot",
+     "start": null,
+     "matched_on": "text"
+    },
+    {
+     "id": "4854",
+     "title": "Contributing to the Galaxy Training Network with GitHub",
+     "url": "https://tess.elixir-europe.org/materials/contributing-to-the-galaxy-training-network-with-github",
+     "start": null,
+     "matched_on": "text"
+    },
+    {
+     "id": "4842",
+     "title": "FEGA Metadata Technical Deep Dive",
+     "url": "https://tess.elixir-europe.org/materials/fega-metadata-technical-deep-dive",
+     "start": null,
+     "matched_on": "text"
+    },
+    {
+     "id": "4709",
+     "title": "GTN Smörgåsbord 3: FAIR data and provenance with RO-Crate and Galaxy - Building RO-Crates - An overview of the RO-Crate concept and its implementations",
+     "url": "https://tess.elixir-europe.org/materials/gtn-smorgasbord-3-fair-data-and-provenance-with-ro-crate-and-galaxy-building-ro-crates-an-overview-of-the-ro-crate-concept-and-its-implementations",
+     "start": null,
+     "matched_on": "text"
+    },
+    {
+     "id": "4686",
+     "title": "Running the GTN website online using GitHub CodeSpaces",
+     "url": "https://tess.elixir-europe.org/materials/running-the-gtn-website-online-using-github-codespaces",
+     "start": null,
+     "matched_on": "text"
+    },
+    {
+     "id": "4685",
+     "title": "Version Control with Git",
+     "url": "https://tess.elixir-europe.org/materials/version-control-with-git-b34740bd-0d39-4962-95ef-c125071017be",
+     "start": null,
+     "matched_on": "text"
+    },
+    {
+     "id": "4381",
+     "title": "Make Your Research FAIRer with Quarto, GitHub and Zenodo",
+     "url": "https://tess.elixir-europe.org/materials/make-your-research-fairer-with-quarto-github-and-zenodo",
+     "start": null,
+     "matched_on": "text"
+    },
+    {
+     "id": "4373",
+     "title": "Introducción a Git y GitHub",
+     "url": "https://tess.elixir-europe.org/materials/introduccion-a-git-y-github",
+     "start": null,
+     "matched_on": "text"
+    },
+    {
+     "id": "3631",
+     "title": "Introduction to Data Management Practices - Versioning of data and code using Git",
+     "url": "https://tess.elixir-europe.org/materials/introduction-to-data-management-practices-versioning-of-data-and-code-using-git",
+     "start": null,
+     "matched_on": "text"
+    },
+    {
+     "id": "3533",
+     "title": "Best practices for workflows in GitHub repositories",
+     "url": "https://tess.elixir-europe.org/materials/hands-on-for-best-practices-for-workflows-in-github-repositories-tutorial",
+     "start": null,
+     "matched_on": "text"
+    },
+    {
+     "id": "3191",
+     "title": "PDBe tools in GitHub",
+     "url": "https://tess.elixir-europe.org/materials/pdbe-tools-in-github",
+     "start": null,
+     "matched_on": "text"
+    },
+    {
+     "id": "2844",
+     "title": "Contributing with GitHub via command-line",
+     "url": "https://tess.elixir-europe.org/materials/hands-on-for-contributing-with-github-via-command-line-tutorial",
+     "start": null,
+     "matched_on": "text"
+    },
+    {
+     "id": "2837",
+     "title": "Contributing with GitHub via its interface",
+     "url": "https://tess.elixir-europe.org/materials/hands-on-for-contributing-with-github-via-its-interface-tutorial",
+     "start": null,
+     "matched_on": "text"
+    },
+    {
+     "id": "2615",
+     "title": "Contributing with GitHub via command-line",
+     "url": "https://tess.elixir-europe.org/materials/slides-for-contributing-with-github-via-command-line-tutorial",
+     "start": null,
+     "matched_on": "text"
+    },
+    {
+     "id": "2503",
+     "title": "Adding Schema.org to a GitHub Pages site",
+     "url": "https://tess.elixir-europe.org/materials/adding-schema-org-to-a-github-pages-site-deb50140-9274-4c87-9eda-5361cb287e71",
+     "start": null,
+     "matched_on": "text"
+    },
+    {
+     "id": "1919",
+     "title": "Introduction to GitHub",
+     "url": "https://tess.elixir-europe.org/materials/introduction-to-github",
+     "start": null,
+     "matched_on": "text"
+    },
+    {
+     "id": "1918",
+     "title": "Beginners introduction to Git and GitHub",
+     "url": "https://tess.elixir-europe.org/materials/beginners-introduction-to-git-and-github",
+     "start": null,
+     "matched_on": "text"
+    },
+    {
+     "id": "1748",
+     "title": "Adding schema.org to a GitHub Pages site",
+     "url": "https://tess.elixir-europe.org/materials/adding-schema-org-to-a-github-pages-site",
+     "start": null,
+     "matched_on": "text"
+    },
+    {
+     "id": "1567",
+     "title": "Introduction to GitHub for chemists",
+     "url": "https://tess.elixir-europe.org/materials/introduction-to-github-for-chemists",
+     "start": null,
+     "matched_on": "text"
+    },
+    {
+     "id": "1370",
+     "title": "Contributing to the Galaxy Training Material - Contributing with GitHub via its interface",
+     "url": "https://tess.elixir-europe.org/materials/contributing-to-the-galaxy-training-material-contributing-with-github-via-its-interface",
+     "start": null,
+     "matched_on": "text"
+    },
+    {
+     "id": "1358",
+     "title": "Contributing to the Galaxy Training Material - Contributing with GitHub via command-line",
+     "url": "https://tess.elixir-europe.org/materials/contributing-to-the-galaxy-training-material-contributing-with-github-via-command-line",
+     "start": null,
+     "matched_on": "text"
+    }
+   ],
+   "events": [
+    {
+     "id": "53360",
+     "title": "Agentic coding with GitHub Copilot",
+     "url": "https://tess.elixir-europe.org/events/agentic-coding-with-github-copilot-4d591cc9-773b-42ae-9e23-c4bbff4705e6",
+     "start": "2026-12-03T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "53388",
+     "title": "Versioning code and documentation with Git & GitHub",
+     "url": "https://tess.elixir-europe.org/events/versioning-code-and-documentation-with-git-github-7139aa7c-348b-456b-bc92-66ff9c0be722",
+     "start": "2026-11-05T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "53663",
+     "title": "Git, GitHub & Collaborative Coding - CodeRefinery Workshop",
+     "url": "https://tess.elixir-europe.org/events/git-github-collaborative-coding-coderefinery-workshop",
+     "start": "2026-09-22T10:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "53369",
+     "title": "Make Your Research FAIRer with Quarto, GitHub and Zenodo",
+     "url": "https://tess.elixir-europe.org/events/make-your-research-fairer-with-quarto-github-and-zenodo-f5b83423-ffa4-42d1-964b-ba9d32c9fb07",
+     "start": "2026-07-08T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "53257",
+     "title": "PDBe tools in GitHub",
+     "url": "https://tess.elixir-europe.org/events/pdbe-tools-in-github-12eecde2-c68d-4721-96e5-dbee424d9147",
+     "start": "2026-06-10T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "53046",
+     "title": "Agentic Coding with GitHub Copilot",
+     "url": "https://tess.elixir-europe.org/events/agentic-coding-with-github-copilot",
+     "start": "2026-05-21T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "52928",
+     "title": "Versioning code and documentation with Git & GitHub",
+     "url": "https://tess.elixir-europe.org/events/versioning-code-and-documentation-with-git-github",
+     "start": "2026-04-27T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "53224",
+     "title": "Git, GitHub & Collaborative Coding - CodeRefinery Workshop (Sep 9-11)",
+     "url": "https://tess.elixir-europe.org/events/git-github-collaborative-coding-coderefinery-workshop-sep-9-11",
+     "start": "2026-03-17T10:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "52379",
+     "title": "Introduction to Git & GitHub",
+     "url": "https://tess.elixir-europe.org/events/introduction-to-git-github-39836a1e-23bb-428c-9036-1bfb0d9f9150",
+     "start": "2025-10-09T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "51890",
+     "title": "Make Your Research FAIRer with Quarto, GitHub and Zenodo",
+     "url": "https://tess.elixir-europe.org/events/make-your-research-fairer-with-quarto-github-and-zenodo-85a00313-8ba4-4526-b061-618f8b1d82d0",
+     "start": "2025-07-08T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "52126",
+     "title": "Introduction to Git & GitHub",
+     "url": "https://tess.elixir-europe.org/events/introduction-to-git-github-f2d0a7e1-f573-4707-9903-7b4f49a056d7",
+     "start": "2025-03-10T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "51459",
+     "title": "Introduction to Git & GitHub",
+     "url": "https://tess.elixir-europe.org/events/introduction-to-git-github-0882c4d7-b362-48cd-9c25-83325d7df09e",
+     "start": "2024-11-06T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "51377",
+     "title": "Introduction to Git & GitHub",
+     "url": "https://tess.elixir-europe.org/events/introduction-to-git-github-ff3d4498-f0be-452e-b179-fb219c05b888",
+     "start": "2024-09-05T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "51211",
+     "title": "Make Your Research FAIRer with Quarto, GitHub and Zenodo",
+     "url": "https://tess.elixir-europe.org/events/make-your-research-fairer-with-quarto-github-and-zenodo-363b0329-ac90-41e8-906b-55ff8a10d1fb",
+     "start": "2024-07-12T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "50531",
+     "title": "Introduction to Git & GitHub",
+     "url": "https://tess.elixir-europe.org/events/introduction-to-git-github-652d1098-9d73-4251-a834-8b6599ecd44a",
+     "start": "2024-05-16T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "50714",
+     "title": "Introduction to Git & GitHub",
+     "url": "https://tess.elixir-europe.org/events/introduction-to-git-github-bc84f4c8-3d9f-4d74-81e0-684f9d3e2a99",
+     "start": "2024-02-29T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "50530",
+     "title": "Introduction to Git & GitHub",
+     "url": "https://tess.elixir-europe.org/events/introduction-to-git-github-995aeedb-8117-407c-ae53-813e3707da4f",
+     "start": "2024-02-29T00:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "50382",
+     "title": "Version Control with Git - RStudio",
+     "url": "https://tess.elixir-europe.org/events/version-control-with-git-rstudio",
+     "start": "2023-12-05T11:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "50089",
+     "title": "Introduction to Git version control system & GitHub",
+     "url": "https://tess.elixir-europe.org/events/introduction-to-git-github-14b8f0d0-dca7-42b2-935b-47abeafe8f3a",
+     "start": "2023-09-11T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "49950",
+     "title": "Introduction to Git & GitHub - Brasil",
+     "url": "https://tess.elixir-europe.org/events/introduction-to-git-github-brasil",
+     "start": "2023-07-31T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "49952",
+     "title": "Introduction to Git & GitHub",
+     "url": "https://tess.elixir-europe.org/events/introduction-to-git-github-645cea35-143a-46f1-8684-4b7f8916e53e",
+     "start": "2023-05-16T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "49786",
+     "title": "Introduction to Git & GitHub",
+     "url": "https://tess.elixir-europe.org/events/introduction-to-git-github-0853443c-d724-4bcf-b43c-eb6e1eb5ca3c",
+     "start": "2023-02-08T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "48826",
+     "title": "Introduction to Git & GitHub",
+     "url": "https://tess.elixir-europe.org/events/introduction-to-git-github-8940e2af-04a9-4656-b96a-e95dc30d4469",
+     "start": "2022-09-13T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "49193",
+     "title": "Introduction to Git & GitHub",
+     "url": "https://tess.elixir-europe.org/events/introduction-to-git-github-3c550d82-18af-4442-8d04-60017dc9dea0",
+     "start": "2022-06-17T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "48463",
+     "title": "Introduction to Data Management Practices",
+     "url": "https://tess.elixir-europe.org/events/introduction-to-data-management-practices-ffc7d385-8b7c-4dde-a745-0107719ba6ff",
+     "start": "2022-04-05T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "48236",
+     "title": "Introduction to Data Management Practices",
+     "url": "https://tess.elixir-europe.org/events/introduction-to-data-management-practices-29420eae-4e0c-4d6a-b4a0-bee55cf29fd2",
+     "start": "2021-10-12T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "12912",
+     "title": "Introduction to Git & GitHub",
+     "url": "https://tess.elixir-europe.org/events/introduction-to-git-github-73610533-f1f3-4840-bfd3-406c9a90f33f",
+     "start": "2021-05-11T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "49075",
+     "title": "Introduction to Git & GitHub",
+     "url": "https://tess.elixir-europe.org/events/introduction-to-git-github-14b7100f-47c4-49d3-b75f-c33e0486d876",
+     "start": "2021-05-11T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "53306",
+     "title": "Skill-up: GitHub tutorial for beginners",
+     "url": "https://tess.elixir-europe.org/events/skill-up-github-tutorial-for-beginners-5bafbb3c-8faa-4e03-baf1-6874228828dc",
+     "start": "2021-03-10T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "12251",
+     "title": "Introduction to Git & GitHub",
+     "url": "https://tess.elixir-europe.org/events/introduction-to-git-github-tbc-autumn",
+     "start": "2020-12-10T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "49025",
+     "title": "Introduction to Git & GitHub",
+     "url": "https://tess.elixir-europe.org/events/introduction-to-git-github-e23b7351-1ac4-4286-bdbd-9c980099ff90",
+     "start": "2020-12-10T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "12536",
+     "title": "BioHackathon Europe",
+     "url": "https://tess.elixir-europe.org/events/biohackathon-europe",
+     "start": "2020-11-09T09:30:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "12309",
+     "title": "PDBe tools in GitHub",
+     "url": "https://tess.elixir-europe.org/events/pdbe-tools-in-github",
+     "start": "2020-10-13T15:30:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "49347",
+     "title": "PDBe tools in GitHub",
+     "url": "https://tess.elixir-europe.org/events/pdbe-tools-in-github-ab4458b9-c70c-4e0a-a8fd-985d7c5cb43f",
+     "start": "2020-10-13T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "53295",
+     "title": "Skill-up: GitHub tutorial for beginners",
+     "url": "https://tess.elixir-europe.org/events/skill-up-github-tutorial-for-beginners",
+     "start": "2020-10-01T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "11421",
+     "title": "Introduction to Git & GitHub",
+     "url": "https://tess.elixir-europe.org/events/introduction-to-git-github-fb8f30cf-2699-400d-a699-5822a2d9f825",
+     "start": "2020-06-19T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "48968",
+     "title": "Introduction to Git & GitHub",
+     "url": "https://tess.elixir-europe.org/events/introduction-to-git-github-e1f294c7-f40c-4a7e-979c-304493931eed",
+     "start": "2020-06-19T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "53316",
+     "title": "GitHub Tutorial",
+     "url": "https://tess.elixir-europe.org/events/github-tutorial",
+     "start": "2020-02-19T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "11090",
+     "title": "Introduction to Git & GitHub",
+     "url": "https://tess.elixir-europe.org/events/introduction-to-git-github",
+     "start": "2019-11-07T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "48924",
+     "title": "Introduction to Git & GitHub",
+     "url": "https://tess.elixir-europe.org/events/introduction-to-git-github-f0ef50f9-a2ee-4839-a27a-b978ee7828e1",
+     "start": "2019-11-07T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "11602",
+     "title": "Introduction to GitHub",
+     "url": "https://tess.elixir-europe.org/events/introduction-to-github",
+     "start": "2019-09-26T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "10201",
+     "title": "Software Carpentry workshop \"R for Reproducible Scientific Analysis\"",
+     "url": "https://tess.elixir-europe.org/events/software-carpentry-workshop-r-for-reproducible-scientific-analysis",
+     "start": "2019-06-06T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "7913",
+     "title": "Version Control and Collaboration with Git and GitHub",
+     "url": "https://tess.elixir-europe.org/events/version-control-and-collaboration-with-git-and-github",
+     "start": "2018-04-19T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "7265",
+     "title": "Software Carpentry - Reproducible science with R, RStudio, and GitHub at MBARI",
+     "url": "https://tess.elixir-europe.org/events/software-carpentry-reproducible-science-with-r-rstudio-and-github-at-mbari",
+     "start": "2017-11-30T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "3037",
+     "title": "Open source science with Git and GitHub",
+     "url": "https://tess.elixir-europe.org/events/open-source-science-with-git-and-github",
+     "start": "2016-08-02T09:00:00.000Z",
+     "matched_on": "text"
+    }
+   ]
+  },
   "fairsharing-4319": {
    "materials": [
     {
@@ -1418,6 +1976,31 @@
      "title": "WEBINAR: KBase - A knowledge base for systems biology",
      "url": "https://tess.elixir-europe.org/events/webinar-kbase-a-knowledge-base-for-systems-biology",
      "start": "2021-09-22T09:00:00.000Z",
+     "matched_on": "text"
+    }
+   ]
+  },
+  "fairsharing-2270": {
+   "materials": [
+    {
+     "id": "2144",
+     "title": "Using Europe PMC for effective literature research",
+     "url": "https://tess.elixir-europe.org/materials/using-europe-pmc-for-effective-literature-research",
+     "start": null,
+     "matched_on": "text"
+    },
+    {
+     "id": "1875",
+     "title": "Europe PMC: Services for academic authors",
+     "url": "https://tess.elixir-europe.org/materials/europe-pmc-services-for-academic-authors",
+     "start": null,
+     "matched_on": "text"
+    },
+    {
+     "id": "1566",
+     "title": "Make your academic life easy with ORCID: an introduction",
+     "url": "https://tess.elixir-europe.org/materials/make-your-academic-life-easy-with-orcid-an-introduction",
+     "start": null,
      "matched_on": "text"
     }
    ]

@@ -1,0 +1,158 @@
+{
+ "source": "FAIR4ChemNL",
+ "url": "https://github.com/FAIR4ChemNL/training-material",
+ "retrieved": "2026-10-10",
+ "entries": {
+  "materials": 50
+ },
+ "matches": {
+  "fairsharing-2358": {
+   "materials": [
+    {
+     "id": "5",
+     "title": "Depositing to generic repositories - Zenodo use case",
+     "url": "https://w3id.org/faircookbook/FCB009",
+     "source_file": "https://github.com/FAIR4ChemNL/training-material/blob/main/materials/5.md",
+     "keywords": [
+      "Zenodo",
+      "Data"
+     ],
+     "start": null,
+     "matched_on": "text"
+    },
+    {
+     "id": "14",
+     "title": "How to make your code citable using GitHub and Zenodo",
+     "url": "https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_2.md",
+     "source_file": "https://github.com/FAIR4ChemNL/training-material/blob/main/materials/14.md",
+     "keywords": [
+      "Zenodo",
+      "Software",
+      "Data",
+      "OpenScienceMOOC"
+     ],
+     "start": null,
+     "matched_on": "text"
+    }
+   ]
+  },
+  "fairsharing-1989": {
+   "materials": [
+    {
+     "id": "9",
+     "title": "IUPAC FAIR Chemistry Cookbook",
+     "url": "https://iupac.github.io/WFChemCookbook/intro.html",
+     "source_file": "https://github.com/FAIR4ChemNL/training-material/blob/main/materials/9.md",
+     "keywords": [
+      "IUPAC",
+      "PubChem",
+      "OPSIN"
+     ],
+     "start": null,
+     "matched_on": "text"
+    }
+   ]
+  },
+  "fairsharing-2667": {
+   "materials": [
+    {
+     "id": "14",
+     "title": "How to make your code citable using GitHub and Zenodo",
+     "url": "https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_2.md",
+     "source_file": "https://github.com/FAIR4ChemNL/training-material/blob/main/materials/14.md",
+     "keywords": [
+      "Zenodo",
+      "Software",
+      "Data",
+      "OpenScienceMOOC"
+     ],
+     "start": null,
+     "matched_on": "text"
+    }
+   ]
+  },
+  "fairsharing-2042": {
+   "materials": [
+    {
+     "id": "16",
+     "title": "RSC ChemSpider Webinars",
+     "url": "https://blogs.rsc.org/chemspider/category/webinars/",
+     "source_file": "https://github.com/FAIR4ChemNL/training-material/blob/main/materials/16.md",
+     "keywords": [
+      "rdm-basics",
+      "identifiers",
+      "eln",
+      "ai-ml",
+      "data-publishing"
+     ],
+     "start": null,
+     "matched_on": "text"
+    }
+   ]
+  },
+  "fairsharing-2259": {
+   "materials": [
+    {
+     "id": "20",
+     "title": "FAIR Cookbook FCB085: Registering SwissLipids identifiers in Wikidata",
+     "url": "https://w3id.org/faircookbook/FCB085",
+     "source_file": "https://github.com/FAIR4ChemNL/training-material/blob/main/materials/20.md",
+     "keywords": [
+      "identifiers",
+      "ontologies"
+     ],
+     "start": null,
+     "matched_on": "text"
+    }
+   ]
+  },
+  "fairsharing-2329": {
+   "materials": [
+    {
+     "id": "20",
+     "title": "FAIR Cookbook FCB085: Registering SwissLipids identifiers in Wikidata",
+     "url": "https://w3id.org/faircookbook/FCB085",
+     "source_file": "https://github.com/FAIR4ChemNL/training-material/blob/main/materials/20.md",
+     "keywords": [
+      "identifiers",
+      "ontologies"
+     ],
+     "start": null,
+     "matched_on": "text"
+    }
+   ]
+  },
+  "fairsharing-2617": {
+   "materials": [
+    {
+     "id": "29",
+     "title": "BridgeDbR tutorial",
+     "url": "https://bioconductor.org/packages/release/bioc/vignettes/BridgeDbR/inst/doc/tutorial.html",
+     "source_file": "https://github.com/FAIR4ChemNL/training-material/blob/main/materials/29.md",
+     "keywords": [
+      "identifiers",
+      "metadata"
+     ],
+     "start": null,
+     "matched_on": "text"
+    }
+   ]
+  },
+  "fairsharing-1561": {
+   "materials": [
+    {
+     "id": "33",
+     "title": "ChEMBL: quick tour",
+     "url": "https://www.ebi.ac.uk/training/online/courses/chembl-quick-tour",
+     "source_file": "https://github.com/FAIR4ChemNL/training-material/blob/main/materials/33.md",
+     "keywords": [
+      "cheminformatics",
+      "repositories"
+     ],
+     "start": null,
+     "matched_on": "text"
+    }
+   ]
+  }
+ }
+}

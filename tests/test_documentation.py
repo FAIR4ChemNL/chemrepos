@@ -10,6 +10,7 @@ from app import create_app, repositories
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / 'scripts'))
 import collect_biotools  # noqa: E402
+import collect_fair4chemnl  # noqa: E402
 import documentation_common as docs  # noqa: E402
 
 
@@ -57,10 +58,24 @@ class MatchTest(unittest.TestCase):
                     entry('c', 'Using MetaboLights')]
         words = Counter()
         for e, _ in entries:
-            words.update(re.findall(r'\b[a-z]{3,}\b', e['attributes']['description']))
+            words.update(re.findall(r'\b[A-Za-z]{3,}\b', e['attributes']['description']))
         found = docs.match_tess(repos, entries, {}, words)
         self.assertNotIn('r-1', found)  # 'core' is an ordinary word here
         self.assertEqual([e['id'] for e in found['r-2']], ['c'])  # exactly as written
+
+
+class FairMaterialsTest(unittest.TestCase):
+
+    def test_metadata_and_match(self):
+        text = '---\nlayout: default\n\ntrainingMaterial:\n  "@id": https://x.org/1\n  name: "Zenodo use case"\n' \
+               '  keywords: "repositories, dmp"\n  url: https://zenodo.org/help/\n---\n# Zenodo\n'
+        material = collect_fair4chemnl.metadata(text)
+        self.assertEqual(material['name'], 'Zenodo use case')
+        self.assertEqual(collect_fair4chemnl.keywords_of(material), ['repositories', 'dmp'])
+        repos = [repo('r-1', 'Zenodo', 'https://zenodo.org'), repo('r-2', 'Other', 'https://other.org')]
+        found = collect_fair4chemnl.match(repos, [('1.md', material)], Counter())
+        self.assertEqual(list(found), ['r-1'])
+        self.assertEqual(found['r-1']['materials'][0]['id'], '1')
 
 
 class SiteTest(unittest.TestCase):

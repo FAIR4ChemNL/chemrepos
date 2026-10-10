@@ -39,7 +39,7 @@
     <ul>
       {% for source in sources.documentation %}
       <li><a href="{{ source.url }}" rel="noopener">{{ source.name }}</a>:
-        {% if source.entries is mapping %}{{ source.entries.materials }} training materials and {{ source.entries.events }} events{% else %}{{ source.entries }} tools{% endif %}
+        {% if source.entries is mapping %}{% for kind, number in source.entries.items() %}{{ number }} {{ 'training materials' if kind == 'materials' else kind }}{{ ' and ' if not loop.last }}{% endfor %}{% else %}{{ source.entries }} tools{% endif %}
         searched, retrieved {{ source.retrieved }}; {{ source.count }} of the {{ total }} repositories have entries.</li>
       {% endfor %}
     </ul>

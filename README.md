@@ -73,6 +73,16 @@ NFDI4Chem and ELIXIR (the latter from the registry bio.tools, as elixir-europe.o
 whose homepage is the website of a service, or that has the name of a service, gets the provider as a badge, on the
 results page and on its own page.
 
+## Documentation
+
+Repositories get a green badge when a catalogue has documentation, events or training material
+for them. One script per catalogue writes a file in [_data/documentation/](_data/documentation/):
+`make collect-biotools` (API documentation in bio.tools), `make collect-tess` (ELIXIR TeSS),
+`make collect-taxila` (Taxila) and `make collect-fair4chemnl` (the materials of
+[FAIR4ChemNL](https://github.com/FAIR4ChemNL/training-material), read from GitHub's raw files);
+`make collect-documentation` runs all four. The answers are cached unchanged in `cache/`, and
+`--from-cache` only redoes the matching. Run bio.tools first: TeSS and Taxila use its matches.
+
 ## Running it
 
 Requires Python 3.
