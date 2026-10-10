@@ -66,6 +66,17 @@ class AppTest(unittest.TestCase):
         for question in app.config['TREE'].order():
             self.assertIn(question['title'], text)
 
+    def test_doi_only_when_fairsharing_has_one(self):
+        app = create_app()
+        client = app.test_client()
+        with_doi = next(r for r in app.config['REPOSITORIES'] if r['fairsharing_doi'])
+        without = next(r for r in app.config['REPOSITORIES'] if not r['fairsharing_doi'])
+        page = client.get(f"/repository/{with_doi['slug']}/").get_data(as_text=True)
+        self.assertIn(f"https://doi.org/{with_doi['fairsharing_doi']}", page)
+        page = client.get(f"/repository/{without['slug']}/").get_data(as_text=True)
+        self.assertNotIn('DOI of the', page)
+        self.assertNotIn('https://doi.org/', page)
+
     def test_overview_and_404(self):
         self.assertEqual(self.client.get('/tree/').status_code, 200)
         self.assertEqual(self.client.get('/question/nope/').status_code, 404)

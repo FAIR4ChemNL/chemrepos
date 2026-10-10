@@ -13,8 +13,8 @@
     <div class="card">
       <ul class="plain">
         {% if repo.homepage %}<li><a href="{{ repo.homepage }}" rel="noopener">Website</a></li>{% endif %}
-        <li><a href="{{ repo.fairsharing_url }}" rel="noopener">Record in {{ repo.source }}</a></li>
-        {% if repo.subjects %}<li>Subjects: {{ repo.subjects|join(', ') }}</li>{% endif %}
+        <li><a href="{{ repo.fairsharing_url }}" rel="noopener">Record in {{ repo.source }}</a>{% if repo.fairsharing_doi %} (doi:<a href="https://doi.org/{{ repo.fairsharing_doi }}" rel="noopener">{{ repo.fairsharing_doi }}</a>){% endif %}
+        {% if repo.subjects %}<li>Subjects: {{ repo.subjects|join(', ') }}</li>{% endif %}</li>
       </ul>
     </div>
 
