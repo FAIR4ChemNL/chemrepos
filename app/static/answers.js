@@ -124,6 +124,7 @@
         var item = add(target, 'li', '');
         var a = add(item, 'a', r.repo.name);
         a.href = r.repo.url;
+        r.repo.providers.forEach(function (name) { add(item, 'span', name, 'kind provider'); });
         kindBadges(item, r.repo);
         var detail = r.repo.countries.join(', ') + (r.repo.scope === 'general' ? ' · any subject' : '');
         if (keys.length) detail += ' · supports ' + r.yes + ' of ' + keys.length + ' answers';

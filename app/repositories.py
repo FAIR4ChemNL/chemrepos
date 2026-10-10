@@ -13,6 +13,7 @@ import re
 from .tree import ROOT
 
 REPOSITORIES = ROOT / '_data' / 'repositories'
+SERVICES = ROOT / '_data' / 'services'
 
 # Words in the subjects, name or description that suggest a type of data.
 DATA_TYPE_WORDS = {
@@ -36,14 +37,38 @@ EU = {
 NOT_A_COUNTRY = {'worldwide', 'european union'}
 
 
-def load(directory=REPOSITORIES):
-    """All repositories of all sources, each with a `slug` and its `source`."""
+def web_address(url):
+    """An address without scheme, www and trailing slash, for comparing."""
+    return re.sub(r'^https?://(www\.)?|/+$', '', (url or '').strip().lower())
+
+
+def providers(repo, services):
+    """The service providers (like NFDI4Cat) that offer this repository as a service.
+
+    A repository belongs to a provider when its homepage is one of the links of
+    one of the provider's services.
+    """
+    home = web_address(repo.get('homepage'))
+    found = []
+    for provider in services:
+        for service in provider['items']:
+            if home and home in {web_address(l['url']) for l in service['links']}:
+                found.append({'name': provider['source'], 'service': service['name'],
+                              'url': service['url']})
+    return found
+
+
+def load(directory=REPOSITORIES, services=SERVICES):
+    """All repositories of all sources, each with a `slug`, its `source` and `providers`."""
+    offered = [data for data in (json.loads(p.read_text(encoding='utf-8'))
+                                 for p in sorted(services.glob('*.json'))) if 'items' in data]
     found = []
     for path in sorted(directory.glob('*.json')):
         data = json.loads(path.read_text(encoding='utf-8'))
         for item in data['items']:
             item = dict(item, source=data['source'])
             item['slug'] = f"{data['source'].lower()}-{item['id']}"
+            item['providers'] = providers(item, offered)
             found.append(item)
     return found
 

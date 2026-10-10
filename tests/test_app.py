@@ -87,6 +87,16 @@ class AppTest(unittest.TestCase):
         page = self.client.get('/repository/fairsharing-9349/').get_data(as_text=True)
         self.assertRegex(page, r'data-value="catalysis">\s*<span class="yes"')
 
+    def test_provider_badge(self):
+        app = create_app()
+        by_id = {r['id']: r for r in app.config['REPOSITORIES']}
+        self.assertEqual([p['name'] for p in by_id['9349']['providers']], ['NFDI4Cat'])
+        self.assertEqual(sum(1 for r in by_id.values() if r['providers']), 1)
+        page = self.client.get('/question/results/').get_data(as_text=True)
+        self.assertIn('"providers": ["NFDI4Cat"]', page)
+        page = self.client.get('/repository/fairsharing-9349/').get_data(as_text=True)
+        self.assertIn('Service of', page)
+
     def test_overview_and_404(self):
         self.assertEqual(self.client.get('/tree/').status_code, 200)
         self.assertEqual(self.client.get('/question/nope/').status_code, 404)

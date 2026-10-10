@@ -146,3 +146,5 @@ input[type=search] {
 .yes { color: var(--yes); font-weight: 700; }
 .no { color: var(--no); font-weight: 700; }
 .unknown { color: var(--muted); font-weight: 700; }
+
+.kind.provider { border-color: var(--accent); color: var(--accent); font-weight: 600; }
