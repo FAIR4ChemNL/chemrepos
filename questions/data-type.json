@@ -25,6 +25,12 @@
       "next": "journal-requirement"
     },
     {
+      "value": "catalysis",
+      "label": "Catalysis",
+      "description": "Catalyst characterization, reaction conditions and performance data",
+      "next": "journal-requirement"
+    },
+    {
       "value": "compounds",
       "label": "Compounds and reactions",
       "description": "Structures, synthesis and reaction data",

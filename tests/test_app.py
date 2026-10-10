@@ -81,6 +81,12 @@ class AppTest(unittest.TestCase):
         self.assertIn('FAIRsharing', page)
         self.assertIn('href="/about/"', self.client.get('/').get_data(as_text=True))
 
+    def test_repo4cat_is_linked_to_catalysis(self):
+        page = self.client.get('/question/data-type/').get_data(as_text=True)
+        self.assertIn('data-value="catalysis"', page)
+        page = self.client.get('/repository/fairsharing-9349/').get_data(as_text=True)
+        self.assertRegex(page, r'data-value="catalysis">\s*<span class="yes"')
+
     def test_overview_and_404(self):
         self.assertEqual(self.client.get('/tree/').status_code, 200)
         self.assertEqual(self.client.get('/question/nope/').status_code, 404)

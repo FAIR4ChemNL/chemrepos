@@ -19,6 +19,7 @@ DATA_TYPE_WORDS = {
     'spectra': ['spectr', 'nmr', 'mass spec', 'infrared'],
     'crystal-structures': ['crystal', 'diffraction'],
     'computational': ['computational chem', 'quantum', 'molecular dynamics', 'simulation'],
+    'catalysis': ['catalys', 'catalytic'],
     'compounds': ['compound', 'chemical structure', 'reaction', 'small molecule',
                   'cheminformatics', 'chemoinformatics'],
     'assays': ['assay', 'bioactivity', 'chemical biology', 'screening'],
@@ -74,7 +75,8 @@ def values(tree, key):
 
 def data_type(repo, tree):
     text = ' '.join([repo['name'] or '', repo['description'] or '',
-                     *repo['subjects'], *repo['domains']]).lower()
+                     *repo['subjects'], *repo['domains'],
+                     *repo.get('user_defined_tags', [])]).lower()
     if repo['scope'] == 'general':
         yes = values(tree, 'data_type')  # accepts any kind of data
     else:
