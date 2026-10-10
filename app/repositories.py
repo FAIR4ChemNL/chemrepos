@@ -136,6 +136,22 @@ def topic(repo):
     return len([s for s in repo['matched_subjects'] if s != 'Subject Agnostic'])
 
 
+# Providers whose services earn a repository a point in the ranking.
+BONUS_PROVIDERS = ('NFDI4Chem', 'NFDI4Cat', 'ELIXIR')
+
+
+def bonus(repo):
+    """The extra points of a repository, with the reason of each: one for a material of
+    FAIR4ChemNL about it, and one when a provider (NFDI4Chem, NFDI4Cat or ELIXIR) offers it."""
+    reasons = []
+    if repo.get('documentation', {}).get('FAIR4ChemNL'):
+        reasons.append('FAIR4ChemNL material')
+    names = [p['name'] for p in repo['providers'] if p['name'] in BONUS_PROVIDERS]
+    if names:
+        reasons.append(f"{names[0]} service")
+    return reasons
+
+
 def documentation_sources(repo):
     """The documentation catalogues (bio.tools, TeSS, Taxila) with entries for a repository."""
     return [name for name in DOCUMENTATION_SOURCES if repo.get('documentation', {}).get(name)]

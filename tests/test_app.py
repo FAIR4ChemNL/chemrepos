@@ -103,6 +103,15 @@ class AppTest(unittest.TestCase):
         self.assertIn('class="kind provider"', page)
         self.assertIn('data-value="catalysis">Catalysis</span>', page)
 
+    def test_bonus_points(self):
+        base = {'providers': [], 'documentation': {}}
+        self.assertEqual(repositories.bonus(base), [])
+        self.assertEqual(repositories.bonus({**base, 'documentation': {'TeSS': [1]}}), [])
+        both = {'providers': [{'name': 'ELIXIR'}, {'name': 'NFDI4Cat'}],
+                'documentation': {'FAIR4ChemNL': {'materials': [1]}}}
+        self.assertEqual(repositories.bonus(both), ['FAIR4ChemNL material', 'ELIXIR service'])
+        self.assertEqual(repositories.bonus({**base, 'providers': [{'name': 'Other'}]}), [])
+
     def test_overview_and_404(self):
         self.assertEqual(self.client.get('/tree/').status_code, 200)
         self.assertEqual(self.client.get('/question/nope/').status_code, 404)

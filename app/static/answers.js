@@ -84,6 +84,11 @@
     document.getElementById('no-answers').hidden = keys.length > 0;
 
     var repos = JSON.parse(document.getElementById('repository-data').textContent);
+    var kindAnswer = state.answers.data_type;
+    function fitsKind(repo) {
+      return !!kindAnswer && kindAnswer.value !== 'other' &&
+        (repo.yes.data_type || []).indexOf(kindAnswer.value) >= 0;
+    }
     var rated = repos.map(function (repo) {
       var yes = 0, unknown = 0, excluded = false;
       keys.forEach(function (key) {
@@ -92,9 +97,11 @@
         else if ((repo.yes[key] || []).indexOf(value) >= 0) yes++;
         else unknown++;
       });
-      return {repo: repo, yes: yes, unknown: unknown, excluded: excluded};
+      return {repo: repo, yes: yes, unknown: unknown, excluded: excluded,
+              score: yes + repo.bonus.length, kind: fitsKind(repo) ? 1 : 0};
     }).filter(function (r) { return !r.excluded; }).sort(function (a, b) {
-      return b.yes - a.yes || b.repo.topic - a.repo.topic || a.repo.name.localeCompare(b.repo.name);
+      // With a kind of data, the repositories for that kind always come first.
+      return b.kind - a.kind || b.score - a.score || b.repo.topic - a.repo.topic || a.repo.name.localeCompare(b.repo.name);
     });
     var general = document.getElementById('general');
     var target = document.getElementById('repositories');
@@ -129,6 +136,7 @@
         kindBadges(item, r.repo);
         var detail = r.repo.countries.join(', ') + (r.repo.scope === 'general' ? ' · any subject' : '');
         if (keys.length) detail += ' · supports ' + r.yes + ' of ' + keys.length + ' answers';
+        if (r.repo.bonus.length) detail += ' · +' + r.repo.bonus.length + ': ' + r.repo.bonus.join(', ');
         add(item, 'span', detail, 'muted');
       });
     }
