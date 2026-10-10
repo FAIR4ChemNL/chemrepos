@@ -61,7 +61,8 @@ make collect-cached   # process the answers saved in cache/ by the last run, no 
 database registry for chemistry-related subjects (and for subject-agnostic repositories),
 keeps the records that accept deposits, and stores per repository the subjects, domains,
 countries, licences, access and deposition conditions, organisations and the policies that
-recommend it. `coverage` counts how many repositories
+recommend it. Records that are not public yet can be added by saving their page as
+`cache/fairsharing-pages/<id>.html` (see Repo4Cat, 9349); the API takes over once it has them. `coverage` counts how many repositories
 give a value for each question.
 
 ## Running it

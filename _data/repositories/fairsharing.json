@@ -2,7 +2,7 @@
   "source": "FAIRsharing",
   "url": "https://fairsharing.org",
   "licence": "CC BY-SA 4.0",
-  "retrieved": "2026-10-09",
+  "retrieved": "2026-10-10",
   "queries": {
     "subjects": [
       "Chemistry",
@@ -26,14 +26,14 @@
     ]
   },
   "coverage": {
-    "records": 470,
-    "subjects (discipline)": 470,
+    "records": 471,
+    "subjects (discipline)": 471,
     "licences (license)": 342,
-    "countries (region, country)": 470,
+    "countries (region, country)": 471,
     "data_access (sensitivity, restricted-access)": 470,
     "data_deposition": 470,
     "recommended_by (journal-requirement, funder-requirement)": 0,
-    "organisations (institutional-repository)": 3,
+    "organisations (institutional-repository)": 4,
     "persistent-identifier, size, cost": 0
   },
   "items": [
@@ -51,6 +51,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "Poland"
       ],
@@ -85,6 +94,16 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "software source code"
+      ],
       "countries": [
         "Spain"
       ],
@@ -168,6 +187,16 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "digital library",
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "United States"
       ],
@@ -245,6 +274,15 @@
       "domains": [
         "data storage"
       ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset",
+        "software application",
+        "software source code"
+      ],
       "countries": [
         "Netherlands"
       ],
@@ -287,6 +325,13 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "United States"
       ],
@@ -339,6 +384,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "Australia"
       ],
@@ -387,6 +441,16 @@
         "FAIR",
         "data storage"
       ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "document"
+      ],
       "countries": [
         "Hungary"
       ],
@@ -427,6 +491,16 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "publication"
+      ],
       "countries": [
         "Ethiopia"
       ],
@@ -461,6 +535,15 @@
         "Materials Science"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "Plasma Physics"
+      ],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "Worldwide"
       ],
@@ -495,6 +578,16 @@
       "domains": [
         "Monitoring",
         "climate"
+      ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "Geographic Information System (GIS)",
+        "Geospatial Data"
+      ],
+      "object_types": [
+        "dataset"
       ],
       "countries": [
         "Canada"
@@ -541,6 +634,15 @@
         "Chemical structure image",
         "structure"
       ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset",
+        "image",
+        "model"
+      ],
       "countries": [
         "Canada",
         "United States"
@@ -574,6 +676,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "Italy"
       ],
@@ -607,6 +718,16 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "public policy"
+      ],
+      "object_types": [
+        "document",
+        "publication"
+      ],
       "countries": [
         "Australia"
       ],
@@ -648,6 +769,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "Austria"
       ],
@@ -681,6 +811,15 @@
       ],
       "domains": [
         "FAIR"
+      ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
       ],
       "countries": [
         "United Kingdom"
@@ -755,6 +894,19 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "document",
+        "image",
+        "multimedia",
+        "publication"
+      ],
       "countries": [
         "United States"
       ],
@@ -790,6 +942,18 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset",
+        "document",
+        "image",
+        "multimedia",
+        "publication",
+        "software source code"
+      ],
       "countries": [
         "France"
       ],
@@ -830,6 +994,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "Spain"
       ],
@@ -892,6 +1065,17 @@
         "FAIR",
         "data storage"
       ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "Open Science",
+        "institutional repository",
+        "open scholarship"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "United States"
       ],
@@ -952,6 +1136,13 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "Hungary"
       ],
@@ -1011,6 +1202,13 @@
       "domains": [
         "FAIR"
       ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "publication"
+      ],
       "countries": [
         "Bulgaria"
       ],
@@ -1058,6 +1256,14 @@
       "domains": [
         "Machine Learning"
       ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset",
+        "model"
+      ],
       "countries": [
         "Canada",
         "United States"
@@ -1100,6 +1306,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "Czech Republic"
       ],
@@ -1134,6 +1349,16 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "publication"
+      ],
       "countries": [
         "United Kingdom"
       ],
@@ -1176,6 +1401,18 @@
         "Planetary Astronomy"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "Lunar",
+        "Meteorites",
+        "cosmochemistry"
+      ],
+      "object_types": [
+        "dataset",
+        "physical object/material"
+      ],
       "countries": [
         "United States"
       ],
@@ -1217,6 +1454,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "Poland"
       ],
@@ -1255,6 +1501,18 @@
       "domains": [
         "climate",
         "tropical"
+      ],
+      "taxonomies": [
+        "All",
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "Carbon cycle",
+        "Observations",
+        "biogeochemistry"
+      ],
+      "object_types": [
+        "dataset"
       ],
       "countries": [
         "Brazil",
@@ -1302,6 +1560,16 @@
         "Remote Sensing"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "groundwater",
+        "petrophysics"
+      ],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "Australia"
       ],
@@ -1342,6 +1610,15 @@
         "Organic Chemistry"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "preprints"
+      ],
+      "object_types": [
+        "publication"
+      ],
       "countries": [
         "Germany"
       ],
@@ -1386,6 +1663,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "Poland"
       ],
@@ -1435,6 +1721,18 @@
         "Surgery"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "document",
+        "image",
+        "multimedia"
+      ],
       "countries": [
         "Italy"
       ],
@@ -1484,6 +1782,16 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "publication"
+      ],
       "countries": [
         "Turkey"
       ],
@@ -1525,6 +1833,17 @@
         "binding site",
         "drug interaction",
         "protein"
+      ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "Drug Target",
+        "Drug-like compound"
+      ],
+      "object_types": [
+        "dataset",
+        "image"
       ],
       "countries": [
         "United States"
@@ -1580,6 +1899,15 @@
       ],
       "domains": [
         "climate"
+      ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset",
+        "document",
+        "image"
       ],
       "countries": [
         "United States"
@@ -1647,6 +1975,13 @@
       "domains": [
         "Biocuration"
       ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "other object type"
+      ],
       "countries": [
         "Germany",
         "United States"
@@ -1699,6 +2034,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "United Kingdom"
       ],
@@ -1732,6 +2076,13 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "software source code"
+      ],
       "countries": [
         "Australia"
       ],
@@ -1766,6 +2117,20 @@
       "domains": [
         "FAIR",
         "curated information"
+      ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "document",
+        "image",
+        "model",
+        "multimedia",
+        "physical object/material"
       ],
       "countries": [
         "Germany"
@@ -1854,6 +2219,17 @@
         "Experimental measurement",
         "data storage"
       ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset",
+        "document",
+        "image",
+        "publication",
+        "questionnaire/survey"
+      ],
       "countries": [
         "Canada"
       ],
@@ -1926,6 +2302,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "Switzerland"
       ],
@@ -1958,6 +2343,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "United States"
       ],
@@ -1991,6 +2385,17 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "document",
+        "publication"
+      ],
       "countries": [
         "Poland"
       ],
@@ -2038,6 +2443,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "Australia"
       ],
@@ -2079,6 +2493,13 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "Canada"
       ],
@@ -2118,6 +2539,16 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "digital humanities",
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "United States"
       ],
@@ -2154,6 +2585,18 @@
         "Experimental measurement",
         "spectroscopy",
         "study design"
+      ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "image",
+        "software application",
+        "software source code"
       ],
       "countries": [
         "United States"
@@ -2242,6 +2685,13 @@
         "Pediatrics"
       ],
       "domains": [],
+      "taxonomies": [
+        "Homo sapiens"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "Canada"
       ],
@@ -2277,6 +2727,16 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "infrastructure",
+        "urban science"
+      ],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "Canada"
       ],
@@ -2317,6 +2777,16 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "object type agnostic"
+      ],
       "countries": [
         "United Kingdom"
       ],
@@ -2360,6 +2830,15 @@
         "Metallurgy"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "Serbia"
       ],
@@ -2412,6 +2891,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "United Kingdom"
       ],
@@ -2457,6 +2945,15 @@
         "Chemical formula",
         "Reaction data",
         "chemical entity"
+      ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset",
+        "image",
+        "model"
       ],
       "countries": [
         "Germany"
@@ -2511,6 +3008,14 @@
         "environmental contaminant",
         "exposure"
       ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset",
+        "protocol or workflow"
+      ],
       "countries": [
         "Japan"
       ],
@@ -2561,6 +3066,16 @@
         "Materials Science"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "publication"
+      ],
       "countries": [
         "Serbia"
       ],
@@ -2626,6 +3141,14 @@
         "data storage",
         "read"
       ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset",
+        "publication"
+      ],
       "countries": [
         "China"
       ],
@@ -2680,6 +3203,19 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "Geographic Information System (GIS)",
+        "Geospatial Data",
+        "urban science"
+      ],
+      "object_types": [
+        "dataset",
+        "document",
+        "software application"
+      ],
       "countries": [
         "Canada"
       ],
@@ -2720,6 +3256,18 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "Geographic Information System (GIS)",
+        "Geospatial Data",
+        "lidar"
+      ],
+      "object_types": [
+        "dataset",
+        "document"
+      ],
       "countries": [
         "Canada"
       ],
@@ -2759,6 +3307,19 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "Geographic Information System (GIS)",
+        "Geospatial Data",
+        "urban science"
+      ],
+      "object_types": [
+        "dataset",
+        "document",
+        "software application"
+      ],
       "countries": [
         "Canada"
       ],
@@ -2799,6 +3360,18 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "Geographic Information System (GIS)",
+        "Geospatial Data"
+      ],
+      "object_types": [
+        "dataset",
+        "document",
+        "software application"
+      ],
       "countries": [
         "Canada"
       ],
@@ -2838,6 +3411,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "France"
       ],
@@ -2886,6 +3468,14 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "software application",
+        "software source code"
+      ],
       "countries": [
         "Israel",
         "United States"
@@ -2950,6 +3540,14 @@
         "Structure",
         "X-ray diffraction"
       ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset",
+        "image"
+      ],
       "countries": [
         "Sweden",
         "United States"
@@ -3000,6 +3598,13 @@
       "domains": [
         "Natural Product"
       ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "Germany"
       ],
@@ -3043,6 +3648,19 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "document",
+        "multimedia",
+        "other object type",
+        "publication"
+      ],
       "countries": [
         "Ireland"
       ],
@@ -3092,6 +3710,16 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "protocol or workflow"
+      ],
       "countries": [
         "Germany"
       ],
@@ -3227,6 +3855,18 @@
         "Experimental measurement",
         "catalytic activity"
       ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset",
+        "document",
+        "image",
+        "multimedia",
+        "publication",
+        "software source code"
+      ],
       "countries": [
         "Germany"
       ],
@@ -3274,6 +3914,15 @@
         "Structure",
         "X-ray crystallography 3D molecular structure determination assay",
         "X-ray diffraction"
+      ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset",
+        "image",
+        "model"
       ],
       "countries": [
         "France",
@@ -3323,6 +3972,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "United States"
       ],
@@ -3356,6 +4014,17 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "document",
+        "image"
+      ],
       "countries": [
         "Hong Kong"
       ],
@@ -3399,6 +4068,15 @@
         "Experimental measurement",
         "centrally registered identifier",
         "experimentally determined"
+      ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "Open Science"
+      ],
+      "object_types": [
+        "dataset"
       ],
       "countries": [
         "United States"
@@ -3444,6 +4122,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "Portugal"
       ],
@@ -3490,6 +4177,16 @@
       ],
       "domains": [
         "FAIR"
+      ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "software source code"
       ],
       "countries": [
         "Germany"
@@ -3540,6 +4237,16 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "publication"
+      ],
       "countries": [
         "Italy"
       ],
@@ -3635,6 +4342,21 @@
         "stem cell",
         "strain"
       ],
+      "taxonomies": [
+        "Animalia",
+        "Eukaryota",
+        "Fungi",
+        "Homo sapiens",
+        "Plantae",
+        "Prokaryota",
+        "Viruses"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset",
+        "document",
+        "image"
+      ],
       "countries": [
         "Netherlands"
       ],
@@ -3679,6 +4401,15 @@
       ],
       "domains": [
         "FAIR"
+      ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
       ],
       "countries": [
         "Austria"
@@ -3725,6 +4456,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "Germany"
       ],
@@ -3770,6 +4510,13 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "Canada"
       ],
@@ -3809,6 +4556,13 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "United States"
       ],
@@ -3848,6 +4602,17 @@
         "Imaging",
         "Monitoring"
       ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "Geospatial Data",
+        "fair data",
+        "open data"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "China"
       ],
@@ -3884,6 +4649,16 @@
       ],
       "domains": [
         "FAIR"
+      ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "digital preservation",
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
       ],
       "countries": [
         "United Kingdom"
@@ -3937,6 +4712,15 @@
       "domains": [
         "chemical entity",
         "nanoparticle"
+      ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "Nanosafety"
+      ],
+      "object_types": [
+        "dataset"
       ],
       "countries": [
         "European Union"
@@ -4007,6 +4791,13 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "Australia"
       ],
@@ -4046,6 +4837,13 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "United Kingdom"
       ],
@@ -4087,6 +4885,13 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "United States"
       ],
@@ -4166,6 +4971,15 @@
       "domains": [
         "centrally registered identifier"
       ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset",
+        "document",
+        "publication"
+      ],
       "countries": [
         "Worldwide"
       ],
@@ -4221,6 +5035,15 @@
       "domains": [
         "data storage"
       ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "Estonia"
       ],
@@ -4261,6 +5084,16 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "research & development"
+      ],
+      "object_types": [
+        "dataset",
+        "software application"
+      ],
       "countries": [
         "South Korea"
       ],
@@ -4300,6 +5133,17 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "image",
+        "multimedia"
+      ],
       "countries": [
         "Portugal"
       ],
@@ -4348,6 +5192,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "Hong Kong"
       ],
@@ -4394,6 +5247,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "United Kingdom"
       ],
@@ -4467,6 +5329,18 @@
         "siRNA",
         "tropical"
       ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "document",
+        "image",
+        "questionnaire/survey"
+      ],
       "countries": [
         "Italy"
       ],
@@ -4536,6 +5410,13 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "Netherlands"
       ],
@@ -4614,6 +5495,17 @@
         "data storage",
         "digital curation"
       ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "Open Science"
+      ],
+      "object_types": [
+        "dataset",
+        "document",
+        "image"
+      ],
       "countries": [
         "Norway"
       ],
@@ -4663,6 +5555,15 @@
       "domains": [
         "FAIR"
       ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "France"
       ],
@@ -4696,6 +5597,16 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "document"
+      ],
       "countries": [
         "United States"
       ],
@@ -4747,6 +5658,20 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "document",
+        "image",
+        "model",
+        "multimedia",
+        "physical object/material"
+      ],
       "countries": [
         "Denmark"
       ],
@@ -4788,6 +5713,16 @@
       ],
       "domains": [
         "data storage"
+      ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "Open Science"
+      ],
+      "object_types": [
+        "dataset",
+        "image"
       ],
       "countries": [
         "Taiwan"
@@ -4860,6 +5795,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "Germany"
       ],
@@ -4942,6 +5886,14 @@
         "Imaging",
         "spectroscopy"
       ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset",
+        "image"
+      ],
       "countries": [
         "United Kingdom"
       ],
@@ -4983,6 +5935,20 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "data management plan",
+        "dataset",
+        "document",
+        "image",
+        "multimedia",
+        "publication"
+      ],
       "countries": [
         "Croatia"
       ],
@@ -5026,6 +5992,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "Romania"
       ],
@@ -5068,6 +6043,15 @@
       ],
       "domains": [
         "data storage"
+      ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset"
       ],
       "countries": [
         "Italy"
@@ -5112,6 +6096,13 @@
         "Materials Science"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "United States"
       ],
@@ -5152,6 +6143,16 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "publication"
+      ],
       "countries": [
         "United States"
       ],
@@ -5193,6 +6194,16 @@
       ],
       "domains": [
         "FAIR"
+      ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "document",
+        "publication"
       ],
       "countries": [
         "Portugal"
@@ -5261,6 +6272,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "digital library"
+      ],
+      "object_types": [
+        "physical object/material"
+      ],
       "countries": [
         "Austria"
       ],
@@ -5293,6 +6313,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "Spain"
       ],
@@ -5335,6 +6364,16 @@
       "domains": [
         "FAIR"
       ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "digital library",
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "Spain"
       ],
@@ -5375,6 +6414,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "Germany"
       ],
@@ -5408,6 +6456,15 @@
       ],
       "domains": [
         "FAIR"
+      ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
       ],
       "countries": [
         "United Kingdom"
@@ -5449,6 +6506,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "United Kingdom"
       ],
@@ -5488,6 +6554,13 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "software source code"
+      ],
       "countries": [
         "Worldwide"
       ],
@@ -5527,6 +6600,14 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "software application",
+        "software source code"
+      ],
       "countries": [
         "United States"
       ],
@@ -5562,6 +6643,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "Brazil"
       ],
@@ -5613,6 +6703,18 @@
       "domains": [
         "Resource metadata",
         "data storage"
+      ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "document",
+        "image",
+        "multimedia"
       ],
       "countries": [
         "Singapore"
@@ -5674,6 +6776,20 @@
         "digital curation",
         "literature curation"
       ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset",
+        "document",
+        "image",
+        "model",
+        "multimedia",
+        "object type agnostic",
+        "publication",
+        "software source code"
+      ],
       "countries": [
         "United States",
         "Worldwide"
@@ -5723,6 +6839,21 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "Open Science",
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "document",
+        "image",
+        "physical object/material",
+        "software application",
+        "software source code"
+      ],
       "countries": [
         "United States"
       ],
@@ -5808,6 +6939,20 @@
       "domains": [
         "FAIR"
       ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "document",
+        "image",
+        "model",
+        "multimedia",
+        "physical object/material"
+      ],
       "countries": [
         "United Kingdom"
       ],
@@ -5866,6 +7011,18 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "Geospatial Data",
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "document",
+        "publication"
+      ],
       "countries": [
         "Spain"
       ],
@@ -5927,6 +7084,15 @@
       "domains": [
         "FAIR"
       ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "United Kingdom"
       ],
@@ -5977,6 +7143,13 @@
         "Natural Science"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "United States"
       ],
@@ -6021,6 +7194,14 @@
         "Geophysics"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset",
+        "image"
+      ],
       "countries": [
         "Norway"
       ],
@@ -6058,6 +7239,16 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset",
+        "document",
+        "image",
+        "publication"
+      ],
       "countries": [
         "United States"
       ],
@@ -6104,6 +7295,13 @@
       "domains": [
         "X-ray crystallography 3D molecular structure determination assay",
         "X-ray diffraction"
+      ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset"
       ],
       "countries": [
         "United Kingdom"
@@ -6154,6 +7352,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "United Kingdom"
       ],
@@ -6198,6 +7405,20 @@
       ],
       "domains": [
         "FAIR"
+      ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "document",
+        "image",
+        "model",
+        "multimedia",
+        "physical object/material"
       ],
       "countries": [
         "United Kingdom"
@@ -6246,6 +7467,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "Germany"
       ],
@@ -6288,6 +7518,15 @@
       ],
       "domains": [
         "spectroscopy"
+      ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "x-ray"
+      ],
+      "object_types": [
+        "dataset"
       ],
       "countries": [
         "European Union",
@@ -6337,6 +7576,14 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "software application",
+        "software source code"
+      ],
       "countries": [
         "Greece"
       ],
@@ -6400,6 +7647,18 @@
       "domains": [
         "radiation"
       ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "CO2 emission",
+        "Greenhouse gases",
+        "Ozone"
+      ],
+      "object_types": [
+        "dataset",
+        "image"
+      ],
       "countries": [
         "France"
       ],
@@ -6442,6 +7701,16 @@
       "domains": [
         "Geographic location",
         "marine environment"
+      ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "Geographic Information System (GIS)"
+      ],
+      "object_types": [
+        "dataset",
+        "image"
       ],
       "countries": [
         "European Union"
@@ -6487,6 +7756,17 @@
         "Geology"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "Fossil Fuel"
+      ],
+      "object_types": [
+        "dataset",
+        "document",
+        "publication"
+      ],
       "countries": [
         "United States"
       ],
@@ -6523,6 +7803,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "United Kingdom"
       ],
@@ -6596,6 +7885,15 @@
         "microscopy",
         "spectroscopy"
       ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "United States"
       ],
@@ -6667,6 +7965,13 @@
         "catalytic activity",
         "enzyme"
       ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "Switzerland"
       ],
@@ -6712,6 +8017,18 @@
         "chemical entity",
         "toxicity"
       ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "Pollution",
+        "Systems toxicology",
+        "chemical safety",
+        "ecotoxicity"
+      ],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "United States"
       ],
@@ -6750,6 +8067,16 @@
       "domains": [
         "Machine Learning",
         "infectious disease"
+      ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "Open Science"
+      ],
+      "object_types": [
+        "dataset",
+        "model"
       ],
       "countries": [
         "Spain"
@@ -6792,6 +8119,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "South Africa"
       ],
@@ -6863,6 +8199,15 @@
         "Soft Matter Physics"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "Neutron Science"
+      ],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "European Union"
       ],
@@ -6906,6 +8251,13 @@
       "domains": [
         "centrally registered identifier"
       ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "European Union"
       ],
@@ -6944,6 +8296,16 @@
         "assay",
         "drug",
         "phenotype"
+      ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "Drug Target"
+      ],
+      "object_types": [
+        "dataset",
+        "image"
       ],
       "countries": [
         "Czech Republic"
@@ -6993,6 +8355,15 @@
         "Virology"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "COVID-19"
+      ],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "European Union"
       ],
@@ -7027,6 +8398,13 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "Finland"
       ],
@@ -7077,6 +8455,13 @@
       "domains": [
         "FAIR"
       ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "Belgium",
         "Germany",
@@ -7124,6 +8509,15 @@
       "domains": [
         "FAIR"
       ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "Germany"
       ],
@@ -7169,6 +8563,13 @@
       "domains": [
         "climate"
       ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "Canada"
       ],
@@ -7212,6 +8613,13 @@
       "domains": [
         "Resource metadata",
         "data transformation"
+      ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "object type agnostic"
       ],
       "countries": [
         "Australia",
@@ -7297,6 +8705,13 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "Australia",
         "Canada",
@@ -7376,6 +8791,13 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "Belgium"
       ],
@@ -7411,6 +8833,14 @@
       ],
       "domains": [
         "Machine Learning"
+      ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset",
+        "image"
       ],
       "countries": [
         "United States"
@@ -7459,6 +8889,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset",
+        "image",
+        "model"
+      ],
       "countries": [
         "Worldwide"
       ],
@@ -7504,6 +8943,16 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "publication"
+      ],
       "countries": [
         "Germany"
       ],
@@ -7537,6 +8986,13 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "publication"
+      ],
       "countries": [
         "Brazil",
         "Portugal"
@@ -7576,6 +9032,13 @@
       "domains": [
         "Machine Learning"
       ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "model"
+      ],
       "countries": [
         "United States"
       ],
@@ -7610,6 +9073,13 @@
         "Geochemistry"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "United States"
       ],
@@ -7652,6 +9122,13 @@
         "Natural Science"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "Germany"
       ],
@@ -7701,6 +9178,18 @@
         "Mineralogy"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "Geographic Information System (GIS)",
+        "Geospatial Data"
+      ],
+      "object_types": [
+        "dataset",
+        "document",
+        "publication"
+      ],
       "countries": [
         "Canada"
       ],
@@ -7739,6 +9228,20 @@
       ],
       "domains": [
         "Experimental measurement"
+      ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "Geographic Information System (GIS)",
+        "Geomagnetism",
+        "Geospatial Data",
+        "Renewable Energy",
+        "Seismology",
+        "geothermal energy"
+      ],
+      "object_types": [
+        "dataset"
       ],
       "countries": [
         "United States"
@@ -7790,6 +9293,17 @@
         "Virology"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "COVID-19"
+      ],
+      "object_types": [
+        "dataset",
+        "document",
+        "image"
+      ],
       "countries": [
         "China"
       ],
@@ -7831,6 +9345,14 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset",
+        "software source code"
+      ],
       "countries": [
         "United States"
       ],
@@ -7880,6 +9402,14 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "software application",
+        "software source code"
+      ],
       "countries": [
         "United States"
       ],
@@ -7919,6 +9449,15 @@
       ],
       "domains": [
         "Mass spectrum"
+      ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset"
       ],
       "countries": [
         "United States"
@@ -7965,6 +9504,14 @@
       ],
       "domains": [
         "Mass spectrum"
+      ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset",
+        "publication"
       ],
       "countries": [
         "Japan"
@@ -8019,6 +9566,14 @@
         "chromatography",
         "protein"
       ],
+      "taxonomies": [
+        "Caenorhabditis elegans",
+        "Mus musculus"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "Japan"
       ],
@@ -8062,6 +9617,23 @@
         "glycosylated residue",
         "glycosylation"
       ],
+      "taxonomies": [
+        "Homo sapiens",
+        "Mammalia",
+        "Prokaryota",
+        "Viruses"
+      ],
+      "user_defined_tags": [
+        "Glycome",
+        "glycobiology",
+        "glycoconjugate",
+        "glycoinformatics",
+        "glycoprotein",
+        "glycoscience"
+      ],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "Japan"
       ],
@@ -8104,6 +9676,14 @@
       ],
       "domains": [
         "Structure"
+      ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset",
+        "publication"
       ],
       "countries": [
         "Japan"
@@ -8152,6 +9732,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "Australia"
       ],
@@ -8201,6 +9790,14 @@
       "domains": [
         "data storage"
       ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset",
+        "image"
+      ],
       "countries": [
         "United States"
       ],
@@ -8245,6 +9842,17 @@
         "Mineralogy"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "Geochronology",
+        "Tectonics"
+      ],
+      "object_types": [
+        "document",
+        "publication"
+      ],
       "countries": [
         "United States"
       ],
@@ -8290,6 +9898,17 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "document",
+        "multimedia"
+      ],
       "countries": [
         "Germany"
       ],
@@ -8330,6 +9949,13 @@
       ],
       "domains": [
         "Experimental measurement"
+      ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "object type agnostic"
       ],
       "countries": [
         "United States"
@@ -8405,6 +10031,15 @@
       "domains": [
         "Experimental measurement"
       ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "Germany"
       ],
@@ -8449,6 +10084,18 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "document",
+        "multimedia",
+        "publication"
+      ],
       "countries": [
         "Greece"
       ],
@@ -8507,6 +10154,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "Greece"
       ],
@@ -8549,6 +10205,17 @@
         "Physics"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "High Energy Physics"
+      ],
+      "object_types": [
+        "dataset",
+        "image",
+        "model"
+      ],
       "countries": [
         "Switzerland",
         "United Kingdom"
@@ -8598,6 +10265,15 @@
       "domains": [
         "FAIR"
       ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "Germany"
       ],
@@ -8637,6 +10313,17 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "document",
+        "publication"
+      ],
       "countries": [
         "United States"
       ],
@@ -8682,6 +10369,14 @@
         "Agroecosystem",
         "Bioenergy",
         "Sustainability"
+      ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset",
+        "image"
       ],
       "countries": [
         "United States"
@@ -8734,6 +10429,16 @@
         "Machine Learning",
         "Sustainability"
       ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "engineering and technology",
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "Italy"
       ],
@@ -8778,6 +10483,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "United States"
       ],
@@ -8826,6 +10540,17 @@
       "domains": [
         "Structure",
         "molecular entity"
+      ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "image",
+        "model"
       ],
       "countries": [
         "United Kingdom"
@@ -8892,6 +10617,19 @@
         "microbiome",
         "sleep"
       ],
+      "taxonomies": [
+        "Homo sapiens"
+      ],
+      "user_defined_tags": [
+        "Multi-omics",
+        "actigraphy",
+        "cognitive measures",
+        "down syndrome",
+        "neurodegenerative diseases"
+      ],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "United States"
       ],
@@ -8927,6 +10665,13 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "India",
         "United States"
@@ -8961,6 +10706,15 @@
       ],
       "domains": [
         "chemical entity"
+      ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset",
+        "image",
+        "physical object/material"
       ],
       "countries": [
         "European Union"
@@ -9018,6 +10772,15 @@
         "Physics"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "Switzerland"
       ],
@@ -9072,6 +10835,18 @@
         "spectroscopy",
         "spectrum"
       ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "heritage science",
+        "pigments",
+        "x-ray fluorescence"
+      ],
+      "object_types": [
+        "dataset",
+        "image"
+      ],
       "countries": [
         "Romania"
       ],
@@ -9117,6 +10892,16 @@
         "Physics"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "Neutron Science",
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "France"
       ],
@@ -9155,6 +10940,19 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Homo sapiens"
+      ],
+      "user_defined_tags": [
+        "Migration",
+        "Mortality",
+        "birth",
+        "fertility"
+      ],
+      "object_types": [
+        "dataset",
+        "questionnaire/survey"
+      ],
       "countries": [
         "United States"
       ],
@@ -9199,6 +10997,21 @@
       "domains": [
         "marine environment"
       ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "Igneous Petrology",
+        "Micropaleontology",
+        "Paleomagnetism",
+        "Sedimentology",
+        "Tectonics"
+      ],
+      "object_types": [
+        "dataset",
+        "image",
+        "physical object/material"
+      ],
       "countries": [
         "United States"
       ],
@@ -9238,6 +11051,13 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "United States"
       ],
@@ -9274,6 +11094,15 @@
         "Theoretical Chemistry"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset",
+        "image",
+        "model"
+      ],
       "countries": [
         "Spain"
       ],
@@ -9328,6 +11157,17 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "document",
+        "publication"
+      ],
       "countries": [
         "United States"
       ],
@@ -9362,6 +11202,22 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All",
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "image",
+        "model",
+        "multimedia",
+        "physical object/material",
+        "software application",
+        "software source code"
+      ],
       "countries": [
         "United States"
       ],
@@ -9419,6 +11275,13 @@
         "Physics"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "United Kingdom"
       ],
@@ -9468,6 +11331,17 @@
         "molecular entity",
         "sample preparation for assay"
       ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "Geographic Information System (GIS)",
+        "Metadata standardization",
+        "biogeochemistry"
+      ],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "Czech Republic",
         "European Union",
@@ -9513,6 +11387,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "Austria"
       ],
@@ -9546,6 +11429,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "Turkey"
       ],
@@ -9579,6 +11471,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "United States"
       ],
@@ -9642,6 +11543,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset",
+        "software application",
+        "software source code"
+      ],
       "countries": [
         "Worldwide"
       ],
@@ -9689,6 +11599,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset",
+        "document",
+        "software application"
+      ],
       "countries": [
         "India"
       ],
@@ -9753,6 +11672,19 @@
         "Surgery"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "Environmental Health"
+      ],
+      "object_types": [
+        "dataset",
+        "document",
+        "image",
+        "questionnaire/survey",
+        "software application"
+      ],
       "countries": [
         "Sweden"
       ],
@@ -9793,6 +11725,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "Azerbaijan"
       ],
@@ -9835,6 +11776,14 @@
         "Bioimaging",
         "molecular interaction",
         "sequencing assay"
+      ],
+      "taxonomies": [
+        "Homo sapiens"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset",
+        "image"
       ],
       "countries": [
         "United States"
@@ -9883,6 +11832,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "United States"
       ],
@@ -9921,6 +11879,15 @@
         "Chemistry"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset",
+        "image",
+        "model"
+      ],
       "countries": [
         "France"
       ],
@@ -9954,6 +11921,19 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "Geographic Information System (GIS)",
+        "Geospatial Data",
+        "urban science"
+      ],
+      "object_types": [
+        "dataset",
+        "image",
+        "software application"
+      ],
       "countries": [
         "Canada"
       ],
@@ -10000,6 +11980,15 @@
         "graph",
         "measurement",
         "patent"
+      ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset"
       ],
       "countries": [
         "Poland"
@@ -10085,6 +12074,16 @@
       "domains": [
         "centrally registered identifier"
       ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset",
+        "image",
+        "model",
+        "software source code"
+      ],
       "countries": [
         "United States"
       ],
@@ -10135,6 +12134,17 @@
       "domains": [
         "data storage"
       ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "document",
+        "publication"
+      ],
       "countries": [
         "India"
       ],
@@ -10169,6 +12179,20 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "document",
+        "image",
+        "multimedia",
+        "software application",
+        "software source code"
+      ],
       "countries": [
         "Germany"
       ],
@@ -10216,6 +12240,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "Belgium"
       ],
@@ -10339,6 +12372,16 @@
         "Sequence annotation",
         "molecular interaction"
       ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "COVID-19"
+      ],
+      "object_types": [
+        "dataset",
+        "model"
+      ],
       "countries": [
         "Japan"
       ],
@@ -10378,6 +12421,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "United Kingdom"
       ],
@@ -10411,6 +12463,17 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "document",
+        "publication"
+      ],
       "countries": [
         "United Kingdom"
       ],
@@ -10466,6 +12529,13 @@
       "domains": [
         "Monitoring"
       ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "Netherlands",
         "Worldwide"
@@ -10507,6 +12577,13 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "software source code"
+      ],
       "countries": [
         "United Kingdom"
       ],
@@ -10548,6 +12625,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "United Kingdom"
       ],
@@ -10606,6 +12692,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "Germany"
       ],
@@ -10651,6 +12746,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "Denmark"
       ],
@@ -10691,6 +12795,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "United Kingdom"
       ],
@@ -10724,6 +12837,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "urban science"
+      ],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "United Kingdom"
       ],
@@ -10764,6 +12886,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "United Kingdom"
       ],
@@ -10815,6 +12946,17 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "image",
+        "publication"
+      ],
       "countries": [
         "Canada"
       ],
@@ -10847,6 +12989,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "Canada"
       ],
@@ -10893,6 +13044,16 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "image"
+      ],
       "countries": [
         "Australia"
       ],
@@ -10952,6 +13113,13 @@
         "Structural Biology"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "Poland"
       ],
@@ -10998,6 +13166,18 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "data management plan",
+        "dataset",
+        "questionnaire/survey",
+        "software source code"
+      ],
       "countries": [
         "Germany"
       ],
@@ -11035,6 +13215,16 @@
       "domains": [
         "gene expression",
         "region"
+      ],
+      "taxonomies": [
+        "Homo sapiens"
+      ],
+      "user_defined_tags": [
+        "chronic fatigue syndrome",
+        "myalgic encephalomyelitis"
+      ],
+      "object_types": [
+        "dataset"
       ],
       "countries": [
         "United States"
@@ -11079,6 +13269,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset",
+        "document",
+        "software application"
+      ],
       "countries": [
         "Canada"
       ],
@@ -11130,6 +13329,13 @@
         "measurement",
         "study design"
       ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "United States"
       ],
@@ -11174,6 +13380,15 @@
       ],
       "domains": [
         "Mass spectrum"
+      ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "mass spectrometry"
+      ],
+      "object_types": [
+        "dataset"
       ],
       "countries": [
         "United States"
@@ -11221,6 +13436,15 @@
       ],
       "domains": [
         "FAIR"
+      ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "Computational Materials Science"
+      ],
+      "object_types": [
+        "dataset"
       ],
       "countries": [
         "Switzerland"
@@ -11271,6 +13495,17 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "image",
+        "publication"
+      ],
       "countries": [
         "Germany"
       ],
@@ -11303,6 +13538,13 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "Netherlands",
         "United Kingdom"
@@ -11361,6 +13603,15 @@
       "domains": [
         "mass spectrometry assay"
       ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "mass spectrometry"
+      ],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "Japan"
       ],
@@ -11413,6 +13664,21 @@
         "Model organisms",
         "biomarker",
         "pathway"
+      ],
+      "taxonomies": [
+        "Caenorhabditis elegans",
+        "Danio rerio",
+        "Drosophila melanogaster",
+        "Homo sapiens",
+        "Mus musculus",
+        "Rattus norvegicus",
+        "Saccharomyces cerevisiae"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset",
+        "image",
+        "model"
       ],
       "countries": [
         "Denmark",
@@ -11472,6 +13738,16 @@
         "lipid",
         "metabolite",
         "nuclear magnetic resonance spectroscopy"
+      ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "Fluxomics",
+        "exposomics"
+      ],
+      "object_types": [
+        "dataset"
       ],
       "countries": [
         "Austria",
@@ -11553,6 +13829,14 @@
       "domains": [
         "metabolite"
       ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset",
+        "protocol or workflow"
+      ],
       "countries": [
         "United States"
       ],
@@ -11606,6 +13890,13 @@
         "Experimental measurement",
         "study design"
       ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "Japan"
       ],
@@ -11654,6 +13945,18 @@
         "lipid",
         "mass spectrometry assay",
         "metabolite"
+      ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "mass spectrometry",
+        "matrix assisted laser desorption ionization imaging mass spectrometry assay"
+      ],
+      "object_types": [
+        "dataset",
+        "image",
+        "model"
       ],
       "countries": [
         "Worldwide"
@@ -11723,6 +14026,15 @@
       "domains": [
         "data management"
       ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset",
+        "document",
+        "publication"
+      ],
       "countries": [
         "Lithuania"
       ],
@@ -11755,6 +14067,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "United Kingdom"
       ],
@@ -11800,6 +14121,16 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "publication"
+      ],
       "countries": [
         "United States"
       ],
@@ -11853,6 +14184,15 @@
         "Structure",
         "protein"
       ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "molecular glue"
+      ],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "China"
       ],
@@ -11901,6 +14241,20 @@
         "Genome map",
         "pathway"
       ],
+      "taxonomies": [
+        "Bacteria"
+      ],
+      "user_defined_tags": [
+        "Metabolic pathway prediction profile"
+      ],
+      "object_types": [
+        "dataset",
+        "document",
+        "image",
+        "model",
+        "protocol or workflow",
+        "publication"
+      ],
       "countries": [
         "United Kingdom"
       ],
@@ -11948,6 +14302,15 @@
         "mass spectrometry assay",
         "small molecule"
       ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "mass spectrometry"
+      ],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "Slovakia"
       ],
@@ -11994,6 +14357,19 @@
       "domains": [
         "nanoparticle",
         "toxicity"
+      ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "Nanosafety",
+        "Systems toxicology"
+      ],
+      "object_types": [
+        "dataset",
+        "image",
+        "model",
+        "protocol or workflow"
       ],
       "countries": [
         "Germany"
@@ -12054,6 +14430,13 @@
         "FAIR",
         "data storage"
       ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "United States"
       ],
@@ -12094,6 +14477,15 @@
         "Pharmacology"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset",
+        "image",
+        "model"
+      ],
       "countries": [
         "United States"
       ],
@@ -12146,6 +14538,53 @@
         "Data analysis",
         "environmental material",
         "microbiome"
+      ],
+      "taxonomies": [
+        "Acinetobacter pittii",
+        "Arabidopsis thaliana",
+        "Aspergillus fumigatus",
+        "Aspergillus niger",
+        "Aspergillus terreus",
+        "Aureobasidium pullulans",
+        "Bacillus",
+        "Bacillus subtilis",
+        "Beauveria bassiana",
+        "Brassica rapa",
+        "Caenorhabditis elegans",
+        "Candida albicans",
+        "Ceratopteris richardii",
+        "Cladosporium cladosporioides",
+        "Cladosporium sphaerospermum",
+        "Danio rerio",
+        "Daphnia magna",
+        "Drosophila melanogaster",
+        "Enterobacter",
+        "Enterobacteria phage lambda",
+        "Escherichia coli",
+        "Euprymna scolopes",
+        "Fusarium solani",
+        "Homo sapiens",
+        "Klebsiella",
+        "Mus musculus",
+        "Mycobacterium marinum",
+        "Oryzias latipes",
+        "Pantoea conspicua",
+        "Prokaryota",
+        "Pseudomonas aeruginosa",
+        "Rattus norvegicus",
+        "Rhodospirillum rubrum",
+        "Saccharomyces cerevisiae",
+        "Staphylococcus",
+        "Staphylococcus aureus",
+        "Streptococcus mutans",
+        "Trichoderma virens"
+      ],
+      "user_defined_tags": [
+        "Multi-omics"
+      ],
+      "object_types": [
+        "dataset",
+        "image"
       ],
       "countries": [
         "United States"
@@ -12213,6 +14652,29 @@
         "pathogen",
         "study design"
       ],
+      "taxonomies": [
+        "Animalia",
+        "Insecta",
+        "Plantae"
+      ],
+      "user_defined_tags": [
+        "Phenology",
+        "Soil pH",
+        "Soil texture",
+        "biogeochemistry",
+        "cyberinfrastructure",
+        "lidar",
+        "metabarcoding",
+        "research infrastructure",
+        "riparian ecosystems",
+        "soil carbon",
+        "soil chemistry",
+        "soil physics",
+        "terrestrial ecosystems"
+      ],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "United States"
       ],
@@ -12256,6 +14718,17 @@
         "Geochemistry"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "Geographic Information System (GIS)",
+        "Geospatial Data",
+        "geothermal energy"
+      ],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "United States"
       ],
@@ -12288,6 +14761,13 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "Czech Republic"
       ],
@@ -12335,6 +14815,13 @@
         "Next Generation Sequencing",
         "electron microscopy"
       ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "China"
       ],
@@ -12375,6 +14862,16 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "dissertation"
+      ],
+      "object_types": [
+        "document",
+        "publication"
+      ],
       "countries": [
         "Ukraine"
       ],
@@ -12419,6 +14916,18 @@
       ],
       "domains": [
         "Teaching Materials"
+      ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset",
+        "document",
+        "image",
+        "multimedia",
+        "physical object/material",
+        "publication"
       ],
       "countries": [
         "United States"
@@ -12466,6 +14975,15 @@
         "Zoology"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset",
+        "image",
+        "physical object/material"
+      ],
       "countries": [
         "United Kingdom"
       ],
@@ -12526,6 +15044,15 @@
         "metabolite",
         "nuclear magnetic resonance spectroscopy"
       ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset",
+        "image",
+        "model"
+      ],
       "countries": [
         "Canada",
         "United States"
@@ -12580,6 +15107,18 @@
         "Physics"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "institutional repository",
+        "organisation of information and knowledge resources"
+      ],
+      "object_types": [
+        "dataset",
+        "document",
+        "model"
+      ],
       "countries": [
         "Australia"
       ],
@@ -12624,6 +15163,13 @@
       ],
       "domains": [
         "marine environment"
+      ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset"
       ],
       "countries": [
         "United Kingdom"
@@ -12671,6 +15217,15 @@
       "domains": [
         "graph"
       ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset",
+        "image",
+        "model"
+      ],
       "countries": [
         "United States"
       ],
@@ -12698,6 +15253,55 @@
       ]
     },
     {
+      "id": "9349",
+      "name": "NFDI4Cat Central Data Repository",
+      "abbreviation": "Repo4Cat",
+      "fairsharing_doi": null,
+      "fairsharing_url": "https://fairsharing.org/9349",
+      "homepage": "https://repository.nfdi4cat.org/",
+      "description": "The NFDI4Cat Central Data Repository (Repo4Cat) brings Research data, publications, and studies together in one place – a hub where research can be shared, discovered, and advanced collaboratively. It enables researchers to make their work visible, find relevant information and tools, and connect with others.",
+      "record_type": "repository",
+      "status": "hidden",
+      "subjects": [
+        "Chemistry"
+      ],
+      "domains": [
+        "Catalytic Activity"
+      ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "Catalysis"
+      ],
+      "object_types": [
+        "Dataset",
+        "Publication"
+      ],
+      "countries": [
+        "Germany"
+      ],
+      "licences": [],
+      "data_access": null,
+      "data_deposition": null,
+      "deprecated": false,
+      "organisations": [
+        {
+          "name": "NFDI4Cat Consortium",
+          "types": [
+            "Consortium"
+          ],
+          "relation": "maintains"
+        }
+      ],
+      "recommended_by": [],
+      "scope": "chemistry",
+      "matched_subjects": [
+        "Chemistry"
+      ],
+      "from_page": true
+    },
+    {
       "id": "7443",
       "name": "NIE Data Repository",
       "abbreviation": null,
@@ -12711,6 +15315,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "Singapore"
       ],
@@ -12782,6 +15395,15 @@
         "sequencing assay",
         "tissue"
       ],
+      "taxonomies": [
+        "Homo sapiens"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset",
+        "image",
+        "publication"
+      ],
       "countries": [
         "United States"
       ],
@@ -12839,6 +15461,13 @@
       "domains": [
         "data management"
       ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "Norway"
       ],
@@ -12884,6 +15513,13 @@
         "Physics"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "United States"
       ],
@@ -12919,6 +15555,14 @@
       "domains": [
         "nuclear magnetic resonance spectroscopy",
         "small molecule"
+      ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset",
+        "image"
       ],
       "countries": [
         "Germany",
@@ -12964,6 +15608,14 @@
       ],
       "domains": [
         "nuclear magnetic resonance spectroscopy"
+      ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset",
+        "image"
       ],
       "countries": [
         "Germany"
@@ -13078,6 +15730,15 @@
         "electron microscopy",
         "ultraviolet-visible spectroscopy"
       ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset",
+        "image",
+        "model"
+      ],
       "countries": [
         "European Union",
         "Germany"
@@ -13127,6 +15788,15 @@
         "environmental contaminant",
         "environmental material"
       ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "mass spectrometry"
+      ],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "European Union"
       ],
@@ -13175,6 +15845,15 @@
       ],
       "domains": [
         "environmental contaminant"
+      ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "exposomics"
+      ],
+      "object_types": [
+        "dataset"
       ],
       "countries": [
         "Australia",
@@ -13233,6 +15912,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "United Kingdom"
       ],
@@ -13272,6 +15960,16 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "Geospatial Data",
+        "time-series"
+      ],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "Canada"
       ],
@@ -13324,6 +16022,17 @@
       "domains": [
         "centrally registered identifier"
       ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "Arctic"
+      ],
+      "object_types": [
+        "dataset",
+        "document",
+        "image"
+      ],
       "countries": [
         "United States"
       ],
@@ -13370,6 +16079,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "Taiwan"
       ],
@@ -13414,6 +16132,20 @@
       ],
       "domains": [
         "Monitoring"
+      ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "Earthquake",
+        "Geological mapping",
+        "Seismology",
+        "Volcano",
+        "earth observation",
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset"
       ],
       "countries": [
         "Italy"
@@ -13461,6 +16193,14 @@
       ],
       "domains": [
         "Data identity and mapping"
+      ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset",
+        "image"
       ],
       "countries": [
         "China",
@@ -13512,6 +16252,17 @@
       "domains": [
         "Data analysis"
       ],
+      "taxonomies": [
+        "Homo sapiens"
+      ],
+      "user_defined_tags": [
+        "Multi-omics",
+        "genetic score"
+      ],
+      "object_types": [
+        "dataset",
+        "model"
+      ],
       "countries": [
         "Australia",
         "United Kingdom"
@@ -13556,6 +16307,13 @@
         "Materials Science"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "terminology artifact"
+      ],
       "countries": [
         "Spain"
       ],
@@ -13608,6 +16366,13 @@
         "Mass spectrum",
         "X-ray diffraction"
       ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "China"
       ],
@@ -13651,6 +16416,13 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "Canada"
       ],
@@ -13683,6 +16455,19 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "Geographic Information System (GIS)",
+        "Geospatial Data",
+        "urban science"
+      ],
+      "object_types": [
+        "dataset",
+        "document",
+        "software application"
+      ],
       "countries": [
         "Canada"
       ],
@@ -13732,6 +16517,30 @@
         "Experimental measurement",
         "Resource metadata"
       ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "Open Science",
+        "Renewable Energy",
+        "advanced manufacturing",
+        "agrivoltaics",
+        "building energy",
+        "energy systems integration",
+        "fuel cells",
+        "geothermal energy",
+        "hydrogen fuel cells",
+        "hydrokinetic energy",
+        "marine energy",
+        "solar power",
+        "transportation",
+        "transportation data",
+        "water power",
+        "wind energy"
+      ],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "United States"
       ],
@@ -13772,6 +16581,13 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "India"
       ],
@@ -13811,6 +16627,13 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "India"
       ],
@@ -13843,6 +16666,17 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "administrative data",
+        "public policy"
+      ],
+      "object_types": [
+        "dataset",
+        "software application"
+      ],
       "countries": [
         "India"
       ],
@@ -13884,6 +16718,17 @@
       "domains": [
         "data management"
       ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "Geospatial Data",
+        "urban science"
+      ],
+      "object_types": [
+        "dataset",
+        "document"
+      ],
       "countries": [
         "Canada"
       ],
@@ -13923,6 +16768,19 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "Geographic Information System (GIS)",
+        "Geospatial Data",
+        "urban science"
+      ],
+      "object_types": [
+        "dataset",
+        "document",
+        "software application"
+      ],
       "countries": [
         "Canada"
       ],
@@ -13962,6 +16820,16 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "Geographic Information System (GIS)"
+      ],
+      "object_types": [
+        "dataset",
+        "document"
+      ],
       "countries": [
         "Canada"
       ],
@@ -14006,6 +16874,14 @@
       "domains": [
         "Reaction data"
       ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset",
+        "model"
+      ],
       "countries": [
         "United Kingdom",
         "United States"
@@ -14042,6 +16918,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "United Kingdom"
       ],
@@ -14093,6 +16978,13 @@
       "domains": [
         "centrally registered identifier",
         "digital curation"
+      ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "other object type"
       ],
       "countries": [
         "United States"
@@ -14161,6 +17053,17 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "document",
+        "publication"
+      ],
       "countries": [
         "Netherlands"
       ],
@@ -14197,6 +17100,17 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "public policy",
+        "urban science"
+      ],
+      "object_types": [
+        "dataset",
+        "document"
+      ],
       "countries": [
         "India"
       ],
@@ -14238,6 +17152,13 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "Switzerland"
       ],
@@ -14270,6 +17191,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "Germany"
       ],
@@ -14305,6 +17235,14 @@
         "Materials Science"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset",
+        "model"
+      ],
       "countries": [
         "United States"
       ],
@@ -14339,6 +17277,13 @@
       ],
       "domains": [
         "Machine Learning"
+      ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset"
       ],
       "countries": [
         "Germany",
@@ -14404,6 +17349,23 @@
       ],
       "domains": [
         "FAIR"
+      ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "conference",
+        "cybersecurity",
+        "dissertation",
+        "institutional repository",
+        "mobility",
+        "nursing",
+        "preprints",
+        "sport sciences",
+        "tourism"
+      ],
+      "object_types": [
+        "publication"
       ],
       "countries": [
         "Germany"
@@ -14486,6 +17448,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "United States"
       ],
@@ -14542,6 +17513,15 @@
         "measurement",
         "web service"
       ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "United States"
       ],
@@ -14592,6 +17572,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "other object type",
+        "software application",
+        "software source code"
+      ],
       "countries": [
         "Spain"
       ],
@@ -14659,6 +17648,16 @@
       "domains": [
         "FAIR",
         "digital curation"
+      ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "digital preservation",
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
       ],
       "countries": [
         "United Kingdom"
@@ -14763,6 +17762,20 @@
         "microscopy",
         "spectroscopy"
       ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "document",
+        "image",
+        "publication",
+        "software application",
+        "software source code"
+      ],
       "countries": [
         "United States"
       ],
@@ -14836,6 +17849,16 @@
       "domains": [
         "marine environment"
       ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "Paleoceanography"
+      ],
+      "object_types": [
+        "dataset",
+        "image"
+      ],
       "countries": [
         "Germany"
       ],
@@ -14886,6 +17909,13 @@
       ],
       "domains": [
         "mass spectrometry assay"
+      ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset"
       ],
       "countries": [
         "United States"
@@ -14945,6 +17975,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "Colombia"
       ],
@@ -15039,6 +18078,26 @@
         "signaling",
         "xenobiotic metabolic process"
       ],
+      "taxonomies": [
+        "Arabidopsis thaliana",
+        "Bos taurus",
+        "Caenorhabditis elegans",
+        "Drosophila melanogaster",
+        "Escherichia coli",
+        "Homo sapiens",
+        "Mus musculus",
+        "Pseudomonas aeruginosa",
+        "Rattus norvegicus",
+        "Saccharomyces cerevisiae"
+      ],
+      "user_defined_tags": [
+        "Drug Target",
+        "Pathway Diagram"
+      ],
+      "object_types": [
+        "dataset",
+        "image"
+      ],
       "countries": [
         "Canada"
       ],
@@ -15080,6 +18139,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "Greece"
       ],
@@ -15127,6 +18195,17 @@
         "radiation",
         "spectroscopy"
       ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "Nuclear data",
+        "Nuclear physics",
+        "x-ray"
+      ],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "United States"
       ],
@@ -15164,6 +18243,18 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "enterprise activity",
+        "technological innovation"
+      ],
+      "object_types": [
+        "dataset",
+        "publication",
+        "questionnaire/survey"
+      ],
       "countries": [
         "Spain"
       ],
@@ -15214,6 +18305,13 @@
       "domains": [
         "Protein structure"
       ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "United States"
       ],
@@ -15258,6 +18356,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "portuguese"
+      ],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "Portugal"
       ],
@@ -15303,6 +18410,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "Hong Kong"
       ],
@@ -15344,6 +18460,18 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "Geographic Information System (GIS)",
+        "Geospatial Data"
+      ],
+      "object_types": [
+        "dataset",
+        "document",
+        "software application"
+      ],
       "countries": [
         "Canada"
       ],
@@ -15383,6 +18511,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "United States"
       ],
@@ -15419,6 +18556,17 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "document",
+        "publication"
+      ],
       "countries": [
         "Canada"
       ],
@@ -15452,6 +18600,15 @@
       ],
       "domains": [
         "algorithm"
+      ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "prognostic algorithms"
+      ],
+      "object_types": [
+        "dataset"
       ],
       "countries": [
         "United States"
@@ -15488,6 +18645,17 @@
       "domains": [
         "Experimental measurement",
         "study design"
+      ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "Method descriptions"
+      ],
+      "object_types": [
+        "dataset",
+        "protocol or workflow",
+        "publication"
       ],
       "countries": [
         "United States"
@@ -15535,6 +18703,17 @@
       ],
       "domains": [
         "measurement"
+      ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "institutional repository",
+        "metrology"
+      ],
+      "object_types": [
+        "dataset",
+        "publication"
       ],
       "countries": [
         "Germany"
@@ -15585,6 +18764,15 @@
         "small molecule",
         "structure"
       ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset",
+        "image",
+        "model"
+      ],
       "countries": [
         "United States"
       ],
@@ -15620,6 +18808,17 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "Open Science",
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "publication"
+      ],
       "countries": [
         "Germany"
       ],
@@ -15668,6 +18867,18 @@
       ],
       "domains": [
         "FAIR"
+      ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "document",
+        "image",
+        "publication"
       ],
       "countries": [
         "United States"
@@ -15789,6 +19000,17 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "document",
+        "publication"
+      ],
       "countries": [
         "United Kingdom"
       ],
@@ -15840,6 +19062,24 @@
         "Reproducibility",
         "data storage",
         "toxicity"
+      ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "Environmental Health",
+        "biochemical activities",
+        "computational toxicology",
+        "ecotoxicity",
+        "environmental fate",
+        "predictive models",
+        "qspr",
+        "risk assessment",
+        "toxicokinetics"
+      ],
+      "object_types": [
+        "dataset",
+        "model"
       ],
       "countries": [
         "Estonia"
@@ -15899,6 +19139,19 @@
         "Experimental measurement",
         "FAIR",
         "Resource metadata"
+      ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "document",
+        "image",
+        "multimedia",
+        "questionnaire/survey"
       ],
       "countries": [
         "Germany"
@@ -15987,6 +19240,13 @@
       "domains": [
         "FAIR",
         "data storage"
+      ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset"
       ],
       "countries": [
         "Germany"
@@ -16093,6 +19353,17 @@
         "ribonucleic acid",
         "structure"
       ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "COVID-19"
+      ],
+      "object_types": [
+        "dataset",
+        "image",
+        "model"
+      ],
       "countries": [
         "United States"
       ],
@@ -16141,6 +19412,20 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "document",
+        "image",
+        "multimedia",
+        "publication",
+        "questionnaire/survey"
+      ],
       "countries": [
         "France"
       ],
@@ -16190,6 +19475,13 @@
         "Chemistry"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "United States"
       ],
@@ -16228,6 +19520,13 @@
       "domains": [
         "chromatography",
         "light-sheet illumination"
+      ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset"
       ],
       "countries": [
         "United States"
@@ -16272,6 +19571,18 @@
       "domains": [
         "data management"
       ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "Geospatial Data",
+        "urban science"
+      ],
+      "object_types": [
+        "dataset",
+        "document",
+        "software application"
+      ],
       "countries": [
         "Canada"
       ],
@@ -16313,6 +19624,13 @@
       "domains": [
         "Machine Learning"
       ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "United States"
       ],
@@ -16345,6 +19663,14 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset",
+        "other object type"
+      ],
       "countries": [
         "Germany",
         "United States"
@@ -16394,6 +19720,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "Germany"
       ],
@@ -16434,6 +19769,18 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "Signal processing",
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "document",
+        "publication"
+      ],
       "countries": [
         "Argentina"
       ],
@@ -16476,6 +19823,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "Paraguay"
       ],
@@ -16549,6 +19905,17 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "image",
+        "model"
+      ],
       "countries": [
         "Poland"
       ],
@@ -16588,6 +19955,17 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "document",
+        "publication"
+      ],
       "countries": [
         "Poland"
       ],
@@ -16630,6 +20008,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "Poland"
       ],
@@ -16675,6 +20062,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "Poland"
       ],
@@ -16721,6 +20117,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "Spain"
       ],
@@ -16756,6 +20161,15 @@
         "Machine Learning",
         "algorithm",
         "cognition"
+      ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
       ],
       "countries": [
         "Brazil"
@@ -16804,6 +20218,16 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "publication"
+      ],
       "countries": [
         "Poland"
       ],
@@ -16882,6 +20306,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "United Kingdom"
       ],
@@ -16915,6 +20348,14 @@
       ],
       "domains": [
         "Resource metadata"
+      ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset",
+        "software source code"
       ],
       "countries": [
         "Australia"
@@ -16950,6 +20391,19 @@
       ],
       "domains": [
         "data storage"
+      ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "document",
+        "image",
+        "model",
+        "physical object/material"
       ],
       "countries": [
         "United Kingdom"
@@ -16993,6 +20447,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "Austria"
       ],
@@ -17033,6 +20496,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "Portugal"
       ],
@@ -17082,6 +20554,13 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "United Kingdom"
       ],
@@ -17117,6 +20596,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "Italy"
       ],
@@ -17184,6 +20672,13 @@
       "domains": [
         "Knowledge representation"
       ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "terminology artifact"
+      ],
       "countries": [
         "Australia"
       ],
@@ -17217,6 +20712,13 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "Sweden"
       ],
@@ -17287,6 +20789,13 @@
       "domains": [
         "spectroscopy"
       ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "Hungary"
       ],
@@ -17319,6 +20828,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "South Africa"
       ],
@@ -17358,6 +20876,16 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "publication"
+      ],
       "countries": [
         "United States"
       ],
@@ -17399,6 +20927,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "Latvia"
       ],
@@ -17435,6 +20972,16 @@
       "domains": [
         "data management"
       ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "document",
+        "publication"
+      ],
       "countries": [
         "Indonesia"
       ],
@@ -17467,6 +21014,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "United States"
       ],
@@ -17505,6 +21061,15 @@
         "Physics"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "Germany"
       ],
@@ -17550,6 +21115,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "Open Science"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "Poland",
         "Spain"
@@ -17598,6 +21172,17 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "physical object/material",
+        "publication"
+      ],
       "countries": [
         "Germany"
       ],
@@ -17657,6 +21242,16 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "publication"
+      ],
       "countries": [
         "Latvia"
       ],
@@ -17702,6 +21297,17 @@
         "Experimental measurement",
         "spectroscopy"
       ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "Plasma Physics",
+        "institutional repository",
+        "time-series"
+      ],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "Germany"
       ],
@@ -17741,6 +21347,16 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "digital library",
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "United States"
       ],
@@ -17773,6 +21389,17 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "publication",
+        "software application"
+      ],
       "countries": [
         "Germany"
       ],
@@ -17809,6 +21436,13 @@
       "domains": [
         "Reaction data",
         "enzyme"
+      ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset"
       ],
       "countries": [
         "Germany"
@@ -17858,6 +21492,18 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "image",
+        "multimedia",
+        "publication"
+      ],
       "countries": [
         "United States"
       ],
@@ -17892,6 +21538,13 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "software source code"
+      ],
       "countries": [
         "United States"
       ],
@@ -17948,6 +21601,17 @@
       "domains": [
         "data storage"
       ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "document",
+        "publication"
+      ],
       "countries": [
         "United States"
       ],
@@ -17994,6 +21658,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "United States"
       ],
@@ -18053,6 +21726,19 @@
         "data storage",
         "digital curation"
       ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "Open Science"
+      ],
+      "object_types": [
+        "dataset",
+        "document",
+        "image",
+        "multimedia",
+        "publication"
+      ],
       "countries": [
         "Brazil"
       ],
@@ -18094,6 +21780,14 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset",
+        "image"
+      ],
       "countries": [
         "China"
       ],
@@ -18181,6 +21875,13 @@
         "data visualization"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "United States"
       ],
@@ -18234,6 +21935,16 @@
         "X-ray crystallography 3D molecular structure determination assay",
         "X-ray diffraction"
       ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "Catalysis"
+      ],
+      "object_types": [
+        "dataset",
+        "image"
+      ],
       "countries": [
         "Germany"
       ],
@@ -18277,6 +21988,13 @@
         "Toxicology"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "European Union"
       ],
@@ -18311,6 +22029,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset",
+        "image",
+        "publication"
+      ],
       "countries": [
         "Netherlands"
       ],
@@ -18351,6 +22078,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "document",
+        "multimedia",
+        "publication"
+      ],
       "countries": [
         "Worldwide"
       ],
@@ -18397,6 +22133,16 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "digital library",
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "Argentina"
       ],
@@ -18441,6 +22187,16 @@
         "Mineralogy"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset",
+        "document",
+        "physical object/material",
+        "publication"
+      ],
       "countries": [
         "Argentina"
       ],
@@ -18473,6 +22229,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "United Kingdom"
       ],
@@ -18506,6 +22271,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "United States"
       ],
@@ -18541,6 +22315,13 @@
       "domains": [
         "data storage"
       ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "software source code"
+      ],
       "countries": [
         "France"
       ],
@@ -18574,6 +22355,13 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "software source code"
+      ],
       "countries": [
         "United States"
       ],
@@ -18606,6 +22394,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "Canada"
       ],
@@ -18638,6 +22435,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "United Kingdom"
       ],
@@ -18674,6 +22480,13 @@
         "assay",
         "enzyme",
         "experimentally determined"
+      ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset"
       ],
       "countries": [
         "Germany"
@@ -18718,6 +22531,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset",
+        "publication",
+        "software application"
+      ],
       "countries": [
         "Canada"
       ],
@@ -18751,6 +22573,15 @@
       ],
       "domains": [
         "FAIR"
+      ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
       ],
       "countries": [
         "Sweden"
@@ -18793,6 +22624,15 @@
       ],
       "domains": [
         "FAIR"
+      ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset"
       ],
       "countries": [
         "Sweden"
@@ -18845,6 +22685,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "South Africa"
       ],
@@ -18911,6 +22760,16 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "digital preservation",
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "United Kingdom"
       ],
@@ -18999,6 +22858,15 @@
         "Mass spectrum",
         "mass spectrometry assay"
       ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "mass spectrometry"
+      ],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "United States"
       ],
@@ -19040,6 +22908,21 @@
         "Paleontology"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "Geochronology",
+        "Geographic Information System (GIS)",
+        "Geological mapping",
+        "Geospatial Data",
+        "geothermal energy",
+        "natural hazards"
+      ],
+      "object_types": [
+        "dataset",
+        "image"
+      ],
       "countries": [
         "Austria"
       ],
@@ -19086,6 +22969,18 @@
       "domains": [
         "Experimental measurement",
         "data storage"
+      ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "document",
+        "image",
+        "publication"
       ],
       "countries": [
         "United States"
@@ -19137,6 +23032,13 @@
         "Structure",
         "gene",
         "structure"
+      ],
+      "taxonomies": [
+        "Arabidopsis thaliana"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset"
       ],
       "countries": [
         "United States"
@@ -19195,6 +23097,14 @@
       "domains": [
         "FAIR",
         "bioactive entity"
+      ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset",
+        "image"
       ],
       "countries": [
         "Germany"
@@ -19291,6 +23201,16 @@
         "pathway",
         "sequencing assay"
       ],
+      "taxonomies": [
+        "Eukaryota",
+        "Prokaryota"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset",
+        "model",
+        "protocol or workflow"
+      ],
       "countries": [
         "United States"
       ],
@@ -19349,6 +23269,16 @@
       "domains": [
         "climate"
       ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "biogeochemistry"
+      ],
+      "object_types": [
+        "dataset",
+        "image"
+      ],
       "countries": [
         "United States"
       ],
@@ -19397,6 +23327,18 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "image",
+        "multimedia",
+        "software source code"
+      ],
       "countries": [
         "United States"
       ],
@@ -19466,6 +23408,15 @@
       "domains": [
         "material processing"
       ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "Computational Materials Science"
+      ],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "United States"
       ],
@@ -19506,6 +23457,13 @@
       ],
       "domains": [
         "Machine Learning"
+      ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset"
       ],
       "countries": [
         "United States"
@@ -19556,6 +23514,15 @@
         "Knowledge representation",
         "Machine Learning"
       ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset",
+        "publication",
+        "questionnaire/survey"
+      ],
       "countries": [
         "United States"
       ],
@@ -19602,6 +23569,13 @@
       "domains": [
         "Data analysis",
         "Resource metadata"
+      ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "object type agnostic"
       ],
       "countries": [
         "Worldwide"
@@ -19720,6 +23694,15 @@
       "domains": [
         "FAIR"
       ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "Open Science"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "Malawi"
       ],
@@ -19776,6 +23759,13 @@
         "Physics"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "Germany",
         "Israel",
@@ -19822,6 +23812,15 @@
         "FAIR",
         "data storage",
         "digital curation"
+      ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset"
       ],
       "countries": [
         "Netherlands"
@@ -19982,6 +23981,14 @@
         "Thermodynamics"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset",
+        "publication"
+      ],
       "countries": [
         "United States"
       ],
@@ -20014,6 +24021,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "Austria"
       ],
@@ -20065,6 +24081,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "Austria"
       ],
@@ -20116,6 +24141,18 @@
         "Oceanography"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "Antarctic",
+        "Glacier",
+        "Sea ice",
+        "ice"
+      ],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "United States"
       ],
@@ -20163,6 +24200,17 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "document",
+        "publication"
+      ],
       "countries": [
         "United States"
       ],
@@ -20196,6 +24244,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "United Kingdom"
       ],
@@ -20236,6 +24293,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "Canada"
       ],
@@ -20314,6 +24380,13 @@
       "domains": [
         "FAIR"
       ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "United Kingdom",
         "Worldwide"
@@ -20356,6 +24429,13 @@
       "domains": [
         "Machine Learning"
       ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "United States"
       ],
@@ -20396,6 +24476,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "digital library"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "United States"
       ],
@@ -20449,6 +24538,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "United Kingdom"
       ],
@@ -20488,6 +24586,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "United States"
       ],
@@ -20521,6 +24628,17 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "document",
+        "publication"
+      ],
       "countries": [
         "Spain"
       ],
@@ -20553,6 +24671,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "United Kingdom"
       ],
@@ -20585,6 +24712,19 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "image",
+        "multimedia",
+        "protocol or workflow",
+        "publication"
+      ],
       "countries": [
         "United Kingdom"
       ],
@@ -20619,6 +24759,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "Canada"
       ],
@@ -20665,6 +24814,19 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "document",
+        "image",
+        "publication",
+        "questionnaire/survey"
+      ],
       "countries": [
         "United States"
       ],
@@ -20734,6 +24896,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset",
+        "document",
+        "publication"
+      ],
       "countries": [
         "Worldwide"
       ],
@@ -20773,6 +24944,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "United States"
       ],
@@ -20806,6 +24986,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "Canada"
       ],
@@ -20857,6 +25046,16 @@
       "domains": [
         "data storage"
       ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "Open Science",
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "United States"
       ],
@@ -20897,6 +25096,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "New Zealand"
       ],
@@ -20937,6 +25145,18 @@
       ],
       "domains": [
         "FAIR"
+      ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "image",
+        "multimedia",
+        "software application"
       ],
       "countries": [
         "United Kingdom"
@@ -21031,6 +25251,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "United Kingdom"
       ],
@@ -21063,6 +25292,16 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "document"
+      ],
       "countries": [
         "Canada"
       ],
@@ -21103,6 +25342,18 @@
       ],
       "domains": [
         "data storage"
+      ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "document",
+        "image",
+        "multimedia"
       ],
       "countries": [
         "China"
@@ -21152,6 +25403,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "Australia"
       ],
@@ -21215,6 +25475,20 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "image",
+        "multimedia",
+        "questionnaire/survey",
+        "software application",
+        "software source code"
+      ],
       "countries": [
         "United States"
       ],
@@ -21248,6 +25522,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "South Africa"
       ],
@@ -21294,6 +25577,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "United Kingdom"
       ],
@@ -21327,6 +25619,16 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "multimedia"
+      ],
       "countries": [
         "United Kingdom"
       ],
@@ -21367,6 +25669,13 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "United Kingdom"
       ],
@@ -21403,6 +25712,15 @@
       ],
       "domains": [
         "FAIR"
+      ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
       ],
       "countries": [
         "United Kingdom"
@@ -21443,6 +25761,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "Australia"
       ],
@@ -21484,6 +25811,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "Canada"
       ],
@@ -21519,6 +25855,18 @@
       "domains": [
         "FAIR"
       ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "document",
+        "image",
+        "publication"
+      ],
       "countries": [
         "United States"
       ],
@@ -21553,6 +25901,16 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "image"
+      ],
       "countries": [
         "Poland"
       ],
@@ -21604,6 +25962,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "United States"
       ],
@@ -21636,6 +26003,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "Australia"
       ],
@@ -21681,6 +26057,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "Spain"
       ],
@@ -21720,6 +26105,16 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "publication"
+      ],
       "countries": [
         "Australia"
       ],
@@ -21752,6 +26147,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "other object type"
+      ],
       "countries": [
         "Indonesia"
       ],
@@ -21784,6 +26188,18 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "document",
+        "physical object/material",
+        "publication"
+      ],
       "countries": [
         "Spain"
       ],
@@ -21816,6 +26232,16 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "publication"
+      ],
       "countries": [
         "Australia"
       ],
@@ -21857,6 +26283,17 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "document",
+        "image",
+        "publication"
+      ],
       "countries": [
         "United Kingdom"
       ],
@@ -21902,6 +26339,16 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "image"
+      ],
       "countries": [
         "Canada"
       ],
@@ -21973,6 +26420,16 @@
         "fluorescence",
         "radiation",
         "spectroscopy"
+      ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "Nuclear physics",
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
       ],
       "countries": [
         "Serbia"
@@ -22063,6 +26520,17 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "Open Science"
+      ],
+      "object_types": [
+        "dataset",
+        "document",
+        "image"
+      ],
       "countries": [
         "United States"
       ],
@@ -22110,6 +26578,18 @@
         "electron microscopy",
         "polypeptide region"
       ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "Amyloid",
+        "Protein aggregation",
+        "Steric zippers"
+      ],
+      "object_types": [
+        "dataset",
+        "image"
+      ],
       "countries": [
         "Belgium"
       ],
@@ -22144,6 +26624,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "United States"
       ],
@@ -22185,6 +26674,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "Geographic Information System (GIS)"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "Canada"
       ],
@@ -22224,6 +26722,13 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "Worldwide"
       ],
@@ -22277,6 +26782,13 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "United States"
       ],
@@ -22310,6 +26822,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "United Kingdom"
       ],
@@ -22366,6 +26887,16 @@
       "domains": [
         "Knowledge representation"
       ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "COVID-19"
+      ],
+      "object_types": [
+        "dataset",
+        "protocol or workflow"
+      ],
       "countries": [
         "Belgium",
         "United Kingdom"
@@ -22409,6 +26940,16 @@
       ],
       "domains": [
         "marine environment"
+      ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "biogeochemistry"
+      ],
+      "object_types": [
+        "dataset",
+        "image"
       ],
       "countries": [
         "United States"
@@ -22457,6 +26998,17 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset",
+        "document",
+        "publication"
+      ],
       "countries": [
         "Germany"
       ],
@@ -22508,6 +27060,13 @@
       "domains": [
         "Raman spectroscopy"
       ],
+      "taxonomies": [
+        "Not applicable"
+      ],
+      "user_defined_tags": [],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "France"
       ],
@@ -22549,6 +27108,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "Poland"
       ],
@@ -22582,6 +27150,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "United States"
       ],
@@ -22629,6 +27206,15 @@
       "domains": [
         "FAIR"
       ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "South Africa"
       ],
@@ -22669,6 +27255,16 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "digital library",
+        "institutional repository"
+      ],
+      "object_types": [
+        "dataset"
+      ],
       "countries": [
         "Switzerland"
       ],
@@ -22710,6 +27306,15 @@
       "domains": [
         "data management",
         "data storage"
+      ],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "Open Science"
+      ],
+      "object_types": [
+        "object type agnostic"
       ],
       "countries": [
         "Worldwide"
@@ -22766,6 +27371,15 @@
         "Subject Agnostic"
       ],
       "domains": [],
+      "taxonomies": [
+        "All"
+      ],
+      "user_defined_tags": [
+        "institutional repository"
+      ],
+      "object_types": [
+        "object type agnostic"
+      ],
       "countries": [
         "South Africa"
       ],

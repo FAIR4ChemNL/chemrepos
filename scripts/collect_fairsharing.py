@@ -8,8 +8,10 @@ logging in. API documentation: https://fairsharing.org/API_doc
 """
 
 import argparse
+import html
 import json
 import os
+import re
 import sys
 import time
 import urllib.error
@@ -21,6 +23,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 CACHE = ROOT / 'cache' / 'fairsharing-raw.json'
+# Records the API does not give (yet), saved as pages from the website: <id>.html
+PAGES = ROOT / 'cache' / 'fairsharing-pages'
 OUTPUT = ROOT / '_data' / 'repositories' / 'fairsharing.json'
 API = 'https://api.fairsharing.org'
 PAGE_SIZE = 100
@@ -182,6 +186,9 @@ def process(entry):
         'status': pick(attributes, 'status'),
         'subjects': subjects,
         'domains': domains,
+        'taxonomies': names(pick(attributes, 'taxonomies')),
+        'user_defined_tags': names(pick(attributes, 'user_defined_tags')),
+        'object_types': names(pick(attributes, 'object_types')),
         'countries': countries,
         'licences': licences,
         'data_access': condition(pick(attributes, 'data_access_condition')),
@@ -194,6 +201,64 @@ def process(entry):
         'matched_subjects': sorted({q['subject'] for q in entry['queries']}),
     }
     return item
+
+
+def text_of(fragment):
+    return html.unescape(re.sub(r'\s+', ' ', re.sub(r'<[^>]+>', '', fragment))).strip()
+
+
+def process_page(path):
+    """A record from a saved page of the website, for a record that is not (yet) public.
+
+    Only what the page shows: what it does not show is None or empty.
+    """
+    page = path.read_text(encoding='utf-8')
+    page = re.sub(r'<!--.*?-->', '', page, flags=re.S)
+    # The page lists "<b>Label</b>" followed by the value, until the next label.
+    parts = re.split(r'<span[^>]*><i[^>]*></i><b[^>]*>([^<]*)</b></span>', page)
+    fields = {parts[i].strip(): parts[i + 1] for i in range(1, len(parts) - 1, 2)}
+
+    def chips(label):
+        return sorted(set(text_of(c) for c in re.findall(
+            r'<div class="v-chip__content"[^>]*><div[^>]*><div[^>]*>([^<]+)</div>',
+            fields.get(label, ''))))
+
+    def one(label):
+        value = text_of(fields.get(label, ''))
+        return None if value in ('', 'None found') else value
+    head = re.search(r'<h3[^>]*>([^<]*)</h3><b[^>]*>([^<]*)</b>', page)
+    organisations = [
+        {'name': text_of(name), 'types': [kind.strip(' ()')], 'relation': 'maintains'}
+        for name, kind in re.findall(
+            r'Organisations maintaining this resource.*?<a href="https://fairsharing.org/organisations/\d+"[^>]*>(.*?)</a>.*?<p[^>]*>(.*?)</p>',
+            page, flags=re.S) for name, kind in [(name, text_of(kind))]]
+    subjects = chips('Subjects')
+    return {
+        'id': path.stem,
+        'name': head.group(1).strip(),
+        'abbreviation': head.group(2).strip(' ()'),
+        'fairsharing_doi': None,
+        'fairsharing_url': f'https://fairsharing.org/{path.stem}',
+        'homepage': one('Homepage'),
+        'description': one('Description'),
+        'record_type': (one('Type') or '').lower() or None,
+        'status': 'hidden',
+        'subjects': subjects,
+        'domains': chips('Domains'),
+        'taxonomies': chips('Taxonomic Range'),
+        'user_defined_tags': chips('User Defined Tags'),
+        'object_types': chips('Object types in scope for this resource'),
+        'countries': [text_of(c) for c in re.findall(r'<p[^>]*>([^<]*)</p></a>', fields.get('Countries developing this resource', ''))],
+        'licences': [],
+        'data_access': None,
+        'data_deposition': None,
+        'deprecated': False,
+        'organisations': organisations,
+        'recommended_by': [],
+        'scope': 'chemistry' if set(subjects) & set(CHEMISTRY_SUBJECTS) else 'general',
+        'matched_subjects': sorted(set(subjects) & set(CHEMISTRY_SUBJECTS + GENERAL_SUBJECTS)),
+        'from_page': True,
+    }
 
 
 def is_repository(item):
@@ -235,9 +300,12 @@ def main():
         sys.exit(f'{CACHE} does not exist: run without --from-cache first.')
     except urllib.error.URLError as error:
         sys.exit(f'FAIRsharing request failed: {error}')
-    items = sorted((i for i in map(process, raw.values())
-                    if is_repository(i) and not i['deprecated']),
-                   key=lambda i: (i['name'] or '').lower())
+    items = [i for i in map(process, raw.values()) if is_repository(i) and not i['deprecated']]
+    # Records that are not public yet, saved from their page; the API wins once it has them.
+    known = {i['id'] for i in items}
+    items += [i for i in map(process_page, sorted(PAGES.glob('*.html')))
+              if i['id'] not in known and is_repository(i)]
+    items.sort(key=lambda i: (i['name'] or '').lower())
     result = {
         'source': 'FAIRsharing', 'url': 'https://fairsharing.org',
         'licence': 'CC BY-SA 4.0', 'retrieved': date.today().isoformat(),
