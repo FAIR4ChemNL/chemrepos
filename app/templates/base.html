@@ -4,17 +4,25 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% block title %}Find a data repository{% endblock %}</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.css" integrity="sha256-qTBXiGmok0OwSTNA1uvNgoO6GSylS8Ty3TBjogwOxVo=" crossorigin="anonymous">
   <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body{% block body_attrs %}{% endblock %}>
-  <main>
+  <div class="markdown-body">
+    <a href="{{ url_for('app.index') }}"><img class="logo" src="{{ url_for('static', filename='fair4chemnl-logo.png') }}" alt="FAIR4ChemNL logo"></a>
     {% block content %}{% endblock %}
-    <footer class="note">
-      <a href="{{ url_for('app.index') }}">Start</a> ·
-      <a href="{{ url_for('app.repository_list') }}">All repositories</a> ·
-      <a href="{{ url_for('app.overview') }}">All questions</a>
+    <footer>
+      <p>
+        <a href="{{ url_for('app.index') }}">Start</a> ·
+        <a href="{{ url_for('app.repository_list') }}">All repositories</a> ·
+        <a href="{{ url_for('app.overview') }}">All questions</a>
+      </p>
+      <p>
+        Follow FAIR4ChemNL on <a rel="me" href="https://social.edu.nl/@fair4chemnl">Mastodon</a> or <a rel="me" href="https://bsky.app/profile/FAIR4ChemNL.social.edu.nl.ap.brid.gy">Bluesky</a>.
+        Funded by NWO grant <a href="https://doi.org/10.61686/XVYQV45374">XVYQV45374</a>.
+      </p>
     </footer>
-  </main>
+  </div>
   <script src="{{ url_for('static', filename='answers.js') }}"></script>
 </body>
 </html>

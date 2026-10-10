@@ -74,8 +74,7 @@ class AppTest(unittest.TestCase):
         page = client.get(f"/repository/{with_doi['slug']}/").get_data(as_text=True)
         self.assertIn(f"https://doi.org/{with_doi['fairsharing_doi']}", page)
         page = client.get(f"/repository/{without['slug']}/").get_data(as_text=True)
-        self.assertNotIn('DOI of the', page)
-        self.assertNotIn('https://doi.org/', page)
+        self.assertNotIn('doi.org/10.25504', page)  # the footer links to another DOI
 
     def test_overview_and_404(self):
         self.assertEqual(self.client.get('/tree/').status_code, 200)
