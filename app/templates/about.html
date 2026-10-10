@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% block title %}About – Find a data repository{% endblock %}
+{% block content %}
+    <header>
+      <p class="label">About</p>
+      <h1>About this tool</h1>
+    </header>
+
+    <h2>How it works</h2>
+    <p>You answer questions about your data, such as its kind, who funds it and whether it can be open;
+      each answer leads to the next question, and you can go back or skip to the results at any time.
+      The results list the repositories that fit your answers so far: a repository is left out when it
+      contradicts an answer, the others are ordered by the number of answers they support and by how much
+      chemistry they cover, and for what is not known about a repository nothing is assumed. Open a
+      repository to see what is known for each question.</p>
+
+    <h2>Data sources</h2>
+    <ul>
+      {% for source in sources %}
+      <li><a href="{{ source.url }}" rel="noopener">{{ source.name }}</a>:
+        {{ source.count }} repositories, retrieved {{ source.retrieved }}{% if source.licence %}, licence {{ source.licence }}{% endif %}.
+        Repositories for chemistry-related subjects, and repositories for any subject.</li>
+      {% endfor %}
+      <li>The questions and the lists of countries, disciplines, funders, institutions and publishers are
+        curated by the project.</li>
+    </ul>
+{% endblock %}
