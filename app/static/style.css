@@ -37,6 +37,10 @@ body { margin: 0; }
   --accent: #0366d6;
   --card: #fff;
   --code-bg: #f6f8fa;
+  /* The colours of the logo */
+  --logo-purple: #792477;
+  --logo-green: #bbc808;
+  --logo-orange: #ffac30;
   --yes: #22863a;
   --no: #cb2431;
 }
@@ -127,14 +131,15 @@ input[type=search] {
   display: inline-block;
   margin-left: 0.5rem;
   padding: 0.05rem 0.55rem;
-  border: 1px solid var(--border);
+  border: 1px solid var(--logo-purple);
   border-radius: 999px;
   font-size: 0.78rem;
-  color: var(--muted);
+  color: var(--logo-purple);
   vertical-align: 0.05rem;
 }
-.kind.match { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 600; }
-.kind.unknown { border-style: dashed; }
+.kind.match { background: var(--logo-purple); color: #fff; font-weight: 600; }
+.kind.unknown { border-color: var(--border); border-style: dashed; color: var(--muted); font-weight: 400; }
+.kind.provider { background: var(--logo-orange); border-color: var(--logo-orange); color: #3a2800; font-weight: 600; }
 
 .section { margin-top: 2rem; }
 .fit h3 { margin: 0 0 0.5rem; font-size: 1rem; }
@@ -147,4 +152,3 @@ input[type=search] {
 .no { color: var(--no); font-weight: 700; }
 .unknown { color: var(--muted); font-weight: 700; }
 
-.kind.provider { border-color: var(--accent); color: var(--accent); font-weight: 600; }
