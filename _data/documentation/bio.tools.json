@@ -1,0 +1,1109 @@
+{
+ "source": "bio.tools",
+ "url": "https://bio.tools",
+ "retrieved": "2026-10-10",
+ "entries": 34459,
+ "matches": {
+  "fairsharing-8905": [
+   {
+    "id": "olivers_mtor_atlas",
+    "name": "Olivers mTOR Atlas",
+    "url": "https://bio.tools/olivers_mtor_atlas",
+    "homepage": "https://mtor-atlas.org",
+    "tool_types": [
+     "Web API",
+     "Database portal"
+    ],
+    "api_documentation": [
+     "https://mtor-atlas.org/api/"
+    ],
+    "matched_on": "homepage"
+   }
+  ],
+  "fairsharing-2044": [
+   {
+    "id": "erigeron_breviscapus_eb",
+    "name": "RBSMtool",
+    "url": "https://bio.tools/erigeron_breviscapus_eb",
+    "homepage": "https://www.rcsb.org/",
+    "tool_types": [],
+    "api_documentation": [],
+    "matched_on": "homepage"
+   },
+   {
+    "id": "rcsb-api",
+    "name": "rcsb-api",
+    "url": "https://bio.tools/rcsb-api",
+    "homepage": "http://RCSB.org",
+    "tool_types": [],
+    "api_documentation": [],
+    "matched_on": "homepage"
+   },
+   {
+    "id": "rcsborg",
+    "name": "RCSB Protein Data Bank",
+    "url": "https://bio.tools/rcsborg",
+    "homepage": "https://www.rcsb.org/",
+    "tool_types": [],
+    "api_documentation": [],
+    "matched_on": "homepage"
+   },
+   {
+    "id": "rcsb_pdb",
+    "name": "RCSB Protein Data Bank",
+    "url": "https://bio.tools/rcsb_pdb",
+    "homepage": "http://rcsb.org",
+    "tool_types": [
+     "Database portal"
+    ],
+    "api_documentation": [
+     "http://data.rcsb.org"
+    ],
+    "matched_on": "homepage"
+   }
+  ],
+  "fairsharing-2617": [
+   {
+    "id": "bridgedb",
+    "name": "BridgeDb",
+    "url": "https://bio.tools/bridgedb",
+    "homepage": "http://bridgedb.github.io/",
+    "tool_types": [
+     "Library"
+    ],
+    "api_documentation": [],
+    "matched_on": "homepage"
+   }
+  ],
+  "fairsharing-1698": [
+   {
+    "id": "wikipathways",
+    "name": "WikiPathways",
+    "url": "https://bio.tools/wikipathways",
+    "homepage": "https://www.wikipathways.org/",
+    "tool_types": [
+     "Web API",
+     "Web application",
+     "Web service",
+     "Database portal"
+    ],
+    "api_documentation": [
+     "http://www.wikipathways.org/index.php/Help:WikiPathways_Webservice"
+    ],
+    "matched_on": "homepage"
+   }
+  ],
+  "fairsharing-4319": [
+   {
+    "id": "hubmap",
+    "name": "Human BioMolecular Atlas Program Data Portal",
+    "url": "https://bio.tools/hubmap",
+    "homepage": "https://portal.hubmapconsortium.org",
+    "tool_types": [],
+    "api_documentation": [],
+    "matched_on": "homepage"
+   }
+  ],
+  "fairsharing-2084": [
+   {
+    "id": "hmdb",
+    "name": "HMDB",
+    "url": "https://bio.tools/hmdb",
+    "homepage": "http://www.hmdb.ca/",
+    "tool_types": [
+     "Database portal"
+    ],
+    "api_documentation": [
+     "https://hmdb.ca/simple/api"
+    ],
+    "matched_on": "homepage"
+   }
+  ],
+  "fairsharing-1711": [
+   {
+    "id": "metabolights",
+    "name": "MetaboLights",
+    "url": "https://bio.tools/metabolights",
+    "homepage": "http://www.ebi.ac.uk/metabolights/",
+    "tool_types": [
+     "Database portal"
+    ],
+    "api_documentation": [],
+    "matched_on": "homepage"
+   }
+  ],
+  "fairsharing-2349": [
+   {
+    "id": "massbank",
+    "name": "MassBank",
+    "url": "https://bio.tools/massbank",
+    "homepage": "https://massbank.eu/",
+    "tool_types": [
+     "Database portal"
+    ],
+    "api_documentation": [],
+    "matched_on": "name"
+   }
+  ],
+  "fairsharing-3896": [
+   {
+    "id": "gnps",
+    "name": "GNPS",
+    "url": "https://bio.tools/gnps",
+    "homepage": "https://gnps.ucsd.edu/",
+    "tool_types": [
+     "Workbench"
+    ],
+    "api_documentation": [
+     "https://ccms-ucsd.github.io/GNPSDocumentation/api/"
+    ],
+    "matched_on": "homepage"
+   }
+  ],
+  "fairsharing-2963": [
+   {
+    "id": "metabolicatlas",
+    "name": "Metabolic Atlas",
+    "url": "https://bio.tools/metabolicatlas",
+    "homepage": "https://metabolicatlas.org",
+    "tool_types": [
+     "Web application"
+    ],
+    "api_documentation": [
+     "https://metabolicatlas.org/api"
+    ],
+    "matched_on": "homepage"
+   }
+  ],
+  "fairsharing-6761": [
+   {
+    "id": "dalia",
+    "name": "DALIA",
+    "url": "https://bio.tools/dalia",
+    "homepage": "https://search.dalia.education",
+    "tool_types": [
+     "Web application",
+     "Database portal",
+     "SPARQL endpoint",
+     "Web API"
+    ],
+    "api_documentation": [],
+    "matched_on": "name"
+   }
+  ],
+  "fairsharing-6420": [
+   {
+    "id": "biosurfdb",
+    "name": "BioSurfDB",
+    "url": "https://bio.tools/biosurfdb",
+    "homepage": "https://www.biosurfdb.org",
+    "tool_types": [
+     "Database portal"
+    ],
+    "api_documentation": [],
+    "matched_on": "homepage"
+   }
+  ],
+  "fairsharing-3073": [
+   {
+    "id": "workflowhub",
+    "name": "WorkflowHub",
+    "url": "https://bio.tools/workflowhub",
+    "homepage": "https://workflowhub.eu",
+    "tool_types": [
+     "Database portal",
+     "Web API",
+     "Web application"
+    ],
+    "api_documentation": [
+     "https://workflowhub.eu/api"
+    ],
+    "matched_on": "homepage"
+   }
+  ],
+  "fairsharing-1772": [
+   {
+    "id": "bindingdb",
+    "name": "BindingDB database of measured binding affinities",
+    "url": "https://bio.tools/bindingdb",
+    "homepage": "http://www.bindingdb.org/",
+    "tool_types": [
+     "Database portal"
+    ],
+    "api_documentation": [],
+    "matched_on": "homepage"
+   }
+  ],
+  "fairsharing-2552": [
+   {
+    "id": "unicarb-db",
+    "name": "UniCarb-DB",
+    "url": "https://bio.tools/unicarb-db",
+    "homepage": "http://unicarb-db.biomedicine.gu.se/",
+    "tool_types": [
+     "Database portal"
+    ],
+    "api_documentation": [],
+    "matched_on": "name"
+   },
+   {
+    "id": "unicarbkb",
+    "name": "UniCarbKB",
+    "url": "https://bio.tools/unicarbkb",
+    "homepage": "http://unicarb-db.expasy.org/",
+    "tool_types": [
+     "Database portal"
+    ],
+    "api_documentation": [],
+    "matched_on": "homepage"
+   }
+  ],
+  "fairsharing-1634": [
+   {
+    "id": "proglycprot",
+    "name": "ProGlycProt",
+    "url": "https://bio.tools/proglycprot",
+    "homepage": "http://www.proglycprot.org/",
+    "tool_types": [
+     "Database portal"
+    ],
+    "api_documentation": [],
+    "matched_on": "homepage"
+   }
+  ],
+  "fairsharing-2085": [
+   {
+    "id": "t3db",
+    "name": "T3DB",
+    "url": "https://bio.tools/t3db",
+    "homepage": "http://www.t3db.org",
+    "tool_types": [
+     "Database portal"
+    ],
+    "api_documentation": [],
+    "matched_on": "name"
+   }
+  ],
+  "fairsharing-2028": [
+   {
+    "id": "biogrid",
+    "name": "The BioGRID Interaction Database",
+    "url": "https://bio.tools/biogrid",
+    "homepage": "http://www.thebiogrid.org",
+    "tool_types": [
+     "Database portal"
+    ],
+    "api_documentation": [],
+    "matched_on": "homepage"
+   },
+   {
+    "id": "the_grid",
+    "name": "The GRID",
+    "url": "https://bio.tools/the_grid",
+    "homepage": "http://www.thebiogrid.org/",
+    "tool_types": [
+     "Database portal"
+    ],
+    "api_documentation": [],
+    "matched_on": "homepage"
+   }
+  ],
+  "fairsharing-1632": [
+   {
+    "id": "polbase",
+    "name": "Polbase",
+    "url": "https://bio.tools/polbase",
+    "homepage": "http://polbase.neb.com/",
+    "tool_types": [
+     "Database portal"
+    ],
+    "api_documentation": [],
+    "matched_on": "homepage"
+   }
+  ],
+  "fairsharing-1649": [
+   {
+    "id": "tair",
+    "name": "The Arabidopsis information resource (TAIR)",
+    "url": "https://bio.tools/tair",
+    "homepage": "http://arabidopsis.org/",
+    "tool_types": [
+     "Database portal"
+    ],
+    "api_documentation": [],
+    "matched_on": "homepage"
+   }
+  ],
+  "fairsharing-2480": [
+   {
+    "id": "comptox_chemistry_dashboard",
+    "name": "CompTox Chemistry Dashboard",
+    "url": "https://bio.tools/comptox_chemistry_dashboard",
+    "homepage": "https://comptox.epa.gov/dashboard",
+    "tool_types": [
+     "Web application"
+    ],
+    "api_documentation": [],
+    "matched_on": "homepage"
+   }
+  ],
+  "fairsharing-2738": [
+   {
+    "id": "enzyme",
+    "name": "ENZYME - Enzyme nomenclature database",
+    "url": "https://bio.tools/enzyme",
+    "homepage": "http://enzyme.expasy.org",
+    "tool_types": [
+     "Database portal"
+    ],
+    "api_documentation": [],
+    "matched_on": "homepage"
+   }
+  ],
+  "fairsharing-2387": [
+   {
+    "id": "enzyme_portal",
+    "name": "Enzyme Portal",
+    "url": "https://bio.tools/enzyme_portal",
+    "homepage": "http://www.ebi.ac.uk/enzymeportal/",
+    "tool_types": [
+     "Database portal"
+    ],
+    "api_documentation": [],
+    "matched_on": "homepage"
+   }
+  ],
+  "fairsharing-1561": [
+   {
+    "id": "chembl",
+    "name": "ChEMBL",
+    "url": "https://bio.tools/chembl",
+    "homepage": "https://www.ebi.ac.uk/chembldb/",
+    "tool_types": [
+     "Web API",
+     "Database portal"
+    ],
+    "api_documentation": [
+     "https://www.ebi.ac.uk/chembldb/index.php/ws/"
+    ],
+    "matched_on": "name"
+   }
+  ],
+  "fairsharing-1639": [
+   {
+    "id": "rhea",
+    "name": "Rhea",
+    "url": "https://bio.tools/rhea",
+    "homepage": "https://www.rhea-db.org/",
+    "tool_types": [
+     "Database portal"
+    ],
+    "api_documentation": [],
+    "matched_on": "homepage"
+   }
+  ],
+  "fairsharing-2819": [
+   {
+    "id": "WALTZ-DB_2.0",
+    "name": "WALTZ-DB",
+    "url": "https://bio.tools/WALTZ-DB_2.0",
+    "homepage": "http://waltzdb.switchlab.org/",
+    "tool_types": [],
+    "api_documentation": [],
+    "matched_on": "homepage"
+   }
+  ],
+  "fairsharing-2831": [
+   {
+    "id": "PathBank",
+    "name": "PathBank",
+    "url": "https://bio.tools/PathBank",
+    "homepage": "http://www.pathbank.org",
+    "tool_types": [
+     "Database portal"
+    ],
+    "api_documentation": [],
+    "matched_on": "homepage"
+   }
+  ],
+  "fairsharing-2268": [
+   {
+    "id": "BiGG_Models",
+    "name": "BiGG Models",
+    "url": "https://bio.tools/BiGG_Models",
+    "homepage": "http://bigg.ucsd.edu",
+    "tool_types": [
+     "Web application"
+    ],
+    "api_documentation": [],
+    "matched_on": "homepage"
+   }
+  ],
+  "fairsharing-2363": [
+   {
+    "id": "drugcentral",
+    "name": "DrugCentral",
+    "url": "https://bio.tools/drugcentral",
+    "homepage": "http://drugcentral.org",
+    "tool_types": [
+     "Database portal"
+    ],
+    "api_documentation": [],
+    "matched_on": "homepage"
+   }
+  ],
+  "fairsharing-1680": [
+   {
+    "id": "metacyc",
+    "name": "MetaCyc",
+    "url": "https://bio.tools/metacyc",
+    "homepage": "http://metacyc.org/",
+    "tool_types": [
+     "Database portal"
+    ],
+    "api_documentation": [],
+    "matched_on": "homepage"
+   }
+  ],
+  "fairsharing-2281": [
+   {
+    "id": "metanetx",
+    "name": "MetaNetX",
+    "url": "https://bio.tools/metanetx",
+    "homepage": "https://metanetx.org/",
+    "tool_types": [
+     "Web application",
+     "Database portal"
+    ],
+    "api_documentation": [],
+    "matched_on": "homepage"
+   }
+  ],
+  "fairsharing-2946": [
+   {
+    "id": "klifs",
+    "name": "KLIFS",
+    "url": "https://bio.tools/klifs",
+    "homepage": "https://klifs.net",
+    "tool_types": [
+     "Web API",
+     "Web application",
+     "Database portal"
+    ],
+    "api_documentation": [
+     "https://klifs.net/swagger"
+    ],
+    "matched_on": "homepage"
+   }
+  ],
+  "fairsharing-3680": [
+   {
+    "id": "bioregistry",
+    "name": "Bioregistry",
+    "url": "https://bio.tools/bioregistry",
+    "homepage": "https://bioregistry.io",
+    "tool_types": [
+     "Web application"
+    ],
+    "api_documentation": [],
+    "matched_on": "homepage"
+   }
+  ],
+  "fairsharing-4746": [
+   {
+    "id": "cas_common_chemistry",
+    "name": "CAS Common Chemistry",
+    "url": "https://bio.tools/cas_common_chemistry",
+    "homepage": "https://commonchemistry.cas.org/",
+    "tool_types": [
+     "Web application"
+    ],
+    "api_documentation": [],
+    "matched_on": "homepage"
+   }
+  ],
+  "fairsharing-4523": [
+   {
+    "id": "medba",
+    "name": "MeDBA",
+    "url": "https://bio.tools/medba",
+    "homepage": "https://medba.ddtmlab.org",
+    "tool_types": [
+     "Web application"
+    ],
+    "api_documentation": [],
+    "matched_on": "homepage"
+   }
+  ],
+  "fairsharing-5744": [
+   {
+    "id": "drugmap",
+    "name": "DrugMAP",
+    "url": "https://bio.tools/drugmap",
+    "homepage": "https://idrblab.org/drugmap/",
+    "tool_types": [
+     "Web application"
+    ],
+    "api_documentation": [],
+    "matched_on": "homepage"
+   }
+  ],
+  "fairsharing-2369": [
+   {
+    "id": "Open_Targets_Platform",
+    "name": "Open Targets Platform",
+    "url": "https://bio.tools/Open_Targets_Platform",
+    "homepage": "https://platform.opentargets.org",
+    "tool_types": [
+     "Web application",
+     "Database portal",
+     "Web service",
+     "Web API"
+    ],
+    "api_documentation": [
+     "https://platform-docs.opentargets.org/data-access/graphql-api"
+    ],
+    "matched_on": "homepage"
+   },
+   {
+    "id": "Open_Targets",
+    "name": "Open Targets",
+    "url": "https://bio.tools/Open_Targets",
+    "homepage": "https://www.opentargets.org",
+    "tool_types": [],
+    "api_documentation": [],
+    "matched_on": "name"
+   }
+  ],
+  "fairsharing-5037": [
+   {
+    "id": "glycosmos",
+    "name": "GlyCosmos",
+    "url": "https://bio.tools/glycosmos",
+    "homepage": "https://glycosmos.org",
+    "tool_types": [
+     "Web application"
+    ],
+    "api_documentation": [],
+    "matched_on": "homepage"
+   }
+  ],
+  "fairsharing-6591": [
+   {
+    "id": "foodis",
+    "name": "FooDis",
+    "url": "https://bio.tools/foodis",
+    "homepage": "https://foodb.ca/",
+    "tool_types": [
+     "Database portal"
+    ],
+    "api_documentation": [],
+    "matched_on": "homepage"
+   }
+  ],
+  "fairsharing-5157": [
+   {
+    "id": "implantomics",
+    "name": "IMP",
+    "url": "https://bio.tools/implantomics",
+    "homepage": "https://www.bic.ac.cn/IMP",
+    "tool_types": [
+     "Database portal"
+    ],
+    "api_documentation": [],
+    "matched_on": "homepage"
+   }
+  ],
+  "fairsharing-1879": [
+   {
+    "id": "veupathdb",
+    "name": "VEuPathDB",
+    "url": "https://bio.tools/veupathdb",
+    "homepage": "https://veupathdb.org",
+    "tool_types": [
+     "Database portal"
+    ],
+    "api_documentation": [],
+    "matched_on": "name"
+   }
+  ],
+  "fairsharing-5564": [
+   {
+    "id": "motrpac",
+    "name": "MoTrPAC",
+    "url": "https://bio.tools/motrpac",
+    "homepage": "https://motrpac-data.org/",
+    "tool_types": [
+     "Database portal"
+    ],
+    "api_documentation": [],
+    "matched_on": "homepage"
+   }
+  ],
+  "fairsharing-1866": [
+   {
+    "id": "reactome",
+    "name": "Reactome",
+    "url": "https://bio.tools/reactome",
+    "homepage": "http://www.reactome.org",
+    "tool_types": [
+     "Database portal"
+    ],
+    "api_documentation": [],
+    "matched_on": "homepage"
+   }
+  ],
+  "fairsharing-3993": [
+   {
+    "id": "metaspace",
+    "name": "METASPACE",
+    "url": "https://bio.tools/metaspace",
+    "homepage": "https://metaspace2020.eu",
+    "tool_types": [
+     "Web application"
+    ],
+    "api_documentation": [],
+    "matched_on": "homepage"
+   }
+  ],
+  "fairsharing-5764": [
+   {
+    "id": "biodeep",
+    "name": "BioDeep Database",
+    "url": "https://bio.tools/biodeep",
+    "homepage": "https://query.biodeep.cn/?lang=en",
+    "tool_types": [
+     "Database portal",
+     "Web application"
+    ],
+    "api_documentation": [],
+    "matched_on": "homepage"
+   }
+  ],
+  "fairsharing-7371": [
+   {
+    "id": "psnpbind",
+    "name": "PSnpBind",
+    "url": "https://bio.tools/psnpbind",
+    "homepage": "https://psnpbind.org",
+    "tool_types": [
+     "Database portal",
+     "Command-line tool",
+     "Web application"
+    ],
+    "api_documentation": [],
+    "matched_on": "homepage"
+   }
+  ],
+  "fairsharing-9332": [
+   {
+    "id": "ncats_inxight_drugs",
+    "name": "NCATS Inxight Drugs",
+    "url": "https://bio.tools/ncats_inxight_drugs",
+    "homepage": "https://drugs.ncats.io",
+    "tool_types": [
+     "Web application",
+     "Database portal"
+    ],
+    "api_documentation": [
+     "https://drugs.ncats.io/api/v1"
+    ],
+    "matched_on": "homepage"
+   }
+  ],
+  "fairsharing-5553": [
+   {
+    "id": "np-mrd",
+    "name": "NP-MRD",
+    "url": "https://bio.tools/np-mrd",
+    "homepage": "https://np-mrd.org",
+    "tool_types": [
+     "Database portal",
+     "Web application"
+    ],
+    "api_documentation": [],
+    "matched_on": "homepage"
+   }
+  ],
+  "fairsharing-2752": [
+   {
+    "id": "signalink3",
+    "name": "SignaLink3",
+    "url": "https://bio.tools/signalink3",
+    "homepage": "http://signalink.org/",
+    "tool_types": [
+     "Web application"
+    ],
+    "api_documentation": [],
+    "matched_on": "homepage"
+   }
+  ],
+  "fairsharing-3886": [
+   {
+    "id": "apicuron",
+    "name": "APICURON",
+    "url": "https://bio.tools/apicuron",
+    "homepage": "http://apicuron.org",
+    "tool_types": [
+     "Database portal"
+    ],
+    "api_documentation": [
+     "https://apicuron.org/help"
+    ],
+    "matched_on": "homepage"
+   }
+  ],
+  "fairsharing-5433": [
+   {
+    "id": "ppdb",
+    "name": "PPDB",
+    "url": "https://bio.tools/ppdb",
+    "homepage": "http://sitem.herts.ac.uk/aeru/ppdb/en/index.htm",
+    "tool_types": [
+     "Database portal",
+     "Web application"
+    ],
+    "api_documentation": [],
+    "matched_on": "name"
+   }
+  ],
+  "fairsharing-5563": [
+   {
+    "id": "mapmecfs",
+    "name": "mapMECFS",
+    "url": "https://bio.tools/mapmecfs",
+    "homepage": "https://www.mapmecfs.org",
+    "tool_types": [
+     "Database portal"
+    ],
+    "api_documentation": [],
+    "matched_on": "homepage"
+   }
+  ],
+  "fairsharing-2782": [
+   {
+    "id": "MolMeDB",
+    "name": "MolMeDB",
+    "url": "https://bio.tools/MolMeDB",
+    "homepage": "http://molmedb.upol.cz",
+    "tool_types": [
+     "Database portal"
+    ],
+    "api_documentation": [],
+    "matched_on": "homepage"
+   }
+  ],
+  "fairsharing-1989": [
+   {
+    "id": "pubchem",
+    "name": "PubChem",
+    "url": "https://bio.tools/pubchem",
+    "homepage": "http://pubchem.ncbi.nlm.nih.gov/",
+    "tool_types": [
+     "Database portal"
+    ],
+    "api_documentation": [],
+    "matched_on": "homepage"
+   }
+  ],
+  "fairsharing-2042": [
+   {
+    "id": "chemspider",
+    "name": "ChemSpider",
+    "url": "https://bio.tools/chemspider",
+    "homepage": "http://www.chemspider.com/",
+    "tool_types": [
+     "Web service"
+    ],
+    "api_documentation": [],
+    "matched_on": "homepage"
+   }
+  ],
+  "fairsharing-2956": [
+   {
+    "id": "covid19-drug-interactions",
+    "name": "COVID- 19 Drug interactions",
+    "url": "https://bio.tools/covid19-drug-interactions",
+    "homepage": "http://www.covid19-druginteractions.org",
+    "tool_types": [
+     "Web application"
+    ],
+    "api_documentation": [],
+    "matched_on": "homepage"
+   }
+  ],
+  "fairsharing-4442": [
+   {
+    "id": "tiga",
+    "name": "TIGA",
+    "url": "https://bio.tools/tiga",
+    "homepage": "https://unmtid-shinyapps.net/tiga/",
+    "tool_types": [],
+    "api_documentation": [],
+    "matched_on": "homepage"
+   }
+  ],
+  "fairsharing-7703": [
+   {
+    "id": "coconut",
+    "name": "COCONUT",
+    "url": "https://bio.tools/coconut",
+    "homepage": "https://coconut.naturalproducts.net",
+    "tool_types": [
+     "Database portal",
+     "Web API"
+    ],
+    "api_documentation": [],
+    "matched_on": "homepage"
+   }
+  ],
+  "fairsharing-2748": [
+   {
+    "id": "cngbdb",
+    "name": "CNGBdb",
+    "url": "https://bio.tools/cngbdb",
+    "homepage": "https://db.cngb.org/",
+    "tool_types": [
+     "Bioinformatics portal"
+    ],
+    "api_documentation": [],
+    "matched_on": "homepage"
+   }
+  ],
+  "fairsharing-2759": [
+   {
+    "id": "glytoucan",
+    "name": "GlyTouCan",
+    "url": "https://bio.tools/glytoucan",
+    "homepage": "https://glytoucan.org",
+    "tool_types": [
+     "Database portal"
+    ],
+    "api_documentation": [],
+    "matched_on": "homepage"
+   }
+  ],
+  "fairsharing-3327": [
+   {
+    "id": "apollo-seq",
+    "name": "Apollo",
+    "url": "https://bio.tools/apollo-seq",
+    "homepage": "https://github.com/CMU-SAFARI/Apollo",
+    "tool_types": [
+     "Command-line tool"
+    ],
+    "api_documentation": [],
+    "matched_on": "name"
+   }
+  ],
+  "fairsharing-3185": [
+   {
+    "id": "glycopost",
+    "name": "GlycoPOST",
+    "url": "https://bio.tools/glycopost",
+    "homepage": "https://glycopost.glycosmos.org/",
+    "tool_types": [
+     "Database portal"
+    ],
+    "api_documentation": [],
+    "matched_on": "homepage"
+   }
+  ],
+  "fairsharing-2529": [
+   {
+    "id": "genelab",
+    "name": "GeneLab",
+    "url": "https://bio.tools/genelab",
+    "homepage": "https://genelab.nasa.gov/",
+    "tool_types": [
+     "Web application"
+    ],
+    "api_documentation": [],
+    "matched_on": "homepage"
+   }
+  ],
+  "fairsharing-2329": [
+   {
+    "id": "wikidata",
+    "name": "Wikidata",
+    "url": "https://bio.tools/wikidata",
+    "homepage": "https://www.wikidata.org",
+    "tool_types": [],
+    "api_documentation": [],
+    "matched_on": "homepage"
+   }
+  ],
+  "fairsharing-3274": [
+   {
+    "id": "ippi-db",
+    "name": "iPPI-DB",
+    "url": "https://bio.tools/ippi-db",
+    "homepage": "https://ippidb.pasteur.fr",
+    "tool_types": [
+     "Database portal"
+    ],
+    "api_documentation": [],
+    "matched_on": "homepage"
+   }
+  ],
+  "fairsharing-2959": [
+   {
+    "id": "hep-druginteractions",
+    "name": "Hep-druginteractions",
+    "url": "https://bio.tools/hep-druginteractions",
+    "homepage": "http://www.hep-druginteractions.org/",
+    "tool_types": [
+     "Web application"
+    ],
+    "api_documentation": [],
+    "matched_on": "homepage"
+   }
+  ],
+  "fairsharing-3178": [
+   {
+    "id": "ordo",
+    "name": "ORDO",
+    "url": "https://bio.tools/ordo",
+    "homepage": "http://www.ebi.ac.uk/ols/ontologies/ordo",
+    "tool_types": [
+     "Ontology",
+     "Web application",
+     "Database portal"
+    ],
+    "api_documentation": [],
+    "matched_on": "name"
+   }
+  ],
+  "fairsharing-1897": [
+   {
+    "id": "peroxisomedb",
+    "name": "PeroxisomeDB",
+    "url": "https://bio.tools/peroxisomedb",
+    "homepage": "http://www.peroxisomeDB.org",
+    "tool_types": [
+     "Web application",
+     "Database portal"
+    ],
+    "api_documentation": [],
+    "matched_on": "homepage"
+   }
+  ],
+  "fairsharing-2720": [
+   {
+    "id": "CORE",
+    "name": "CORE",
+    "url": "https://bio.tools/CORE",
+    "homepage": "https://cran.r-project.org/package=CORE",
+    "tool_types": [
+     "Library"
+    ],
+    "api_documentation": [],
+    "matched_on": "name"
+   }
+  ],
+  "fairsharing-1891": [
+   {
+    "id": "sabio-rk",
+    "name": "SABIO-RK: biochemical reactions and their kinetics",
+    "url": "https://bio.tools/sabio-rk",
+    "homepage": "http://sabiork.h-its.org/",
+    "tool_types": [
+     "Database portal"
+    ],
+    "api_documentation": [],
+    "matched_on": "homepage"
+   }
+  ],
+  "fairsharing-2259": [
+   {
+    "id": "swisslipids",
+    "name": "SwissLipids",
+    "url": "https://bio.tools/swisslipids",
+    "homepage": "http://www.swisslipids.org/#/",
+    "tool_types": [
+     "Database portal"
+    ],
+    "api_documentation": [],
+    "matched_on": "homepage"
+   }
+  ],
+  "fairsharing-2090": [
+   {
+    "id": "lipid_maps",
+    "name": "LIPID MAPS",
+    "url": "https://bio.tools/lipid_maps",
+    "homepage": "http://www.lipidmaps.org/tools/index.html",
+    "tool_types": [
+     "Web application"
+    ],
+    "api_documentation": [],
+    "matched_on": "name"
+   }
+  ],
+  "fairsharing-2397": [
+   {
+    "id": "sugarbind",
+    "name": "SugarBind",
+    "url": "https://bio.tools/sugarbind",
+    "homepage": "https://sugarbind.expasy.org",
+    "tool_types": [
+     "Database portal"
+    ],
+    "api_documentation": [],
+    "matched_on": "homepage"
+   }
+  ],
+  "fairsharing-1834": [
+   {
+    "id": "cazy",
+    "name": "Carbohydrate-active enzymes database (CAZy)",
+    "url": "https://bio.tools/cazy",
+    "homepage": "http://www.cazy.org/",
+    "tool_types": [
+     "Database portal"
+    ],
+    "api_documentation": [],
+    "matched_on": "homepage"
+   }
+  ],
+  "fairsharing-2381": [
+   {
+    "id": "kbase",
+    "name": "KBASE",
+    "url": "https://bio.tools/kbase",
+    "homepage": "http://kbase.us/",
+    "tool_types": [
+     "Workflow"
+    ],
+    "api_documentation": [],
+    "matched_on": "homepage"
+   }
+  ],
+  "fairsharing-2270": [
+   {
+    "id": "orcid",
+    "name": "Orcid API",
+    "url": "https://bio.tools/orcid",
+    "homepage": "https://orcid.org/",
+    "tool_types": [
+     "Web API"
+    ],
+    "api_documentation": [],
+    "matched_on": "homepage"
+   }
+  ],
+  "fairsharing-2161": [
+   {
+    "id": "pangaea",
+    "name": "PANGAEA",
+    "url": "https://bio.tools/pangaea",
+    "homepage": "https://www.pangaea.de/",
+    "tool_types": [
+     "Database portal"
+    ],
+    "api_documentation": [],
+    "matched_on": "homepage"
+   }
+  ]
+ }
+}

@@ -1,0 +1,1592 @@
+{
+ "source": "TeSS",
+ "url": "https://tess.elixir-europe.org",
+ "retrieved": "2026-10-10",
+ "entries": {
+  "materials": 3620,
+  "events": 10302
+ },
+ "matches": {
+  "fairsharing-7201": {
+   "materials": [
+    {
+     "id": "12711",
+     "title": "Publishing Reusable AI/ML Models in the Life Sciences (MAQC 2026 Technical Tutorial P06)",
+     "url": "https://tess.elixir-europe.org/materials/publishing-reusable-ai-ml-models-in-the-life-sciences-maqc-2026-technical-tutorial-p06",
+     "start": null,
+     "matched_on": "text"
+    }
+   ]
+  },
+  "fairsharing-4319": {
+   "materials": [
+    {
+     "id": "5457",
+     "title": "Managing spatial data: insights from developing the Human Biomolecular Atlas Program (HuBMAP) data portal",
+     "url": "https://tess.elixir-europe.org/materials/managing-spatial-data-insights-from-developing-the-human-biomolecular-atlas-program-hubmap-data-portal",
+     "start": null,
+     "matched_on": "text"
+    }
+   ],
+   "events": [
+    {
+     "id": "52993",
+     "title": "Managing spatial data: insights from developing the Human Biomolecular Atlas Program (HuBMAP) data portal",
+     "url": "https://tess.elixir-europe.org/events/managing-spatial-data-insights-from-developing-the-human-biomolecular-atlas-program-hubmap-data-portal",
+     "start": "2026-04-01T09:00:00.000Z",
+     "matched_on": "text"
+    }
+   ]
+  },
+  "fairsharing-1711": {
+   "materials": [
+    {
+     "id": "5438",
+     "title": "FAIR metabolomics in practice: submitting and accessing data in MetaboLights",
+     "url": "https://tess.elixir-europe.org/materials/fair-metabolomics-in-practice-submitting-and-accessing-data-in-metabolights",
+     "start": null,
+     "matched_on": "text"
+    },
+    {
+     "id": "4738",
+     "title": "WEBINAR: MetaboLights: the home for metabolomics experiments and derived information",
+     "url": "https://tess.elixir-europe.org/materials/webinar-metabolights-the-home-for-metabolomics-experiments-and-derived-information",
+     "start": null,
+     "matched_on": "text"
+    },
+    {
+     "id": "3710",
+     "title": "Studying metabolites and small molecules with MetaboLights and ChEBI",
+     "url": "https://tess.elixir-europe.org/materials/studying-metabolites-and-small-molecules-with-metabolights-and-chebi",
+     "start": null,
+     "matched_on": "text"
+    },
+    {
+     "id": "3294",
+     "title": "MetaboLights: the home for metabolomics experiments and derived information",
+     "url": "https://tess.elixir-europe.org/materials/metabolights-the-home-for-metabolomics-experiments-and-derived-information",
+     "start": null,
+     "matched_on": "text"
+    },
+    {
+     "id": "3102",
+     "title": "MetaboLights: Quick tour",
+     "url": "https://tess.elixir-europe.org/materials/metabolights",
+     "start": null,
+     "matched_on": "text"
+    },
+    {
+     "id": "2949",
+     "title": "Organisation and utilisation of hologenomic datasets – course notes",
+     "url": "https://tess.elixir-europe.org/materials/organisation-and-utilisation-of-hologenomic-datasets-course-notes",
+     "start": null,
+     "matched_on": "text"
+    }
+   ],
+   "events": [
+    {
+     "id": "53109",
+     "title": "Introduction to metabolomics analysis",
+     "url": "https://tess.elixir-europe.org/events/introduction-to-metabolomics-analysis-4d0868d7-4dad-48ef-9666-fb73d528e9a7",
+     "start": "2027-05-17T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "52241",
+     "title": "Introduction to metabolomics analysis",
+     "url": "https://tess.elixir-europe.org/events/introduction-to-metabolomics-analysis-b62f95f1-b7d1-4007-9e09-4d42334e6978",
+     "start": "2026-04-27T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "53113",
+     "title": "FAIR metabolomics in practice: submitting and accessing data in MetaboLights",
+     "url": "https://tess.elixir-europe.org/events/fair-metabolomics-in-practice-submitting-and-accessing-data-in-metabolights",
+     "start": "2026-03-12T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "52968",
+     "title": "An introduction to EMBL-EBI resources",
+     "url": "https://tess.elixir-europe.org/events/an-introduction-to-embl-ebi-resources-899629e3-71cf-466a-951f-f24cc962fee8",
+     "start": "2026-01-14T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "52435",
+     "title": "Chemicals in a biological context: metabolites, drugs, and beyond",
+     "url": "https://tess.elixir-europe.org/events/chemicals-in-a-biological-context-metabolites-drugs-and-beyond",
+     "start": "2025-11-13T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "50864",
+     "title": "Introduction to metabolomics analysis",
+     "url": "https://tess.elixir-europe.org/events/introduction-to-metabolomics-analysis-15102679-5530-48e1-b882-c102c6866146",
+     "start": "2025-05-20T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "50090",
+     "title": "Plant genomes: from data to discovery",
+     "url": "https://tess.elixir-europe.org/events/plant-genomes-from-data-to-discovery",
+     "start": "2024-11-18T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "50101",
+     "title": "Introduction to metabolomics analysis",
+     "url": "https://tess.elixir-europe.org/events/introduction-to-metabolomics-analysis-724f73da-2c20-4f21-b566-6bc9c0c3c7e0",
+     "start": "2024-05-14T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "50891",
+     "title": "WEBINAR: MetaboLights: the home for metabolomics experiments and derived information",
+     "url": "https://tess.elixir-europe.org/events/webinar-metabolights-the-home-for-metabolomics-experiments-and-derived-information",
+     "start": "2024-04-09T16:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "50319",
+     "title": "Studying metabolites and small molecules with MetaboLights and ChEBI",
+     "url": "https://tess.elixir-europe.org/events/studying-metabolites-and-small-molecules-with-metabolights-and-chebi",
+     "start": "2023-11-29T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "52387",
+     "title": "Molecular building blocks of life",
+     "url": "https://tess.elixir-europe.org/events/molecular-building-blocks-of-life",
+     "start": "2023-09-20T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "49642",
+     "title": "Biocuration Q&A session",
+     "url": "https://tess.elixir-europe.org/events/biocuration-q-a-session",
+     "start": "2022-11-30T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "49284",
+     "title": "MetaboLights: the home for metabolomics experiments and derived information",
+     "url": "https://tess.elixir-europe.org/events/metabolights-the-home-for-metabolomics-experiments-and-derived-information",
+     "start": "2022-02-02T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "48191",
+     "title": "ELIXIR Fluxomics Training School 2021",
+     "url": "https://tess.elixir-europe.org/events/elixir-fluxomics-training-school-2021",
+     "start": "2021-10-04T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "48599",
+     "title": "EMBL-EBI workshop: University of Pavia, 2021 (Virtual)",
+     "url": "https://tess.elixir-europe.org/events/embl-ebi-workshop-university-of-pavia-2021-virtual",
+     "start": "2021-02-01T09:00:00.000Z",
+     "matched_on": "text"
+    }
+   ]
+  },
+  "fairsharing-1561": {
+   "materials": [
+    {
+     "id": "5163",
+     "title": "7th Advanced in silico Drug Design workshop lectures",
+     "url": "https://tess.elixir-europe.org/materials/7th-advanced-in-silico-drug-design-workshop-lectures",
+     "start": null,
+     "matched_on": "text"
+    },
+    {
+     "id": "5002",
+     "title": "ChEMBL workshop for drug design",
+     "url": "https://tess.elixir-europe.org/materials/chembl-workshop-for-drug-design",
+     "start": null,
+     "matched_on": "text"
+    },
+    {
+     "id": "4315",
+     "title": "Data management in Medicinal Chemistry",
+     "url": "https://tess.elixir-europe.org/materials/data-management-in-medicinal-chemistry",
+     "start": null,
+     "matched_on": "link"
+    },
+    {
+     "id": "3288",
+     "title": "A guide to accessing ChEMBL and UniChem through an API",
+     "url": "https://tess.elixir-europe.org/materials/a-guide-to-accessing-chembl-and-unichem-through-an-api",
+     "start": null,
+     "matched_on": "text"
+    },
+    {
+     "id": "3261",
+     "title": "A guide to exploring drug-like compounds and their biological targets using ChEMBL",
+     "url": "https://tess.elixir-europe.org/materials/a-guide-to-exploring-drug-like-compounds-and-their-biological-targets-using-chembl",
+     "start": null,
+     "matched_on": "text"
+    },
+    {
+     "id": "3207",
+     "title": "Exploring ChEMBL Data with the new ChEMBL Interface",
+     "url": "https://tess.elixir-europe.org/materials/exploring-chembl-data-with-the-new-chembl-interface",
+     "start": null,
+     "matched_on": "text"
+    },
+    {
+     "id": "3061",
+     "title": "ChEMBL: Quick tour",
+     "url": "https://tess.elixir-europe.org/materials/chembl",
+     "start": null,
+     "matched_on": "text"
+    },
+    {
+     "id": "2935",
+     "title": "SPARQL endpoints at BiGCaT",
+     "url": "https://tess.elixir-europe.org/materials/sparql-endpoints-at-bigcat",
+     "start": null,
+     "matched_on": "text"
+    },
+    {
+     "id": "2650",
+     "title": "Protein-ligand docking",
+     "url": "https://tess.elixir-europe.org/materials/hands-on-for-protein-ligand-docking-tutorial",
+     "start": null,
+     "matched_on": "link"
+    }
+   ],
+   "events": [
+    {
+     "id": "53375",
+     "title": "Small molecules and their protein targets: interactions, function, and classification",
+     "url": "https://tess.elixir-europe.org/events/small-molecules-and-their-protein-targets-interactions-function-and-classification",
+     "start": "2026-09-10T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "52968",
+     "title": "An introduction to EMBL-EBI resources",
+     "url": "https://tess.elixir-europe.org/events/an-introduction-to-embl-ebi-resources-899629e3-71cf-466a-951f-f24cc962fee8",
+     "start": "2026-01-14T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "52435",
+     "title": "Chemicals in a biological context: metabolites, drugs, and beyond",
+     "url": "https://tess.elixir-europe.org/events/chemicals-in-a-biological-context-metabolites-drugs-and-beyond",
+     "start": "2025-11-13T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "52636",
+     "title": "ChEMBL workshop for drug design",
+     "url": "https://tess.elixir-europe.org/events/chembl-workshop-for-drug-design",
+     "start": "2025-09-05T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "51980",
+     "title": "8th Advanced in silico Drug Design workshop 2025",
+     "url": "https://tess.elixir-europe.org/events/8th-advanced-in-silico-drug-design-workshop-2025-09f6fa2a-bfac-4edc-aacc-c026404d5178",
+     "start": "2025-01-27T12:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "51783",
+     "title": "Small molecule chemistry: from proteins to pathways",
+     "url": "https://tess.elixir-europe.org/events/small-molecule-chemistry-from-proteins-to-pathways",
+     "start": "2024-11-28T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "51829",
+     "title": "I made my code open - now what? Steps to a thriving open software project",
+     "url": "https://tess.elixir-europe.org/events/i-made-my-code-open-now-what-steps-to-a-thriving-open-software-project-7b7f4957-9531-4dc2-bea9-e72609acbad9",
+     "start": "2024-10-23T15:30:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "51809",
+     "title": "I made my code open - now what? Steps to a thriving open software project",
+     "url": "https://tess.elixir-europe.org/events/i-made-my-code-open-now-what-steps-to-a-thriving-open-software-project",
+     "start": "2024-10-23T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "49735",
+     "title": "6th Advanced in silico Drug Design workshop/challenge 2023",
+     "url": "https://tess.elixir-europe.org/events/6th-advanced-in-silico-drug-design-workshop-challenge-2023",
+     "start": "2023-01-30T12:00:00.000Z",
+     "matched_on": "link"
+    },
+    {
+     "id": "49655",
+     "title": "Chemical biology Q&A session",
+     "url": "https://tess.elixir-europe.org/events/chemical-biology-q-a-session",
+     "start": "2022-12-07T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "49661",
+     "title": "Data Science for Biomarkers Discovery hANDS",
+     "url": "https://tess.elixir-europe.org/events/data-science-for-biomarkers-discovery-hands",
+     "start": "2022-11-02T15:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "48530",
+     "title": "Structural bioinformatics",
+     "url": "https://tess.elixir-europe.org/events/structural-bioinformatics-f94b8ddd-31e6-4539-b4c9-fdff8bc0b841",
+     "start": "2022-10-17T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "49294",
+     "title": "A guide to accessing ChEMBL and UniChem through an API",
+     "url": "https://tess.elixir-europe.org/events/a-guide-to-accessing-chembl-and-unichem-through-an-api",
+     "start": "2021-11-10T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "49318",
+     "title": "A guide to exploring drug-like compounds and their biological targets using ChEMBL",
+     "url": "https://tess.elixir-europe.org/events/a-guide-to-exploring-drug-like-compounds-and-their-biological-targets-using-chembl",
+     "start": "2021-05-12T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "11558",
+     "title": "Exploring ChEMBL Data with the new ChEMBL Interface",
+     "url": "https://tess.elixir-europe.org/events/exploring-chembl-data-with-the-new-chembl-interface",
+     "start": "2020-03-11T15:30:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "49367",
+     "title": "Exploring ChEMBL Data with the new ChEMBL Interface",
+     "url": "https://tess.elixir-europe.org/events/exploring-chembl-data-with-the-new-chembl-interface-e34c1090-622e-49aa-9f60-bf44b00e24fa",
+     "start": "2020-03-11T09:00:00.000Z",
+     "matched_on": "text"
+    }
+   ]
+  },
+  "fairsharing-3073": {
+   "materials": [
+    {
+     "id": "4955",
+     "title": "Make your computational workflows findable and citable",
+     "url": "https://tess.elixir-europe.org/materials/make-your-computational-workflows-findable-and-citable",
+     "start": null,
+     "matched_on": "text"
+    },
+    {
+     "id": "4954",
+     "title": "Make your computational workflows findable and citable: WorkflowHub BYOW workshop",
+     "url": "https://tess.elixir-europe.org/materials/make-your-computational-workflows-findable-and-citable-workflowhub-byow-workshop",
+     "start": null,
+     "matched_on": "text"
+    },
+    {
+     "id": "4709",
+     "title": "GTN Smörgåsbord 3: FAIR data and provenance with RO-Crate and Galaxy - Building RO-Crates - An overview of the RO-Crate concept and its implementations",
+     "url": "https://tess.elixir-europe.org/materials/gtn-smorgasbord-3-fair-data-and-provenance-with-ro-crate-and-galaxy-building-ro-crates-an-overview-of-the-ro-crate-concept-and-its-implementations",
+     "start": null,
+     "matched_on": "text"
+    },
+    {
+     "id": "3457",
+     "title": "WORKSHOP: Make your bioinformatics workflows findable and citable",
+     "url": "https://tess.elixir-europe.org/materials/workshop-make-your-bioinformatics-workflows-findable-and-citable",
+     "start": null,
+     "matched_on": "text"
+    }
+   ],
+   "events": [
+    {
+     "id": "52668",
+     "title": "Workflow Languages & Workflow Deposition for FAIRMD",
+     "url": "https://tess.elixir-europe.org/events/workflow-languages-workflow-deposition-for-fairmd",
+     "start": "2025-10-23T09:00:00.000Z",
+     "matched_on": "link"
+    },
+    {
+     "id": "52443",
+     "title": "WORKSHOP: Sharing your bioinformatics workflows to make them findable and citable",
+     "url": "https://tess.elixir-europe.org/events/workshop-sharing-your-bioinformatics-workflows-to-make-them-findable-and-citable",
+     "start": "2025-06-24T13:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "52425",
+     "title": "Tools Platform and Single Cell Omics “bring your workflow” to WorkflowHub",
+     "url": "https://tess.elixir-europe.org/events/tools-platform-and-single-cell-omics-bring-your-workflow-to-workflowhub-181c8645-137d-4046-8235-179b2524b68d",
+     "start": "2025-05-13T10:30:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "49910",
+     "title": "WORKSHOP: Make your bioinformatics workflows findable and citable",
+     "url": "https://tess.elixir-europe.org/events/workshop-make-your-bioinformatics-workflows-findable-and-citable",
+     "start": "2023-03-21T15:00:00.000Z",
+     "matched_on": "link"
+    }
+   ]
+  },
+  "fairsharing-2369": {
+   "materials": [
+    {
+     "id": "4896",
+     "title": "From variant to drug target: using the expanded Open Targets Platform to explore the genetics of target discovery",
+     "url": "https://tess.elixir-europe.org/materials/from-variant-to-drug-target-using-the-expanded-open-targets-platform-to-explore-the-genetics-of-target-discovery",
+     "start": null,
+     "matched_on": "text"
+    },
+    {
+     "id": "4287",
+     "title": "Exploring target-disease associations with the Open Targets Platform’s new interface",
+     "url": "https://tess.elixir-europe.org/materials/exploring-target-disease-associations-with-the-open-targets-platform-s-new-interface",
+     "start": null,
+     "matched_on": "text"
+    },
+    {
+     "id": "3411",
+     "title": "Discover drug targets with Europe PMC Machine Learning Dataset and Open Targets",
+     "url": "https://tess.elixir-europe.org/materials/discover-drug-targets-with-europe-pmc-machine-learning-dataset-and-open-targets",
+     "start": null,
+     "matched_on": "text"
+    },
+    {
+     "id": "3273",
+     "title": "Getting started with the Open Targets Platform GraphQL API",
+     "url": "https://tess.elixir-europe.org/materials/getting-started-with-the-open-targets-platform-graphql-api",
+     "start": null,
+     "matched_on": "text"
+    },
+    {
+     "id": "3260",
+     "title": "A guide to identifying and prioritising drug targets with the Open Targets Platform",
+     "url": "https://tess.elixir-europe.org/materials/a-guide-to-identifying-and-prioritising-drug-targets-with-the-open-targets-platform",
+     "start": null,
+     "matched_on": "text"
+    },
+    {
+     "id": "3122",
+     "title": "Open Targets informatics tools: Quick tour",
+     "url": "https://tess.elixir-europe.org/materials/open-targets-informatics-tools",
+     "start": null,
+     "matched_on": "text"
+    },
+    {
+     "id": "3110",
+     "title": "EMBL-EBI, programmatically: Take a REST from manual searches",
+     "url": "https://tess.elixir-europe.org/materials/embl-ebi-programmatically",
+     "start": null,
+     "matched_on": "text"
+    },
+    {
+     "id": "1876",
+     "title": "Extracting gene-disease evidence from literature, genetics, genomics and more",
+     "url": "https://tess.elixir-europe.org/materials/extracting-gene-disease-evidence-from-literature-genetics-genomics-and-more",
+     "start": null,
+     "matched_on": "text"
+    }
+   ],
+   "events": [
+    {
+     "id": "52308",
+     "title": "From variant to drug target: using the expanded Open Targets Platform to explore the genetics of target discovery",
+     "url": "https://tess.elixir-europe.org/events/from-variant-to-drug-target-using-the-expanded-open-targets-platform-to-explore-the-genetics-of-target-discovery",
+     "start": "2025-04-23T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "52290",
+     "title": "LLMs in bioinformatics Q&A session",
+     "url": "https://tess.elixir-europe.org/events/llms-in-bioinformatics-q-a-session",
+     "start": "2025-04-16T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "52215",
+     "title": "Large Language Models and their applications in Bioinformatics",
+     "url": "https://tess.elixir-europe.org/events/large-language-models-and-their-applications-in-bioinformatics",
+     "start": "2025-02-26T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "51653",
+     "title": "WEBINAR: Global data resources for human genomics and health",
+     "url": "https://tess.elixir-europe.org/events/webinar-global-data-resources-for-human-genomics-and-health",
+     "start": "2024-09-20T15:00:00.000Z",
+     "matched_on": "link"
+    },
+    {
+     "id": "50559",
+     "title": "Exploring target-disease associations with the Open Targets Platform’s new interface",
+     "url": "https://tess.elixir-europe.org/events/exploring-target-disease-associations-with-the-open-targets-platform-s-new-interface",
+     "start": "2024-01-31T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "49938",
+     "title": "Discover drug targets with Europe PMC Machine Learning Dataset and Open Targets",
+     "url": "https://tess.elixir-europe.org/events/discover-drug-targets-with-europe-pmc-machine-learning-dataset-and-open-targets",
+     "start": "2023-03-21T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "49307",
+     "title": "Getting started with the Open Targets Platform GraphQL API",
+     "url": "https://tess.elixir-europe.org/events/getting-started-with-the-open-targets-platform-graphql-api",
+     "start": "2021-09-15T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "49317",
+     "title": "A guide to identifying and prioritising drug targets with the Open Targets Platform",
+     "url": "https://tess.elixir-europe.org/events/a-guide-to-identifying-and-prioritising-drug-targets-with-the-open-targets-platform",
+     "start": "2021-05-19T00:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "12245",
+     "title": "Open Targets at University of Copenhagen for BRIDGE - Translational Excellence Programme",
+     "url": "https://tess.elixir-europe.org/events/open-targets-at-university-of-copenhagen-for-bridge-translational-excellence-programme",
+     "start": "2020-08-20T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "12244",
+     "title": "Open Targets at King Abdulaziz University in Jeddah",
+     "url": "https://tess.elixir-europe.org/events/open-targets-at-king-abdulaziz-university-in-jeddah",
+     "start": "2020-08-18T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "10511",
+     "title": "Open Targets Genetics at American University in Cairo",
+     "url": "https://tess.elixir-europe.org/events/open-targets-workshop-university-of-oxford",
+     "start": "2020-06-18T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "11658",
+     "title": "Open Targets Genetics at Takeda Japan",
+     "url": "https://tess.elixir-europe.org/events/open-targets-genetics",
+     "start": "2020-06-11T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "11905",
+     "title": "Open Targets at American University in Cairo",
+     "url": "https://tess.elixir-europe.org/events/open-targets-at-its-translational-data-academy-sanofi",
+     "start": "2020-05-28T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "11447",
+     "title": "Open Targets Platform workshop - EMBL-EBI",
+     "url": "https://tess.elixir-europe.org/events/open-targets-platform-workshop-embl-ebi",
+     "start": "2020-03-05T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "49368",
+     "title": "eQTL Catalogue: a compendium of uniformly processed human expression and splicing QTLs",
+     "url": "https://tess.elixir-europe.org/events/eqtl-catalogue-a-compendium-of-uniformly-processed-human-expression-and-splicing-qtls-d63f2046-0a2e-4417-bf59-3b4c35de1506",
+     "start": "2020-02-12T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "10620",
+     "title": "Open Targets Platform workshop - EMBL-EBI",
+     "url": "https://tess.elixir-europe.org/events/open-targets-workshop-embl-ebi",
+     "start": "2020-01-23T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "10055",
+     "title": "Open Targets workshop - University of Cambridge",
+     "url": "https://tess.elixir-europe.org/events/open-targets-webinar-c-comend-training-in-translational-research",
+     "start": "2019-10-17T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "9502",
+     "title": "Open Targets Genetics at ESHG",
+     "url": "https://tess.elixir-europe.org/events/workshop-at-eshg",
+     "start": "2019-06-15T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "10128",
+     "title": "Open Targets Genetics at ESHG",
+     "url": "https://tess.elixir-europe.org/events/open-targets-genetics-at-eshg",
+     "start": "2019-06-15T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "9940",
+     "title": "Open Targets Workshop",
+     "url": "https://tess.elixir-europe.org/events/open-targets-workshop-55d54e1b-0a19-4e14-9719-6df0ad7054b9",
+     "start": "2019-03-28T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "8980",
+     "title": "EMBL-EBI Intro to multiomics data integration",
+     "url": "https://tess.elixir-europe.org/events/embl-ebi-intro-to-multiomics-data-integration",
+     "start": "2019-02-13T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "9508",
+     "title": "Open Targets Workshop",
+     "url": "https://tess.elixir-europe.org/events/mining-gene-disease-associations-open-targets",
+     "start": "2019-01-31T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "8823",
+     "title": "Bioinformatics for Discovery",
+     "url": "https://tess.elixir-europe.org/events/bioinformatics-for-discovery-f51fe25c-6f52-4589-b79c-5f829803f89a",
+     "start": "2019-01-23T09:00:00.000Z",
+     "matched_on": "text"
+    }
+   ]
+  },
+  "fairsharing-2259": {
+   "materials": [
+    {
+     "id": "4583",
+     "title": "Registering SwissLipids identifiers in Wikidata",
+     "url": "https://tess.elixir-europe.org/materials/registering-swisslipids-identifiers-in-wikidata",
+     "start": null,
+     "matched_on": "text"
+    }
+   ]
+  },
+  "fairsharing-2329": {
+   "materials": [
+    {
+     "id": "4583",
+     "title": "Registering SwissLipids identifiers in Wikidata",
+     "url": "https://tess.elixir-europe.org/materials/registering-swisslipids-identifiers-in-wikidata",
+     "start": null,
+     "matched_on": "text"
+    },
+    {
+     "id": "4582",
+     "title": "Registering Datasets in Wikidata",
+     "url": "https://tess.elixir-europe.org/materials/registering-datasets-in-wikidata",
+     "start": null,
+     "matched_on": "text"
+    },
+    {
+     "id": "3414",
+     "title": "Information about chemicals",
+     "url": "https://tess.elixir-europe.org/materials/information-about-chemicals",
+     "start": null,
+     "matched_on": "link"
+    },
+    {
+     "id": "2046",
+     "title": "Use Scholia and Wikidata to find scientific literature",
+     "url": "https://tess.elixir-europe.org/materials/use-scholia-and-wikidata-to-find-scientific-literature",
+     "start": null,
+     "matched_on": "text"
+    },
+    {
+     "id": "1897",
+     "title": "Helis Academy - FAIRify your data",
+     "url": "https://tess.elixir-europe.org/materials/helis-academy-fairify-your-data",
+     "start": null,
+     "matched_on": "text"
+    },
+    {
+     "id": "1573",
+     "title": "Programming in the Life Sciences",
+     "url": "https://tess.elixir-europe.org/materials/programming-in-the-life-sciences",
+     "start": null,
+     "matched_on": "text"
+    },
+    {
+     "id": "1490",
+     "title": "BridgeDbR Tutorial",
+     "url": "https://tess.elixir-europe.org/materials/bridgedbr-tutorial",
+     "start": null,
+     "matched_on": "text"
+    }
+   ]
+  },
+  "fairsharing-2617": {
+   "materials": [
+    {
+     "id": "4563",
+     "title": "Downloading all currently released BridgeDb identifier mapping databases",
+     "url": "https://tess.elixir-europe.org/materials/downloading-all-currently-released-bridgedb-identifier-mapping-databases",
+     "start": null,
+     "matched_on": "text"
+    },
+    {
+     "id": "4288",
+     "title": "Making BridgeDb Derby files with Groovy",
+     "url": "https://tess.elixir-europe.org/materials/making-bridgedb-derby-files-with-groovy",
+     "start": null,
+     "matched_on": "link"
+    },
+    {
+     "id": "3670",
+     "title": "BridgeDb: Mapping Gene Identifiers",
+     "url": "https://tess.elixir-europe.org/materials/mapping-gene-identifiers-with-bridgedb",
+     "start": null,
+     "matched_on": "text"
+    },
+    {
+     "id": "3414",
+     "title": "Information about chemicals",
+     "url": "https://tess.elixir-europe.org/materials/information-about-chemicals",
+     "start": null,
+     "matched_on": "link"
+    },
+    {
+     "id": "2435",
+     "title": "Identifier mapping with Cytoscape",
+     "url": "https://tess.elixir-europe.org/materials/identifier-mapping-with-cytoscape",
+     "start": null,
+     "matched_on": "link"
+    },
+    {
+     "id": "2434",
+     "title": "BridgeDb-Matlab Usage Instructions",
+     "url": "https://tess.elixir-europe.org/materials/bridgedb-matlab-usage-instructions",
+     "start": null,
+     "matched_on": "text"
+    },
+    {
+     "id": "1915",
+     "title": "BridgeDbR Tutorial",
+     "url": "https://tess.elixir-europe.org/materials/bridgedbr-tutorial-ce581787-b018-4a34-b161-5ed1b9cc8902",
+     "start": null,
+     "matched_on": "text"
+    },
+    {
+     "id": "1492",
+     "title": "How to install and load the Identifier Mapping Service with data needed for gene-to-variant and variant-to-gene",
+     "url": "https://tess.elixir-europe.org/materials/how-to-install-and-load-the-identifier-mapping-service-with-data-needed-for-gene-to-variant-and-variant-to-gene",
+     "start": null,
+     "matched_on": "link"
+    },
+    {
+     "id": "1491",
+     "title": "#metawinterschool contribution by BiGCaT",
+     "url": "https://tess.elixir-europe.org/materials/metawinterschool-contribution-by-bigcat",
+     "start": null,
+     "matched_on": "text"
+    },
+    {
+     "id": "1490",
+     "title": "BridgeDbR Tutorial",
+     "url": "https://tess.elixir-europe.org/materials/bridgedbr-tutorial",
+     "start": null,
+     "matched_on": "link"
+    }
+   ],
+   "events": [
+    {
+     "id": "48191",
+     "title": "ELIXIR Fluxomics Training School 2021",
+     "url": "https://tess.elixir-europe.org/events/elixir-fluxomics-training-school-2021",
+     "start": "2021-10-04T09:00:00.000Z",
+     "matched_on": "text"
+    }
+   ]
+  },
+  "fairsharing-1891": {
+   "materials": [
+    {
+     "id": "3610",
+     "title": "Introduction to SABIO-RK",
+     "url": "https://tess.elixir-europe.org/materials/introduction-to-sabio-rk",
+     "start": null,
+     "matched_on": "text"
+    }
+   ],
+   "events": [
+    {
+     "id": "50310",
+     "title": "Tools for Systems biology modeling and data exchange: CellNetAnalyzer, COPASI, SABIO-RK, FAIRDOMHub/SEEK 2023",
+     "url": "https://tess.elixir-europe.org/events/tools-for-systems-biology-modeling-and-data-exchange-cellnetanalyzer-copasi-sabio-rk-fairdomhub-seek-2023",
+     "start": "2023-11-28T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "48770",
+     "title": "Tools for Systems biology modeling and data exchange: COPASI, CellNetAnalyzer, SABIO-RK, FAIRDOMHub/SEEK 2022",
+     "url": "https://tess.elixir-europe.org/events/tools-for-systems-biology-modeling-and-data-exchange-copasi-cellnetanalyzer-sabio-rk-fairdomhub-seek-2022",
+     "start": "2022-08-09T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "12979",
+     "title": "Tools for Systems biology modeling and data exchange: COPASI, CellNetAnalyzer, SABIO-RK, FAIRDOMHub/SEEK 2021",
+     "url": "https://tess.elixir-europe.org/events/tools-for-systems-biology-modeling-and-data-exchange-copasi-cellnetanalyzer-sabio-rk-fairdomhub-seek-2021",
+     "start": "2021-04-20T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "12213",
+     "title": "Tools for Systems biology modeling and data exchange: COPASI, CellNetAnalyzer, SABIO-RK, FAIRDOMHub/SEEK 2020 ",
+     "url": "https://tess.elixir-europe.org/events/hdhd",
+     "start": "2020-09-21T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "11581",
+     "title": "Tools for Systems biology modeling and data exchange: COPASI, CellNetAnalyzer, SABIO-RK, FAIRDOMHub/SEEK 2020",
+     "url": "https://tess.elixir-europe.org/events/tools-for-systems-biology-modeling-and-data-exchange-copasi-cellnetanalyzer-sabio-rk-fairdomhub-seek-2020",
+     "start": "2020-04-27T09:00:00.000Z",
+     "matched_on": "text"
+    }
+   ]
+  },
+  "fairsharing-2262": {
+   "materials": [
+    {
+     "id": "3602",
+     "title": "Introduction to FAIRDOMHub",
+     "url": "https://tess.elixir-europe.org/materials/introduction-to-fairdomhub",
+     "start": null,
+     "matched_on": "text"
+    }
+   ],
+   "events": [
+    {
+     "id": "52536",
+     "title": "FAIRDOM User Meeting",
+     "url": "https://tess.elixir-europe.org/events/fairdom-user-meeting-f5df5ed9-9ef2-4bef-8b21-2c8226725c00",
+     "start": "2025-09-16T14:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "51088",
+     "title": "FAIRDOM User Meeting",
+     "url": "https://tess.elixir-europe.org/events/fairdom-user-meeting-62d59839-5802-4d2f-a7de-1e0bd4db50bc",
+     "start": "2024-06-05T14:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "50310",
+     "title": "Tools for Systems biology modeling and data exchange: CellNetAnalyzer, COPASI, SABIO-RK, FAIRDOMHub/SEEK 2023",
+     "url": "https://tess.elixir-europe.org/events/tools-for-systems-biology-modeling-and-data-exchange-cellnetanalyzer-copasi-sabio-rk-fairdomhub-seek-2023",
+     "start": "2023-11-28T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "48770",
+     "title": "Tools for Systems biology modeling and data exchange: COPASI, CellNetAnalyzer, SABIO-RK, FAIRDOMHub/SEEK 2022",
+     "url": "https://tess.elixir-europe.org/events/tools-for-systems-biology-modeling-and-data-exchange-copasi-cellnetanalyzer-sabio-rk-fairdomhub-seek-2022",
+     "start": "2022-08-09T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "48711",
+     "title": "Data management in practice with FAIRDOM-SEEK",
+     "url": "https://tess.elixir-europe.org/events/data-management-in-practice-with-fairdom-seek",
+     "start": "2022-05-09T14:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "12979",
+     "title": "Tools for Systems biology modeling and data exchange: COPASI, CellNetAnalyzer, SABIO-RK, FAIRDOMHub/SEEK 2021",
+     "url": "https://tess.elixir-europe.org/events/tools-for-systems-biology-modeling-and-data-exchange-copasi-cellnetanalyzer-sabio-rk-fairdomhub-seek-2021",
+     "start": "2021-04-20T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "12213",
+     "title": "Tools for Systems biology modeling and data exchange: COPASI, CellNetAnalyzer, SABIO-RK, FAIRDOMHub/SEEK 2020 ",
+     "url": "https://tess.elixir-europe.org/events/hdhd",
+     "start": "2020-09-21T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "11581",
+     "title": "Tools for Systems biology modeling and data exchange: COPASI, CellNetAnalyzer, SABIO-RK, FAIRDOMHub/SEEK 2020",
+     "url": "https://tess.elixir-europe.org/events/tools-for-systems-biology-modeling-and-data-exchange-copasi-cellnetanalyzer-sabio-rk-fairdomhub-seek-2020",
+     "start": "2020-04-27T09:00:00.000Z",
+     "matched_on": "text"
+    }
+   ]
+  },
+  "fairsharing-2161": {
+   "materials": [
+    {
+     "id": "3593",
+     "title": "How to publish FAIR Data with PANGAEA",
+     "url": "https://tess.elixir-europe.org/materials/how-to-publish-fair-data-with-pangaea",
+     "start": null,
+     "matched_on": "text"
+    }
+   ],
+   "events": [
+    {
+     "id": "52738",
+     "title": "PANGAEA Community Workshop 2026: \"FAIR data publications with PANGAEA\"",
+     "url": "https://tess.elixir-europe.org/events/pangaea-community-workshop-2026-fair-data-publications-with-pangaea",
+     "start": "2026-11-12T10:30:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "52736",
+     "title": "PANGAEA Community Workshop May 2026: \"Finding and retrieving data from PANGAEA\"",
+     "url": "https://tess.elixir-europe.org/events/pangaea-community-workshop-may-2026-finding-and-retrieving-data-from-pangaea",
+     "start": "2026-05-07T10:30:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "50486",
+     "title": "PANGAEA Community Workshop 2023: \"FAIR data publications with PANGAEA\"",
+     "url": "https://tess.elixir-europe.org/events/pangaea-community-workshop-2023-fair-data-publications-with-pangaea",
+     "start": "2023-11-16T10:30:00.000Z",
+     "matched_on": "text"
+    }
+   ]
+  },
+  "fairsharing-2090": {
+   "materials": [
+    {
+     "id": "3493",
+     "title": "LIPID MAPS Podcasts",
+     "url": "https://tess.elixir-europe.org/materials/lipid-maps-podcasts",
+     "start": null,
+     "matched_on": "text"
+    },
+    {
+     "id": "3492",
+     "title": "LIPID MAPS Webinar Series",
+     "url": "https://tess.elixir-europe.org/materials/lipid-maps-webinar-series",
+     "start": null,
+     "matched_on": "text"
+    },
+    {
+     "id": "3484",
+     "title": "LIPID MAPS Introduction to Lipids",
+     "url": "https://tess.elixir-europe.org/materials/lipid-maps-introduction-to-lipids",
+     "start": null,
+     "matched_on": "text"
+    },
+    {
+     "id": "3483",
+     "title": "LIPID MAPS Tutorials",
+     "url": "https://tess.elixir-europe.org/materials/lipid-maps-tutorials",
+     "start": null,
+     "matched_on": "text"
+    },
+    {
+     "id": "3480",
+     "title": "LIPID MAPS Spring School 2021",
+     "url": "https://tess.elixir-europe.org/materials/lipid-maps-spring-school-2021",
+     "start": null,
+     "matched_on": "text"
+    }
+   ],
+   "events": [
+    {
+     "id": "12074",
+     "title": "LIPID MAPS Spring School",
+     "url": "https://tess.elixir-europe.org/events/lipid-maps-spring-school",
+     "start": "2021-04-12T09:00:00.000Z",
+     "matched_on": "text"
+    }
+   ]
+  },
+  "fairsharing-1639": {
+   "materials": [
+    {
+     "id": "3449",
+     "title": "Mining enzyme data in UniProtKB using Rhea",
+     "url": "https://tess.elixir-europe.org/materials/mining-enzyme-data-in-uniprotkb-using-rhea",
+     "start": null,
+     "matched_on": "text"
+    }
+   ],
+   "events": [
+    {
+     "id": "48412",
+     "title": "Mining enzyme data in UniProtKB using Rhea (practicals) - streamed",
+     "url": "https://tess.elixir-europe.org/events/mining-enzyme-data-in-uniprotkb-using-rhea-practicals-streamed",
+     "start": "2022-03-04T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "48418",
+     "title": "Mining enzyme data in UniProtKB using Rhea (practicals) - streamed",
+     "url": "https://tess.elixir-europe.org/events/mining-enzyme-data-in-uniprotkb-using-rhea-practicals-streamed-177d952f-9653-4110-a1b4-471776fb67ae",
+     "start": "2022-03-03T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "48422",
+     "title": "Mining enzyme data in UniProtKB using Rhea",
+     "url": "https://tess.elixir-europe.org/events/mining-enzyme-data-in-uniprotkb-using-rhea-lecture-streamed",
+     "start": "2022-02-24T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "12934",
+     "title": "Mining enzyme data in UniProtKB using Rhea - streamed",
+     "url": "https://tess.elixir-europe.org/events/mining-enzyme-data-in-uniprotkb-using-rhea-streamed-370e6f56-32fb-4f0e-9fa3-f973225a7879",
+     "start": "2021-10-22T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "48191",
+     "title": "ELIXIR Fluxomics Training School 2021",
+     "url": "https://tess.elixir-europe.org/events/elixir-fluxomics-training-school-2021",
+     "start": "2021-10-04T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "49386",
+     "title": "Enzymes in UniProt",
+     "url": "https://tess.elixir-europe.org/events/enzymes-in-uniprot-90f869fe-8668-4ca6-8e6a-dd1d7b6018f4",
+     "start": "2019-05-01T09:00:00.000Z",
+     "matched_on": "text"
+    }
+   ]
+  },
+  "fairsharing-1866": {
+   "materials": [
+    {
+     "id": "3431",
+     "title": "Reactome: Exploring biological pathways",
+     "url": "https://tess.elixir-europe.org/materials/reactome-exploring-biological-pathways",
+     "start": null,
+     "matched_on": "text"
+    },
+    {
+     "id": "3430",
+     "title": "Reactome: Quick tour",
+     "url": "https://tess.elixir-europe.org/materials/reactome-quick-tour",
+     "start": null,
+     "matched_on": "text"
+    },
+    {
+     "id": "3109",
+     "title": "Reactome: Tools for analysing biological pathways",
+     "url": "https://tess.elixir-europe.org/materials/reactome-981071ac-0320-409d-98ec-26e00bc60aa3",
+     "start": null,
+     "matched_on": "text"
+    },
+    {
+     "id": "156",
+     "title": "Pathway and Network Analysis 2014 Module 4 - Pathway and Network Analysis",
+     "url": "https://tess.elixir-europe.org/materials/pathway-and-network-analysis-2014-module-4-pathway-and-network-analysis",
+     "start": null,
+     "matched_on": "text"
+    }
+   ],
+   "events": [
+    {
+     "id": "52271",
+     "title": "Bioinformatics for immunologists",
+     "url": "https://tess.elixir-europe.org/events/bioinformatics-for-immunologists-f6586ae0-0cc8-49c4-80d8-2aaf57c99e74",
+     "start": "2026-07-13T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "51783",
+     "title": "Small molecule chemistry: from proteins to pathways",
+     "url": "https://tess.elixir-europe.org/events/small-molecule-chemistry-from-proteins-to-pathways",
+     "start": "2024-11-28T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "50096",
+     "title": "Bioinformatics for immunologists",
+     "url": "https://tess.elixir-europe.org/events/bioinformatics-for-immunologists-f1601bf1-9ad5-4d18-a8d5-61f9e2b69cca",
+     "start": "2024-07-01T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "50107",
+     "title": "Mathematics of life: modelling molecular mechanisms",
+     "url": "https://tess.elixir-europe.org/events/mathematics-of-life-modelling-molecular-mechanisms-c69060b6-00f2-4507-92e1-9523e4a2fc0b",
+     "start": "2024-03-11T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "49229",
+     "title": "Proteomics bioinformatics",
+     "url": "https://tess.elixir-europe.org/events/proteomics-bioinformatics-b3a5a44d-f160-4257-9261-7893d358b48d",
+     "start": "2023-07-03T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "49237",
+     "title": "Bioinformatics resources for protein biology",
+     "url": "https://tess.elixir-europe.org/events/bioinformatics-resources-for-protein-biology-ec015503-a506-4ada-a01f-77fd853b5af7",
+     "start": "2023-04-25T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "48548",
+     "title": "Bioinformatics resources for protein biology",
+     "url": "https://tess.elixir-europe.org/events/bioinformatics-resources-for-protein-biology-cff7cdb3-2411-48ab-93d0-a6b29d1dffc0",
+     "start": "2022-02-21T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "48562",
+     "title": "CABANA Virtual Workshop: Exploring biological networks and its application in health and disease",
+     "url": "https://tess.elixir-europe.org/events/cabana-virtual-workshop-exploring-biological-networks-and-its-application-in-health-and-disease",
+     "start": "2021-11-08T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "48570",
+     "title": "Mathematics of life: Modelling molecular mechanisms",
+     "url": "https://tess.elixir-europe.org/events/mathematics-of-life-modelling-molecular-mechanisms-505cfe10-a2ae-46b6-9691-6ccfef02ad0c",
+     "start": "2021-09-27T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "48571",
+     "title": "Bioinformatics for Immunologists",
+     "url": "https://tess.elixir-europe.org/events/bioinformatics-for-immunologists-7bc676f3-e3e9-4852-a406-3c8c5a5dc62f",
+     "start": "2021-09-27T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "48576",
+     "title": "Proteomics bioinformatics",
+     "url": "https://tess.elixir-europe.org/events/proteomics-bioinformatics-d638f533-a2da-448d-a6f1-9e169208f14f",
+     "start": "2021-07-12T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "48592",
+     "title": "Introduction to RNA-seq and functional interpretation",
+     "url": "https://tess.elixir-europe.org/events/introduction-to-rna-seq-and-functional-interpretation-05f8f03f-b972-48a5-8f0c-b484b59c2d66",
+     "start": "2021-03-16T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "48596",
+     "title": "Introduction to multi-omics data integration and visualisation",
+     "url": "https://tess.elixir-europe.org/events/introduction-to-multiomics-data-integration-and-visualisation-06859f1e-2462-463b-85e1-afb6fc7a290d",
+     "start": "2021-02-22T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "48599",
+     "title": "EMBL-EBI workshop: University of Pavia, 2021 (Virtual)",
+     "url": "https://tess.elixir-europe.org/events/embl-ebi-workshop-university-of-pavia-2021-virtual",
+     "start": "2021-02-01T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "49345",
+     "title": "Multi-omics comparative pathway analysis with ReactomeGSA",
+     "url": "https://tess.elixir-europe.org/events/multiomics-comparative-pathway-analysis-with-reactomegsa-753e86a7-e4ca-4b64-9f3b-86fc2509e387",
+     "start": "2020-10-21T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "48608",
+     "title": "Mathematics of life: Modelling molecular mechanisms (Virtual)",
+     "url": "https://tess.elixir-europe.org/events/mathematics-of-life-modelling-molecular-mechanisms-virtual-4814a5b3-2d57-4923-8781-824ca2a27123",
+     "start": "2020-09-28T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "48617",
+     "title": "Bioinformatics resources for protein biology",
+     "url": "https://tess.elixir-europe.org/events/bioinformatics-resources-for-protein-biology-b7ca1fe0-ccfa-43de-8290-d05a6db51088",
+     "start": "2020-03-10T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "48678",
+     "title": "Bioinformatics resources for protein biology",
+     "url": "https://tess.elixir-europe.org/events/bioinformatics-resources-for-protein-biology-6a601195-992b-42aa-a2cf-25f2bf9b7c49",
+     "start": "2019-02-26T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "7077",
+     "title": "EMBL-EBI workshop: Interactions and Pathways - Reactome",
+     "url": "https://tess.elixir-europe.org/events/embl-ebi-workshop-interactions-and-pathways-reactome",
+     "start": "2017-11-23T09:30:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "6063",
+     "title": "EMBL-EBI: Interactions & Pathways - Reactome",
+     "url": "https://tess.elixir-europe.org/events/embl-ebi-interactions-pathways-reactome-76985dc4-6a0b-4f01-aeb5-368b10b1f33a",
+     "start": "2017-02-28T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "5434",
+     "title": "Interactions & Pathways - Reactome",
+     "url": "https://tess.elixir-europe.org/events/interactions-pathways-reactome",
+     "start": "2015-11-03T09:30:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "5455",
+     "title": "Interactions & Pathways - Reactome",
+     "url": "https://tess.elixir-europe.org/events/interactions-pathways-reactome-d0dafbbf-e167-4d74-b13f-5f0f2868fcc5",
+     "start": "2015-09-15T09:30:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "5531",
+     "title": "Interactions & Pathways - Reactome",
+     "url": "https://tess.elixir-europe.org/events/interactions-pathways-reactome-7b3c7458-da36-495b-bb20-80306a869934",
+     "start": "2014-10-22T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "5627",
+     "title": "Interactions & Pathways - Reactome - Cambridge, UK",
+     "url": "https://tess.elixir-europe.org/events/interactions-pathways-reactome-cambridge-uk",
+     "start": "2014-01-24T09:00:00.000Z",
+     "matched_on": "text"
+    }
+   ]
+  },
+  "fairsharing-2387": {
+   "materials": [
+    {
+     "id": "3428",
+     "title": "Enzyme Portal: Quick tour",
+     "url": "https://tess.elixir-europe.org/materials/enzyme-portal-quick-tour",
+     "start": null,
+     "matched_on": "text"
+    },
+    {
+     "id": "3198",
+     "title": "Exploring metabolite metabolism using the Enzyme Portal",
+     "url": "https://tess.elixir-europe.org/materials/exploring-metabolite-metabolism-using-the-enzyme-portal",
+     "start": null,
+     "matched_on": "text"
+    },
+    {
+     "id": "3090",
+     "title": "Enzyme Portal",
+     "url": "https://tess.elixir-europe.org/materials/enzyme-portal",
+     "start": null,
+     "matched_on": "text"
+    }
+   ],
+   "events": [
+    {
+     "id": "11987",
+     "title": "Exploring metabolite metabolism using the Enzyme Portal",
+     "url": "https://tess.elixir-europe.org/events/exploring-metabolite-metabolism-using-the-enzyme-portal",
+     "start": "2020-06-10T15:30:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "49358",
+     "title": "Exploring metabolite metabolism using the Enzyme Portal",
+     "url": "https://tess.elixir-europe.org/events/exploring-metabolite-metabolism-using-the-enzyme-portal-3b9f5189-bd55-4c65-a9c3-f07854c5ca5b",
+     "start": "2020-06-10T00:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "10162",
+     "title": "Enzyme Portal",
+     "url": "https://tess.elixir-europe.org/events/enzyme-portal",
+     "start": "2019-05-29T15:30:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "49384",
+     "title": "Enzyme Portal",
+     "url": "https://tess.elixir-europe.org/events/enzyme-portal-e726234a-1496-4fba-a81e-ad1644605606",
+     "start": "2019-05-29T00:00:00.000Z",
+     "matched_on": "text"
+    }
+   ]
+  },
+  "fairsharing-1698": {
+   "materials": [
+    {
+     "id": "3414",
+     "title": "Information about chemicals",
+     "url": "https://tess.elixir-europe.org/materials/information-about-chemicals",
+     "start": null,
+     "matched_on": "link"
+    },
+    {
+     "id": "2935",
+     "title": "SPARQL endpoints at BiGCaT",
+     "url": "https://tess.elixir-europe.org/materials/sparql-endpoints-at-bigcat",
+     "start": null,
+     "matched_on": "text"
+    },
+    {
+     "id": "2543",
+     "title": "WikiPathways Academy",
+     "url": "https://tess.elixir-europe.org/materials/wikipathways-academy",
+     "start": null,
+     "matched_on": "link"
+    },
+    {
+     "id": "1744",
+     "title": "How to make a new pathway for WikiPathways using PathVisio",
+     "url": "https://tess.elixir-europe.org/materials/how-to-make-a-new-pathway-for-wikipathways-using-pathvisio",
+     "start": null,
+     "matched_on": "text"
+    }
+   ]
+  },
+  "fairsharing-3327": {
+   "materials": [
+    {
+     "id": "2930",
+     "title": "Refining Genome Annotations with Apollo (eukaryotes)",
+     "url": "https://tess.elixir-europe.org/materials/hands-on-for-refining-genome-annotations-with-apollo-eukaryotes-tutorial",
+     "start": null,
+     "matched_on": "link"
+    },
+    {
+     "id": "2914",
+     "title": "WORKSHOP: Refining genome annotations with Apollo",
+     "url": "https://tess.elixir-europe.org/materials/workshop-refining-genome-annotations-with-apollo",
+     "start": null,
+     "matched_on": "text"
+    },
+    {
+     "id": "2918",
+     "title": "WEBINAR: Launching the new Apollo Service: collaborative genome annotation for Australian researchers",
+     "url": "https://tess.elixir-europe.org/materials/webinar-launching-the-new-apollo-service-collaborative-genome-annotation-for-australian-researchers",
+     "start": null,
+     "matched_on": "text"
+    },
+    {
+     "id": "2890",
+     "title": "Refining Genome Annotations with Apollo (prokaryotes)",
+     "url": "https://tess.elixir-europe.org/materials/hands-on-for-refining-genome-annotations-with-apollo-tutorial",
+     "start": null,
+     "matched_on": "link"
+    },
+    {
+     "id": "2640",
+     "title": "Refining Genome Annotations with Apollo",
+     "url": "https://tess.elixir-europe.org/materials/slides-for-refining-genome-annotations-with-apollo-tutorial",
+     "start": null,
+     "matched_on": "link"
+    }
+   ],
+   "events": [
+    {
+     "id": "48292",
+     "title": "WORKSHOP: Refining genome annotations with Apollo",
+     "url": "https://tess.elixir-europe.org/events/workshop-refining-genome-annotations-with-apollo",
+     "start": "2021-11-17T15:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "48234",
+     "title": "WEBINAR: Launching the new Apollo Service: collaborative genome annotation for Australian researchers",
+     "url": "https://tess.elixir-europe.org/events/webinar-launching-the-new-apollo-service-collaborative-genome-annotation-for-australian-researchers",
+     "start": "2021-09-29T12:00:00.000Z",
+     "matched_on": "text"
+    }
+   ]
+  },
+  "fairsharing-2381": {
+   "materials": [
+    {
+     "id": "2919",
+     "title": "WEBINAR: KBase - A knowledge base for systems biology",
+     "url": "https://tess.elixir-europe.org/materials/webinar-kbase-a-knowledge-base-for-systems-biology",
+     "start": null,
+     "matched_on": "text"
+    }
+   ],
+   "events": [
+    {
+     "id": "48233",
+     "title": "WEBINAR: KBase - A knowledge base for systems biology",
+     "url": "https://tess.elixir-europe.org/events/webinar-kbase-a-knowledge-base-for-systems-biology",
+     "start": "2021-09-22T09:00:00.000Z",
+     "matched_on": "text"
+    }
+   ]
+  },
+  "fairsharing-2282": {
+   "materials": [
+    {
+     "id": "1891",
+     "title": "OpenRiskNet: Ontology Walkthrough and Workshop",
+     "url": "https://tess.elixir-europe.org/materials/openrisknet-ontology-walkthrough-and-workshop",
+     "start": null,
+     "matched_on": "text"
+    }
+   ]
+  },
+  "fairsharing-2084": {
+   "materials": [
+    {
+     "id": "1490",
+     "title": "BridgeDbR Tutorial",
+     "url": "https://tess.elixir-europe.org/materials/bridgedbr-tutorial",
+     "start": null,
+     "matched_on": "text"
+    }
+   ]
+  },
+  "fairsharing-4870": {
+   "events": [
+    {
+     "id": "3178",
+     "title": "Software Carpentry - NERSC",
+     "url": "https://tess.elixir-europe.org/events/software-carpentry-nersc",
+     "start": "2012-03-28T09:00:00.000Z",
+     "matched_on": "text"
+    }
+   ]
+  },
+  "fairsharing-2519": {
+   "events": [
+    {
+     "id": "48596",
+     "title": "Introduction to multi-omics data integration and visualisation",
+     "url": "https://tess.elixir-europe.org/events/introduction-to-multiomics-data-integration-and-visualisation-06859f1e-2462-463b-85e1-afb6fc7a290d",
+     "start": "2021-02-22T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "6712",
+     "title": "ELIXIR Webinar: OmicsDI",
+     "url": "https://tess.elixir-europe.org/events/elixir-webinar-on-omicsdi",
+     "start": "2017-08-16T14:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "6881",
+     "title": "ELIXIR Webinar: OmicsDI-Integrating Multiple Omics Repositories",
+     "url": "https://tess.elixir-europe.org/events/elixir-webinar-omicsdi-integrating-multiple-omics-repositories",
+     "start": "2017-08-16T14:00:00.000Z",
+     "matched_on": "text"
+    }
+   ]
+  },
+  "fairsharing-2028": {
+   "events": [
+    {
+     "id": "11032",
+     "title": "Introduction to protein-protein interactions using BioGRID and IntAct",
+     "url": "https://tess.elixir-europe.org/events/introduction-to-protein-protein-interactions-using-biogrid-and-intact",
+     "start": "2019-11-01T09:30:00.000Z",
+     "matched_on": "text"
+    }
+   ]
+  },
+  "fairsharing-1879": {
+   "events": [
+    {
+     "id": "48258",
+     "title": "Pathogen research through VEuPathDB resources",
+     "url": "https://tess.elixir-europe.org/events/pathogen-research-through-veupathdb-resources",
+     "start": "2021-10-11T09:30:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "11988",
+     "title": "Running a Galaxy workflow and integrating data into VEuPathDB",
+     "url": "https://tess.elixir-europe.org/events/running-a-galaxy-workflow-and-integrating-data-into-veupathdb",
+     "start": "2020-05-14T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "12570",
+     "title": "Running a Galaxy workflow and integrating data into VEuPathDB",
+     "url": "https://tess.elixir-europe.org/events/running-a-galaxy-workflow-and-integrating-data-into-veupathdb-472372b3-e48a-449c-9bff-22203487b7e6",
+     "start": "2020-05-14T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "12639",
+     "title": "Running a Galaxy workflow and integrating data into VEuPathDB",
+     "url": "https://tess.elixir-europe.org/events/running-a-galaxy-workflow-and-integrating-data-into-veupathdb-9107c849-bc6b-4980-92e1-96aabde29ce9",
+     "start": "2020-05-14T09:00:00.000Z",
+     "matched_on": "text"
+    }
+   ]
+  },
+  "fairsharing-7330": {
+   "events": [
+    {
+     "id": "12282",
+     "title": "MPDS and Open Source Tools for Computer Aided Drug Discovery",
+     "url": "https://tess.elixir-europe.org/events/mpds-and-open-source-tools-for-computer-aided-drug-discovery",
+     "start": "2020-07-23T09:00:00.000Z",
+     "matched_on": "text"
+    }
+   ]
+  },
+  "fairsharing-2963": {
+   "events": [
+    {
+     "id": "49684",
+     "title": "Omics Integration and Systems Biology",
+     "url": "https://tess.elixir-europe.org/events/elixir-omics-integration-and-systems-biology",
+     "start": "2021-09-06T09:00:00.000Z",
+     "matched_on": "link"
+    },
+    {
+     "id": "12945",
+     "title": "Omics integration and Systems Biology (ONLINE)",
+     "url": "https://tess.elixir-europe.org/events/omics-integration-and-systems-biology-online",
+     "start": "2021-04-19T09:00:00.000Z",
+     "matched_on": "link"
+    }
+   ]
+  },
+  "fairsharing-2281": {
+   "events": [
+    {
+     "id": "48191",
+     "title": "ELIXIR Fluxomics Training School 2021",
+     "url": "https://tess.elixir-europe.org/events/elixir-fluxomics-training-school-2021",
+     "start": "2021-10-04T09:00:00.000Z",
+     "matched_on": "text"
+    }
+   ]
+  },
+  "fairsharing-2782": {
+   "events": [
+    {
+     "id": "52843",
+     "title": "9th Advanced in silico Drug Design workshop 2026",
+     "url": "https://tess.elixir-europe.org/events/9th-advanced-in-silico-drug-design-workshop-2026",
+     "start": "2026-01-26T10:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "52844",
+     "title": "9th Advanced in silico Drug Design workshop 2026",
+     "url": "https://tess.elixir-europe.org/events/9th-advanced-in-silico-drug-design-workshop-2026-92f73d51-b00f-4677-af82-fb76c941ea48",
+     "start": "2026-01-26T10:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "51980",
+     "title": "8th Advanced in silico Drug Design workshop 2025",
+     "url": "https://tess.elixir-europe.org/events/8th-advanced-in-silico-drug-design-workshop-2025-09f6fa2a-bfac-4edc-aacc-c026404d5178",
+     "start": "2025-01-27T12:00:00.000Z",
+     "matched_on": "text"
+    }
+   ]
+  }
+ }
+}

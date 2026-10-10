@@ -29,7 +29,8 @@ def question(question_id):
     if current['type'] == 'end':
         # What the page needs to match the repositories with the answers, in the browser.
         summary = [{'url': url_for('app.repository', slug=r['slug']), 'name': r['name'], 'abbreviation': r['abbreviation'],
-                    'scope': r['scope'], 'providers': [p['name'] for p in r['providers']], 'topic': repositories.topic(r), 'countries': r['countries'],
+                    'scope': r['scope'], 'providers': [p['name'] for p in r['providers']],
+                    'documentation': repositories.documentation_sources(r), 'topic': repositories.topic(r), 'countries': r['countries'],
                     'yes': {k: f['yes'] for k, f in repositories.facts(r, tree()).items()},
                     'no': {k: f['no'] for k, f in repositories.facts(r, tree()).items()}}
                    for r in repos()]

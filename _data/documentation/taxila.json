@@ -1,0 +1,128 @@
+{
+ "source": "Taxila",
+ "url": "https://taxila.nl",
+ "retrieved": "2026-10-10",
+ "entries": {
+  "materials": 358,
+  "events": 2762
+ },
+ "matches": {
+  "fairsharing-1989": {
+   "materials": [
+    {
+     "id": "440",
+     "title": "IUPAC FAIR Chemistry Cookbook",
+     "url": "https://taxila.nl/materials/iupac-fair-chemistry-cookbook",
+     "start": null,
+     "matched_on": "link"
+    }
+   ]
+  },
+  "fairsharing-2560": {
+   "materials": [
+    {
+     "id": "356",
+     "title": "DataverseNL Workshop: Data Publication, Curation, and Sensitive Files",
+     "url": "https://taxila.nl/materials/dataversenl-workshop-data-publication-curation-and-sensitive-files",
+     "start": null,
+     "matched_on": "text"
+    }
+   ],
+   "events": [
+    {
+     "id": "6179",
+     "title": "Save the Date: DANS Open Day 2026",
+     "url": "https://taxila.nl/events/save-the-date-dans-open-day-2026",
+     "start": "2026-06-11T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "6838",
+     "title": "DANS Open Day 2026",
+     "url": "https://taxila.nl/events/dans-open-day-2026",
+     "start": "2026-06-11T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "6310",
+     "title": "Dataverse Community Event 2026",
+     "url": "https://taxila.nl/events/dataverse-community-event-2026",
+     "start": "2026-05-12T09:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "4460",
+     "title": "Connect & step up: Overview of the concrete actions to improve our local data repository service, DataverseNL, as a FAIR-enabling service",
+     "url": "https://taxila.nl/events/connect-step-up-overview-of-the-concrete-actions-to-improve-our-local-data-repository-service-dataversenl-as-a-fair-enabling-service",
+     "start": "2025-04-07T13:00:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "2644",
+     "title": "Erasmus MC DataverseNL launch",
+     "url": "https://taxila.nl/events/erasmus-mc-dataversenl-launch",
+     "start": "2024-03-19T09:00:00.000Z",
+     "matched_on": "text"
+    }
+   ]
+  },
+  "fairsharing-2617": {
+   "materials": [
+    {
+     "id": "236",
+     "title": "BridgeDb: Mapping Gene Identifiers",
+     "url": "https://taxila.nl/materials/bridgedb-mapping-gene-identifiers",
+     "start": null,
+     "matched_on": "text"
+    }
+   ]
+  },
+  "fairsharing-2537": {
+   "events": [
+    {
+     "id": "6701",
+     "title": "Unix shell and version control with Git",
+     "url": "https://taxila.nl/events/unix-shell-and-version-control-with-git",
+     "start": "2026-04-22T09:30:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "5195",
+     "title": "Introduction to Version Control with Git",
+     "url": "https://taxila.nl/events/introduction-to-version-control-with-git-274a8a45-62db-4769-94d7-7cf8b1a8bc97",
+     "start": "2025-06-25T09:30:00.000Z",
+     "matched_on": "text"
+    },
+    {
+     "id": "4595",
+     "title": "Introduction to Version Control with Git",
+     "url": "https://taxila.nl/events/introduction-to-version-control-with-git",
+     "start": "2025-03-10T09:30:00.000Z",
+     "matched_on": "text"
+    }
+   ]
+  },
+  "fairsharing-4286": {
+   "events": [
+    {
+     "id": "6835",
+     "title": "Open vs Closed Research Information: Discovering the OpenAIRE Graph",
+     "url": "https://taxila.nl/events/open-vs-closed-research-information-discovering-the-openaire-graph",
+     "start": "2026-04-16T09:30:00.000Z",
+     "matched_on": "text"
+    }
+   ]
+  },
+  "fairsharing-7216": {
+   "events": [
+    {
+     "id": "7191",
+     "title": "Dragonfly Garden Count 2026",
+     "url": "https://taxila.nl/events/dragonfly-garden-count-2026",
+     "start": "2026-07-05T09:00:00.000Z",
+     "matched_on": "text"
+    }
+   ]
+  }
+ }
+}

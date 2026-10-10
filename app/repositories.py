@@ -14,6 +14,8 @@ from .tree import ROOT
 
 REPOSITORIES = ROOT / '_data' / 'repositories'
 SERVICES = ROOT / '_data' / 'services'
+DOCUMENTATION = ROOT / '_data' / 'documentation'
+DOCUMENTATION_SOURCES = ('bio.tools', 'TeSS', 'Taxila')
 
 # Words in the subjects, name or description that suggest a type of data.
 DATA_TYPE_WORDS = {
@@ -88,10 +90,15 @@ def providers(repo, services):
     return found
 
 
-def load(directory=REPOSITORIES, services=SERVICES):
+def load(directory=REPOSITORIES, services=SERVICES, documentation=DOCUMENTATION):
     """All repositories of all sources, each with a `slug`, its `source` and `providers`."""
     offered = [data for data in (json.loads(p.read_text(encoding='utf-8'))
                                  for p in sorted(services.glob('*.json'))) if 'items' in data]
+    docs = {}  # slug -> {catalogue: entries}, from the file of each catalogue
+    for path in sorted(documentation.glob('*.json')):
+        data = json.loads(path.read_text(encoding='utf-8'))
+        for slug, entries in data['matches'].items():
+            docs.setdefault(slug, {})[data['source']] = entries
     found = []
     for path in sorted(directory.glob('*.json')):
         data = json.loads(path.read_text(encoding='utf-8'))
@@ -99,6 +106,7 @@ def load(directory=REPOSITORIES, services=SERVICES):
             item = dict(item, source=data['source'])
             item['slug'] = f"{data['source'].lower()}-{item['id']}"
             item['providers'] = providers(item, offered)
+            item['documentation'] = docs.get(item['slug'], {})
             found.append(item)
     return found
 
@@ -117,6 +125,11 @@ def sources(directory=REPOSITORIES):
 def topic(repo):
     """How on topic a repository is: the number of chemistry subjects it was found under."""
     return len([s for s in repo['matched_subjects'] if s != 'Subject Agnostic'])
+
+
+def documentation_sources(repo):
+    """The documentation catalogues (bio.tools, TeSS, Taxila) with entries for a repository."""
+    return [name for name in DOCUMENTATION_SOURCES if repo.get('documentation', {}).get(name)]
 
 
 def slugify(text):

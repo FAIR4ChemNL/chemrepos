@@ -9,7 +9,7 @@
     <div class="card">
       <ul class="repos">
         {% for repo in repos %}
-        <li><a href="{{ url_for('app.repository', slug=repo.slug) }}">{{ repo.name }}</a>{% for provider in repo.providers %} <span class="kind provider">{{ provider.name }}</span>{% endfor %}
+        <li><a href="{{ url_for('app.repository', slug=repo.slug) }}">{{ repo.name }}</a>{% for provider in repo.providers %} <span class="kind provider">{{ provider.name }}</span>{% endfor %}{% for name in documentation_sources(repo) %} <span class="kind docs">{{ name }}</span>{% endfor %}
           <span class="muted">{{ repo.countries|join(', ') }}{% if repo.scope == 'general' %} · any subject{% endif %}</span></li>
         {% endfor %}
       </ul>

@@ -1,6 +1,6 @@
 PYTHON ?= venv/bin/python
 
-.PHONY: all check build serve test clean venv collect collect-cached collect-nfdi4cat collect-nfdi4chem collect-elixir
+.PHONY: all check build serve test clean venv collect collect-cached collect-nfdi4cat collect-nfdi4chem collect-elixir collect-biotools collect-tess collect-taxila collect-documentation
 
 all: build
 
@@ -33,6 +33,20 @@ collect-nfdi4chem:
 # Collect the ELIXIR Data Platform services (from bio.tools) into _data/services/.
 collect-elixir:
 	$(PYTHON) scripts/collect_elixir.py
+
+# Find documentation for the repositories: API documentation in bio.tools, training
+# materials and events in TeSS and Taxila. bio.tools takes about 45 minutes.
+collect-biotools:
+	$(PYTHON) scripts/collect_biotools.py
+
+# TeSS and Taxila use the bio.tools matches, so run collect-biotools first.
+collect-tess:
+	$(PYTHON) scripts/collect_tess.py
+
+collect-taxila:
+	$(PYTHON) scripts/collect_taxila.py
+
+collect-documentation: collect-biotools collect-tess collect-taxila
 
 # Write the static website to build/, for GitHub Pages.
 build: check

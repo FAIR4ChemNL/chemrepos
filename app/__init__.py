@@ -12,6 +12,8 @@ def create_app(tree=None, repos=None):
     app.config['TREE'] = tree or Tree.load()
     app.config['REPOSITORIES'] = repositories.load() if repos is None else repos
 
+    app.jinja_env.globals['documentation_sources'] = repositories.documentation_sources
+
     from .views import main
     app.register_blueprint(main)
 

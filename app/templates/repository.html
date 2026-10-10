@@ -19,6 +19,35 @@
       </ul>
     </div>
 
+    {% if repo.documentation %}
+    <h2 class="section">Documentation, events and training</h2>
+    <div class="card">
+      {% set docs = repo.documentation %}
+      {% if docs['bio.tools'] %}
+      <p><span class="kind docs">bio.tools</span> API and tool documentation</p>
+      <ul class="plain">
+        {% for tool in docs['bio.tools'] %}
+        <li><a href="{{ tool.url }}" rel="noopener">{{ tool.name }}</a>
+          {% for url in tool.api_documentation %}<a href="{{ url }}" rel="noopener">API documentation</a> {% endfor %}
+          <span class="muted">(same {{ tool.matched_on }})</span></li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+      {% for source in ['TeSS', 'Taxila'] %}{% if docs[source] %}
+      {% for kind, label in [('materials', 'Training materials'), ('events', 'Events')] %}{% if docs[source][kind] %}
+      <p><span class="kind docs">{{ source }}</span> {{ label }} ({{ docs[source][kind]|length }})</p>
+      <ul class="plain">
+        {% for entry in docs[source][kind][:10] %}
+        <li><a href="{{ entry.url }}" rel="noopener">{{ entry.title }}</a>{% if entry.start %} <span class="muted">{{ entry.start[:10] }}</span>{% endif %}
+          {% if entry.matched_on == 'link' %}<span class="muted">(linked to the bio.tools entry)</span>{% endif %}</li>
+        {% endfor %}
+        {% if docs[source][kind]|length > 10 %}<li class="muted">and {{ docs[source][kind]|length - 10 }} more</li>{% endif %}
+      </ul>
+      {% endif %}{% endfor %}
+      {% endif %}{% endfor %}
+    </div>
+    {% endif %}
+
     <h2 class="section">What is known per question</h2>
     <p class="muted">The questions of the decision tree, with what {{ repo.source }} says about this repository.
       <span class="yes">✓</span> supported, <span class="no">✗</span> excluded, <span class="unknown">?</span> not known.
