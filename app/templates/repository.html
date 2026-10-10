@@ -5,7 +5,7 @@
       <a class="back" href="{{ url_for('app.question', question_id=end.id) }}">← Your repositories</a>
     </nav>
     <header>
-      <p class="label">Repository · {{ repo.source }}{% if repo.scope == 'general' %} · for any subject{% endif %}</p>
+      <p class="label">{{ (repo.record_type or 'repository')|replace('_', ' ')|capitalize }} · {{ repo.source }}{% if repo.scope == 'general' %} · for any subject{% endif %}</p>
       <h1>{{ repo.name }}{% if repo.abbreviation and repo.abbreviation != repo.name %} <span class="muted">({{ repo.abbreviation }})</span>{% endif %}</h1>
       {% if repo.description %}<p class="description">{{ repo.description }}</p>{% endif %}
     </header>

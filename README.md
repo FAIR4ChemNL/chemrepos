@@ -59,7 +59,7 @@ make collect-cached   # process the answers saved in cache/ by the last run, no 
 
 [scripts/collect_fairsharing.py](scripts/collect_fairsharing.py) searches the FAIRsharing
 database registry for chemistry-related subjects (and for subject-agnostic repositories),
-keeps the records that accept deposits, and stores per repository the subjects, domains,
+keeps all records (repositories and knowledgebases; `record_type` tells which, deprecated ones are left out), and stores per repository the subjects, domains,
 countries, licences, access and deposition conditions, organisations and the policies that
 recommend it. Records that are not public yet can be added by saving their page as
 `cache/fairsharing-pages/<id>.html` (see Repo4Cat, 9349); the API takes over once it has them. `coverage` counts how many repositories

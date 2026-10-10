@@ -40,8 +40,6 @@ CHEMISTRY_SUBJECTS = [
 ]
 # Repositories for any kind of data: relevant for chemistry data without a better home.
 GENERAL_SUBJECTS = ['Subject Agnostic']
-# FAIRsharing record types that accept deposits (the others are knowledgebases only).
-REPOSITORY_TYPES = {'repository', 'knowledgebase_and_repository'}
 
 
 def request(path, payload=None, token=None, method=None):
@@ -261,12 +259,6 @@ def process_page(path):
     }
 
 
-def is_repository(item):
-    kind = str(item['record_type'] or '').lower().replace(' ', '_').replace('/', '_and_')
-    # An unknown type is kept: better to show it than to lose a repository.
-    return not kind or kind in REPOSITORY_TYPES or 'repository' in kind
-
-
 def coverage(items):
     """How many records give a value for what the decision tree asks."""
     def count(f):
@@ -300,11 +292,11 @@ def main():
         sys.exit(f'{CACHE} does not exist: run without --from-cache first.')
     except urllib.error.URLError as error:
         sys.exit(f'FAIRsharing request failed: {error}')
-    items = [i for i in map(process, raw.values()) if is_repository(i) and not i['deprecated']]
+    items = [i for i in map(process, raw.values()) if not i['deprecated']]
     # Records that are not public yet, saved from their page; the API wins once it has them.
     known = {i['id'] for i in items}
     items += [i for i in map(process_page, sorted(PAGES.glob('*.html')))
-              if i['id'] not in known and is_repository(i)]
+              if i['id'] not in known]
     items.sort(key=lambda i: (i['name'] or '').lower())
     result = {
         'source': 'FAIRsharing', 'url': 'https://fairsharing.org',
