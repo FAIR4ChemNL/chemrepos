@@ -54,6 +54,11 @@ def repository_list():
     return render_template('repositories.html', repos=repos())
 
 
+@main.route('/about/')
+def about():
+    return render_template('about.html', sources=repositories.sources())
+
+
 @main.route('/tree/')
 def overview():
     return render_template('tree.html', questions=tree().questions.values(),

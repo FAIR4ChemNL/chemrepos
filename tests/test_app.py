@@ -76,6 +76,11 @@ class AppTest(unittest.TestCase):
         page = client.get(f"/repository/{without['slug']}/").get_data(as_text=True)
         self.assertNotIn('doi.org/10.25504', page)  # the footer links to another DOI
 
+    def test_about_lists_sources_and_is_linked(self):
+        page = self.client.get('/about/').get_data(as_text=True)
+        self.assertIn('FAIRsharing', page)
+        self.assertIn('href="/about/"', self.client.get('/').get_data(as_text=True))
+
     def test_overview_and_404(self):
         self.assertEqual(self.client.get('/tree/').status_code, 200)
         self.assertEqual(self.client.get('/question/nope/').status_code, 404)

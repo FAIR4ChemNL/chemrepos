@@ -47,6 +47,17 @@ def load(directory=REPOSITORIES):
     return found
 
 
+def sources(directory=REPOSITORIES):
+    """What each file of repositories says about itself, for the About page."""
+    found = []
+    for path in sorted(directory.glob('*.json')):
+        data = json.loads(path.read_text(encoding='utf-8'))
+        found.append({'name': data['source'], 'url': data.get('url'),
+                      'licence': data.get('licence'), 'retrieved': data.get('retrieved'),
+                      'count': len(data['items'])})
+    return found
+
+
 def topic(repo):
     """How on topic a repository is: the number of chemistry subjects it was found under."""
     return len([s for s in repo['matched_subjects'] if s != 'Subject Agnostic'])
