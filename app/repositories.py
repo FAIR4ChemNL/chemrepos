@@ -111,15 +111,24 @@ def load(directory=REPOSITORIES, services=SERVICES, documentation=DOCUMENTATION)
     return found
 
 
-def sources(directory=REPOSITORIES):
-    """What each file of repositories says about itself, for the About page."""
-    found = []
-    for path in sorted(directory.glob('*.json')):
-        data = json.loads(path.read_text(encoding='utf-8'))
-        found.append({'name': data['source'], 'url': data.get('url'),
-                      'licence': data.get('licence'), 'retrieved': data.get('retrieved'),
-                      'count': len(data['items'])})
-    return found
+def sources(directory=REPOSITORIES, services=SERVICES, documentation=DOCUMENTATION):
+    """What each data file says about itself, for the About page: the repositories, the
+    services of providers, and the catalogues with documentation."""
+    def read(folder):
+        return [json.loads(p.read_text(encoding='utf-8')) for p in sorted(folder.glob('*.json'))]
+    providers_ = [{'name': d['source'], 'url': d.get('url'), 'retrieved': d.get('retrieved'),
+                   'collected_from': d.get('collected_from'),
+                   'count': sum(1 for i in d['items'] if not i.get('documentation'))}
+                  for d in read(services) if 'items' in d]
+    return {
+        'repositories': [{'name': d['source'], 'url': d.get('url'), 'licence': d.get('licence'),
+                          'retrieved': d.get('retrieved'), 'count': len(d['items'])}
+                         for d in read(directory)],
+        'providers': providers_,
+        'documentation': [{'name': d['source'], 'url': d.get('url'), 'retrieved': d.get('retrieved'),
+                           'entries': d['entries'], 'count': len(d['matches'])}
+                          for d in read(documentation)],
+    }
 
 
 def topic(repo):

@@ -57,7 +57,7 @@ def repository_list():
 
 @main.route('/about/')
 def about():
-    return render_template('about.html', sources=repositories.sources())
+    return render_template('about.html', sources=repositories.sources(), total=len(repos()))
 
 
 @main.route('/tree/')

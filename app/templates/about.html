@@ -15,13 +15,36 @@
       repository to see what is known for each question.</p>
 
     <h2>Data sources</h2>
+
+    <h3>Repositories</h3>
     <ul>
-      {% for source in sources %}
-      <li><a href="{{ source.url }}" rel="noopener">{{ source.name }}</a>:
-        {{ source.count }} repositories, retrieved {{ source.retrieved }}{% if source.licence %}, licence {{ source.licence }}{% endif %}.
-        Repositories and knowledgebases for chemistry-related subjects, and for any subject.</li>
+      {% for source in sources.repositories %}
+      <li><a href="{{ source.url }}" rel="noopener">{{ source.name }}</a>: {{ source.count }} repositories and
+        knowledgebases for chemistry-related subjects and for any subject, retrieved {{ source.retrieved }}{% if source.licence %},
+        licence {{ source.licence }}{% endif %}.</li>
       {% endfor %}
-      <li>The questions and the lists of countries, disciplines, funders, institutions and publishers are
-        curated by the project.</li>
     </ul>
+
+    <h3>Service providers</h3>
+    <p>Repositories that a service provider offers get a badge with its name.</p>
+    <ul>
+      {% for source in sources.providers %}
+      <li><a href="{{ source.url }}" rel="noopener">{{ source.name }}</a>: {{ source.count }} services, retrieved {{ source.retrieved }}{% if source.collected_from %}
+        (from {{ source.collected_from }}){% endif %}.</li>
+      {% endfor %}
+    </ul>
+
+    <h3>Documentation, events and training</h3>
+    <p>Repositories with entries in one of these catalogues get a green badge with its name.</p>
+    <ul>
+      {% for source in sources.documentation %}
+      <li><a href="{{ source.url }}" rel="noopener">{{ source.name }}</a>:
+        {% if source.entries is mapping %}{{ source.entries.materials }} training materials and {{ source.entries.events }} events{% else %}{{ source.entries }} tools{% endif %}
+        searched, retrieved {{ source.retrieved }}; {{ source.count }} of the {{ total }} repositories have entries.</li>
+      {% endfor %}
+    </ul>
+
+    <h3>Curated by the project</h3>
+    <p>The questions of the decision tree and the lists of countries, disciplines, funders, institutions and
+      publishers.</p>
 {% endblock %}
