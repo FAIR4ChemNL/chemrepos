@@ -91,7 +91,9 @@ class AppTest(unittest.TestCase):
         app = create_app()
         by_id = {r['id']: r for r in app.config['REPOSITORIES']}
         self.assertEqual([p['name'] for p in by_id['9349']['providers']], ['NFDI4Cat'])
-        self.assertEqual(sum(1 for r in by_id.values() if r['providers']), 1)
+        self.assertEqual([p['name'] for p in by_id['2769']['providers']], ['NFDI4Chem'])
+        self.assertEqual([p['service'] for p in by_id['5191']['providers']],
+                         ['RADAR4Chem Repository'])
         page = self.client.get('/question/results/').get_data(as_text=True)
         self.assertIn('"providers": ["NFDI4Cat"]', page)
         page = self.client.get('/repository/fairsharing-9349/').get_data(as_text=True)

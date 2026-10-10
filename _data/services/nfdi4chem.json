@@ -1,0 +1,273 @@
+{
+  "source": "NFDI4Chem",
+  "url": "https://nfdi4chem.de/support/",
+  "retrieved": "2026-10-10",
+  "items": [
+    {
+      "id": "data-management-planning-tool",
+      "name": "Data Management Planning Tool",
+      "url": "https://rdmo.nfdi4chem.de/",
+      "links": [
+        {
+          "text": "Data Management Planning Tool",
+          "url": "https://rdmo.nfdi4chem.de/"
+        }
+      ],
+      "step": "1. Plan your research data",
+      "step_description": "Start your project with solid data planning.",
+      "documentation": false
+    },
+    {
+      "id": "workshop-rdm-basics-for-chemists",
+      "name": "Workshop RDM Basics for Chemists",
+      "url": "https://nfdi4chem.de/rdm-basics/",
+      "links": [
+        {
+          "text": "Workshop RDM Basics for Chemists",
+          "url": "https://nfdi4chem.de/rdm-basics/"
+        }
+      ],
+      "step": "1. Plan your research data",
+      "step_description": "Start your project with solid data planning.",
+      "documentation": false
+    },
+    {
+      "id": "learn-more-about-planning-data-in-our-knowlegde-base",
+      "name": "Learn more about planning data in our knowlegde base",
+      "url": "https://knowledgebase.nfdi4chem.de/knowledge_base/de/docs/data_guide/",
+      "links": [
+        {
+          "text": "Learn more about planning data in our knowlegde base",
+          "url": "https://knowledgebase.nfdi4chem.de/knowledge_base/de/docs/data_guide/"
+        }
+      ],
+      "step": "1. Plan your research data",
+      "step_description": "Start your project with solid data planning.",
+      "documentation": true
+    },
+    {
+      "id": "chemotion-eln",
+      "name": "Chemotion ELN",
+      "url": "https://chemotion.net/",
+      "links": [
+        {
+          "text": "Chemotion ELN",
+          "url": "https://chemotion.net/"
+        }
+      ],
+      "step": "2. Work with your research data",
+      "step_description": "Tools and standards to structure and manage your data in daily research.",
+      "documentation": false
+    },
+    {
+      "id": "eln-test-tool",
+      "name": "ELN Test Tool",
+      "url": "https://nfdi4chem.de/another-eln-made-available-for-testing/",
+      "links": [
+        {
+          "text": "ELN Test Tool",
+          "url": "https://nfdi4chem.de/another-eln-made-available-for-testing/"
+        }
+      ],
+      "step": "2. Work with your research data",
+      "step_description": "Tools and standards to structure and manage your data in daily research.",
+      "documentation": false
+    },
+    {
+      "id": "eln-finder",
+      "name": "ELN Finder",
+      "url": "https://eln-finder.ulb.tu-darmstadt.de/home",
+      "links": [
+        {
+          "text": "ELN Finder",
+          "url": "https://eln-finder.ulb.tu-darmstadt.de/home"
+        }
+      ],
+      "step": "2. Work with your research data",
+      "step_description": "Tools and standards to structure and manage your data in daily research.",
+      "documentation": false
+    },
+    {
+      "id": "standards",
+      "name": "Standards",
+      "url": "https://nfdi4chem.de/reports-from-minimum-information-standards-workshops/",
+      "links": [
+        {
+          "text": "Standards",
+          "url": "https://nfdi4chem.de/reports-from-minimum-information-standards-workshops/"
+        }
+      ],
+      "step": "2. Work with your research data",
+      "step_description": "Tools and standards to structure and manage your data in daily research.",
+      "documentation": false
+    },
+    {
+      "id": "terminology-service",
+      "name": "Terminology Service",
+      "url": "https://nfdi4chem.de/nfdi4chem-terminology-service-version-2-0-is-launched/",
+      "links": [
+        {
+          "text": "Terminology Service",
+          "url": "https://nfdi4chem.de/nfdi4chem-terminology-service-version-2-0-is-launched/"
+        }
+      ],
+      "step": "2. Work with your research data",
+      "step_description": "Tools and standards to structure and manage your data in daily research.",
+      "documentation": false
+    },
+    {
+      "id": "learn-more-about-processing-data-in-our-knowlegde-base",
+      "name": "Learn more about processing data in our knowlegde base",
+      "url": "https://knowledgebase.nfdi4chem.de/knowledge_base/de/docs/smartlab/",
+      "links": [
+        {
+          "text": "Learn more about processing data in our knowlegde base",
+          "url": "https://knowledgebase.nfdi4chem.de/knowledge_base/de/docs/smartlab/"
+        }
+      ],
+      "step": "2. Work with your research data",
+      "step_description": "Tools and standards to structure and manage your data in daily research.",
+      "documentation": true
+    },
+    {
+      "id": "chemotion-repository",
+      "name": "Chemotion Repository",
+      "url": "https://www.chemotion-repository.net/welcome",
+      "links": [
+        {
+          "text": "Chemotion Repository",
+          "url": "https://www.chemotion-repository.net/welcome"
+        }
+      ],
+      "step": "3. Store and publish your data",
+      "step_description": "Safely archive, share, and publish your research outputs.",
+      "documentation": false
+    },
+    {
+      "id": "radar4chem-repository",
+      "name": "RADAR4Chem Repository",
+      "url": "https://radar4chem.radar-service.eu/",
+      "links": [
+        {
+          "text": "RADAR4Chem Repository",
+          "url": "https://radar4chem.radar-service.eu/"
+        }
+      ],
+      "step": "3. Store and publish your data",
+      "step_description": "Safely archive, share, and publish your research outputs.",
+      "documentation": false
+    },
+    {
+      "id": "nmrxiv-repository",
+      "name": "nmrXiv Repository",
+      "url": "https://nmrxiv.org/",
+      "links": [
+        {
+          "text": "nmrXiv Repository",
+          "url": "https://nmrxiv.org/"
+        }
+      ],
+      "step": "3. Store and publish your data",
+      "step_description": "Safely archive, share, and publish your research outputs.",
+      "documentation": false
+    },
+    {
+      "id": "massbank-repository",
+      "name": "MassBank Repository",
+      "url": "https://massbank.eu/MassBank/",
+      "links": [
+        {
+          "text": "MassBank Repository",
+          "url": "https://massbank.eu/MassBank/"
+        }
+      ],
+      "step": "3. Store and publish your data",
+      "step_description": "Safely archive, share, and publish your research outputs.",
+      "documentation": false
+    },
+    {
+      "id": "converter-service",
+      "name": "Converter Service",
+      "url": "https://webconverter.nfdi4chem.zih.tu-dresden.de/",
+      "links": [
+        {
+          "text": "Converter Service",
+          "url": "https://webconverter.nfdi4chem.zih.tu-dresden.de/"
+        }
+      ],
+      "step": "3. Store and publish your data",
+      "step_description": "Safely archive, share, and publish your research outputs.",
+      "documentation": false
+    },
+    {
+      "id": "learn-more-about-storing-data-in-our-knowlegde-base",
+      "name": "Learn more about storing data in our knowlegde base",
+      "url": "https://knowledgebase.nfdi4chem.de/knowledge_base/docs/repositories/",
+      "links": [
+        {
+          "text": "Learn more about storing data in our knowlegde base",
+          "url": "https://knowledgebase.nfdi4chem.de/knowledge_base/docs/repositories/"
+        }
+      ],
+      "step": "3. Store and publish your data",
+      "step_description": "Safely archive, share, and publish your research outputs.",
+      "documentation": true
+    },
+    {
+      "id": "learn-more-about-publishing-data-in-our-knowlegde-base",
+      "name": "Learn more about publishing data in our knowlegde base",
+      "url": "https://knowledgebase.nfdi4chem.de/knowledge_base/docs/data_publishing/",
+      "links": [
+        {
+          "text": "Learn more about publishing data in our knowlegde base",
+          "url": "https://knowledgebase.nfdi4chem.de/knowledge_base/docs/data_publishing/"
+        }
+      ],
+      "step": "3. Store and publish your data",
+      "step_description": "Safely archive, share, and publish your research outputs.",
+      "documentation": true
+    },
+    {
+      "id": "search-service",
+      "name": "Search Service",
+      "url": "https://search.nfdi4chem.de/",
+      "links": [
+        {
+          "text": "Search Service",
+          "url": "https://search.nfdi4chem.de/"
+        }
+      ],
+      "step": "4. Search across services",
+      "step_description": "Find data across the entire ecosystem in one place.",
+      "documentation": false
+    },
+    {
+      "id": "helpdesk",
+      "name": "Helpdesk",
+      "url": "mailto:helpdesk@nfdi4chem.de",
+      "links": [
+        {
+          "text": "Helpdesk",
+          "url": "mailto:helpdesk@nfdi4chem.de"
+        }
+      ],
+      "step": "5. Get help and training",
+      "step_description": "Support, documentation, and hands-on learning opportunities.",
+      "documentation": false
+    },
+    {
+      "id": "eventlist-with-our-workshops",
+      "name": "Eventlist with our workshops",
+      "url": "https://nfdi4chem.de/workshops/",
+      "links": [
+        {
+          "text": "Eventlist with our workshops",
+          "url": "https://nfdi4chem.de/workshops/"
+        }
+      ],
+      "step": "5. Get help and training",
+      "step_description": "Support, documentation, and hands-on learning opportunities.",
+      "documentation": false
+    }
+  ]
+}

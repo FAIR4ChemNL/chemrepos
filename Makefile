@@ -1,6 +1,6 @@
 PYTHON ?= venv/bin/python
 
-.PHONY: all check build serve test clean venv collect collect-cached collect-nfdi4cat
+.PHONY: all check build serve test clean venv collect collect-cached collect-nfdi4cat collect-nfdi4chem
 
 all: build
 
@@ -25,6 +25,10 @@ collect-cached:
 # Collect the services of NFDI4Cat into _data/services/.
 collect-nfdi4cat:
 	$(PYTHON) scripts/collect_nfdi4cat.py
+
+# Collect the services of NFDI4Chem into _data/services/.
+collect-nfdi4chem:
+	$(PYTHON) scripts/collect_nfdi4chem.py
 
 # Write the static website to build/, for GitHub Pages.
 build: check

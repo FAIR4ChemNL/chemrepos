@@ -37,22 +37,28 @@ EU = {
 NOT_A_COUNTRY = {'worldwide', 'european union'}
 
 
-def web_address(url):
-    """An address without scheme, www and trailing slash, for comparing."""
-    return re.sub(r'^https?://(www\.)?|/+$', '', (url or '').strip().lower())
+# Addresses shared by many projects: a link to them says nothing about who offers a repository.
+SHARED_HOSTS = {'github.com', 'gitlab.com', 'doi.org', 'zenodo.org', 'youtube.com',
+                'github.io', 'w3id.org'}
+
+
+def host(url):
+    found = re.sub(r'^[a-z]+:(//)?(www\.)?|[/?#].*$', '', (url or '').strip().lower())
+    return found
 
 
 def providers(repo, services):
     """The service providers (like NFDI4Cat) that offer this repository as a service.
 
-    A repository belongs to a provider when its homepage is one of the links of
-    one of the provider's services.
+    A repository belongs to a provider when its homepage is on the same website as
+    one of the links of one of the provider's services.
     """
-    home = web_address(repo.get('homepage'))
+    home = host(repo.get('homepage'))
     found = []
     for provider in services:
         for service in provider['items']:
-            if home and home in {web_address(l['url']) for l in service['links']}:
+            hosts = {host(link['url']) for link in service['links']} | {host(service['url'])}
+            if home and home not in SHARED_HOSTS and home in hosts:
                 found.append({'name': provider['source'], 'service': service['name'],
                               'url': service['url']})
     return found
