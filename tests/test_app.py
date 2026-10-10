@@ -92,6 +92,7 @@ class AppTest(unittest.TestCase):
         by_id = {r['id']: r for r in app.config['REPOSITORIES']}
         self.assertEqual([p['name'] for p in by_id['9349']['providers']], ['NFDI4Cat'])
         self.assertEqual([p['name'] for p in by_id['2769']['providers']], ['NFDI4Chem'])
+        self.assertEqual([p['name'] for p in by_id['1711']['providers']], ['ELIXIR'])
         self.assertEqual([p['service'] for p in by_id['5191']['providers']],
                          ['RADAR4Chem Repository'])
         page = self.client.get('/question/results/').get_data(as_text=True)

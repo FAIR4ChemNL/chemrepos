@@ -67,9 +67,10 @@ give a value for each question.
 
 ## Service providers
 
-`make collect-nfdi4cat` and `make collect-nfdi4chem` store the services of NFDI4Cat and NFDI4Chem in
+`make collect-nfdi4cat`, `make collect-nfdi4chem` and `make collect-elixir` store the services of NFDI4Cat,
+NFDI4Chem and ELIXIR (the latter from the registry bio.tools, as elixir-europe.org blocks scripts) in
 [_data/services/](_data/services/), with the downloaded pages unchanged in `cache/`. A repository
-whose homepage is on the same website as a link of a service gets the provider as a badge, on the
+whose homepage is the website of a service, or that has the name of a service, gets the provider as a badge, on the
 results page and on its own page.
 
 ## Running it

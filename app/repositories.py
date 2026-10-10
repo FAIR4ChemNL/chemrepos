@@ -42,23 +42,47 @@ SHARED_HOSTS = {'github.com', 'gitlab.com', 'doi.org', 'zenodo.org', 'youtube.co
                 'github.io', 'w3id.org'}
 
 
-def host(url):
-    found = re.sub(r'^[a-z]+:(//)?(www\.)?|[/?#].*$', '', (url or '').strip().lower())
-    return found
+SECOND_LEVEL = {'co.uk', 'ac.uk', 'org.uk', 'gov.uk', 'com.au', 'edu.au', 'org.au', 'ac.jp',
+                'co.jp', 'ac.at', 'co.at', 'com.br', 'ac.za', 'co.za', 'com.cn', 'edu.cn'}
+
+
+def address(url):
+    """An address without scheme, www, query and trailing slash, for comparing."""
+    return re.sub(r'^[a-z]+:(//)?(www\.)?|[?#].*$|/+$', '', (url or '').strip().lower())
+
+
+def same_resource(homepage, link):
+    """Whether a homepage and the link of a service are the same website or a part of it.
+
+    The same address, a page below the address of the link, or a website of its own
+    (like radar4chem.radar-service.eu) of which the link is the front door. A website
+    of an institute with many resources (like ebi.ac.uk) is not enough.
+    """
+    home, link = address(homepage), address(link)
+    if not home or not link:
+        return False
+    host, _, path = link.partition('/')
+    if host in SHARED_HOSTS:
+        return False
+    if home == link or (path and home.startswith(link + '/')):
+        return True
+    labels = host.split('.')
+    own_site = len(labels) >= 3 and '.'.join(labels[-2:]) not in SECOND_LEVEL
+    return not path and own_site and home.partition('/')[0] == host
 
 
 def providers(repo, services):
     """The service providers (like NFDI4Cat) that offer this repository as a service.
 
-    A repository belongs to a provider when its homepage is on the same website as
-    one of the links of one of the provider's services.
+    A repository belongs to a provider when its homepage is the website of one of the
+    provider's services, or when it has exactly the name of one of them.
     """
-    home = host(repo.get('homepage'))
     found = []
     for provider in services:
         for service in provider['items']:
-            hosts = {host(link['url']) for link in service['links']} | {host(service['url'])}
-            if home and home not in SHARED_HOSTS and home in hosts:
+            links = [link['url'] for link in service['links']] + [service['url']]
+            if (any(same_resource(repo.get('homepage'), link) for link in links)
+                    or slugify(repo['name'] or '') == slugify(service['name'])):
                 found.append({'name': provider['source'], 'service': service['name'],
                               'url': service['url']})
     return found

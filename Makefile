@@ -1,6 +1,6 @@
 PYTHON ?= venv/bin/python
 
-.PHONY: all check build serve test clean venv collect collect-cached collect-nfdi4cat collect-nfdi4chem
+.PHONY: all check build serve test clean venv collect collect-cached collect-nfdi4cat collect-nfdi4chem collect-elixir
 
 all: build
 
@@ -29,6 +29,10 @@ collect-nfdi4cat:
 # Collect the services of NFDI4Chem into _data/services/.
 collect-nfdi4chem:
 	$(PYTHON) scripts/collect_nfdi4chem.py
+
+# Collect the ELIXIR Data Platform services (from bio.tools) into _data/services/.
+collect-elixir:
+	$(PYTHON) scripts/collect_elixir.py
 
 # Write the static website to build/, for GitHub Pages.
 build: check

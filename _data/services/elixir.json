@@ -1,0 +1,4250 @@
+{
+  "source": "ELIXIR",
+  "url": "https://elixir-europe.org/services",
+  "collected_from": "https://bio.tools, entries with elixirPlatform=Data",
+  "retrieved": "2026-10-10",
+  "items": [
+    {
+      "id": "intenz",
+      "name": "IntEnz",
+      "url": "https://bio.tools/intenz",
+      "description": "The recommendations of the Nomenclature Committee of the International Union of Biochemistry and Molecular Biology (NC-IUBMB) on the nomenclature and classification of enzyme-catalysed reactions.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "http://www.ebi.ac.uk/intenz"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Enzymes"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "EMBL"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "bgee",
+      "name": "Bgee",
+      "url": "https://bio.tools/bgee",
+      "description": "A package for the annotation and gene expression data download from Bgee database, and TopAnat analysis: GO-like enrichment of anatomical terms, mapped to genes by expression patterns.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "https://bioconductor.org/packages/BgeeDB"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Comparative genomics",
+        "Functional genomics",
+        "Transcriptomics"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "Switzerland"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "pdb-redo",
+      "name": "PDB-REDO databank of optimised macromolecular structures",
+      "url": "https://bio.tools/pdb-redo",
+      "description": "Databank of optimised macromolecular structures. PDB-REDO entries are refined, rebuilt and validated with one consistent protocol using the equivalent entry in the Protein Data Bank and its experimental data. PDB-REDO entries typically have higher structural quality and a better fit to the experimental data.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "https://pdb-redo.eu"
+        },
+        {
+          "text": "Repository for main software pipeline",
+          "url": "https://github.com/PDB-REDO/pdb-redo-main"
+        },
+        {
+          "text": "Library code for pdb-redo tools",
+          "url": "https://github.com/PDB-REDO/libpdb-redo"
+        },
+        {
+          "text": "Repository for the web interface including the API",
+          "url": "https://github.com/PDB-REDO/pdb-redo-session-manager"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Structure analysis"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [],
+      "elixir_communities": [
+        "3D-BioInfo"
+      ],
+      "elixir_badge": false
+    },
+    {
+      "id": "ega",
+      "name": "EGA",
+      "url": "https://bio.tools/ega",
+      "description": "European genome-phenome Archive (EGA) - service for permanent archiving and sharing of all types of personally identifiable genetic and phenotypic data resulting from biomedical research projects.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "https://ega-archive.org/"
+        }
+      ],
+      "tool_types": [
+        "Web API",
+        "Web application",
+        "Database portal"
+      ],
+      "topics": [
+        "Genotype and phenotype",
+        "Laboratory information management",
+        "Data security",
+        "Data integration and warehousing",
+        "Rare diseases"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "Spain"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "brenda",
+      "name": "BRENDA",
+      "url": "https://bio.tools/brenda",
+      "description": "Internationally leading information system on all aspects of enzymes, including function, structure, involvement in diseases, application, engineering, and molecular properties. The database includes hundreds of milllions of enzyme data and is compiled from manual literature annotation, data integration from other databases and predicted enzyme functions and locations.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "http://www.brenda-enzymes.org"
+        },
+        {
+          "text": "Link",
+          "url": "https://www.dsmz.de/"
+        },
+        {
+          "text": "Link",
+          "url": "https://hub.dsmz.de/#/"
+        },
+        {
+          "text": "Link",
+          "url": "https://www.brenda-enzymes.org/"
+        },
+        {
+          "text": "Link",
+          "url": "https://brenda-enzymes.org/support.php"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Bioinformatics",
+        "Biochemistry",
+        "Enzymes",
+        "Biology",
+        "Biotechnology",
+        "Data mining",
+        "Biomedical science"
+      ],
+      "elixir_platforms": [
+        "Data",
+        "Tools",
+        "Interoperability"
+      ],
+      "elixir_nodes": [
+        "Germany"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "itsonedb",
+      "name": "ITSoneDB",
+      "url": "https://bio.tools/itsonedb",
+      "description": "A comprehensive collection of the fungal ribosomal RNA Internal Transcribed Spacer 1 (ITS1) sequences aimed at supporting metagenomic surveys of fungal environmental communities.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "https://itsonedb.cloud.ba.infn.it/"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Metagenomics"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "Italy"
+      ],
+      "elixir_communities": [
+        "Marine Metagenomics"
+      ],
+      "elixir_badge": false
+    },
+    {
+      "id": "dome_registry",
+      "name": "DOME Registry",
+      "url": "https://bio.tools/dome_registry",
+      "description": "A database of annotations for published papers describing machine learning methods in biology.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "https://registry.dome-ml.org/"
+        },
+        {
+          "text": "Link",
+          "url": "https://github.com/BioComputingUP/dome-registry/issues"
+        }
+      ],
+      "tool_types": [
+        "Database portal",
+        "Web application"
+      ],
+      "topics": [
+        "Machine learning",
+        "Biosciences",
+        "Computer science"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "Italy",
+        "Greece"
+      ],
+      "elixir_communities": [
+        "Intrinsically Disordered Proteins"
+      ],
+      "elixir_badge": false
+    },
+    {
+      "id": "meta-base",
+      "name": "META-BASE",
+      "url": "https://bio.tools/meta-base",
+      "description": "META-BASE is a big repository of genomic datasets homogenized with the Genomic Data Model format, including Encode, TCGA, Roadmap Epigenomics, 1000 Genomes and others.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "https://github.com/DEIB-GECO/Metadata-Manager/"
+        },
+        {
+          "text": "Link",
+          "url": "http://geco.deib.polimi.it/datasets/"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Genomics",
+        "Gene structure",
+        "Copy number variation",
+        "Gene expression",
+        "Protein binding sites",
+        "Epigenomics",
+        "Genetic variation",
+        "Data curation and archival"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "Italy"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "oma",
+      "name": "OMA",
+      "url": "https://bio.tools/oma",
+      "description": "Project that aims to identify orthologs among publicly available, complete genomes. With many hundreds of genomes analyzed to date, it is one of the largest projects of its kind.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "http://omabrowser.org/oma/home/"
+        }
+      ],
+      "tool_types": [
+        "Desktop application",
+        "Web application",
+        "Database portal"
+      ],
+      "topics": [
+        "Evolutionary biology",
+        "Comparative genomics"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "Switzerland"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "globalamfungi",
+      "name": "globalamfungi",
+      "url": "https://bio.tools/globalamfungi",
+      "description": "The GlobalAMFungi Database is an open-access, global repository of arbuscular mycorrhizal (AM) fungal occurrence data compiled from high-throughput sequencing studies. It aggregates millions of DNA sequence observations of AM fungi from thousands of geographically referenced environmental samples, together with rich metadata on sampling location and environmental context, to map the global distribution and diversity of these key plant symbionts. The resource is designed to be community-driven and FAIR (Findable, Accessible, Interoperable, Reusable), supporting research into AM fungal ecology, biogeography, and how environmental factors shape their diversity.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "https://globalamfungi.com/"
+        },
+        {
+          "text": "Link",
+          "url": "https://globalamfungi.com/"
+        }
+      ],
+      "tool_types": [
+        "Database portal",
+        "Web application"
+      ],
+      "topics": [
+        "Biodiversity",
+        "Microbial ecology",
+        "Agricultural science"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "Czech Republic"
+      ],
+      "elixir_communities": [
+        "Plant Sciences"
+      ],
+      "elixir_badge": false
+    },
+    {
+      "id": "South_Green_Genome_Hubs",
+      "name": "South Green Genome Hubs",
+      "url": "https://bio.tools/South_Green_Genome_Hubs",
+      "description": "The South Green Genome Hub is a suite of crop-specific community portals to manage genomic datasets with focus on tropical and Mediterranean plants. Currently developed on Banana, Cacao, Coffee, Grass, Rice, Vanilla, Citrus and Sugarcane, genome hubs provide access to multiple datasets (e.g. assemblies, gene product information, metabolic pathways, gene families, transcriptomics and genetic markers).",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "https://banana-genome-hub.southgreen.fr/"
+        },
+        {
+          "text": "Link",
+          "url": "https://github.com/SouthGreenPlatform/genomehubs"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Agricultural science",
+        "Genomics",
+        "Transcriptomics",
+        "Comparative genomics",
+        "Model organisms"
+      ],
+      "elixir_platforms": [
+        "Data",
+        "Tools"
+      ],
+      "elixir_nodes": [
+        "France"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "straininfo",
+      "name": "StrainInfo",
+      "url": "https://bio.tools/straininfo",
+      "description": "StrainInfo provides resolution of microbial strain identifiers by storing culture collection numbers, their relations, and culture-associated data.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "https://straininfo.dsmz.de"
+        },
+        {
+          "text": "Link",
+          "url": "https://bsky.app/profile/dsmzd3.bsky.social"
+        },
+        {
+          "text": "Link",
+          "url": "https://linkedin.com/company/dsmzd3"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Data mining",
+        "Model organisms",
+        "Microbiology",
+        "Taxonomy"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "Germany"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "metabolights",
+      "name": "MetaboLights",
+      "url": "https://bio.tools/metabolights",
+      "description": "Database for Metabolomics experiments and derived information.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "http://www.ebi.ac.uk/metabolights/"
+        },
+        {
+          "text": "Link",
+          "url": "https://www.ebi.ac.uk/metabolights/index"
+        },
+        {
+          "text": "Link",
+          "url": "https://www.ebi.ac.uk/about/contact/support/metabolights"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Metabolomics"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "EMBL"
+      ],
+      "elixir_communities": [
+        "Metabolomics"
+      ],
+      "elixir_badge": false
+    },
+    {
+      "id": "WheatIS",
+      "name": "WheatIS",
+      "url": "https://bio.tools/WheatIS",
+      "description": "This project aims at building an International Wheat Information System (WheatIS) to support the wheat research community. The main objective is to provide a single-access web based system to access to the available data resources and bioinformatics tools. The web portal indexes and makes findable any kind of data from wheat related species. \nThe WheatIS search is an implementation of DataDiscovery.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "https://urgi.versailles.inrae.fr/wheatis/"
+        },
+        {
+          "text": "WheatIS website",
+          "url": "http://www.wheatis.org/"
+        }
+      ],
+      "tool_types": [
+        "Web API",
+        "Web application",
+        "Web service",
+        "Database portal"
+      ],
+      "topics": [
+        "Plant biology",
+        "Ecology",
+        "Biological databases",
+        "Bioinformatics",
+        "Agricultural science"
+      ],
+      "elixir_platforms": [
+        "Tools",
+        "Data",
+        "Interoperability"
+      ],
+      "elixir_nodes": [
+        "France"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "RARe",
+      "name": "RARe",
+      "url": "https://bio.tools/RARe",
+      "description": "RARe is a research infrastructure registered on the french national roadmap that brings together five networks of BRCs conserving genetic, genomic, and biological resources assembled and characterized by research on domestic animals, model or cultivated plants, wild species related to domestic animals, forest trees, micro-organisms of agronomic or agri-food interest, micro-organisms and environmental organisms.\nThe purpose of this web portal is to facilitate the discoverability of these data. \nRARe search is an implementation of DataDiscovery.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "https://urgi.versailles.inrae.fr/rare/"
+        },
+        {
+          "text": "AgroBRC-RARe website",
+          "url": "https://www.agrobrc-rare.org/agrobrc-rare_eng/"
+        }
+      ],
+      "tool_types": [
+        "Web API",
+        "Web application",
+        "Web service",
+        "Database portal"
+      ],
+      "topics": [
+        "Plant biology",
+        "Ecology",
+        "Biological databases",
+        "Bioinformatics",
+        "Agricultural science"
+      ],
+      "elixir_platforms": [
+        "Tools",
+        "Data",
+        "Interoperability"
+      ],
+      "elixir_nodes": [
+        "France"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "DataDiscovery",
+      "name": "DataDiscovery",
+      "url": "https://bio.tools/DataDiscovery",
+      "description": "DataDiscovery aims at providing researchers a simple and fast access to relevant biological data using specific keywords and easy to use filters.\n\nThis tool is expected to be easily customizable for specific filters, environments, or data schemas. Its current implementations supported by URGI are: WheatIS, Plant, RARe.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "https://urgi.versailles.inrae.fr/data-discovery/"
+        },
+        {
+          "text": "GitLab code repository for DataDiscovery",
+          "url": "https://forgemia.inra.fr/urgi-is/data-discovery"
+        },
+        {
+          "text": "Code repository mirror link for DataDiscovery",
+          "url": "https://github.com/gnpis/DataDiscovery/"
+        }
+      ],
+      "tool_types": [
+        "Web API",
+        "Web application",
+        "Web service",
+        "Database portal"
+      ],
+      "topics": [
+        "Plant biology",
+        "Ecology",
+        "Biological databases",
+        "Bioinformatics",
+        "Agricultural science"
+      ],
+      "elixir_platforms": [
+        "Data",
+        "Tools",
+        "Interoperability"
+      ],
+      "elixir_nodes": [
+        "France"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "silva",
+      "name": "SILVA rRNA database",
+      "url": "https://bio.tools/silva",
+      "description": "SILVA provides comprehensive, quality checked and regularly updated datasets of aligned small (16S/18S, SSU) and large subunit (23S/28S, LSU) ribosomal RNA (rRNA) sequences for all three domains of life (Bacteria, Archaea and Eukaryota).",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "https://www.arb-silva.de"
+        },
+        {
+          "text": "SILVA Taxonomy Browser",
+          "url": "https://www.arb-silva.de/browser/"
+        },
+        {
+          "text": "SILVA metadata search",
+          "url": "https://www.arb-silva.de/search/"
+        },
+        {
+          "text": "ACT: Alignment, Classification and Tree Service",
+          "url": "https://www.arb-silva.de/aligner/"
+        },
+        {
+          "text": "SILVA Probe Match and Evaluation Tool",
+          "url": "https://www.arb-silva.de/search/testprobe/"
+        },
+        {
+          "text": "SILVA Primer Evaluation Tool",
+          "url": "https://www.arb-silva.de/search/testprime/"
+        },
+        {
+          "text": "Web-based viewer for the SILVA guide trees",
+          "url": "https://treeviewer.arb-silva.de/"
+        }
+      ],
+      "tool_types": [
+        "Web application",
+        "Database portal"
+      ],
+      "topics": [
+        "Functional, regulatory and non-coding RNA",
+        "Sequence analysis",
+        "Phylogenetics",
+        "Taxonomy",
+        "Biodiversity",
+        "Microbiology",
+        "Probes and primers"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "Germany"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "silvangs",
+      "name": "SILVAngs",
+      "url": "https://bio.tools/silvangs",
+      "description": "SILVAngs is a data analysis service for ribosomal RNA gene (rDNA) amplicon reads from high-throughput sequencing (next-generation sequencing (NGS)) approaches based on an automatic software pipeline. It uses the SILVA rDNA databases, taxonomies, and alignments as a reference. It facilitates the classification of rDNA reads and provides a wealth of results (tables, graphs and sequence files) for download.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "https://ngs.arb-silva.de"
+        }
+      ],
+      "tool_types": [
+        "Web application"
+      ],
+      "topics": [
+        "Metagenomics",
+        "Biodiversity",
+        "Taxonomy",
+        "Functional, regulatory and non-coding RNA",
+        "Sequence analysis",
+        "Microbial ecology"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "Germany"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "human_microbiome_compendium",
+      "name": "Human Microbiome Compendium",
+      "url": "https://bio.tools/human_microbiome_compendium",
+      "description": "Collection of human microbiome sequencing data that pairs subject metadata with relative abundance data derived from amplicon and shotgun metagenomic sequencing processed via uniform pipelines.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "https://microbiomap.org"
+        },
+        {
+          "text": "Homepage of the project with links to multiple tools and datasets",
+          "url": "https://microbiomap.org"
+        },
+        {
+          "text": "Link to the most recent release of the compendium dataset",
+          "url": "https://doi.org/10.5281/zenodo.8186993"
+        }
+      ],
+      "tool_types": [
+        "Bioinformatics portal"
+      ],
+      "topics": [
+        "Metagenomics",
+        "Microbial ecology",
+        "FAIR data",
+        "Metagenomics",
+        "Phylogenetics"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "rdmkit",
+      "name": "RDMkit",
+      "url": "https://bio.tools/rdmkit",
+      "description": "RDMkit is the Research Data Management toolkit for Life Sciences, providing best practices and guidelines to for FAIR (Findable, Accessible, Interoperable and Reusable) data management.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "https://rdmkit.elixir-europe.org"
+        },
+        {
+          "text": "Link",
+          "url": "https://github.com/elixir-europe/rdmkit"
+        }
+      ],
+      "tool_types": [
+        "Web application"
+      ],
+      "topics": [],
+      "elixir_platforms": [
+        "Data",
+        "Interoperability",
+        "Training"
+      ],
+      "elixir_nodes": [
+        "UK",
+        "Norway",
+        "Belgium",
+        "Germany",
+        "Finland",
+        "Spain"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "nextprot",
+      "name": "neXtProt",
+      "url": "https://bio.tools/nextprot",
+      "description": "neXtProt was an innovative knowledge platform dedicated to human proteins. This resource contained a wealth of high-quality data on all the human proteins that are produced by the 20'000 protein-coding genes found in the human genome. The content of neXtProt was continuously extended so as to provide many more carefully selected data sets and analysis tools. neXtProt data and tools have been archived.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "https://www.expasy.org/archives/nextprot"
+        },
+        {
+          "text": "neXtProt software repository with issue tracking",
+          "url": "https://github.com/calipho-sib/"
+        },
+        {
+          "text": "neXtProt release news, publications, presentations, tips and more. DM us with feedback!",
+          "url": "https://twitter.com/nextprot_news"
+        },
+        {
+          "text": "neXtProt entry in Expasy",
+          "url": "https://www.expasy.org/resources/nextprot"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Model organisms",
+        "Proteomics",
+        "Proteins",
+        "Protein modifications",
+        "Protein variants",
+        "Rare diseases"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "Switzerland"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "enzymedetector",
+      "name": "EnzymeDetector",
+      "url": "https://bio.tools/enzymedetector",
+      "description": "The EnzymeDetector database offers a comparative and integrative approach to find enzymatic annotations. The most comprehensive databases for protein and genome annotation, namely manually annotated data and text mining data from BRENDA, UniProt, KEGG, PATRIC, and NCBI's RefSeq, are integrated to have a vast view on the organism of interest. The data are complemented with self-performed annotation methods, i.e. BLAST vs. all enzyme annotations from Swiss-Prot and BrEPS enzyme pattern recognition.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "https://ed.brenda-enzymes.org/help.php"
+        },
+        {
+          "text": "Link",
+          "url": "https://www.brenda-enzymes.org/"
+        },
+        {
+          "text": "Link",
+          "url": "https://hub.dsmz.de/#/"
+        }
+      ],
+      "tool_types": [
+        "Web service"
+      ],
+      "topics": [
+        "Enzymes",
+        "Sequence analysis"
+      ],
+      "elixir_platforms": [
+        "Data",
+        "Tools"
+      ],
+      "elixir_nodes": [
+        "Germany"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "phagedive",
+      "name": "PhageDive",
+      "url": "https://bio.tools/phagedive",
+      "description": "PhageDive is a specific database for bacteriophages and archaeal viruses. Built on the BacDive model, it gathers and links all the experimental data and metadata of the viruses present in different culture collections. Its implementation aims to facilitate access to all viruses information for the scientific community. The database covers taxonomy, host strain, phage morphology, life cycle, origin and genomic data.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "https://phagedive.dsmz.de/"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Microbiology",
+        "Virology"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "Germany"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "bacdive",
+      "name": "BacDive",
+      "url": "https://bio.tools/bacdive",
+      "description": "BacDive (The Bacterial Diversity Database) is the worldwide largest database for standardized bacterial and archaeal strain-level information. Its mission is to mobilize and integrate research data on strain level from diverse sources and make it freely accessible.\n\nBacDive is a comprehensive resource containing diverse data on bacterial and archaeal strains, including taxonomy, morphology, physiology, sampling and environmental data and sequence information.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "https://bacdive.dsmz.de"
+        },
+        {
+          "text": "Link",
+          "url": "https://bacdive.dsmz.de/mailinglist/subscribe"
+        },
+        {
+          "text": "Link",
+          "url": "https://bacdive.dsmz.de/contact"
+        },
+        {
+          "text": "Link",
+          "url": "https://bsky.app/profile/bacdive.bsky.social"
+        },
+        {
+          "text": "Link",
+          "url": "https://www.linkedin.com/company/dsmzd3/"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Biodiversity",
+        "Taxonomy",
+        "Microbial collection",
+        "Microbiology"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "Germany"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "bacdive_ws",
+      "name": "BacDive API",
+      "url": "https://bio.tools/bacdive_ws",
+      "description": "The API for retrieving BacDive data in machine-readable JSON format. BacDive is the Bacterial Diversity Database and provides strain-linked information about bacterial and archaeal biodiversity. The API offers several possibilities to query detailed strain information.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "https://api.bacdive.dsmz.de/"
+        },
+        {
+          "text": "Link",
+          "url": "https://bacdive.dsmz.de/"
+        },
+        {
+          "text": "Link",
+          "url": "https://bsky.app/profile/bacdive.bsky.social"
+        }
+      ],
+      "tool_types": [
+        "Web API"
+      ],
+      "topics": [
+        "Model organisms",
+        "Taxonomy",
+        "Microbial collection",
+        "Microbiology"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "Germany"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "gen_seeker",
+      "name": "Gen Seeker",
+      "url": "https://bio.tools/gen_seeker",
+      "description": "Gen Seeker is the browser of variants detected in the Czech population included in the Czech digital genome map. \nAlthough Slavs are the largest European ethnolinguistic group, Slavic and especially Czech genomes are underrepresented in international genomic databases, which limits the ability to understand and interpret specific slavic gene variations.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "https://czechgenome.cz/search"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Genetic variation"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "Czech Republic"
+      ],
+      "elixir_communities": [
+        "Human Copy Number Variation",
+        "Federated Human Data",
+        "Rare Diseases"
+      ],
+      "elixir_badge": false
+    },
+    {
+      "id": "prodom",
+      "name": "ProDom protein domain database",
+      "url": "https://bio.tools/prodom",
+      "description": "A comprehensive set of protein domain families automatically generated from the UniProt Knowledge Database.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "http://prodom.prabi.fr/prodom/current/html/home.php"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Gene and protein families",
+        "Protein folds and structural domains"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "France"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "enzyme",
+      "name": "ENZYME - Enzyme nomenclature database",
+      "url": "https://bio.tools/enzyme",
+      "description": "A repository of information relative to the nomenclature of enzymes. It is primarily based on the recommendations of the Nomenclature Committee of the International Union of Biochemistry and Molecular Biology (IUBMB) and it describes each type of characterized enzyme for which an EC (Enzyme Commission) number has been provided.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "http://enzyme.expasy.org"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Enzymes"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "Switzerland"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "arrayexpress",
+      "name": "ArrayExpress",
+      "url": "https://bio.tools/arrayexpress",
+      "description": "Public repository of functional genomics data supporting publications. It includes data generated by sequencing or array-based technologies.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "http://www.ebi.ac.uk/arrayexpress"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Gene expression",
+        "Functional genomics"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "EMBL"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "enzyme_portal",
+      "name": "Enzyme Portal",
+      "url": "https://bio.tools/enzyme_portal",
+      "description": "Web service which integrates publicly available information about enzymes, such as small-molecule chemistry, biochemical pathways and drug compounds.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "http://www.ebi.ac.uk/enzymeportal/"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Enzymes"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "EMBL"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "expression_atlas",
+      "name": "Expression Atlas",
+      "url": "https://bio.tools/expression_atlas",
+      "description": "Open science resource that gives users a powerful way to find information about gene and protein expression across species and biological conditions such as different tissues, cell types, developmental stages and diseases among others.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "https://www.ebi.ac.uk/gxa/"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Gene expression"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "EMBL"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "corkoakdb",
+      "name": "CorkOakDB",
+      "url": "https://bio.tools/corkoakdb",
+      "description": "Database of Cork Oak EST sequences from the Portuguese Cork Oak sequencing project.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "http://corkoakdb.org/"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Plant biology",
+        "Genomics"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "Portugal"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "CRISPRs_Database",
+      "name": "CRISPRs Database",
+      "url": "https://bio.tools/CRISPRs_Database",
+      "description": "Gateway to publicly accessible CRISPRs database.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "http://crispr.i2bc.paris-saclay.fr/crispr/"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Sequence composition, complexity and repeats",
+        "Transcription factors and regulatory sites",
+        "DNA polymorphism"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "France"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "orthodb",
+      "name": "OrthoDB",
+      "url": "https://bio.tools/orthodb",
+      "description": "Catalog of eukaryotic orthologous protein-coding genes. OrthoDB explicitly delineates orthologs at each radiation along the species phylogeny. Available protein descriptors, together with Gene Ontology and InterPro attributes, serve to provide general descriptive annotations of the orthologous groups, and facilitate comprehensive database querying. Data sources include proteomes from arthropods, fungi, vertebrates and basal metazoans.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "http://www.orthodb.org/"
+        },
+        {
+          "text": "Link",
+          "url": "http://expasy.org"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Evolutionary biology",
+        "Function analysis",
+        "Genomics",
+        "Phylogeny",
+        "Model organisms",
+        "Gene and protein families"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "Switzerland"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "hogenom",
+      "name": "HOGENOM",
+      "url": "https://bio.tools/hogenom",
+      "description": "It allows selection of sets of homologous genes among species, and visualisation of multiple alignments and phylogenetic trees. It is useful for comparative sequence analysis, phylogeny, molecular evolution studies and to get a view of what is known about a peculiar gene family.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "http://pbil.univ-lyon1.fr/databases/hogenom3.html"
+        },
+        {
+          "text": "Link",
+          "url": "https://www.biocatalogue.org/services/2031"
+        }
+      ],
+      "tool_types": [
+        "Database portal",
+        "Web service"
+      ],
+      "topics": [
+        "Sequence analysis",
+        "Gene and protein families",
+        "Phylogenetics",
+        "Comparative genomics",
+        "Phylogenomics"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "France"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "hovergen",
+      "name": "Homologous vertebrate genes database (HOVERGEN)",
+      "url": "https://bio.tools/hovergen",
+      "description": "This database allows selection of sets of homologous genes among vertebrate species, and visualisation of multiple alignments and phylogenetic trees. It is particularly useful for comparative sequence analysis, phylogeny and molecular evolution studies or more generally, for an overall view of what is known about a peculiar gene family.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "http://pbil.univ-lyon1.fr/databases/hovergen.html"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Gene and protein families",
+        "Sequence analysis",
+        "Phylogenetics",
+        "Comparative genomics",
+        "Phylogenomics"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "France"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "biostudies",
+      "name": "BioStudies",
+      "url": "https://bio.tools/biostudies",
+      "description": "The BioStudies database holds descriptions of biological studies, links to data from these studies in other databases at EMBL-EBI or outside, as well as data that do not fit in the structured archives at EMBL-EBI. The database can accept a wide range of types of studies described via a simple format. It also enables manuscript authors to submit supplementary information and link to it from the publication.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "https://www.ebi.ac.uk/biostudies/"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Experimental design and studies"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "EMBL"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "validatordb",
+      "name": "ValidatorDB",
+      "url": "https://bio.tools/validatordb",
+      "description": "Database of validation results for ligands and non-standard residues in the Protein Data Bank.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "http://webchem.ncbr.muni.cz/Platform/ValidatorDB"
+        },
+        {
+          "text": "Link",
+          "url": "http://ncbr.muni.cz/WebChemistry"
+        },
+        {
+          "text": "Link",
+          "url": "http://webchemdev.ncbr.muni.cz/Platform/VaidatorDB"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Structure analysis",
+        "Small molecules"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "Czech Republic"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "swissregulon",
+      "name": "SwissRegulon",
+      "url": "https://bio.tools/swissregulon",
+      "description": "SwissRegulon is a database of genome-wide annotations of regulatory sites. It contains annotations for 17 prokaryotes and 3 eukaryotes. The database frontend offers an intuitive interface showing genomic information in a clear and comprehensible graphical form.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "http://swissregulon.unibas.ch/sr/"
+        },
+        {
+          "text": "Link",
+          "url": "http://expasy.org"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Genomics",
+        "Systems biology",
+        "Sequence analysis",
+        "Transcription factors and regulatory sites",
+        "Gene transcripts"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "Switzerland"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "chembl",
+      "name": "ChEMBL",
+      "url": "https://bio.tools/chembl",
+      "description": "Database of bioactive compounds, their quantitative properties and bioactivities (binding constants, pharmacology and ADMET, etc). The data is abstracted and curated from the primary scientific literature.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "https://www.ebi.ac.uk/chembldb/"
+        },
+        {
+          "text": "Link",
+          "url": "https://github.com/egonw/chembl.rdf"
+        }
+      ],
+      "tool_types": [
+        "Web API",
+        "Database portal"
+      ],
+      "topics": [
+        "Small molecules",
+        "Chemical biology",
+        "Cheminformatics"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "EMBL"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "swicz",
+      "name": "SWICZ",
+      "url": "https://bio.tools/swicz",
+      "description": "A proteomics web database.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "http://proteom.biomed.cas.cz/"
+        },
+        {
+          "text": "Link",
+          "url": "http://proteom.biomed.cas.cz"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Protein expression",
+        "Proteomics experiment"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "Czech Republic"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "uniprotkb",
+      "name": "UniProtKB",
+      "url": "https://bio.tools/uniprotkb",
+      "description": "The central hub for the collection of functional information on proteins with accurate, consistent and rich annotation. It consists of: UniProtKB/Swiss-Prot (manually-annotated records and curator-evaluated computational analysis) and UniProtKB/TrEMBL (computationally analyzed records awaiting manual annotation).",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "http://www.uniprot.org/uniprot/"
+        },
+        {
+          "text": "Link",
+          "url": "http://www.uniprot.org/downloads"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Proteomics",
+        "Proteins",
+        "Enzymes"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "Switzerland"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "string",
+      "name": "STRING",
+      "url": "https://bio.tools/string",
+      "description": "A database of known and predicted protein-protein interactions. The database contains information from numerous sources, including experimental repositories, computational prediction methods and public text collections. STRING is regularly updated and gives a comprehensive view on protein-protein interactions currently available.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "http://string-db.org/"
+        },
+        {
+          "text": "Link",
+          "url": "http://expasy.org"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Proteomics",
+        "Protein interactions"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "Switzerland"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "Cocoa_Genome_Hub",
+      "name": "Cocoa Genome Hub",
+      "url": "https://bio.tools/Cocoa_Genome_Hub",
+      "description": "The Cocoa Genome Hub is an integrated web-based database providing centralized access to the cocoa reference genome sequences and genomic resources.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "https://cocoa-genome-hub.southgreen.fr/"
+        },
+        {
+          "text": "Link",
+          "url": "https://cocoa-genome-hub.southgreen.fr/contact"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Model organisms",
+        "Transcriptomics",
+        "Agricultural science",
+        "Gene expression"
+      ],
+      "elixir_platforms": [
+        "Data",
+        "Tools"
+      ],
+      "elixir_nodes": [
+        "France"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "intact",
+      "name": "IntAct",
+      "url": "https://bio.tools/intact",
+      "description": "Protein interaction database and analysis system.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "http://www.ebi.ac.uk/intact/"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Protein interactions"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "EMBL"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "rhea",
+      "name": "Rhea",
+      "url": "https://bio.tools/rhea",
+      "description": "Rhea is a comprehensive and non-redundant resource of expert-curated chemical and transport reactions of biological interest developed by the Swiss-Prot group at SIB Swiss Institute of Bioinformatics.\nRhea can be used for enzyme annotation, genome-scale metabolic modeling and omics-related analysis. Rhea describes enzyme-catalyzed reactions covering the IUBMB Enzyme Nomenclature list as well as additional reactions, including spontaneously occurring reactions. \nRhea is built on ChEBI (Chemical Entities of Biological Interest) ontology of small molecules to describe its reaction participants. \nSince December 2018, Rhea is the standard for enzyme annotation in UniProt.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "https://www.rhea-db.org/"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Enzymes",
+        "Chemistry",
+        "Molecular interactions, pathways and networks"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "Switzerland"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "arraymap",
+      "name": "arrayMap",
+      "url": "https://bio.tools/arraymap",
+      "description": "A curated reference database and bioinformatics resource targeting copy number profiling data in human cancer. The arrayMap database provides an entry point for meta-analysis and systems level data integration of high-resolution oncogenomic CNA data.\nThe arrayMap resource represents the part of the Progenetix project for which direct access to source data (i.e. probe-specific genomic array read-outs) has been available during data curation.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "http://arraymap.org"
+        },
+        {
+          "text": "Link",
+          "url": "http://expasy.org"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Systems biology",
+        "Genomics",
+        "Oncology",
+        "DNA structural variation"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "Switzerland"
+      ],
+      "elixir_communities": [
+        "Human Copy Number Variation"
+      ],
+      "elixir_badge": false
+    },
+    {
+      "id": "channelsdb",
+      "name": "ChannelsDB 2.0",
+      "url": "https://bio.tools/channelsdb",
+      "description": "A comprehensive resource of channels, pores and tunnels found in biomacromolecular structures deposited in the Protein Data Bank.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "https://channelsdb2.biodata.ceitec.cz/"
+        },
+        {
+          "text": "Link",
+          "url": "https://channelsdb2.biodata.ceitec.cz"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Structural biology",
+        "Biophysics",
+        "Protein properties",
+        "Protein interactions",
+        "Enzymes",
+        "Membrane and lipoproteins",
+        "Proteins",
+        "Small molecules",
+        "Literature and language"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "Czech Republic"
+      ],
+      "elixir_communities": [
+        "3D-BioInfo"
+      ],
+      "elixir_badge": false
+    },
+    {
+      "id": "bpositive",
+      "name": "bpositive",
+      "url": "https://bio.tools/bpositive",
+      "description": "A database of positive selection projects in ADOPS format.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "http://bpositive.i3s.up.pt/"
+        },
+        {
+          "text": "Link",
+          "url": "https://github.com/sing-group/bpositive"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Evolutionary biology"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "Portugal"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "EvoPPI",
+      "name": "EvoPPI",
+      "url": "https://bio.tools/EvoPPI",
+      "description": "EvoPPI allows the easy comparison of publicly available data from the main Protein-Protein Interaction (PPI) databases for the same and distinct species.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "http://evoppi.i3s.up.pt/"
+        },
+        {
+          "text": "EvoPPI frontend",
+          "url": "https://github.com/sing-group/evoppi-frontend"
+        },
+        {
+          "text": "EvoPPI backend",
+          "url": "https://github.com/sing-group/evoppi-backend"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Protein interactions"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "Portugal"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "dolce",
+      "name": "Dolbico",
+      "url": "https://bio.tools/dolce",
+      "description": "Database of local biomolecular conformers, stores DNA structural data including the information about DNA local spatial arrangement.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "http://dolbico.org/"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "DNA",
+        "Structural biology"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "Czech Republic"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "CancerGeneNet",
+      "name": "CancerGeneNet",
+      "url": "https://bio.tools/CancerGeneNet",
+      "description": "CancerGeneNet is a resource that aims at linking genes that are frequently mutated in cancers to cancer phenotypes. The resource takes advantage of a curation effort aimed at embedding a large fraction of the gene products that are found altered in cancers in the cell network of causal protein relationships. Graph algorithms, in turn, allow to infer likely paths of causal interactions linking cancer associated genes to cancer phenotypes thus offering a rational framework for the design of strategies to revert disease phenotypes. CancerGenNet bridges two interaction layers by connecting proteins whose activities are affected by cancer gene products to proteins that impact on cancer phenotypes. This is achieved by implementing graph algorithms that allow searching for graph path that link any gene of interest to the “hallmarks of cancer\".",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "https://signor.uniroma2.it/CancerGeneNet/"
+        }
+      ],
+      "tool_types": [],
+      "topics": [
+        "Molecular interactions, pathways and networks"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "Italy"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "Sugarcane_Genome_Hub",
+      "name": "Sugarcane Genome Hub",
+      "url": "https://bio.tools/Sugarcane_Genome_Hub",
+      "description": "The Sugarcane Genome Hub is an integrated web-based database providing centralized access to the sugarcane reference genome sequences and genomic resources.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "https://sugarcane-genome.cirad.fr/"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Agricultural science",
+        "Model organisms",
+        "Bioinformatics",
+        "Genomics"
+      ],
+      "elixir_platforms": [
+        "Data",
+        "Tools"
+      ],
+      "elixir_nodes": [
+        "France"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "Banana_Genome_Hub",
+      "name": "Banana Genome Hub",
+      "url": "https://bio.tools/Banana_Genome_Hub",
+      "description": "A Next-Generation Information System for Musa genomics",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "https://banana-genome-hub.southgreen.fr/"
+        },
+        {
+          "text": "Link",
+          "url": "https://banana-genome-hub.southgreen.fr/contact"
+        },
+        {
+          "text": "Link",
+          "url": "https://github.com/SouthGreenPlatform/genomehubs"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Model organisms",
+        "Genomics",
+        "Transcriptomics",
+        "Agricultural science",
+        "Comparative genomics"
+      ],
+      "elixir_platforms": [
+        "Tools",
+        "Data"
+      ],
+      "elixir_nodes": [
+        "France"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "progenetix",
+      "name": "Progenetix",
+      "url": "https://bio.tools/progenetix",
+      "description": "The Progenetix database provides an overview of copy number abnormalities in human cancer from currently 113322 array and chromosomal Comparative Genomic Hybridization (CGH) experiments, as well as Whole Genome or Whole Exome Sequencing (WGS, WES) studies. The cancer profile data in Progenetix was curated from 1600 articles and represents 420 and 542 different cancer types, according to the International classification of Diseases in Oncology (ICD-O) and NCIt \"neoplasm\" classification, respectively. Additionally, the website attempts to identify and present all publications (currently 3962 articles), referring to cancer genome profiling experiments.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "http://progenetix.org/"
+        },
+        {
+          "text": "Link",
+          "url": "http://expasy.org"
+        },
+        {
+          "text": "Link",
+          "url": "http://beacon.progenetix.org"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Genomics",
+        "Oncology",
+        "DNA structural variation",
+        "DNA mutation",
+        "Ontology and terminology"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "Switzerland"
+      ],
+      "elixir_communities": [
+        "Human Copy Number Variation"
+      ],
+      "elixir_badge": false
+    },
+    {
+      "id": "Coffee_Genome_Hub",
+      "name": "Coffee Genome Hub",
+      "url": "https://bio.tools/Coffee_Genome_Hub",
+      "description": "The Coffee Genome Hub is an integrated web-based database providing centralized access to coffee community genomics, genetics and breeding data and analysis tools to facilitate basic, translational and applied research in coffee.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "https://coffee-genome-hub.southgreen.fr/"
+        },
+        {
+          "text": "Link",
+          "url": "http://coffee-genome.org/contact"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Plant biology",
+        "Bioinformatics"
+      ],
+      "elixir_platforms": [
+        "Tools",
+        "Data"
+      ],
+      "elixir_nodes": [
+        "France"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "orphanet",
+      "name": "Orphanet",
+      "url": "https://bio.tools/orphanet",
+      "description": "Information on rare diseases and orphan drugs.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "http://www.orpha.net/consor/cgi-bin/index.php"
+        }
+      ],
+      "tool_types": [
+        "Web application",
+        "Database portal"
+      ],
+      "topics": [
+        "Small molecules",
+        "Pathology",
+        "Rare diseases"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "France"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "cath",
+      "name": "CATH",
+      "url": "https://bio.tools/cath",
+      "description": "CATH is a manually curated classification of protein domain structures. Each protein has been chopped into structural domains and assigned into homologous superfamilies (groups of domains that are related by evolution). This classification procedure uses a combination of automated and manual techniques which include computational algorithms, empirical and statistical evidence, literature review and expert analysis.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "http://www.cathdb.info/"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Protein folds and structural domains",
+        "Protein folding, stability and design",
+        "Structure prediction",
+        "Proteins",
+        "Protein structure analysis"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "UK"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "chebi",
+      "name": "ChEBI",
+      "url": "https://bio.tools/chebi",
+      "description": "Dictionary of molecular entities focused on small chemical compounds. \"Molecular entity\" includes any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer, etc., identifiable as a separately distinguishable entity. The molecular entities in question are either products of nature or synthetic products used to intervene in the processes of living organisms.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "http://www.ebi.ac.uk/chebi/"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Small molecules",
+        "Chemical biology"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "EMBL"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "ebi_metagenomics",
+      "name": "MGnify",
+      "url": "https://bio.tools/ebi_metagenomics",
+      "description": "Web resource targeted at metagenomic researchers.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "https://www.ebi.ac.uk/metagenomics/"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Metagenomics"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "EMBL"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "ensembl_genomes",
+      "name": "Ensembl Genomes",
+      "url": "https://bio.tools/ensembl_genomes",
+      "description": "A system for the annotation, analysis and display of vertebrate genomes and for bacteria, protists, fungi, plants and invertebrate metazoa.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "http://www.ensemblgenomes.org/"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Genomics"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "EMBL"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "gene3d_structural",
+      "name": "Gene3D structural",
+      "url": "https://bio.tools/gene3d_structural",
+      "description": "Structural and functional annotation of protein families incorporates several different sources including CATH, DRUGBANK, PFAM etc.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "http://gene3d.biochem.ucl.ac.uk/Gene3D/"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Gene and protein families",
+        "Proteins"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "UK"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "wataa",
+      "name": "WatAA",
+      "url": "https://bio.tools/wataa",
+      "description": "Atlas of Protein Hydration",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "https://wataa.datmos.org/"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Structural biology"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "Czech Republic"
+      ],
+      "elixir_communities": [
+        "3D-BioInfo"
+      ],
+      "elixir_badge": false
+    },
+    {
+      "id": "IDSM",
+      "name": "IDSM",
+      "url": "https://bio.tools/IDSM",
+      "description": "Integrated Database of Small Molecules",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "https://idsm.elixir-czech.cz/"
+        }
+      ],
+      "tool_types": [
+        "SPARQL endpoint",
+        "Web application",
+        "Database portal",
+        "Web service"
+      ],
+      "topics": [
+        "Chemical biology",
+        "Cheminformatics",
+        "Compound libraries and screening"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "Czech Republic"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "pfam",
+      "name": "Pfam",
+      "url": "https://bio.tools/pfam",
+      "description": "Database which contains information about protein domains and families. For each entry a protein sequence alignment and a Hidden Markov Model is stored.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "http://pfam.xfam.org/"
+        },
+        {
+          "text": "Link",
+          "url": "http://pfam.sbc.su.se/"
+        },
+        {
+          "text": "Link",
+          "url": "http://pfam.jouy.inra.fr/"
+        },
+        {
+          "text": "Link",
+          "url": "http://pfam.sanger.ac.uk/"
+        },
+        {
+          "text": "Link",
+          "url": "http://pfam.ccbb.re.kr/index.shtml"
+        },
+        {
+          "text": "Link",
+          "url": "http://pfam.janelia.org/"
+        }
+      ],
+      "tool_types": [
+        "Web API",
+        "Web application",
+        "Database portal"
+      ],
+      "topics": [
+        "Proteins",
+        "Gene and protein families",
+        "Protein folds and structural domains",
+        "Sequence sites, features and motifs",
+        "Sequence composition, complexity and repeats",
+        "Sequence analysis"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "EMBL"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "prosite",
+      "name": "PROSITE",
+      "url": "https://bio.tools/prosite",
+      "description": "Consists of documentation entries describing protein domains, families and functional sites as well as associated patterns and profiles to identify them.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "http://prosite.expasy.org"
+        },
+        {
+          "text": "Link",
+          "url": "http://expasy.org"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Gene and protein families",
+        "Function analysis",
+        "Sequence analysis",
+        "Sequence sites, features and motifs"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "Switzerland"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "mobidb",
+      "name": "MobiDB",
+      "url": "https://bio.tools/mobidb",
+      "description": "Database of protein disorder and mobility annotations.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "https://mobidb.org/"
+        }
+      ],
+      "tool_types": [
+        "Web API",
+        "Web application",
+        "Database portal"
+      ],
+      "topics": [
+        "Protein structure analysis",
+        "Protein disordered structure"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "Italy"
+      ],
+      "elixir_communities": [
+        "Intrinsically Disordered Proteins"
+      ],
+      "elixir_badge": false
+    },
+    {
+      "id": "epd",
+      "name": "EPD",
+      "url": "https://bio.tools/epd",
+      "description": "An annotated non-redundant collection of eukaryotic POL II promoters, for which the transcription start site has been determined experimentally. Access to promoter sequences is provided by pointers to positions in nucleotide sequence entries. The annotation part of an entry includes description of the initiation site mapping data, cross-references to other databases, and bibliographic references.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "https://epd.expasy.org/epd/"
+        },
+        {
+          "text": "Link",
+          "url": "https://www.expasy.org/"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Transcription factors and regulatory sites",
+        "Genomics"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "Switzerland"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "fair-checker",
+      "name": "FAIR-Checker",
+      "url": "https://bio.tools/fair-checker",
+      "description": "FAIR-Checker is a tool aimed at assessing FAIR principles and empowering data provider to enhance the quality of their digital resources. Data providers and consumers can check how FAIR are web resources. Developers can explore and inspect metadata exposed in web resources.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "https://fair-checker.france-bioinformatique.fr"
+        }
+      ],
+      "tool_types": [
+        "Web application"
+      ],
+      "topics": [
+        "Ontology and terminology",
+        "Computer science"
+      ],
+      "elixir_platforms": [
+        "Interoperability",
+        "Data"
+      ],
+      "elixir_nodes": [
+        "France"
+      ],
+      "elixir_communities": [
+        "Federated Human Data"
+      ],
+      "elixir_badge": false
+    },
+    {
+      "id": "varsum",
+      "name": "VarSum",
+      "url": "https://bio.tools/varsum",
+      "description": "VarSum is an API that returns summary statistics on user-defined populations and their variants, using the genomic data repository maintained by the genomic computing group (GeCo) at Politecnico di Milano.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "https://github.com/DEIB-GECO/VarSum"
+        }
+      ],
+      "tool_types": [
+        "Library"
+      ],
+      "topics": [
+        "Population genomics",
+        "DNA polymorphism",
+        "Data mining"
+      ],
+      "elixir_platforms": [
+        "Tools",
+        "Data"
+      ],
+      "elixir_nodes": [
+        "Italy"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "proteinatlas",
+      "name": "The Human Protein Atlas",
+      "url": "https://bio.tools/proteinatlas",
+      "description": "Database with millions of high-resolution images. Expression and localization of proteins in a large variety of normal human tissues, cancer cells and cell lines with the aid of immunohistochemistry (IHC) images and immunofluorescence (IF) confocal microscopy images.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "http://www.proteinatlas.org/"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Gene expression",
+        "Gene and protein families",
+        "Oncology",
+        "Structural biology",
+        "Protein targeting and localisation",
+        "Model organisms",
+        "Humans"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "Sweden"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "ocean_read_atlas",
+      "name": "Ocean Read Atlas",
+      "url": "https://bio.tools/ocean_read_atlas",
+      "description": "The « Ocean Read Atlas » web service allows to search one or several sequences across all of Tara Oceans metagenomic raw sequencing data using kmindex, a new tool that performs indexing and queries using orders of magnitudes with less resources. It enables the visualization of the results on a geographic map and their correlation with each of the 56 environmental variables collected during the circumnavigation campaign. This server enables to perform instant searches on a large and complex dataset, providing new perspectives on the deep exploitation of Tara Oceans resources.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "https://ora.mio.osupytheas.fr"
+        },
+        {
+          "text": "Link",
+          "url": "https://ora.mio.osupytheas.fr"
+        }
+      ],
+      "tool_types": [
+        "Web service"
+      ],
+      "topics": [
+        "Marine biology",
+        "Ecology",
+        "Metagenomics",
+        "Metatranscriptomics"
+      ],
+      "elixir_platforms": [
+        "Tools",
+        "Data",
+        "Compute",
+        "Interoperability"
+      ],
+      "elixir_nodes": [
+        "France"
+      ],
+      "elixir_communities": [
+        "Marine Metagenomics"
+      ],
+      "elixir_badge": false
+    },
+    {
+      "id": "multifacetedprotdb",
+      "name": "MultifacetedProtDB",
+      "url": "https://bio.tools/multifacetedprotdb",
+      "description": "MultifacetedProtDB is an integrated and manually curated database providing a comprehensive collection of multifunctional UniProt/SwissProt human proteins.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "https://multifacetedprotdb.biocomp.unibo.it/"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Function analysis"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "Italy"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "dar",
+      "name": "DAR",
+      "url": "https://bio.tools/dar",
+      "description": "DAR is a database mapping disease-associated enzyme into Reactome pathways.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "https://dar.biocomp.unibo.it/"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Pathology",
+        "Human genetics",
+        "Rare diseases"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "Italy"
+      ],
+      "elixir_communities": [
+        "Rare Diseases"
+      ],
+      "elixir_badge": false
+    },
+    {
+      "id": "reactome",
+      "name": "Reactome",
+      "url": "https://bio.tools/reactome",
+      "description": "Database of human biological pathways and processes ranging from basic processes of metabolism to complex regulatory pathways. The data is curated by biologists and subsequently peer-reviewed for accuracy and consistency. Cross-references with UniProt, PubMed, Ensembl, Gene Ontology and LocusLink are also provided. It supersedes The Genome Knowledgebase project.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "http://www.reactome.org"
+        },
+        {
+          "text": "Link",
+          "url": "https://github.com/reactome"
+        },
+        {
+          "text": "Link",
+          "url": "https://reactome.org/about/contact-us"
+        },
+        {
+          "text": "Link",
+          "url": "https://www.linkedin.com/groups/2118372/"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Molecular interactions, pathways and networks",
+        "Endocrinology and metabolism"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "EMBL"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "alphaesm_hfolds",
+      "name": "AlphaESM hFolds",
+      "url": "https://bio.tools/alphaesm_hfolds",
+      "description": "A database for the comparison of structural models predicted by ESMFold and AlphaFold2 for human proteins.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "https://alpha-esmhfolds.biocomp.unibo.it"
+        },
+        {
+          "text": "Link",
+          "url": "https://alpha-esmhfolds.biocomp.unibo.it/help/"
+        }
+      ],
+      "tool_types": [
+        "Database portal",
+        "Web application"
+      ],
+      "topics": [
+        "Protein structure analysis"
+      ],
+      "elixir_platforms": [
+        "Data",
+        "Tools"
+      ],
+      "elixir_nodes": [
+        "Italy"
+      ],
+      "elixir_communities": [
+        "3D-BioInfo"
+      ],
+      "elixir_badge": false
+    },
+    {
+      "id": "biodeep",
+      "name": "BioDeep Database",
+      "url": "https://bio.tools/biodeep",
+      "description": "The BioDeep database is a comprehensive database of metabolite information in living organisms: by aggregating metabolite information from multiple public databases and large-scale natural language text mining work, we have built a large scale knowledge network for biological knowledge interpretation. By using the BioDeep database, it is possible to query such large scale metabolic knowledge network.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "https://query.biodeep.cn/?lang=en"
+        }
+      ],
+      "tool_types": [
+        "Database portal",
+        "Web application"
+      ],
+      "topics": [
+        "Metabolomics"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "EMBL"
+      ],
+      "elixir_communities": [
+        "Metabolomics"
+      ],
+      "elixir_badge": false
+    },
+    {
+      "id": "faidare",
+      "name": "FAIDARE",
+      "url": "https://bio.tools/faidare",
+      "description": "FAIDARE: FAIR Data-finder for Agronomic Research. \nThe purpose of this portal is to facilitate the discoverability of public data on plant biology from a federation of established data repositories.\n\nIt is based on the Breeding API (BrAPI) specifications and facilitates the access to genotype and phenotype datasets for crop and forest plants through an easy to use web interface. It also provides a standard interface that can be accessed programatically through web services.\n\nIt is an extension of the generic DataDiscovery portal, a web portal that allows finding any type of data across several databases through a lightweight keyword based search. FAIDARE offers more detailed search and data retrieval capabilities and it takes advantage of the growing adoption of the BrAPI.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "https://urgi.versailles.inrae.fr/faidare/"
+        },
+        {
+          "text": "GitLab code repository for  FAIDARE",
+          "url": "https://forgemia.inra.fr/urgi-is/faidare"
+        },
+        {
+          "text": "Code repository mirror link for FAIDARE",
+          "url": "https://github.com/elixir-europe/plant-faidare"
+        }
+      ],
+      "tool_types": [
+        "Web API",
+        "Web application",
+        "Database portal",
+        "Web service"
+      ],
+      "topics": [
+        "Plant biology",
+        "Genotype and phenotype",
+        "Agricultural science",
+        "Ecology",
+        "Biological databases",
+        "Bioinformatics"
+      ],
+      "elixir_platforms": [
+        "Tools",
+        "Data",
+        "Interoperability"
+      ],
+      "elixir_nodes": [
+        "France"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "signor",
+      "name": "SIGNOR",
+      "url": "https://bio.tools/signor",
+      "description": "A tool collects manually-annotated logic relationships between molecules that participate in signal transduction.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "http://signor.uniroma2.it/"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Molecular interactions, pathways and networks",
+        "Rare diseases"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "Italy"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "gpkb",
+      "name": "GPKB",
+      "url": "https://bio.tools/gpkb",
+      "description": "Genomic and Proteomic Knowledge Base (GPKB), based on the Genomic and Proteomic Data Warehouse (GPDW), is an integrative database of annotation data from several sources.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "http://www.bioinformatics.deib.polimi.it/GPKB/"
+        },
+        {
+          "text": "Link",
+          "url": "http://www.bioinformatics.deib.polimi.it/GPKB/"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Biological databases",
+        "Data integration and warehousing"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "Italy"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "covid-19_phenotype_definition",
+      "name": "COVID-19 phenotype definition",
+      "url": "https://bio.tools/covid-19_phenotype_definition",
+      "description": "Phenotype data dictionary for COVID-19 patients within the COVID-19 Host Genetics Initiative, employed in several clinical studies around the hospitals and labs of the network.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "http://gmql.eu/phenotype/"
+        },
+        {
+          "text": "Phenotype definition",
+          "url": "http://gmql.eu/phenotype/"
+        }
+      ],
+      "tool_types": [
+        "Ontology"
+      ],
+      "topics": [
+        "Virology",
+        "Data identity and mapping",
+        "Data submission, annotation and curation",
+        "GWAS study"
+      ],
+      "elixir_platforms": [
+        "Data",
+        "Interoperability"
+      ],
+      "elixir_nodes": [
+        "Italy"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "altair",
+      "name": "AltaiR",
+      "url": "https://bio.tools/altair",
+      "description": "AltaiR is a C toolkit for alignment-free and spatial-temporal analysis of multi-FASTA data.\n\nThis method provides alignment-free and spatial-temporal analysis of multi-FASTA data through the implementation of a C toolkit that is highly flexible and with characteristics covering large-scale data, namely extensive collections of genomes/proteomes. This toolkit is ideal for scenarios entangling the presence of multiple sequences from epidemic and pandemic events. AlcoR is implemented in C language using multi-threading to increase the computational speed, is flexible for multiple applications, and does not contain external dependencies. The tool accepts any sequence(s) in (multi-) FASTA format.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "https://github.com/cobilab/altair"
+        },
+        {
+          "text": "Link",
+          "url": "https://github.com/cobilab/altair"
+        }
+      ],
+      "tool_types": [
+        "Command-line tool"
+      ],
+      "topics": [
+        "Genomics",
+        "Computational biology",
+        "Transcriptomics",
+        "Medicine"
+      ],
+      "elixir_platforms": [
+        "Tools",
+        "Data"
+      ],
+      "elixir_nodes": [
+        "Portugal"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "mint",
+      "name": "MINT",
+      "url": "https://bio.tools/mint",
+      "description": "Molecular interaction Database (MINT) - public repository for protein-protein interactions (PPI) reported in peer-reviewed journals. The web interface allows the users to search, visualize and download interactions data",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "https://mint.bio.uniroma2.it/"
+        }
+      ],
+      "tool_types": [
+        "Web application",
+        "Database portal"
+      ],
+      "topics": [
+        "Protein interactions",
+        "Molecular interactions, pathways and networks",
+        "Data integration and warehousing",
+        "Rare diseases"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "Italy"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "ANISEED",
+      "name": "ANISEED",
+      "url": "https://bio.tools/ANISEED",
+      "description": "ANISEED is the main model organism database for the worldwide community of scientists working on tunicates (sister-group of vertebrates). It integrates for each species: \ni) a main knowledge base with extended functional, gene expression, phenotyping, anatomical and phylogenetic information; \nii) A multispecies genomic browser; \niii) a Genomicus gene synteny browser.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "https://www.aniseed.fr"
+        },
+        {
+          "text": "Link",
+          "url": "https://www.aniseed.fr"
+        },
+        {
+          "text": "Twitter for ANISEED",
+          "url": "https://twitter.com/Aniseed_DB"
+        },
+        {
+          "text": "Facebook for ANISEED",
+          "url": "https://www.facebook.com/TunicateCommunity"
+        },
+        {
+          "text": "Link",
+          "url": "https://morphonet.org/"
+        }
+      ],
+      "tool_types": [
+        "Ontology",
+        "Web API",
+        "Web application",
+        "Database portal"
+      ],
+      "topics": [
+        "Cell biology",
+        "Developmental biology",
+        "Phylogeny",
+        "Ontology and terminology",
+        "Data submission, annotation and curation",
+        "Embryology",
+        "Biological imaging",
+        "Animal study",
+        "Functional genomics",
+        "Transcriptomics",
+        "Phylogenomics"
+      ],
+      "elixir_platforms": [
+        "Tools",
+        "Data",
+        "Interoperability"
+      ],
+      "elixir_nodes": [
+        "France"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "Ciona_robusta_Anatomy_and_Development_Ontology",
+      "name": "Ciona robusta Anatomy and Development Ontology",
+      "url": "https://bio.tools/Ciona_robusta_Anatomy_and_Development_Ontology",
+      "description": "The first ontology describing the anatomy and the development of Ciona robusta, based on the Hotta developmental table.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "https://www.aniseed.fr/aniseed/anatomy/find_devstage"
+        }
+      ],
+      "tool_types": [
+        "Ontology"
+      ],
+      "topics": [
+        "Developmental biology"
+      ],
+      "elixir_platforms": [
+        "Data",
+        "Interoperability"
+      ],
+      "elixir_nodes": [
+        "France"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "LiceBase",
+      "name": "LiceBase",
+      "url": "https://bio.tools/LiceBase",
+      "description": "LiceBase is a genomics database for sea lice (Lepeophtheirus salmonis and Caligus spp.), which are major pathogens affecting the global salmon farming industry. The database contains the genome annotation of the Atlantic salmon louse (L. salmonis) and is designed to help researchers, industry professionals, and other interested parties access and share information about these parasites, with the goal of developing new treatment methods and tools to ensure a sustainable salmon farming industry. LiceBase provides annotated genome reports, genome browsing, RNA interference (RNAi) experiment browsing for several additional species, BLAST search, and in-situ images. The database homepage posts news updates and recent publications related to sea lice and salmonid species.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "https://licebase.org/"
+        },
+        {
+          "text": "Link",
+          "url": "https://elixir.no/helpdesk"
+        }
+      ],
+      "tool_types": [
+        "Web application",
+        "Database portal"
+      ],
+      "topics": [
+        "Biological databases",
+        "Genomics",
+        "Bioinformatics",
+        "Parasitology",
+        "Marine biology",
+        "Agricultural science",
+        "Model organisms"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "Norway"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "rexdb",
+      "name": "REXdb",
+      "url": "https://bio.tools/rexdb",
+      "description": "REXdb: a reference database of transposable element protein domains",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "http://repeatexplorer.org/?page_id=918"
+        },
+        {
+          "text": "Link",
+          "url": "http://repeatexplorer.org/?page_id=918"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Protein folds and structural domains",
+        "Biological databases"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "Czech Republic"
+      ],
+      "elixir_communities": [
+        "Plant Sciences"
+      ],
+      "elixir_badge": false
+    },
+    {
+      "id": "Plant_DataDiscovery",
+      "name": "Plant DataDiscovery",
+      "url": "https://bio.tools/Plant_DataDiscovery",
+      "description": "The purpose of this web portal is to facilitate the discoverability of public data on plant biology managed by different laboratories across the world.\n\nThe web portal indexes and makes findable any kind of plant data. Plant DataDiscovery is an implementation of DataDiscovery.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "https://urgi.versailles.inrae.fr/data-discovery/"
+        },
+        {
+          "text": "URGI website",
+          "url": "https://urgi.versailles.inrae.fr"
+        }
+      ],
+      "tool_types": [
+        "Web API",
+        "Web application",
+        "Web service",
+        "Database portal"
+      ],
+      "topics": [
+        "Plant biology",
+        "Ecology",
+        "Biological databases",
+        "Bioinformatics",
+        "Agricultural science"
+      ],
+      "elixir_platforms": [
+        "Tools",
+        "Data",
+        "Interoperability"
+      ],
+      "elixir_nodes": [
+        "France"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "biomodels",
+      "name": "BioModels database",
+      "url": "https://bio.tools/biomodels",
+      "description": "Database of annotated published models is a data resource that allows biologists to store, search and retrieve published mathematical models of biological interests. Models present in this database are annotated and linked to relevant data resources, such as publications, databases of compounds and controlled vocabularies, and this modelling formats can be converted, with some of them being available online to be used directly.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "https://www.ebi.ac.uk/biomodels"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Molecular interactions, pathways and networks",
+        "Systems biology"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "EMBL"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "NORINE",
+      "name": "NORINE",
+      "url": "https://bio.tools/NORINE",
+      "description": "NORINE is a platform that includes a database of nonribosomal peptides together with tools for their analysis.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "http://norine.univ-lille.fr/norine/"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Computational chemistry",
+        "Microbiology",
+        "Computational biology",
+        "Proteins",
+        "Biological databases"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "France"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "interpro",
+      "name": "InterPro",
+      "url": "https://bio.tools/interpro",
+      "description": "Protein families, domains, regions, repeats and sites in which identifiable features found in known proteins can be applied to new protein sequences.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "http://www.ebi.ac.uk/interpro/"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Gene and protein families",
+        "Proteins",
+        "Sequence composition, complexity and repeats"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "EMBL"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "firedb",
+      "name": "FireDB",
+      "url": "https://bio.tools/firedb",
+      "description": "A curated inventory of catalytic and biologically relevant small ligand-binding sites.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "http://firedb.bioinfo.cnio.es/"
+        }
+      ],
+      "tool_types": [
+        "Web API"
+      ],
+      "topics": [
+        "Protein binding sites",
+        "Sequence analysis",
+        "Small molecules",
+        "Protein sites, features and motifs"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "Spain"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "biosamples",
+      "name": "BioSamples",
+      "url": "https://bio.tools/biosamples",
+      "description": "This database stores information about biological samples used in molecular experiments, such as sequencing, gene expression or proteomics. It includes reference samples, such as cell lines, which are repeatedly used in experiments. Accession numbers for the reference samples will be exchanged with a similar database at NCBI, and DDBJ (Japan). Record access may be affected due to different release cycles and inter-institutional synchronisation.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "https://www.ebi.ac.uk/biosamples/"
+        },
+        {
+          "text": "Link",
+          "url": "http://www.ncbi.nlm.nih.gov/biosample"
+        },
+        {
+          "text": "Link",
+          "url": "http://trace.ddbj.nig.ac.jp/biosample/"
+        },
+        {
+          "text": "Link",
+          "url": "http://www.ebi.ac.uk/biosamples/"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Sample collections"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "EMBL"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "ena",
+      "name": "European Nucleotide Archive (ENA)",
+      "url": "https://bio.tools/ena",
+      "description": "A globally comprehensive data resource for nucleotide sequence, spanning raw data, alignments and assemblies, functional and taxonomic annotation and rich contextual data relating to sequenced samples and experimental design. Serving both as the database of record for the output of the world's sequencing activity and as a platform for the management, sharing and publication of sequence data.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "http://www.ebi.ac.uk/ena"
+        },
+        {
+          "text": "Link",
+          "url": "http://toolshed.g2.bx.psu.edu/view/iuc/ena_upload/382518f24d6d"
+        },
+        {
+          "text": "Link",
+          "url": "http://github.com/usegalaxy-eu/ena-upload-cli"
+        },
+        {
+          "text": "Link",
+          "url": "http://github.com/usegalaxy-eu/ena-upload-cli/issues"
+        },
+        {
+          "text": "Link",
+          "url": "http://github.com/ELIXIR-Belgium/ena-upload-container"
+        },
+        {
+          "text": "Link",
+          "url": "http://github.com/ELIXIR-Belgium/ena-upload-container/issues"
+        }
+      ],
+      "tool_types": [
+        "Database portal",
+        "Web service"
+      ],
+      "topics": [
+        "Data submission, annotation and curation",
+        "Transcription factors and regulatory sites",
+        "Gene transcripts",
+        "Nucleic acid sites, features and motifs"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "EMBL"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "or",
+      "name": "OR and DXR",
+      "url": "https://bio.tools/or",
+      "description": "A multi-step approach including models’ construction (multiple sequence alignment, homology modeling), complex assembling (protein complex refinement with HADDOCK and complex equilibration), and protein-protein interface (PPI) characterization (including both structural and dynamics analysis) were performed. Our database can be easily applied to several GPCR sub-families, to determine the key structural and dynamical determinants involved in GPCR coupling selectivity.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "http://www.moreiralab.com/resources/oor/"
+        },
+        {
+          "text": "Link",
+          "url": "https://github.com/MoreiraLAB/or"
+        },
+        {
+          "text": "Application of the protocol to human Dopamine Receptors (DXR) and intracelullar partners.",
+          "url": "http://www.moreiralab.com/resources/dxr/"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Protein structure analysis",
+        "Protein interactions"
+      ],
+      "elixir_platforms": [
+        "Data",
+        "Tools"
+      ],
+      "elixir_nodes": [
+        "Portugal"
+      ],
+      "elixir_communities": [
+        "3D-BioInfo"
+      ],
+      "elixir_badge": false
+    },
+    {
+      "id": "MolMeDB",
+      "name": "MolMeDB",
+      "url": "https://bio.tools/MolMeDB",
+      "description": "MolMeDB is an open chemistry database about interactions of molecules with membranes.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "http://molmedb.upol.cz"
+        },
+        {
+          "text": "Link",
+          "url": "https://github.com/MolMeDB/MolMeDB/issues"
+        },
+        {
+          "text": "Link",
+          "url": "https://github.com/MolMeDB/MolMeDB"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Pharmacology",
+        "Biochemistry",
+        "Computational chemistry",
+        "Literature and language"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "Czech Republic"
+      ],
+      "elixir_communities": [
+        "3D-BioInfo"
+      ],
+      "elixir_badge": false
+    },
+    {
+      "id": "covd",
+      "name": "COVd",
+      "url": "https://bio.tools/covd",
+      "description": "Czech COVID-19 genomics portal",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "https://virus.img.cas.cz/"
+        }
+      ],
+      "tool_types": [
+        "Bioinformatics portal"
+      ],
+      "topics": [
+        "Virology"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "Czech Republic"
+      ],
+      "elixir_communities": [
+        "Federated Human Data"
+      ],
+      "elixir_badge": false
+    },
+    {
+      "id": "globalfungi",
+      "name": "GlobalFungi",
+      "url": "https://bio.tools/globalfungi",
+      "description": "User interface to data from high-throughput sequencing studies of fungal\ncommunities across terrestrial biomes. Includes sequencing data, sample\nlocations, sample metadata.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "https://globalfungi.com/"
+        },
+        {
+          "text": "Link",
+          "url": "https://globalfungi.com/"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Agricultural science",
+        "Biodiversity",
+        "Evolutionary biology"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "Czech Republic"
+      ],
+      "elixir_communities": [
+        "Plant Sciences"
+      ],
+      "elixir_badge": false
+    },
+    {
+      "id": "proteinensemble",
+      "name": "Protein Ensemble Database",
+      "url": "https://bio.tools/proteinensemble",
+      "description": "The Protein Ensemble Database (PED) is an open access database for the deposition of structural ensembles including intrinsically disordered proteins",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "https://proteinensemble.org/"
+        }
+      ],
+      "tool_types": [
+        "Web API",
+        "Web application",
+        "Database portal"
+      ],
+      "topics": [
+        "Protein structure analysis",
+        "Protein disordered structure"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "Italy"
+      ],
+      "elixir_communities": [
+        "Intrinsically Disordered Proteins"
+      ],
+      "elixir_badge": false
+    },
+    {
+      "id": "hervd",
+      "name": "HERVd",
+      "url": "https://bio.tools/hervd",
+      "description": "Human endogenous retroviruses database.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "https://herv.img.cas.cz"
+        },
+        {
+          "text": "Link",
+          "url": "https://herv.img.cas.cz/entities"
+        }
+      ],
+      "tool_types": [
+        "Web application",
+        "Database portal"
+      ],
+      "topics": [
+        "Nucleic acid sites, features and motifs",
+        "Gene and protein families",
+        "Virology"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "Czech Republic"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "AmtDB",
+      "name": "AmtDB",
+      "url": "https://bio.tools/AmtDB",
+      "description": "This is the place where you can find an updated list of the published mitochondrial sequences coming from the ancient DNA samples (aDNA). The main interest of our database lies in the anatomically modern Homo sapiens samples, ranging from the late Paleolithic to roughly Iron Age times, focusing on an Euroasian geographical area. We provide both the mtDNA sequences (in FASTA format), and the metadata for the samples (IDs, dates, geolocation, site, culture, mtDNA haplogroup etc., available to download in a tab-delimited text file).",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "https://amtdb.org"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Genomics"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "Czech Republic"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "pickle",
+      "name": "PICKLE",
+      "url": "https://bio.tools/pickle",
+      "description": "PICKLE (Protein InteraCtion KnowLedgebasE) is a meta-database for the direct protein-protein interactome of the human and the mouse proteomes, integrating publicly available source protein-protein interaction (PPI) databases via genetic information ontology. PICKLE integrates the primary PPI datasets by superimposing them on the UniProtKB/Swiss-Prot reviewed complete proteome of the human (RHCP) and the mouse (RMCP) ontology network without any a priori transformations.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "http://www.pickle.gr"
+        },
+        {
+          "text": "Content available to any user with no restrictions\nCopyright: University of Patras & FORTH/ICE-HT, Greece",
+          "url": "http://www.pickle.gr"
+        }
+      ],
+      "tool_types": [
+        "Web application",
+        "Database portal"
+      ],
+      "topics": [
+        "Systems biology",
+        "Human biology",
+        "Protein interactions",
+        "Human genetics",
+        "Systems medicine"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "Greece"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "rpredictor",
+      "name": "rPredictorDB",
+      "url": "https://bio.tools/rpredictor",
+      "description": "A web database for prediction, analysis and storage of secondary structures of RNAs.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "http://rpredictordb.elixir-czech.cz"
+        },
+        {
+          "text": "Prediction algorithm",
+          "url": "https://github.com/handrbaal/cppredict/"
+        },
+        {
+          "text": "Link",
+          "url": "http://rpredictordb.elixir-czech.cz/contact"
+        },
+        {
+          "text": "Link",
+          "url": "http://rpredictordb.elixir-czech.cz/search"
+        },
+        {
+          "text": "Link",
+          "url": "http://rpredictordb.elixir-czech.cz/predict#cppredict2"
+        }
+      ],
+      "tool_types": [
+        "Web application"
+      ],
+      "topics": [
+        "Nucleic acid structure analysis",
+        "RNA"
+      ],
+      "elixir_platforms": [
+        "Data",
+        "Tools"
+      ],
+      "elixir_nodes": [
+        "Czech Republic"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "pdbe",
+      "name": "PDBe",
+      "url": "https://bio.tools/pdbe",
+      "description": "The Protein Data Bank in Europe is the European resource for the collection, organisation and dissemination of data on biological macromolecular structures. The database infrastructure is based on the remediated PDB archive data and a specially designed database for storing information on interactions between proteins and bound molecules.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "http://www.ebi.ac.uk/pdbe/"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "NMR",
+        "X-ray diffraction",
+        "Proteins"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "EMBL"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "pride",
+      "name": "PRIDE",
+      "url": "https://bio.tools/pride",
+      "description": "Centralized, standards compliant, public data repository that provides protein and peptide identifications together with supporting evidence. This collection references experiments and assays.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "http://www.ebi.ac.uk/pride/"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Proteins",
+        "Proteomics",
+        "Proteomics experiment"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "EMBL"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "eva",
+      "name": "European Variation Archive (EVA)",
+      "url": "https://bio.tools/eva",
+      "description": "The European Variation Archive (EVA) accepts submission of, and provides access to, all types of genetic variants from any species, observed in germline or somatic sources, ranging from SNVs to large structural variants. All of our data is open access via direct query through web and/or programmatic interfaces.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "https://www.ebi.ac.uk/eva/"
+        },
+        {
+          "text": "Link",
+          "url": "https://github.com/EBIvariation/"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Genetics",
+        "Genomics",
+        "Genetic variation"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "EMBL"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "ensembl",
+      "name": "Ensembl",
+      "url": "https://bio.tools/ensembl",
+      "description": "Genome databases for vertebrates genomes.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "http://www.ensembl.org/"
+        }
+      ],
+      "tool_types": [
+        "Web application",
+        "Database portal"
+      ],
+      "topics": [
+        "Genomics",
+        "Rare diseases"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "EMBL"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "phi-base",
+      "name": "PHI-base",
+      "url": "https://bio.tools/phi-base",
+      "description": "PHI-base contains expertly curated molecular and biological information on genes proven to affect the outcome of pathogen–host interactions reported in peer reviewed research articles.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "http://www.phi-base.org/"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Pathology",
+        "Genetics"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "UK"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "guidetopharmacology",
+      "name": "IUPHAR BPS Guide to PHARMACOLOGY",
+      "url": "https://bio.tools/guidetopharmacology",
+      "description": "An expert-curated pharmacological database of drug targets and their ligands.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "http://www.guidetopharmacology.org/"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Pharmacology",
+        "Drug discovery",
+        "Data submission, annotation and curation"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "UK"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "vsm",
+      "name": "VSM (Visual Syntax Method)",
+      "url": "https://bio.tools/vsm",
+      "description": "General-purpose Interface for Biocuration and Knowledge Representation.\n\n— VSM is an intuitive and flexible method for entering and displaying knowledge on any topic, and with any contextual descriptions, in a form that is both semantically precise (for computer processing) and intuitive to read (for humans). VSM makes it practical to translate diverse research findings and their rich context (from literature) into a computable, readable form.\n\n— VSM defines: 1. a knowledge model that corresponds well to human thinking; 2. a user interface \"vsm-box\" to communicate knowledge in this form.\nThis user interface is a JavaScript component that can be embedded in web apps with two lines of code. It may be filled with an entry template, and emits data upon user input.\n\n| https://vsm.github.io: all info on VSM\n| https://github.com/vsm: core modules\n| https://github.com/vsm/vsm-box: main user interface\n| https://github.com/vsm/vsm-to-rdf: output as RDF",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "https://vsm.github.io"
+        },
+        {
+          "text": "https://vsm.github.io: all info on VSM\nhttps://github.com/vsm: core modules\nhttps://github.com/vsm/vsm-box: user interface web-component\nhttps://github.com/vsm/vsm-to-rdf: output as RDF",
+          "url": "https://vsm.github.io"
+        }
+      ],
+      "tool_types": [],
+      "topics": [
+        "Data submission, annotation and curation",
+        "Ontology and terminology",
+        "Model organisms",
+        "Systems biology",
+        "Literature and language",
+        "Computational biology"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "Norway"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "DISNOR",
+      "name": "DISNOR",
+      "url": "https://bio.tools/DISNOR",
+      "description": "A disease-focused resource that uses the causal interaction information annotated in SIGNOR and the protein interaction data in mentha to generate and explore protein interaction networks linking disease genes.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "https://disnor.uniroma2.it/"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Molecular interactions, pathways and networks",
+        "Rare diseases"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "Italy"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "begdb",
+      "name": "BEGDB",
+      "url": "https://bio.tools/begdb",
+      "description": "Database collects results of highly accurate QM calculations of molecular structures, energies and properties.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "http://www.begdb.org/"
+        },
+        {
+          "text": "Non-covalent Interaction Atlas",
+          "url": "http://www.nciatlas.org/index.html"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Computational chemistry"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "Czech Republic"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "unicatdb",
+      "name": "UniCatDB",
+      "url": "https://bio.tools/unicatdb",
+      "description": "Universal Catalog Database for biological findings",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "https://www.unicatdb.org/"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Ecology"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "Czech Republic"
+      ],
+      "elixir_communities": [
+        "Plant Sciences"
+      ],
+      "elixir_badge": false
+    },
+    {
+      "id": "pbg-ld",
+      "name": "pbg-ld",
+      "url": "https://bio.tools/pbg-ld",
+      "description": "Linked Data platform for Plant Breeding & Genomics",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "https://www.research-software.nl/software/pbg-ld"
+        },
+        {
+          "text": "Link",
+          "url": "https://www.research-software.nl/software/pbg-ld"
+        }
+      ],
+      "tool_types": [
+        "Web application",
+        "SPARQL endpoint",
+        "Web API"
+      ],
+      "topics": [
+        "Plant biology",
+        "Genotype and phenotype",
+        "Comparative genomics",
+        "Ontology and terminology"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "Netherlands"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "swiss-model_repository",
+      "name": "SWISS-MODEL Repository",
+      "url": "https://bio.tools/swiss-model_repository",
+      "description": "The SWISS-MODEL Repository is a database of annotated 3D protein structure models generated by the SWISS-MODEL homology-modelling pipeline. The aim of the SWISS-MODEL Repository is to provide access to an up-to-date collection of annotated 3D protein models generated by automated homology modelling for relevant model organisms and experimental structure information for all sequences in UniProtKB. Regular updates ensure that target coverage is complete, that models are built using the most recent sequence and template structure databases, and that improvements in the underlying modelling pipeline are fully utilised. It also allows users to assess the quality of the models using the latest QMEAN results. If a sequence has not been modelled, the user can build models interactively via the SWISS-MODEL workspace.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "https://swissmodel.expasy.org/repository/"
+        },
+        {
+          "text": "Link",
+          "url": "http://expasy.org"
+        }
+      ],
+      "tool_types": [
+        "Web API",
+        "Web application",
+        "Database portal"
+      ],
+      "topics": [
+        "Proteomics",
+        "Structure prediction",
+        "Structural biology",
+        "Biophysics",
+        "Molecular modelling"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "Switzerland"
+      ],
+      "elixir_communities": [
+        "3D-BioInfo"
+      ],
+      "elixir_badge": false
+    },
+    {
+      "id": "Rice_Genome_Hub",
+      "name": "Rice Genome Hub",
+      "url": "https://bio.tools/Rice_Genome_Hub",
+      "description": "An open source database(s) for genetics, genomics and functional research in rice species",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "https://rice-genome-hub.southgreen.fr/"
+        },
+        {
+          "text": "Link",
+          "url": "https://rice-genome-hub.southgreen.fr/contact"
+        }
+      ],
+      "tool_types": [],
+      "topics": [
+        "Molecular genetics",
+        "Data integration and warehousing",
+        "Plant biology"
+      ],
+      "elixir_platforms": [
+        "Data",
+        "Tools"
+      ],
+      "elixir_nodes": [
+        "France"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "PIPPA",
+      "name": "PIPPA",
+      "url": "https://bio.tools/PIPPA",
+      "description": "PSB Interface for plant phenotype analysis",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "https://pippa.psb.ugent.be/"
+        }
+      ],
+      "tool_types": [
+        "Web API",
+        "Web application"
+      ],
+      "topics": [
+        "Plant biology"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "Belgium"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "Sequencing_Initiative_Suomi_SISu",
+      "name": "Sequencing Initiative Suomi (SISu)",
+      "url": "https://bio.tools/Sequencing_Initiative_Suomi_SISu",
+      "description": "The Sequencing Initiative Suomi (SISu) search engine offers a way to search for data on sequence variants in Finns. It provides valuable summary data for researchers and clinicians as well as other people having an interest in genetics in Finland. With SISu, you can examine the attributes and appearance of different variants in Finnish cohorts and see their aggregate distribution in Finland visualized on a map.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "http://www.sisuproject.fi/"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Sequencing"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "Finland"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "emdb",
+      "name": "EMDB",
+      "url": "https://bio.tools/emdb",
+      "description": "The Electron Microscopy Data Bank (EMDB) is a public repository for electron microscopy density maps of macromolecular complexes and subcellular structures. It covers a variety of techniques, including single-particle analysis, electron tomography, and electron (2D) crystallography.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "https://www.ebi.ac.uk/pdbe/emdb/"
+        }
+      ],
+      "tool_types": [
+        "Web application",
+        "Database portal"
+      ],
+      "topics": [
+        "Electron microscopy"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "EMBL"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "viralzone",
+      "name": "ViralZone",
+      "url": "https://bio.tools/viralzone",
+      "description": "A web resource for all viral genus and families, providing general molecular and epidemiological informations, along with virion and genome figures. Each virus or family page gives an easy access to UniProtKB/Swiss-Prot viral protein entries.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "http://viralzone.expasy.org"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Proteomics",
+        "Virology",
+        "Ontology and terminology"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "Switzerland"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "sabio-rk",
+      "name": "SABIO-RK: biochemical reactions and their kinetics",
+      "url": "https://bio.tools/sabio-rk",
+      "description": "Curated database that contains information about biochemical reactions, their kinetic rate equations with parameters and experimental conditions.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "http://sabiork.h-its.org/"
+        },
+        {
+          "text": "SABIO-RK Database",
+          "url": "http://sabiork.h-its.org/"
+        },
+        {
+          "text": "SABIO-RK Google Group",
+          "url": "https://groups.google.com/forum/#!forum/sabio-rk"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Biochemistry",
+        "Data mining",
+        "Biology",
+        "Biomedical science",
+        "Enzymes",
+        "Systems biology",
+        "Data submission, annotation and curation",
+        "Molecular interactions, pathways and networks"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "Germany"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "swisslipids",
+      "name": "SwissLipids",
+      "url": "https://bio.tools/swisslipids",
+      "description": "SwissLipids is a comprehensive reference database that links mass spectrometry-based lipid identifications to curated knowledge of lipid structures, metabolic reactions, enzymes and interacting proteins. It features approximately 500,000 lipid structures from more than 115 lipid classes and over 3,000 enzymatic reactions and 800 proteins.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "http://www.swisslipids.org/#/"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Lipids",
+        "Molecular interactions, pathways and networks",
+        "Small molecules"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "Switzerland"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "sugarbind",
+      "name": "SugarBind",
+      "url": "https://bio.tools/sugarbind",
+      "description": "Database portal of glycan binding of human pathogen lectins and adhesins. Information is collected by experts from articles published in peer-reviewed scientific journals. The data were compiled through an exhaustive search of literature published over the past 30 years by glycobiologists, microbiologists, and medical histologists.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "https://sugarbind.expasy.org"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Carbohydrates",
+        "Proteomics",
+        "Structural genomics",
+        "Protein modifications",
+        "Pathology"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "Switzerland"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "cellosaurus",
+      "name": "Cellosaurus",
+      "url": "https://bio.tools/cellosaurus",
+      "description": "A knowledge resource on cell lines. It attempts to describe all cell lines used in biomedical research, including immortalized cell lines, naturally immortal cell lines (ie stem cell lines), finite life cell lines when those are distributed and widely used, vertebrate cell lines with an emphasis on human, mouse and rat cell lines, and invertebrate (insect and tick) cell lines.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "http://web.expasy.org/cellosaurus/"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Anatomy",
+        "Gene expression",
+        "Pathology",
+        "Systems biology",
+        "Cell biology"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "Switzerland"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "tdmc",
+      "name": "Translational Medicine Data Catalog (TMDC)",
+      "url": "https://bio.tools/tdmc",
+      "description": "Lists the large variety of clinical and translational medicine datasets that will become available, from academic and industry research projects as well as from clinical cohorts and genome consortia.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "https://datacatalog.elixir-luxembourg.org/"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Translational medicine",
+        "Medical informatics"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "Luxembourg"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "europepmc",
+      "name": "EuropePMC",
+      "url": "https://bio.tools/europepmc",
+      "description": "This web service gives programmatic access to all of the publications and related information in Europe PubMed Central (Europe PMC).",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "https://europepmc.org"
+        },
+        {
+          "text": "Link",
+          "url": "https://www.biocatalogue.org/services/3791"
+        }
+      ],
+      "tool_types": [
+        "Web service"
+      ],
+      "topics": [
+        "Natural language processing",
+        "Literature and language"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "EMBL"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": true
+    },
+    {
+      "id": "rfam",
+      "name": "Rfam",
+      "url": "https://bio.tools/rfam",
+      "description": "Rfam database is a collection of RNA families, each represented by multiple sequence alignments, consensus secondary structures and covariance models (CMs)",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "http://rfam.org"
+        },
+        {
+          "text": "Link",
+          "url": "http://github.com/rfam"
+        }
+      ],
+      "tool_types": [
+        "Web API",
+        "Web application",
+        "Database portal"
+      ],
+      "topics": [
+        "Functional, regulatory and non-coding RNA",
+        "Gene and protein families",
+        "RNA"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "EMBL"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "cazy",
+      "name": "Carbohydrate-active enzymes database (CAZy)",
+      "url": "https://bio.tools/cazy",
+      "description": "The database describes the families of structurally-related catalytic and carbohydrate-binding modules (or functional domains) of enzymes that degrade, modify, or create glycosidic bonds.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "http://www.cazy.org/"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Enzymes"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "France"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "goa",
+      "name": "GOA",
+      "url": "https://bio.tools/goa",
+      "description": "The UniProt GO annotation program aims to provide high-quality Gene Ontology (GO) annotations to proteins in the UniProt Knowledgebase (UniProtKB). The assignment of GO terms to UniProt records is an integral part of UniProt biocuration. UniProt manual and electronic GO annotations are supplemented with manual annotations supplied by external collaborating GO Consortium groups, to ensure a comprehensive GO annotation dataset is supplied to users.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "http://www.ebi.ac.uk/GOA/"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Model organisms",
+        "Ontology and terminology",
+        "Data submission, annotation and curation",
+        "Model organisms",
+        "Plant biology"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "EMBL"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    },
+    {
+      "id": "unicarbkb",
+      "name": "UniCarbKB",
+      "url": "https://bio.tools/unicarbkb",
+      "description": "Curated and annotated glycan database which curates information from the scientific literature on glycoprotein derived glycan structures.",
+      "links": [
+        {
+          "text": "Homepage",
+          "url": "http://unicarb-db.expasy.org/"
+        }
+      ],
+      "tool_types": [
+        "Database portal"
+      ],
+      "topics": [
+        "Carbohydrates",
+        "Proteins",
+        "Structural genomics",
+        "Protein modifications"
+      ],
+      "elixir_platforms": [
+        "Data"
+      ],
+      "elixir_nodes": [
+        "Switzerland"
+      ],
+      "elixir_communities": [],
+      "elixir_badge": false
+    }
+  ]
+}
