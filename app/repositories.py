@@ -47,6 +47,11 @@ def load(directory=REPOSITORIES):
     return found
 
 
+def topic(repo):
+    """How on topic a repository is: the number of chemistry subjects it was found under."""
+    return len([s for s in repo['matched_subjects'] if s != 'Subject Agnostic'])
+
+
 def slugify(text):
     return re.sub(r'[^a-z0-9]+', '-', text.lower()).strip('-')
 

@@ -84,7 +84,7 @@
     document.getElementById('no-answers').hidden = keys.length > 0;
 
     var repos = JSON.parse(document.getElementById('repository-data').textContent);
-    var shown = repos.map(function (repo) {
+    var rated = repos.map(function (repo) {
       var yes = 0, unknown = 0, excluded = false;
       keys.forEach(function (key) {
         var value = state.answers[key].value;
@@ -94,20 +94,29 @@
       });
       return {repo: repo, yes: yes, unknown: unknown, excluded: excluded};
     }).filter(function (r) { return !r.excluded; }).sort(function (a, b) {
-      return b.yes - a.yes || (a.repo.scope === b.repo.scope ? 0 : a.repo.scope === 'chemistry' ? -1 : 1)
-        || a.repo.name.localeCompare(b.repo.name);
+      return b.yes - a.yes || b.repo.topic - a.repo.topic || a.repo.name.localeCompare(b.repo.name);
     });
-    document.getElementById('count').textContent =
-      '(' + shown.length + ' of ' + repos.length + ')';
+    var general = document.getElementById('general');
     var target = document.getElementById('repositories');
-    shown.forEach(function (r) {
-      var item = add(target, 'li', '');
-      var a = add(item, 'a', r.repo.name);
-      a.href = r.repo.url;
-      var detail = r.repo.countries.join(', ') + (r.repo.scope === 'general' ? ' · any subject' : '');
-      if (keys.length) detail += ' · supports ' + r.yes + ' of ' + keys.length + ' answers';
-      add(item, 'span', detail, 'muted');
-    });
+    document.getElementById('general-count').textContent =
+      rated.filter(function (r) { return r.repo.scope === 'general'; }).length;
+
+    function render() {
+      target.textContent = '';
+      var shown = rated.filter(function (r) { return general.checked || r.repo.scope !== 'general'; });
+      document.getElementById('count').textContent =
+        '(' + shown.length + ' of ' + repos.length + ')';
+      shown.forEach(function (r) {
+        var item = add(target, 'li', '');
+        var a = add(item, 'a', r.repo.name);
+        a.href = r.repo.url;
+        var detail = r.repo.countries.join(', ') + (r.repo.scope === 'general' ? ' · any subject' : '');
+        if (keys.length) detail += ' · supports ' + r.yes + ' of ' + keys.length + ' answers';
+        add(item, 'span', detail, 'muted');
+      });
+    }
+    general.addEventListener('change', render);
+    render();
   }
 
   // A repository page: mark what the visitor answered.

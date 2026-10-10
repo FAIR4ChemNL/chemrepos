@@ -49,7 +49,11 @@
     </div>
     <div class="card">
       <h2>Repositories <span class="muted" id="count"></span></h2>
-      <p class="muted">Ordered by the number of answers a repository supports. Repositories that
+      <p><label><input type="checkbox" id="general"> Include general-purpose repositories
+        (<span id="general-count"></span>), such as institutional repositories and Zenodo-like services
+        that take data of any subject</label></p>
+      <p class="muted">Ordered by the number of answers a repository supports, then by how
+        much chemistry it covers. Repositories that
         contradict an answer are left out; for the other answers nothing is known. Open a repository
         to see what is known per question.</p>
       <ul class="repos" id="repositories"></ul>
