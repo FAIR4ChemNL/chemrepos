@@ -100,6 +100,8 @@ class AppTest(unittest.TestCase):
         self.assertIn('"providers": ["NFDI4Cat"]', page)
         page = self.client.get('/repository/fairsharing-9349/').get_data(as_text=True)
         self.assertIn('Service of', page)
+        self.assertIn('class="kind provider"', page)
+        self.assertIn('data-value="catalysis">Catalysis</span>', page)
 
     def test_overview_and_404(self):
         self.assertEqual(self.client.get('/tree/').status_code, 200)

@@ -136,6 +136,17 @@
     render();
   }
 
+  // A repository page: the badges of the data kinds show how it fits the visitor's answer.
+  var kinds = document.getElementById('kinds');
+  var kindAnswer = state.answers.data_type;
+  if (kinds && kindAnswer && kindAnswer.value !== 'other') {
+    var any = kinds.querySelector('[data-any]');
+    var supported = kinds.querySelector('[data-value="' + kindAnswer.value + '"]');
+    if (any) { any.textContent = kindAnswer.label; any.className = 'kind match'; }
+    else if (supported) supported.className = 'kind match';
+    else add(kinds, 'span', 'kind of data not known', 'kind unknown');
+  }
+
   // A repository page: mark what the visitor answered.
   var sections = document.querySelectorAll('.fit');
   sections.forEach(function (section) {

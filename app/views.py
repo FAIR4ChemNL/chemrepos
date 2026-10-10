@@ -45,9 +45,13 @@ def repository(slug):
     found = next((r for r in repos() if r['slug'] == slug), None)
     if found is None:
         abort(404)
+    facts = repositories.facts(found, tree())
+    labels = {o['value']: o['label']
+              for o in (tree().by_key('data_type') or {}).get('options', [])}
     return render_template('repository.html', repo=found, end=tree().end,
-                           questions=tree().order(), facts=repositories.facts(found, tree()),
-                           lists=tree().lists)
+                           questions=tree().order(), facts=facts, lists=tree().lists,
+                           kinds=[(v, labels[v]) for v in facts['data_type']['yes']
+                                  if v in labels])
 
 
 @main.route('/repositories/')

@@ -7,6 +7,11 @@
     <header>
       <p class="label">{{ (repo.record_type or 'repository')|replace('_', ' ')|capitalize }} · {{ repo.source }}{% if repo.scope == 'general' %} · for any subject{% endif %}</p>
       <h1>{{ repo.name }}{% if repo.abbreviation and repo.abbreviation != repo.name %} <span class="muted">({{ repo.abbreviation }})</span>{% endif %}</h1>
+      <p class="badges" id="kinds">
+        {% for provider in repo.providers %}<span class="kind provider" title="Service of {{ provider.name }}: {{ provider.service }}">{{ provider.name }}</span>{% endfor %}
+        {% if repo.scope == 'general' %}<span class="kind" data-any>any kind of data</span>
+        {% else %}{% for value, label in kinds %}<span class="kind" data-value="{{ value }}">{{ label }}</span>{% endfor %}{% endif %}
+      </p>
       {% if repo.description %}<p class="description">{{ repo.description }}</p>{% endif %}
     </header>
 
