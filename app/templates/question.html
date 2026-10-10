@@ -58,6 +58,7 @@
         to see what is known per question.</p>
       <ul class="repos" id="repositories"></ul>
     </div>
+    <script type="application/json" id="kind-labels">{{ kinds|tojson }}</script>
     <script type="application/json" id="repository-data">{{ repositories|tojson }}</script>
     {% endif %}
 {% endblock %}

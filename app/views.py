@@ -33,8 +33,10 @@ def question(question_id):
                     'yes': {k: f['yes'] for k, f in repositories.facts(r, tree()).items()},
                     'no': {k: f['no'] for k, f in repositories.facts(r, tree()).items()}}
                    for r in repos()]
+    kinds = {o['value']: o['label']
+             for o in (tree().by_key('data_type') or {}).get('options', [])}
     return render_template('question.html', question=current, items=items,
-                           repositories=summary, end=tree().end)
+                           repositories=summary, end=tree().end, kinds=kinds)
 
 
 @main.route('/repository/<slug>/')

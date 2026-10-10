@@ -101,6 +101,20 @@
     document.getElementById('general-count').textContent =
       rated.filter(function (r) { return r.repo.scope === 'general'; }).length;
 
+    // The kind of data is the most important question: show how the repository fits it.
+    var labels = JSON.parse(document.getElementById('kind-labels').textContent);
+    function kindBadges(item, repo) {
+      var kinds = repo.yes.data_type || [], answer = state.answers.data_type;
+      if (answer && answer.value !== 'other') {
+        if (kinds.indexOf(answer.value) >= 0) add(item, 'span', answer.label, 'kind match');
+        else add(item, 'span', 'kind of data not known', 'kind unknown');
+      } else if (repo.scope === 'general') {
+        add(item, 'span', 'any kind of data', 'kind');
+      } else {
+        kinds.forEach(function (kind) { add(item, 'span', labels[kind], 'kind'); });
+      }
+    }
+
     function render() {
       target.textContent = '';
       var shown = rated.filter(function (r) { return general.checked || r.repo.scope !== 'general'; });
@@ -110,6 +124,7 @@
         var item = add(target, 'li', '');
         var a = add(item, 'a', r.repo.name);
         a.href = r.repo.url;
+        kindBadges(item, r.repo);
         var detail = r.repo.countries.join(', ') + (r.repo.scope === 'general' ? ' · any subject' : '');
         if (keys.length) detail += ' · supports ' + r.yes + ' of ' + keys.length + ' answers';
         add(item, 'span', detail, 'muted');
